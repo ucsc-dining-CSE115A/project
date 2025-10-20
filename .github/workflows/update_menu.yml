@@ -40,7 +40,7 @@ jobs:
           IS_HEADLESS: "1"
         run: |
           set -e
-          python scraper.py
+          python backend/scraper.py
           echo "First lines of menu_data.json:"
           head -n 20 menu_data.json || true
 
