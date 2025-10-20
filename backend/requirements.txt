@@ -1,0 +1,6 @@
+#Python Dependencies for UCSC Dining Menu Scraper and API
+Flask==2.3.2
+requests==2.31.0
+beautifulsoup4==4.12.2
+selenium
+selenium webdriver-manager
