@@ -2,11 +2,11 @@ name: Update UCSC Menus
 
 on:
   schedule:
-    - cron: "*/30 * * * *"     # every 30 minutes (UTC)
-  workflow_dispatch: {}        # lets you run it on demand
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
 
 permissions:
-  contents: read               # we won't rely on GITHUB_TOKEN for writes
+  contents: read
 
 jobs:
   scrape:
@@ -18,6 +18,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Debug repo structure
+        run: |
+          pwd
+          echo "GH_REPO=${{ github.repository }}"
+          git rev-parse --abbrev-ref HEAD
+          git remote -v
+          ls -la
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -57,6 +68,7 @@ jobs:
             echo "No changes"
             exit 0
           fi
+          BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+          echo "Current branch: $BRANCH"
           git commit -m "Update menu_data.json [skip ci]"
-          # Push to main using PAT (works even if GITHUB_TOKEN is read-only)
-          git push "https://x-access-token:${GH_PAT}@github.com/${GH_REPO}.git" HEAD:main
+          git push "https://x-access-token:${GH_PAT}@github.com/${GH_REPO}.git" "HEAD:${BRANCH}"
