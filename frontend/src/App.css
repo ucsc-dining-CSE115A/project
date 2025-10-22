@@ -1,1 +1,8 @@
 /*Basic Styling for UCSC Dining Menu App*/
+.college-menus{max-width:1200px;margin:0 auto;padding:24px}
+.college-menus h1{margin-bottom:24px}
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.menu-grid a{text-decoration:none}
+.menu-button{width:100%;padding:14px 18px;border:1px solid #1769c0;border-radius:10px;background:#1e90ff;color:#fff;font-size:16px;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,0.08);cursor:pointer}
+.menu-button:hover{background:#1876d1;border-color:#135aa3;box-shadow:0 4px 10px rgba(0,0,0,0.12);transform:translateY(-1px)}
+.menu-button:active{transform:translateY(0)}
