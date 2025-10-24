@@ -1,4 +1,5 @@
 /*Basic Styling for UCSC Dining Menu App*/
+a{text-decoration:none}
 .college-menus{max-width:1200px;margin:0 auto;padding:24px}
 .college-menus h1{margin-bottom:24px}
 .menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
@@ -6,3 +7,26 @@
 .menu-button{width:100%;padding:14px 18px;border:1px solid #1769c0;border-radius:10px;background:#1e90ff;color:#fff;font-size:16px;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,0.08);cursor:pointer}
 .menu-button:hover{background:#1876d1;border-color:#135aa3;box-shadow:0 4px 10px rgba(0,0,0,0.12);transform:translateY(-1px)}
 .menu-button:active{transform:translateY(0)}
+.choose-dining-hall-button{padding:20px 40px;background:#ff6b35;color:#fff;border:none;border-radius:15px;font-size:18px;font-weight:700;cursor:pointer;box-shadow:0 4px 12px rgba(255,107,53,0.3);transition:all 0.3s ease;margin-top:20px;display:block}
+.choose-dining-hall-button:hover{background:#e55a2b;transform:translateY(-2px);box-shadow:0 6px 16px rgba(255,107,53,0.4)}
+.choose-dining-hall-button:active{transform:translateY(0);box-shadow:0 2px 8px rgba(255,107,53,0.3)}
+.menu-detail-container{max-width:800px;margin:0 auto;padding:20px;font-family:Arial,sans-serif}
+.menu-detail-container h1{color:#ff6b35;text-align:center;margin-bottom:30px;font-size:28px}
+.back-button{display:inline-block;padding:10px 20px;background:#ff6b35;color:#fff;text-decoration:none;border-radius:8px;margin-bottom:20px;font-weight:600;transition:all 0.3s ease}
+.back-button:hover{background:#e55a2b;transform:translateY(-1px)}
+.menu-content{display:flex;flex-direction:column;gap:30px}
+.menu-section{background:#fff;border-radius:12px;padding:20px;box-shadow:0 4px 12px rgba(0,0,0,0.1);border-left:4px solid #ff6b35}
+.menu-section h2{color:#ff6b35;margin-bottom:15px;font-size:22px;border-bottom:2px solid #ff6b35;padding-bottom:8px}
+.menu-items{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:10px}
+.menu-item{background:#f8f9fa;padding:12px 16px;border-radius:8px;border-left:3px solid #ff6b35;font-size:14px;transition:all 0.3s ease}
+.menu-item:hover{background:#fff;box-shadow:0 2px 8px rgba(255,107,53,0.2);transform:translateY(-1px)}
+.loading{text-align:center;padding:50px;font-size:18px;color:#ff6b35}
+.error{text-align:center;padding:50px;font-size:18px;color:#e74c3c;background:#ffeaea;border-radius:8px;margin:20px 0}
+.home-container{max-width:800px;margin:0 auto;padding:60px 20px;text-align:center;background:linear-gradient(135deg,#fff5f0 0%,#ffe8d6 100%);min-height:80vh;display:flex;flex-direction:column;justify-content:center;align-items:center;border-radius:20px;box-shadow:0 8px 32px rgba(255,107,53,0.1)}
+.home-title{font-size:48px;font-weight:800;background:linear-gradient(135deg,#ff6b35 0%,#ff8c42 50%,#ffa726 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:40px;text-shadow:0 4px 8px rgba(255,107,53,0.2);line-height:1.2}
+.navbar{background:linear-gradient(135deg,#ff6b35 0%,#ff8c42 100%);padding:15px 0;box-shadow:0 4px 20px rgba(255,107,53,0.3);position:sticky;top:0;z-index:100}
+.nav-links{display:flex;justify-content:center;gap:40px;max-width:800px;margin:0 auto;padding:0 20px}
+.nav-link{color:#fff;font-weight:600;font-size:16px;padding:12px 24px;border-radius:25px;transition:all 0.3s ease;background:rgba(255,255,255,0.1);backdrop-filter:blur(10px)}
+.nav-link:hover{background:rgba(255,255,255,0.2);transform:translateY(-2px);box-shadow:0 6px 20px rgba(255,255,255,0.3)}
+.dining-halls-container{max-width:800px;margin:0 auto;padding:40px 20px;text-align:center}
+.dining-halls-title{font-size:36px;font-weight:800;background:linear-gradient(135deg,#ff6b35 0%,#ff8c42 50%,#ffa726 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:30px;text-align:center;line-height:1.2}
