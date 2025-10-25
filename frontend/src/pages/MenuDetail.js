@@ -30,15 +30,23 @@ function MenuDetail() {
   }, []);
 
   const organizeMenuByMealType = (menuItems) => {
-    const mealTypes = ['Breakfast', 'Lunch', 'Dinner', 'Late Night'];
+    const standardMealTypes = ['Breakfast', 'Lunch', 'Dinner', 'Late Night'];
     const organizedMenu = {};
+
+    // Helper function to check if an item is a meal type
+    // Recognizes standard meal types and "Late Night @" patterns
+    const isMealType = (item) => {
+      return standardMealTypes.includes(item) || item.startsWith('Late Night @');
+    };
 
     let currentMealType = null;
     menuItems.forEach(item => {
-      if (mealTypes.includes(item)) {
+      if (isMealType(item)) {
+        // This item is a meal type (either standard or "Late Night @" pattern)
         currentMealType = item;
         organizedMenu[currentMealType] = [];
       } else if (currentMealType) {
+        // This item is a food item under the current meal type
         organizedMenu[currentMealType].push(item);
       }
     });
