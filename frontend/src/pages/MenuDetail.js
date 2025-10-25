@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import MenuCard from '../components/MenuCard';
 
 function MenuDetail() {
   const { diningHallName } = useParams();
@@ -91,11 +92,10 @@ function MenuDetail() {
         {Object.entries(organizedMenu).map(([mealType, items]) => (
           <div key={mealType} className="menu-section">
             <h2>{mealType}</h2>
-            <div className="menu-items">
+            {/* Grid layout for menu cards - 3 cards per row with spacing */}
+            <div className="menu-cards-grid">
               {items.map((item, index) => (
-                <div key={index} className="menu-item">
-                  {item}
-                </div>
+                <MenuCard key={index} itemName={item} />
               ))}
             </div>
           </div>
