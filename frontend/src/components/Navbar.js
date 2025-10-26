@@ -1,12 +1,20 @@
 import { Link } from 'react-router-dom';
+import SearchBar from './SearchBar';
+import logo from '../slug-grub-logo-h40.png';
 
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-links">
-        <Link to="/" className="nav-link">Home</Link>
-        <Link to="/menu" className="nav-link">Menu</Link>
-        <Link to="/about" className="nav-link">About</Link>
+        <Link to="/" className="nav-link logo-link">
+          <img src={logo} width="90" height="auto" alt="Logo" className="logo-img" />
+        </Link>
+        
+        <SearchBar />
+        
+        <Link to="/Favorites" className="nav-link" style={{ fontFamily: 'monospace' }}>
+          Favorites
+        </Link>
       </div>
     </nav>
   );

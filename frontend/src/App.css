@@ -1,6 +1,17 @@
 /* Basic Styling for UCSC Dining Menu App */
 
 /* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -27,12 +38,13 @@ a {
 }
 
 /* Menu Button */
+/* Updated theme colors to dark blue #003C6C */
 .menu-button {
   width: 100%;
   padding: 14px 18px;
-  border: 1px solid #1769c0;
+  border: 1px solid #002a4d; /* Changed from #1769c0 to dark blue border */
   border-radius: 10px;
-  background: #1e90ff;
+  background: #003C6C; /* Changed from #1e90ff to dark blue background */
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -41,8 +53,8 @@ a {
 }
 
 .menu-button:hover {
-  background: #1876d1;
-  border-color: #135aa3;
+  background: #004080; /* Changed from #1876d1 to dark blue hover */
+  border-color: #001a33; /* Changed from #135aa3 to darker blue border on hover */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
   transform: translateY(-1px);
 }
@@ -51,43 +63,43 @@ a {
   transform: translateY(0);
 }
 
-/* Choose Dining Hall Button */
+/* Choose Dining Hall Button - Updated to dark blue theme #003C6C */
 .choose-dining-hall-button {
   padding: 20px 40px;
-  background: #ff6b35;
+  background: #003C6C; /* Changed from #ff6b35 to dark blue */
   color: #fff;
   border: none;
   border-radius: 15px;
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
-  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 60, 108, 0.3); /* Updated shadow to match dark blue theme */
   transition: all 0.3s ease;
   margin-top: 20px;
   display: block;
 }
 
 .choose-dining-hall-button:hover {
-  background: #e55a2b;
+  background: #004080; /* Changed from #e55a2b to dark blue hover */
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(255, 107, 53, 0.4);
+  box-shadow: 0 6px 16px rgba(0, 64, 128, 0.4); /* Updated hover shadow to match dark blue theme */
 }
 
 .choose-dining-hall-button:active {
   transform: translateY(0);
-  box-shadow: 0 2px 8px rgba(255, 107, 53, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 60, 108, 0.3); /* Updated active shadow to match dark blue theme */
 }
 
-/* Menu Detail Page */
+/* Menu Detail Page - Increased width for better card layout centering */
 .menu-detail-container {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   font-family: Arial, sans-serif;
 }
 
 .menu-detail-container h1 {
-  color: #ff6b35;
+  color: #003C6C; /* Changed from #ff6b35 to dark blue */
   text-align: center;
   margin-bottom: 30px;
   font-size: 28px;
@@ -96,7 +108,7 @@ a {
 .back-button {
   display: inline-block;
   padding: 10px 20px;
-  background: #ff6b35;
+  background: #003C6C; /* Changed from #ff6b35 to dark blue */
   color: #fff;
   text-decoration: none;
   border-radius: 8px;
@@ -106,7 +118,7 @@ a {
 }
 
 .back-button:hover {
-  background: #e55a2b;
+  background: #004080; /* Changed from #e55a2b to dark blue hover */
   transform: translateY(-1px);
 }
 
@@ -121,14 +133,14 @@ a {
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-left: 4px solid #ff6b35;
+  border-left: 4px solid #003C6C; /* Changed from #ff6b35 to dark blue */
 }
 
 .menu-section h2 {
-  color: #ff6b35;
+  color: #003C6C; /* Changed from #ff6b35 to dark blue */
   margin-bottom: 15px;
   font-size: 22px;
-  border-bottom: 2px solid #ff6b35;
+  border-bottom: 2px solid #003C6C; /* Changed from #ff6b35 to dark blue */
   padding-bottom: 8px;
 }
 
@@ -138,18 +150,52 @@ a {
   gap: 10px;
 }
 
+/* Grid layout for menu cards - 3 cards per row with proper spacing and centering */
+.menu-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 325px);
+  gap: 20px;
+  justify-content: center;
+  justify-items: center;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+/* Responsive design for smaller screens - maintains centering */
+@media (max-width: 1100px) {
+  .menu-cards-grid {
+    grid-template-columns: repeat(2, 325px);
+    justify-content: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .menu-cards-grid {
+    grid-template-columns: 325px;
+    justify-content: center;
+  }
+}
+
+/* Extra small screens - allow cards to be slightly smaller */
+@media (max-width: 375px) {
+  .menu-cards-grid {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+}
+
 .menu-item {
   background: #f8f9fa;
   padding: 12px 16px;
   border-radius: 8px;
-  border-left: 3px solid #ff6b35;
+  border-left: 3px solid #003C6C; /* Changed from #ff6b35 to dark blue */
   font-size: 14px;
   transition: all 0.3s ease;
 }
 
 .menu-item:hover {
   background: #fff;
-  box-shadow: 0 2px 8px rgba(255, 107, 53, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 60, 108, 0.2); /* Changed from rgba(255, 107, 53, 0.2) to dark blue shadow */
   transform: translateY(-1px);
 }
 
@@ -158,7 +204,7 @@ a {
   text-align: center;
   padding: 50px;
   font-size: 18px;
-  color: #ff6b35;
+  color: #003C6C; /* Changed from #ff6b35 to dark blue */
 }
 
 .error {
@@ -173,7 +219,7 @@ a {
 
 /* Home Page */
 .home-container {
-  max-width: 800px;
+  /*max-width: 1000px;*/
   margin: 0 auto;
   padding: 60px 20px;
   text-align: center;
@@ -199,11 +245,12 @@ a {
   line-height: 1.2;
 }
 
-/* Navbar */
+/* Navbar - Updated */
 .navbar {
-  background: linear-gradient(135deg, #ff6b35 0%, #ff8c42 100%);
-  padding: 15px 0;
-  box-shadow: 0 4px 20px rgba(255, 107, 53, 0.3);
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #003C6C 0%, #004080 100%);
+  box-shadow: 0 4px 20px rgba(0, 60, 108, 0.3);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -211,28 +258,54 @@ a {
 
 .nav-links {
   display: flex;
-  justify-content: center;
-  gap: 40px;
-  max-width: 800px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; /* Reduced gap */
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 20px 100px; /* Reduced horizontal padding */
+  max-width: 1400px; /* Add max width */
 }
 
+.logo-link {
+  padding: 0 !important; /* Remove padding from logo link */
+  display: flex;
+  align-items: center;
+}
 .nav-link {
-  color: #fff;
-  font-weight: 600;
-  font-size: 16px;
-  padding: 12px 24px;
-  border-radius: 25px;
-  transition: all 0.3s ease;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
+  color: #ffffff;
+  /*font-size: 18px;
+  font-weight: 600;*/
+  padding: 10px 15px;
+  border-radius: 8px;
 }
 
-.nav-link:hover {
-  background: rgba(255, 255, 255, 0.2);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3);
+/* Search Bar */
+.search-container {
+  flex: 0 1 400px; /* Allows search bar to take up middle space */
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #003C6C;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-input::placeholder {
+  color: #6b7280;
+}
+
+.search-input:focus {
+  border-color: #ffffff;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Dining Halls Page */
@@ -246,7 +319,7 @@ a {
 .dining-halls-title {
   font-size: 36px;
   font-weight: 800;
-  background: linear-gradient(135deg, #ff6b35 0%, #ff8c42 50%, #ffa726 100%);
+  background: linear-gradient(135deg, #003C6C 0%, #004080 50%, #0056b3 100%); /* Changed from orange to dark blue gradient */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
