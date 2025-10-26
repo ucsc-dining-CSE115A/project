@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import MenuCard from '../components/MenuCard';
 
 function MenuDetail() {
   const { diningHallName } = useParams();
@@ -30,15 +31,23 @@ function MenuDetail() {
   }, []);
 
   const organizeMenuByMealType = (menuItems) => {
-    const mealTypes = ['Breakfast', 'Lunch', 'Dinner', 'Late Night'];
+    const standardMealTypes = ['Breakfast', 'Lunch', 'Dinner', 'Late Night'];
     const organizedMenu = {};
+
+    // Helper function to check if an item is a meal type
+    // Recognizes standard meal types and "Late Night @" patterns
+    const isMealType = (item) => {
+      return standardMealTypes.includes(item) || item.startsWith('Late Night @');
+    };
 
     let currentMealType = null;
     menuItems.forEach(item => {
-      if (mealTypes.includes(item)) {
+      if (isMealType(item)) {
+        // This item is a meal type (either standard or "Late Night @" pattern)
         currentMealType = item;
         organizedMenu[currentMealType] = [];
       } else if (currentMealType) {
+        // This item is a food item under the current meal type
         organizedMenu[currentMealType].push(item);
       }
     });
@@ -83,11 +92,10 @@ function MenuDetail() {
         {Object.entries(organizedMenu).map(([mealType, items]) => (
           <div key={mealType} className="menu-section">
             <h2>{mealType}</h2>
-            <div className="menu-items">
+            {/* Grid layout for menu cards - 3 cards per row with spacing */}
+            <div className="menu-cards-grid">
               {items.map((item, index) => (
-                <div key={index} className="menu-item">
-                  {item}
-                </div>
+                <MenuCard key={index} itemName={item} />
               ))}
             </div>
           </div>

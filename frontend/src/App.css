@@ -42,9 +42,9 @@ a {
 .menu-button {
   width: 100%;
   padding: 14px 18px;
-  border: 1px solid #002a4d; /* Changed from #1769c0 to dark blue border */
+  border: 1px solid #002a4d;
   border-radius: 10px;
-  background: #003C6C; /* Changed from #1e90ff to dark blue background */
+  background: #003C6C;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -53,8 +53,8 @@ a {
 }
 
 .menu-button:hover {
-  background: #004080; /* Changed from #1876d1 to dark blue hover */
-  border-color: #001a33; /* Changed from #135aa3 to darker blue border on hover */
+  background: #004080;
+  border-color: #001a33;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
   transform: translateY(-1px);
 }
@@ -66,28 +66,28 @@ a {
 /* Choose Dining Hall Button - Updated to dark blue theme #003C6C */
 .choose-dining-hall-button {
   padding: 20px 40px;
-  background: #003C6C; /* Changed from #ff6b35 to dark blue */
+  background: #003C6C;
   color: #fff;
   border: none;
   border-radius: 15px;
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
-  box-shadow: 0 4px 12px rgba(0, 60, 108, 0.3); /* Updated shadow to match dark blue theme */
+  box-shadow: 0 4px 12px rgba(0, 60, 108, 0.3);
   transition: all 0.3s ease;
   margin-top: 20px;
   display: block;
 }
 
 .choose-dining-hall-button:hover {
-  background: #004080; /* Changed from #e55a2b to dark blue hover */
+  background: #004080;
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0, 64, 128, 0.4); /* Updated hover shadow to match dark blue theme */
+  box-shadow: 0 6px 16px rgba(0, 64, 128, 0.4);
 }
 
 .choose-dining-hall-button:active {
   transform: translateY(0);
-  box-shadow: 0 2px 8px rgba(0, 60, 108, 0.3); /* Updated active shadow to match dark blue theme */
+  box-shadow: 0 2px 8px rgba(0, 60, 108, 0.3);
 }
 
 /* Menu Detail Page - Increased width for better card layout centering */
@@ -99,7 +99,7 @@ a {
 }
 
 .menu-detail-container h1 {
-  color: #003C6C; /* Changed from #ff6b35 to dark blue */
+  color: #003C6C;
   text-align: center;
   margin-bottom: 30px;
   font-size: 28px;
@@ -108,7 +108,7 @@ a {
 .back-button {
   display: inline-block;
   padding: 10px 20px;
-  background: #003C6C; /* Changed from #ff6b35 to dark blue */
+  background: #003C6C;
   color: #fff;
   text-decoration: none;
   border-radius: 8px;
@@ -118,7 +118,7 @@ a {
 }
 
 .back-button:hover {
-  background: #004080; /* Changed from #e55a2b to dark blue hover */
+  background: #004080;
   transform: translateY(-1px);
 }
 
@@ -133,14 +133,14 @@ a {
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-left: 4px solid #003C6C; /* Changed from #ff6b35 to dark blue */
+  border-left: 4px solid #003C6C;
 }
 
 .menu-section h2 {
-  color: #003C6C; /* Changed from #ff6b35 to dark blue */
+  color: #003C6C;
   margin-bottom: 15px;
   font-size: 22px;
-  border-bottom: 2px solid #003C6C; /* Changed from #ff6b35 to dark blue */
+  border-bottom: 2px solid #003C6C;
   padding-bottom: 8px;
 }
 
@@ -188,14 +188,14 @@ a {
   background: #f8f9fa;
   padding: 12px 16px;
   border-radius: 8px;
-  border-left: 3px solid #003C6C; /* Changed from #ff6b35 to dark blue */
+  border-left: 3px solid #003C6C;
   font-size: 14px;
   transition: all 0.3s ease;
 }
 
 .menu-item:hover {
   background: #fff;
-  box-shadow: 0 2px 8px rgba(0, 60, 108, 0.2); /* Changed from rgba(255, 107, 53, 0.2) to dark blue shadow */
+  box-shadow: 0 2px 8px rgba(0, 60, 108, 0.2);
   transform: translateY(-1px);
 }
 
@@ -204,7 +204,7 @@ a {
   text-align: center;
   padding: 50px;
   font-size: 18px;
-  color: #003C6C; /* Changed from #ff6b35 to dark blue */
+  color: #003C6C;
 }
 
 .error {
@@ -219,7 +219,7 @@ a {
 
 /* Home Page */
 .home-container {
-  /*max-width: 1000px;*/
+  max-width: 800px; /* Changed from commented out to 800px */
   margin: 0 auto;
   padding: 60px 20px;
   text-align: center;
@@ -245,10 +245,10 @@ a {
   line-height: 1.2;
 }
 
-/* Navbar - Updated */
+/* Navbar - Updated to dark blue theme #003C6C */
 .navbar {
   margin: 0;
-  padding: 0;
+  padding: 0; /* Changed from padding: 15px 0 */
   background: linear-gradient(135deg, #003C6C 0%, #004080 100%);
   box-shadow: 0 4px 20px rgba(0, 60, 108, 0.3);
   position: sticky;
@@ -258,30 +258,41 @@ a {
 
 .nav-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Changed from center */
   align-items: center;
-  gap: 20px; /* Reduced gap */
+  gap: 20px; /* Changed from 40px */
   margin: 0 auto;
-  padding: 20px 100px; /* Reduced horizontal padding */
-  max-width: 1400px; /* Add max width */
+  padding: 20px 100px; /* Changed from 0 20px */
+  max-width: 1400px; /* Added */
 }
 
 .logo-link {
-  padding: 0 !important; /* Remove padding from logo link */
+  padding: 0 !important;
   display: flex;
   align-items: center;
 }
-.nav-link {
-  color: #ffffff;
-  /*font-size: 18px;
-  font-weight: 600;*/
-  padding: 10px 15px;
-  border-radius: 8px;
+
+.logo-img {
+  display: block;
+  height: 60px;
+  width: auto;
+  object-fit: contain;
 }
+
+.nav-link {
+  color: #ffffff; /* Changed from #fff */
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 15px; /* Changed from 12px 24px */
+  border-radius: 8px; /* Changed from 25px */
+  /* Removed background, backdrop-filter, and transition */
+}
+
+/* Removed .nav-link:hover styles */
 
 /* Search Bar */
 .search-container {
-  flex: 0 1 400px; /* Allows search bar to take up middle space */
+  flex: 0 1 400px;
   display: flex;
   align-items: center;
 }
@@ -319,7 +330,7 @@ a {
 .dining-halls-title {
   font-size: 36px;
   font-weight: 800;
-  background: linear-gradient(135deg, #003C6C 0%, #004080 50%, #0056b3 100%); /* Changed from orange to dark blue gradient */
+  background: linear-gradient(135deg, #003C6C 0%, #004080 50%, #0056b3 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
