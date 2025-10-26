@@ -1,0 +1,19 @@
+/* Dining Halls Page */
+.dining-halls-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.dining-halls-title {
+  font-size: 36px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #003C6C 0%, #004080 50%, #0056b3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 1.2;
+}

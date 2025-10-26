@@ -1,0 +1,27 @@
+/* Home Page */
+.home-container {
+  max-width: 800px; /* Changed from commented out to 800px */
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #fff5f0 0%, #ffe8d6 100%);
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(255, 107, 53, 0.1);
+}
+
+.home-title {
+  font-size: 48px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #ff6b35 0%, #ff8c42 50%, #ffa726 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 40px;
+  text-shadow: 0 4px 8px rgba(255, 107, 53, 0.2);
+  line-height: 1.2;
+}

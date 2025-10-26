@@ -1,0 +1,108 @@
+/* Menu Detail Page - Increased width for better card layout centering */
+.menu-detail-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.menu-detail-container h1 {
+  color: #003C6C;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #003C6C;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  background: #004080;
+  transform: translateY(-1px);
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.menu-section {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #003C6C;
+}
+
+.menu-section h2 {
+  color: #003C6C;
+  margin-bottom: 15px;
+  font-size: 22px;
+  border-bottom: 2px solid #003C6C;
+  padding-bottom: 8px;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+/* Grid layout for menu cards - 3 cards per row with proper spacing and centering */
+.menu-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 325px);
+  gap: 20px;
+  justify-content: center;
+  justify-items: center;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+/* Responsive design for smaller screens - maintains centering */
+@media (max-width: 1100px) {
+  .menu-cards-grid {
+    grid-template-columns: repeat(2, 325px);
+    justify-content: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .menu-cards-grid {
+    grid-template-columns: 325px;
+    justify-content: center;
+  }
+}
+
+/* Extra small screens - allow cards to be slightly smaller */
+@media (max-width: 375px) {
+  .menu-cards-grid {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+}
+
+.menu-item {
+  background: #f8f9fa;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border-left: 3px solid #003C6C;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 60, 108, 0.2);
+  transform: translateY(-1px);
+}
