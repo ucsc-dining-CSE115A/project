@@ -71,4 +71,4 @@ jobs:
           TARGET_BRANCH="BackEndDev"
           echo "Pushing to branch: $TARGET_BRANCH"
           git commit -m "Update menu_data.json [skip ci]"
-          git push "https://x-access-token:${GH_PAT}@github.com/${GH_REPO}.git" "HEAD:${BRANCH}"
+          git push "https://x-access-token:${GH_PAT}@github.com/${GH_REPO}.git" "HEAD:${TARGET_BRANCH}"
