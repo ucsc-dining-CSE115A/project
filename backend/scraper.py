@@ -179,21 +179,28 @@ def parse_menu_html(html_text):
             continue
 
         if "shortmenurecipes" in classes:
+            # Markets often don't label meals → bucket into "Uncategorized"
             if current_meal is None:
                 current_meal = "Uncategorized"
                 if current_meal not in hall_menu:
                     hall_menu[current_meal] = []
 
+            # 1. Split name vs inline price (e.g. "Wrap $7.00")
             cleaned_name, inline_price = clean_item_name_and_price(raw_text)
 
-            # get the outer row that spans name + icons + price
-            row = find_relevant_row(el)
+            # 2. icon_row = immediate <tr> that has the item's allergen icons
+            icon_row = el.find_parent("tr")
 
-            dietary_tags = extract_dietary_tags_from_row(row)
+            # 3. price_row = highest <tr> that also includes price cell
+            price_row = find_relevant_row(el)
 
+            # 4. Dietary/allergen tags from icon_row ONLY
+            dietary_tags = extract_dietary_tags_from_row(icon_row)
+
+            # 5. Price: inline first, else from the price_row
             item_price = inline_price
             if item_price is None:
-                item_price = extract_price_from_row(row)
+                item_price = extract_price_from_row(price_row)
 
             hall_menu[current_meal].append(
                 {
@@ -204,6 +211,7 @@ def parse_menu_html(html_text):
             )
 
     return hall_menu
+
 
 def scrape_hall(driver, hall_name, hall_href, date_override):
     url_to_fetch = apply_date_param(hall_href, date_override)
