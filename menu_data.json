@@ -462,6 +462,14 @@
           "price": null
         },
         {
+          "name": "Cauliflower Lentil Dal",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
           "name": "Chana Masala",
           "dietary_restrictions": [
             "VG",
@@ -481,14 +489,6 @@
         {
           "name": "Condiments",
           "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Dal Saag",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
           "price": null
         },
         {
