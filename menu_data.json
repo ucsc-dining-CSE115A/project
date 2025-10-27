@@ -1,398 +1,2841 @@
 {
-  "John R. Lewis & College Nine Dining Hall": [
-    "Breakfast",
-    "Cage-Free Scrambled Eggs",
-    "Chicken Apple Sausage",
-    "Chocolate Chip Pancakes",
-    "Hard-boiled Cage Free Egg (1)",
-    "Natural Bridges Tofu Scramble",
-    "Organic Gluten-Free Oatmeal",
-    "Roasted Red Potatoes",
-    "Steamed Rice",
-    "Bakery Fresh Blueberry Muffin",
-    "Mocha Chip Muffin",
-    "Orange Cranberry Scone",
-    "Lunch",
-    "Garden Vegetable Soup",
-    "Vegan Tortilla Soup",
-    "Steamed Carrots and Broccoli",
-    "Sticky Rice",
-    "Teriyaki Chicken",
-    "Teriyaki Tofu",
-    "Cheese Pizza",
-    "Pepperoni Pizza",
-    "Allergen Free Halal Chicken Thigh",
-    "Steamed Rice",
-    "Tofu with Kosher Salt",
-    "Mint Condition",
-    "Brownies",
-    "Dutch Apple Pie",
-    "BBQ Wings",
-    "Buffalo Cauliflower",
-    "Condiments",
-    "Green Chili and Cheese Potato Salad",
-    "Green Onion Slaw",
-    "Hot 'N Spicy Wings",
-    "Smoke & Spice Wing Bar",
-    "Tater Tots",
-    "Vegan Tenders",
-    "Deli Bar",
-    "Salad Bar",
-    "Dinner",
-    "House Made Vegan Tomato Soup",
-    "Vegan Tortilla Soup",
-    "Harissa BBQ Beef",
-    "Harissa Tofu",
-    "Scalloped Potatoes",
-    "Steamed Carrots and Broccoli",
-    "Cheese Pizza",
-    "Pepperoni Pizza",
-    "Allergen Free Halal Chicken Thigh",
-    "Steamed Rice",
-    "Tofu with Kosher Salt",
-    "Chocolate Mocha Cake",
-    "Dutch Apple Pie",
-    "Red Velvet Cake",
-    "Basmati Rice Pullao",
-    "Chana Masala",
-    "Chicken Tikka Masala",
-    "Condiments",
-    "Dal Saag",
-    "Masala Baked Tofu",
-    "North Indian Bar",
-    "Original Naan",
-    "Deli Bar",
-    "Salad Bar",
-    "Late Night"
-  ],
-  "Cowell & Stevenson Dining Hall": [
-    "Breakfast",
-    "Cage-Free Scrambled Eggs",
-    "Hard-boiled Cage Free Egg (1)",
-    "Natural Bridges Tofu Scramble",
-    "Orange French Toast",
-    "Organic Gluten-Free Oatmeal",
-    "Sausage Links",
-    "Tater Tots",
-    "Steamed Rice",
-    "Bakery Fresh Blueberry Muffin",
-    "Mocha Chip Muffin",
-    "Orange Cranberry Scone",
-    "Lunch",
-    "Available Upon Request: Gluten Free Rotini Pasta",
-    "Creamy Cajun Chicken Pasta",
-    "Marinara Sauce",
-    "Penne",
-    "Roasted Sweet Potatoes",
-    "Steamed Carrots and Broccoli",
-    "Sustainable Scampi with Tomato and Spinach",
-    "Cheese Pizza",
-    "Pepperoni Pizza",
-    "Vegan Vegetable Pizza",
-    "Allergen Free Halal Chicken Thigh",
-    "Steamed Rice",
-    "Tofu with Kosher Salt",
-    "Orzo Salad with Feta, Olives and Tomato",
-    "Mint Condition",
-    "Brownies",
-    "Dutch Apple Pie",
-    "BBQ Beef",
-    "Cajun Coleslaw",
-    "Charro Beans",
-    "Condiments",
-    "Corn Cobbettes",
-    "Cornbread",
-    "Smokehouse BBQ Bar",
-    "Tempeh Roasted with Chorizo Spice",
-    "Deli Bar",
-    "Salad Bar",
-    "BBQ Pulled Shiitake",
-    "Hamburger Bun",
-    "Lemon Herb Gremolata",
-    "Opah Burger Patty",
-    "Sweet Potato Fries",
-    "Tartar Sauce",
-    "Dinner",
-    "Char Siu Gardein",
-    "Gluten-Friendly Spicy Stir Fry Sauce",
-    "Orange Glazed Chicken",
-    "Pineapple Fried Rice",
-    "Spicy Gardein with Garlic & Basil",
-    "Cheese Pizza",
-    "Vegan Vegetable Pizza",
-    "Allergen Free Halal Chicken Thigh",
-    "Steamed Rice",
-    "Tofu with Kosher Salt",
-    "Mint Condition",
-    "Chocolate Mocha Cake",
-    "Dutch Apple Pie",
-    "Red Velvet Cake",
-    "BBQ Wings",
-    "Buffalo Cauliflower",
-    "Condiments",
-    "Green Chili and Cheese Potato Salad",
-    "Green Onion Slaw",
-    "Hot 'N Spicy Wings",
-    "Smoke & Spice Wing Bar",
-    "Tater Tots",
-    "Vegan Tenders",
-    "Deli Bar",
-    "Salad Bar",
-    "Late Night",
-    "French Fries",
-    "Kickin' Chicken Sandwich",
-    "Cheese Pizza",
-    "Vegan Vegetable Pizza",
-    "Allergen Free Halal Chicken Thigh",
-    "Steamed Rice",
-    "Tofu with Kosher Salt",
-    "Mint Condition",
-    "Cheese Sauce",
-    "Cilantro Slaw",
-    "Condiments",
-    "Nachos Bar",
-    "Pork Carnitas",
-    "Tempeh Roasted with Chorizo Spice",
-    "Tortilla Chips",
-    "Vegan Refried Beans",
-    "Deli Bar",
-    "Salad Bar"
-  ],
-  "Crown & Merrill Dining Hall and Banana Joe's": [
-    "Breakfast",
-    "Buttermilk Pancakes",
-    "Cage-Free Scrambled Eggs",
-    "Ham Steaks",
-    "Hard-boiled Cage Free Egg (1)",
-    "Organic Gluten-Free Oatmeal",
-    "Tempeh, Black Bean, and Potato Hash",
-    "Triangle Hash Brown Patty",
-    "Steamed Rice",
-    "Bakery Fresh Blueberry Muffin",
-    "Mocha Chip Muffin",
-    "Orange Cranberry Scone",
-    "Lunch",
-    "Fire Roasted Corn Soup",
-    "Organic Vegan Chili",
-    "Braised Toscano Potatoes",
-    "Roast Pork Loin with Parsley and Shallot Sauce",
-    "Tempeh Roasted in Sesame Oil",
-    "Vegan Collard Greens",
-    "Cheese Pizza",
-    "Pepperoni Pizza",
-    "Allergen Free Halal Chicken Thigh",
-    "Steamed Rice",
-    "Tofu with Kosher Salt",
-    "Brownies",
-    "Dutch Apple Pie",
-    "Cilantro Chutney",
-    "Mumbai Street Bar",
-    "Original Naan",
-    "Palak Spinach Paneer",
-    "Pao Bhaji",
-    "Steamed Basmati Rice",
-    "Tarka Dal",
-    "Tomato Chutney",
-    "Vegetable Tikkis",
-    "Deli Bar",
-    "Salad Bar",
-    "Dinner",
-    "Fire Roasted Corn Soup",
-    "Organic Vegan Chili",
-    "Available Upon Request: Gluten Free Rotini Pasta",
-    "Marinara Sauce",
-    "Penne",
-    "Sauteed Rainbow Chard with Garlic Oil",
-    "Vegan Meatballs",
-    "Allergen Free Halal Chicken Thigh",
-    "Steamed Rice",
-    "Tofu with Kosher Salt",
-    "Chocolate Mocha Cake",
-    "Dutch Apple Pie",
-    "Red Velvet Cake",
-    "Chickpea Harira",
-    "Couscous, Red Grain, And Vegetable Salad",
-    "Harissa Tofu",
-    "Marrakech Spice Bar",
-    "Roasted Cauliflower and Vegetable Medley",
-    "Roasted Eggplant",
-    "Spicy Red Beans and Vegetables",
-    "Tahini Sauce",
-    "Za'atar Chicken",
-    "Deli Bar",
-    "Salad Bar",
-    "Late Night @ Banana Joe's",
-    "ABC Burger Banana Joe's",
-    "Banana Joe's Classic Burger",
-    "Cheese Pizza",
-    "Chicken Tender Sandwich Banana Joe's",
-    "Dessert Special",
-    "French Fries",
-    "Malibu Burger",
-    "Pepperoni Pizza",
-    "Pizza Special",
-    "Vegan Chocolate Chip Cookie"
-  ],
-  "Porter & Kresge Dining Hall": [
-    "Breakfast",
-    "Buttermilk Pancakes",
-    "Cage-Free Scrambled Eggs",
-    "Ham Steaks",
-    "Hard-boiled Cage Free Egg (1)",
-    "Organic Gluten-Free Oatmeal",
-    "Tempeh, Black Bean, and Potato Hash",
-    "Triangle Hash Brown Patty",
-    "Steamed Rice",
-    "Bakery Fresh Blueberry Muffin",
-    "Mocha Chip Muffin",
-    "Orange Cranberry Scone",
-    "Lunch",
-    "Fire Roasted Corn Soup",
-    "Organic Vegan Chili",
-    "Braised Toscano Potatoes",
-    "Roast Pork Loin with Parsley and Shallot Sauce",
-    "Tempeh Roasted in Sesame Oil",
-    "Vegan Collard Greens",
-    "Bacon and Ranch Pizza",
-    "Cheese Pizza",
-    "Allergen Free Halal Chicken Thigh",
-    "Steamed Rice",
-    "Tofu with Kosher Salt",
-    "Mint Condition",
-    "Brownies",
-    "Dutch Apple Pie",
-    "Chicken Tikka Masala",
-    "Cilantro Chutney",
-    "Malaysian Pork Rendang",
-    "Mumbai Street Bar",
-    "Original Naan",
-    "Palak Spinach Paneer",
-    "Steamed Basmati Rice",
-    "Tarka Dal",
-    "Tomato Chutney",
-    "Vegetable Tikkis",
-    "Deli Bar",
-    "Salad Bar",
-    "Beef Frank",
-    "Hot Dog Bun",
-    "Vegan Hot Dog",
-    "Dinner",
-    "Fire Roasted Corn Soup",
-    "Organic Vegan Chili",
-    "Available Upon Request: Gluten Free Rotini Pasta",
-    "Beef Bolognese Baked Pasta",
-    "Marinara Sauce",
-    "Penne",
-    "Sauteed Rainbow Chard with Garlic Oil",
-    "Hamburger Bun",
-    "Portobello Mushroom Patty",
-    "Sweet Potato Fries",
-    "Turkey Burger",
-    "Allergen Free Halal Chicken Thigh",
-    "Steamed Rice",
-    "Tofu with Kosher Salt",
-    "Mint Condition",
-    "Chocolate Mocha Cake",
-    "Dutch Apple Pie",
-    "Red Velvet Cake",
-    "Chickpea Harira",
-    "Couscous, Red Grain, And Vegetable Salad",
-    "Harissa Tofu",
-    "Marrakech Spice Bar",
-    "Roasted Cauliflower and Vegetable Medley",
-    "Roasted Eggplant",
-    "Tahini Sauce",
-    "Za'atar Chicken",
-    "Deli Bar",
-    "Salad Bar",
-    "Late Night"
-  ],
-  "Rachel Carson & Oakes Dining Hall": [
-    "Breakfast",
-    "Cage-Free Scrambled Eggs",
-    "Cajun Roasted Red Potatoes",
-    "Natural Bridges Tofu Scramble",
-    "Sausage Links",
-    "Texas French Toast",
-    "Hard-boiled Cage Free Egg (1)",
-    "Steamed Rice",
-    "Organic Gluten-Free Oatmeal",
-    "Bakery Fresh Blueberry Muffin",
-    "Mocha Chip Muffin",
-    "Orange Cranberry Scone",
-    "Lunch",
-    "Allergen Free Halal Chicken Thigh",
-    "Steamed Rice",
-    "Tofu with Kosher Salt",
-    "Deli Bar",
-    "Salad Bar",
-    "Available Upon Request: Gluten Free Rotini Pasta",
-    "Cajun Lightning Chicken",
-    "Cajun Rice",
-    "Creamy Cajun Chicken Pasta",
-    "Roasted Sweet Potatoes",
-    "BBQ Beef",
-    "Black Bean & Corn Saute",
-    "Cajun Coleslaw",
-    "Charro Beans",
-    "Condiments",
-    "Corn Cobbettes",
-    "Cornbread",
-    "Smokehouse BBQ Bar",
-    "Spicy Red Beans and Vegetables",
-    "Tempeh Roasted with Chorizo Spice",
-    "Chicken Pozole",
-    "Vegan Split Pea Soup",
-    "Cheese Pizza",
-    "Vegan Vegetable Pizza",
-    "Brownies",
-    "Dutch Apple Pie",
-    "Mint Condition",
-    "Dinner",
-    "Orange Glazed Chicken",
-    "Orange Glazed Gardein",
-    "Pineapple Fried Rice",
-    "Sesame Yakisoba Noodles",
-    "Allergen Free Halal Chicken Thigh",
-    "Steamed Rice",
-    "Tofu with Kosher Salt",
-    "Mint Condition",
-    "Chocolate Mocha Cake",
-    "Dutch Apple Pie",
-    "Red Velvet Cake",
-    "Deli Bar",
-    "Salad Bar",
-    "BBQ Wings",
-    "Buffalo Cauliflower",
-    "Condiments",
-    "Green Chili and Cheese Potato Salad",
-    "Green Onion Slaw",
-    "Hot 'N Spicy Wings",
-    "Smoke & Spice Wing Bar",
-    "Tater Tots",
-    "Vegan Tenders",
-    "Chicken Pozole",
-    "Three Sisters Crave Soup",
-    "Cheese Pizza",
-    "Vegan Vegetable Pizza",
-    "Late Night",
-    "Cheese Pizza",
-    "Vegan Vegetable Pizza",
-    "Allergen Free Halal Chicken Thigh",
-    "Steamed Rice",
-    "Tofu with Kosher Salt",
-    "Mint Condition",
-    "Deli Bar",
-    "Salad Bar",
-    "Cheese Sauce",
-    "Cilantro Slaw",
-    "Condiments",
-    "Nachos Bar",
-    "Pork Carnitas",
-    "Tempeh Roasted with Chorizo Spice",
-    "Tortilla Chips",
-    "Vegan Refried Beans",
-    "French Fries",
-    "Kickin' Chicken Sandwich"
-  ]
+  "John R. Lewis & College Nine Dining Hall": {
+    "Breakfast": [
+      {
+        "name": "Cage-Free Scrambled Eggs",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Chicken Apple Sausage",
+        "dietary_restrictions": [
+          "DAIRY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Chocolate Chip Pancakes",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Hard-boiled Cage Free Egg (1)",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Natural Bridges Tofu Scramble",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Organic Gluten-Free Oatmeal",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Roasted Red Potatoes",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Steamed Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Bakery Fresh Blueberry Muffin",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Mocha Chip Muffin",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Orange Cranberry Scone",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "DAIRY",
+          "WHEAT"
+        ]
+      }
+    ],
+    "Lunch": [
+      {
+        "name": "Garden Vegetable Soup",
+        "dietary_restrictions": [
+          "VG",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Vegan Tortilla Soup",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Steamed Carrots and Broccoli",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Sticky Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Teriyaki Chicken",
+        "dietary_restrictions": [
+          "SOY",
+          "SESAME",
+          "GF"
+        ]
+      },
+      {
+        "name": "Teriyaki Tofu",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Cheese Pizza",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Pepperoni Pizza",
+        "dietary_restrictions": [
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT",
+          "BEEF",
+          "PORK"
+        ]
+      },
+      {
+        "name": "Allergen Free Halal Chicken Thigh",
+        "dietary_restrictions": [
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Steamed Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tofu with Kosher Salt",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Mint Condition",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Brownies",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Dutch Apple Pie",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "BBQ Wings",
+        "dietary_restrictions": [
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Buffalo Cauliflower",
+        "dietary_restrictions": [
+          "V"
+        ]
+      },
+      {
+        "name": "Condiments",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Green Chili and Cheese Potato Salad",
+        "dietary_restrictions": [
+          "V",
+          "DAIRY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Green Onion Slaw",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Hot 'N Spicy Wings",
+        "dietary_restrictions": [
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Smoke & Spice Wing Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Tater Tots",
+        "dietary_restrictions": [
+          "V",
+          "SOY"
+        ]
+      },
+      {
+        "name": "Vegan Tenders",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Deli Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Salad Bar",
+        "dietary_restrictions": []
+      }
+    ],
+    "Dinner": [
+      {
+        "name": "House Made Vegan Tomato Soup",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Vegan Tortilla Soup",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Harissa BBQ Beef",
+        "dietary_restrictions": [
+          "SOY",
+          "BEEF",
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Harissa Tofu",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Scalloped Potatoes",
+        "dietary_restrictions": [
+          "V",
+          "DAIRY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Steamed Carrots and Broccoli",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Cheese Pizza",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Pepperoni Pizza",
+        "dietary_restrictions": [
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT",
+          "BEEF",
+          "PORK"
+        ]
+      },
+      {
+        "name": "Allergen Free Halal Chicken Thigh",
+        "dietary_restrictions": [
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Steamed Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tofu with Kosher Salt",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Chocolate Mocha Cake",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Dutch Apple Pie",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Red Velvet Cake",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Basmati Rice Pullao",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Chana Masala",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Chicken Tikka Masala",
+        "dietary_restrictions": [
+          "DAIRY",
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Condiments",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Dal Saag",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Masala Baked Tofu",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "North Indian Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Original Naan",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Deli Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Salad Bar",
+        "dietary_restrictions": []
+      }
+    ],
+    "Late Night": []
+  },
+  "Cowell & Stevenson Dining Hall": {
+    "Breakfast": [
+      {
+        "name": "Cage-Free Scrambled Eggs",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Hard-boiled Cage Free Egg (1)",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Natural Bridges Tofu Scramble",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Orange French Toast",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Organic Gluten-Free Oatmeal",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Sausage Links",
+        "dietary_restrictions": [
+          "PORK",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tater Tots",
+        "dietary_restrictions": [
+          "V",
+          "SOY"
+        ]
+      },
+      {
+        "name": "Steamed Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Bakery Fresh Blueberry Muffin",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Mocha Chip Muffin",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Orange Cranberry Scone",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "DAIRY",
+          "WHEAT"
+        ]
+      }
+    ],
+    "Lunch": [
+      {
+        "name": "Available Upon Request: Gluten Free Rotini Pasta",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Creamy Cajun Chicken Pasta",
+        "dietary_restrictions": [
+          "DAIRY",
+          "WHEAT",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Marinara Sauce",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Penne",
+        "dietary_restrictions": [
+          "VG",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Roasted Sweet Potatoes",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Steamed Carrots and Broccoli",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Sustainable Scampi with Tomato and Spinach",
+        "dietary_restrictions": [
+          "DAIRY",
+          "SHELLFISH",
+          "GF",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Cheese Pizza",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Pepperoni Pizza",
+        "dietary_restrictions": [
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT",
+          "BEEF",
+          "PORK"
+        ]
+      },
+      {
+        "name": "Vegan Vegetable Pizza",
+        "dietary_restrictions": [
+          "VG"
+        ]
+      },
+      {
+        "name": "Allergen Free Halal Chicken Thigh",
+        "dietary_restrictions": [
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Steamed Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tofu with Kosher Salt",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Orzo Salad with Feta, Olives and Tomato",
+        "dietary_restrictions": [
+          "V",
+          "DAIRY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Mint Condition",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Brownies",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Dutch Apple Pie",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "BBQ Beef",
+        "dietary_restrictions": [
+          "BEEF",
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Cajun Coleslaw",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Charro Beans",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Condiments",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Corn Cobbettes",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Cornbread",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Smokehouse BBQ Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Tempeh Roasted with Chorizo Spice",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Deli Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Salad Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "BBQ Pulled Shiitake",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Hamburger Bun",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Lemon Herb Gremolata",
+        "dietary_restrictions": [
+          "VG"
+        ]
+      },
+      {
+        "name": "Opah Burger Patty",
+        "dietary_restrictions": [
+          "SOY",
+          "EGG",
+          "FISH",
+          "GF",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Sweet Potato Fries",
+        "dietary_restrictions": [
+          "V",
+          "SOY"
+        ]
+      },
+      {
+        "name": "Tartar Sauce",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      }
+    ],
+    "Dinner": [
+      {
+        "name": "Char Siu Gardein",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "SESAME",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Gluten-Friendly Spicy Stir Fry Sauce",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "SESAME",
+          "GF"
+        ]
+      },
+      {
+        "name": "Orange Glazed Chicken",
+        "dietary_restrictions": [
+          "SOY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Pineapple Fried Rice",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "SESAME",
+          "GF"
+        ]
+      },
+      {
+        "name": "Spicy Gardein with Garlic & Basil",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Cheese Pizza",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Vegan Vegetable Pizza",
+        "dietary_restrictions": [
+          "VG"
+        ]
+      },
+      {
+        "name": "Allergen Free Halal Chicken Thigh",
+        "dietary_restrictions": [
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Steamed Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tofu with Kosher Salt",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Mint Condition",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Chocolate Mocha Cake",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Dutch Apple Pie",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Red Velvet Cake",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "BBQ Wings",
+        "dietary_restrictions": [
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Buffalo Cauliflower",
+        "dietary_restrictions": [
+          "V"
+        ]
+      },
+      {
+        "name": "Condiments",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Green Chili and Cheese Potato Salad",
+        "dietary_restrictions": [
+          "V",
+          "DAIRY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Green Onion Slaw",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Hot 'N Spicy Wings",
+        "dietary_restrictions": [
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Smoke & Spice Wing Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Tater Tots",
+        "dietary_restrictions": [
+          "V",
+          "SOY"
+        ]
+      },
+      {
+        "name": "Vegan Tenders",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Deli Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Salad Bar",
+        "dietary_restrictions": []
+      }
+    ],
+    "Late Night": [
+      {
+        "name": "French Fries",
+        "dietary_restrictions": [
+          "V",
+          "SOY"
+        ]
+      },
+      {
+        "name": "Cheese Pizza",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Vegan Vegetable Pizza",
+        "dietary_restrictions": [
+          "VG"
+        ]
+      },
+      {
+        "name": "Allergen Free Halal Chicken Thigh",
+        "dietary_restrictions": [
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Steamed Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tofu with Kosher Salt",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Mint Condition",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Cheese Sauce",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "DAIRY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Cilantro Slaw",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Condiments",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Nachos Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Pork Carnitas",
+        "dietary_restrictions": [
+          "PORK",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tempeh Roasted with Chorizo Spice",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tortilla Chips",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Vegan Refried Beans",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Deli Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Salad Bar",
+        "dietary_restrictions": []
+      }
+    ]
+  },
+  "Crown & Merrill Dining Hall and Banana Joe's": {
+    "Breakfast": [
+      {
+        "name": "Buttermilk Pancakes",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Cage-Free Scrambled Eggs",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Ham Steaks",
+        "dietary_restrictions": [
+          "PORK",
+          "GF"
+        ]
+      },
+      {
+        "name": "Hard-boiled Cage Free Egg (1)",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Organic Gluten-Free Oatmeal",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tempeh, Black Bean, and Potato Hash",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Triangle Hash Brown Patty",
+        "dietary_restrictions": [
+          "V",
+          "SOY"
+        ]
+      },
+      {
+        "name": "Steamed Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Bakery Fresh Blueberry Muffin",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Mocha Chip Muffin",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Orange Cranberry Scone",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "DAIRY",
+          "WHEAT"
+        ]
+      }
+    ],
+    "Lunch": [
+      {
+        "name": "Fire Roasted Corn Soup",
+        "dietary_restrictions": [
+          "V",
+          "DAIRY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Organic Vegan Chili",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Braised Toscano Potatoes",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Roast Pork Loin with Parsley and Shallot Sauce",
+        "dietary_restrictions": [
+          "PORK",
+          "GF",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Tempeh Roasted in Sesame Oil",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "SESAME",
+          "GF"
+        ]
+      },
+      {
+        "name": "Vegan Collard Greens",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Cheese Pizza",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Pepperoni Pizza",
+        "dietary_restrictions": [
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT",
+          "BEEF",
+          "PORK"
+        ]
+      },
+      {
+        "name": "Allergen Free Halal Chicken Thigh",
+        "dietary_restrictions": [
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Steamed Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tofu with Kosher Salt",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Brownies",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Dutch Apple Pie",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Cilantro Chutney",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Mumbai Street Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Original Naan",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Palak Spinach Paneer",
+        "dietary_restrictions": [
+          "V",
+          "DAIRY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Pao Bhaji",
+        "dietary_restrictions": [
+          "V",
+          "DAIRY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Steamed Basmati Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tarka Dal",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tomato Chutney",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Vegetable Tikkis",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Deli Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Salad Bar",
+        "dietary_restrictions": []
+      }
+    ],
+    "Dinner": [
+      {
+        "name": "Fire Roasted Corn Soup",
+        "dietary_restrictions": [
+          "V",
+          "DAIRY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Organic Vegan Chili",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Available Upon Request: Gluten Free Rotini Pasta",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Marinara Sauce",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Penne",
+        "dietary_restrictions": [
+          "VG",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Sauteed Rainbow Chard with Garlic Oil",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Vegan Meatballs",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Allergen Free Halal Chicken Thigh",
+        "dietary_restrictions": [
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Steamed Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tofu with Kosher Salt",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Chocolate Mocha Cake",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Dutch Apple Pie",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Red Velvet Cake",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Chickpea Harira",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Couscous, Red Grain, And Vegetable Salad",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Harissa Tofu",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Marrakech Spice Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Roasted Cauliflower and Vegetable Medley",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Roasted Eggplant",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Spicy Red Beans and Vegetables",
+        "dietary_restrictions": [
+          "VG",
+          "GF",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Tahini Sauce",
+        "dietary_restrictions": [
+          "VG",
+          "SESAME",
+          "GF"
+        ]
+      },
+      {
+        "name": "Za'atar Chicken",
+        "dietary_restrictions": [
+          "SESAME",
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Deli Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Salad Bar",
+        "dietary_restrictions": []
+      }
+    ],
+    "Late Night @ Banana Joe's": [
+      {
+        "name": "ABC Burger Banana Joe's",
+        "dietary_restrictions": [
+          "SOY",
+          "DAIRY",
+          "SESAME",
+          "WHEAT",
+          "BEEF",
+          "PORK"
+        ]
+      },
+      {
+        "name": "Banana Joe's Classic Burger",
+        "dietary_restrictions": [
+          "SOY",
+          "SESAME",
+          "WHEAT",
+          "BEEF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Cheese Pizza",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Chicken Tender Sandwich Banana Joe's",
+        "dietary_restrictions": [
+          "SOY",
+          "DAIRY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Dessert Special",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "French Fries",
+        "dietary_restrictions": [
+          "V",
+          "SOY"
+        ]
+      },
+      {
+        "name": "Malibu Burger",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Pepperoni Pizza",
+        "dietary_restrictions": [
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT",
+          "BEEF",
+          "PORK"
+        ]
+      },
+      {
+        "name": "Pizza Special",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Vegan Chocolate Chip Cookie",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "WHEAT",
+          "ALC"
+        ]
+      }
+    ]
+  },
+  "Porter & Kresge Dining Hall": {
+    "Breakfast": [
+      {
+        "name": "Buttermilk Pancakes",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Cage-Free Scrambled Eggs",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Ham Steaks",
+        "dietary_restrictions": [
+          "PORK",
+          "GF"
+        ]
+      },
+      {
+        "name": "Hard-boiled Cage Free Egg (1)",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Organic Gluten-Free Oatmeal",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tempeh, Black Bean, and Potato Hash",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Triangle Hash Brown Patty",
+        "dietary_restrictions": [
+          "V",
+          "SOY"
+        ]
+      },
+      {
+        "name": "Steamed Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Bakery Fresh Blueberry Muffin",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Mocha Chip Muffin",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Orange Cranberry Scone",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "DAIRY",
+          "WHEAT"
+        ]
+      }
+    ],
+    "Lunch": [
+      {
+        "name": "Fire Roasted Corn Soup",
+        "dietary_restrictions": [
+          "V",
+          "DAIRY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Organic Vegan Chili",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Braised Toscano Potatoes",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Roast Pork Loin with Parsley and Shallot Sauce",
+        "dietary_restrictions": [
+          "PORK",
+          "GF",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Tempeh Roasted in Sesame Oil",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "SESAME",
+          "GF"
+        ]
+      },
+      {
+        "name": "Vegan Collard Greens",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Bacon and Ranch Pizza",
+        "dietary_restrictions": [
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT",
+          "PORK"
+        ]
+      },
+      {
+        "name": "Cheese Pizza",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Allergen Free Halal Chicken Thigh",
+        "dietary_restrictions": [
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Steamed Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tofu with Kosher Salt",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Mint Condition",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Brownies",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Dutch Apple Pie",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Chicken Tikka Masala",
+        "dietary_restrictions": [
+          "DAIRY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Cilantro Chutney",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Malaysian Pork Rendang",
+        "dietary_restrictions": [
+          "PORK",
+          "GF",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Mumbai Street Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Original Naan",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Palak Spinach Paneer",
+        "dietary_restrictions": [
+          "V",
+          "DAIRY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Steamed Basmati Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tarka Dal",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tomato Chutney",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Vegetable Tikkis",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Deli Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Salad Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Beef Frank",
+        "dietary_restrictions": [
+          "BEEF",
+          "GF"
+        ]
+      },
+      {
+        "name": "Hot Dog Bun",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Vegan Hot Dog",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      }
+    ],
+    "Dinner": [
+      {
+        "name": "Fire Roasted Corn Soup",
+        "dietary_restrictions": [
+          "V",
+          "DAIRY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Organic Vegan Chili",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Available Upon Request: Gluten Free Rotini Pasta",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Beef Bolognese Baked Pasta",
+        "dietary_restrictions": [
+          "DAIRY",
+          "WHEAT",
+          "BEEF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Marinara Sauce",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Penne",
+        "dietary_restrictions": [
+          "VG",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Sauteed Rainbow Chard with Garlic Oil",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Hamburger Bun",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Portobello Mushroom Patty",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Sweet Potato Fries",
+        "dietary_restrictions": [
+          "V",
+          "SOY"
+        ]
+      },
+      {
+        "name": "Turkey Burger",
+        "dietary_restrictions": [
+          "GF"
+        ]
+      },
+      {
+        "name": "Allergen Free Halal Chicken Thigh",
+        "dietary_restrictions": [
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Steamed Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tofu with Kosher Salt",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Mint Condition",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Chocolate Mocha Cake",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Dutch Apple Pie",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Red Velvet Cake",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Chickpea Harira",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Couscous, Red Grain, And Vegetable Salad",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Harissa Tofu",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Marrakech Spice Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Roasted Cauliflower and Vegetable Medley",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Roasted Eggplant",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tahini Sauce",
+        "dietary_restrictions": [
+          "VG",
+          "SESAME",
+          "GF"
+        ]
+      },
+      {
+        "name": "Za'atar Chicken",
+        "dietary_restrictions": [
+          "SESAME",
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Deli Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Salad Bar",
+        "dietary_restrictions": []
+      }
+    ],
+    "Late Night": []
+  },
+  "Rachel Carson & Oakes Dining Hall": {
+    "Breakfast": [
+      {
+        "name": "Cage-Free Scrambled Eggs",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Cajun Roasted Red Potatoes",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Natural Bridges Tofu Scramble",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Sausage Links",
+        "dietary_restrictions": [
+          "PORK",
+          "GF"
+        ]
+      },
+      {
+        "name": "Texas French Toast",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Hard-boiled Cage Free Egg (1)",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Steamed Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Organic Gluten-Free Oatmeal",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Bakery Fresh Blueberry Muffin",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Mocha Chip Muffin",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Orange Cranberry Scone",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "DAIRY",
+          "WHEAT"
+        ]
+      }
+    ],
+    "Lunch": [
+      {
+        "name": "Allergen Free Halal Chicken Thigh",
+        "dietary_restrictions": [
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Steamed Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tofu with Kosher Salt",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Deli Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Salad Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Available Upon Request: Gluten Free Rotini Pasta",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Cajun Lightning Chicken",
+        "dietary_restrictions": [
+          "SOY",
+          "FISH",
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Cajun Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Creamy Cajun Chicken Pasta",
+        "dietary_restrictions": [
+          "DAIRY",
+          "WHEAT",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Roasted Sweet Potatoes",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "BBQ Beef",
+        "dietary_restrictions": [
+          "BEEF",
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Black Bean & Corn Saute",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Cajun Coleslaw",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Charro Beans",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Condiments",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Corn Cobbettes",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Cornbread",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Smokehouse BBQ Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Spicy Red Beans and Vegetables",
+        "dietary_restrictions": [
+          "VG",
+          "GF",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Tempeh Roasted with Chorizo Spice",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Chicken Pozole",
+        "dietary_restrictions": [
+          "GF",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Vegan Split Pea Soup",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Cheese Pizza",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Vegan Vegetable Pizza",
+        "dietary_restrictions": [
+          "VG"
+        ]
+      },
+      {
+        "name": "Brownies",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Dutch Apple Pie",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Mint Condition",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      }
+    ],
+    "Dinner": [
+      {
+        "name": "Orange Glazed Chicken",
+        "dietary_restrictions": [
+          "SOY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Orange Glazed Gardein",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Pineapple Fried Rice",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "SESAME",
+          "GF"
+        ]
+      },
+      {
+        "name": "Sesame Yakisoba Noodles",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Allergen Free Halal Chicken Thigh",
+        "dietary_restrictions": [
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Steamed Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tofu with Kosher Salt",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Mint Condition",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Chocolate Mocha Cake",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Dutch Apple Pie",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Red Velvet Cake",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Deli Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Salad Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "BBQ Wings",
+        "dietary_restrictions": [
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Buffalo Cauliflower",
+        "dietary_restrictions": [
+          "V"
+        ]
+      },
+      {
+        "name": "Condiments",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Green Chili and Cheese Potato Salad",
+        "dietary_restrictions": [
+          "V",
+          "DAIRY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Green Onion Slaw",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Hot 'N Spicy Wings",
+        "dietary_restrictions": [
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Smoke & Spice Wing Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Tater Tots",
+        "dietary_restrictions": [
+          "V",
+          "SOY"
+        ]
+      },
+      {
+        "name": "Vegan Tenders",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Chicken Pozole",
+        "dietary_restrictions": [
+          "GF",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Three Sisters Crave Soup",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Cheese Pizza",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Vegan Vegetable Pizza",
+        "dietary_restrictions": [
+          "VG"
+        ]
+      }
+    ],
+    "Late Night": [
+      {
+        "name": "Cheese Pizza",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "EGG",
+          "DAIRY",
+          "SESAME",
+          "WHEAT"
+        ]
+      },
+      {
+        "name": "Vegan Vegetable Pizza",
+        "dietary_restrictions": [
+          "VG"
+        ]
+      },
+      {
+        "name": "Allergen Free Halal Chicken Thigh",
+        "dietary_restrictions": [
+          "GF",
+          "HALAL"
+        ]
+      },
+      {
+        "name": "Steamed Rice",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tofu with Kosher Salt",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Mint Condition",
+        "dietary_restrictions": [
+          "V",
+          "EGG",
+          "DAIRY",
+          "WHEAT",
+          "ALC"
+        ]
+      },
+      {
+        "name": "Deli Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Salad Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Cheese Sauce",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "DAIRY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Cilantro Slaw",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Condiments",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Nachos Bar",
+        "dietary_restrictions": []
+      },
+      {
+        "name": "Pork Carnitas",
+        "dietary_restrictions": [
+          "PORK",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tempeh Roasted with Chorizo Spice",
+        "dietary_restrictions": [
+          "VG",
+          "SOY",
+          "GF"
+        ]
+      },
+      {
+        "name": "Tortilla Chips",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "Vegan Refried Beans",
+        "dietary_restrictions": [
+          "VG",
+          "GF"
+        ]
+      },
+      {
+        "name": "French Fries",
+        "dietary_restrictions": [
+          "V",
+          "SOY"
+        ]
+      },
+      {
+        "name": "Kickin' Chicken Sandwich",
+        "dietary_restrictions": [
+          "SOY",
+          "SESAME",
+          "DAIRY",
+          "WHEAT",
+          "HALAL"
+        ]
+      }
+    ]
+  }
 }
