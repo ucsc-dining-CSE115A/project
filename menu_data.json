@@ -1012,6 +1012,15 @@
     ],
     "Late Night": [
       {
+        "name": "Falafel  Wrap",
+        "dietary_restrictions": [
+          "V",
+          "SOY",
+          "DAIRY",
+          "WHEAT"
+        ]
+      },
+      {
         "name": "French Fries",
         "dietary_restrictions": [
           "V",
