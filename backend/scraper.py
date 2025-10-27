@@ -186,8 +186,6 @@ def main():
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(menu_data, f, ensure_ascii=False, indent=2)
 
-    # Optional: print to console for debug
-    print(json.dumps(menu_data, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":
