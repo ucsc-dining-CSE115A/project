@@ -801,7 +801,7 @@
       ],
       "Lunch": [
         {
-          "name": "Organic Kale and Sweet Potato Soup",
+          "name": "Steamed Basmati Rice",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -809,7 +809,7 @@
           "price": null
         },
         {
-          "name": "Black Beans with Cumin Spice",
+          "name": "Organic Kale and Sweet Potato Soup",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -863,41 +863,6 @@
           "dietary_restrictions": [
             "VG",
             "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Halal Beef Patty",
-          "dietary_restrictions": [
-            "BEEF",
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Hamburger Bun",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Portobello Mushroom Patty",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Sidewinder Fry",
-          "dietary_restrictions": [
-            "V",
-            "SOY"
           ],
           "price": null
         },
