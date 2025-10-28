@@ -1050,6 +1050,14 @@
           "price": null
         },
         {
+          "name": "Rice Pilaf",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
           "name": "Roasted Turkey Breast with Honey Dijon Sauce",
           "dietary_restrictions": [
             "GF",
@@ -1062,42 +1070,6 @@
           "dietary_restrictions": [
             "VG",
             "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Garlic Mashed Potatoes",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Mushroom Gravy",
-          "dietary_restrictions": [
-            "VG",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cheese Pizza",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Vegetable Pizza",
-          "dietary_restrictions": [
-            "VG"
           ],
           "price": null
         },
@@ -1210,6 +1182,15 @@
           "price": null
         },
         {
+          "name": "Vegan Tenders",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
           "name": "Deli Bar",
           "dietary_restrictions": [],
           "price": null
@@ -1222,13 +1203,12 @@
       ],
       "Late Night": [
         {
-          "name": "Kickin' Chicken Sandwich",
+          "name": "Vietnamese Pork Banh Mi Sandwich",
           "dietary_restrictions": [
             "SOY",
             "SESAME",
-            "DAIRY",
             "WHEAT",
-            "HALAL"
+            "PORK"
           ],
           "price": null
         },
@@ -1237,25 +1217,6 @@
           "dietary_restrictions": [
             "V",
             "SOY"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cheese Pizza",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Vegetable Pizza",
-          "dietary_restrictions": [
-            "VG"
           ],
           "price": null
         },
@@ -2423,17 +2384,17 @@
           "price": null
         },
         {
-          "name": "Cheese Quesadilla",
+          "name": "Halal Chicken Nuggets",
           "dietary_restrictions": [
-            "V",
             "SOY",
-            "DAIRY",
-            "WHEAT"
+            "EGG",
+            "WHEAT",
+            "HALAL"
           ],
           "price": null
         },
         {
-          "name": "Vegan Mushroom Spinach Quesadilla",
+          "name": "Vegan Tenders",
           "dietary_restrictions": [
             "VG",
             "SOY",
@@ -2506,6 +2467,17 @@
           "price": null
         },
         {
+          "name": "Beer-Battered Onion Rings",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
           "name": "Beyond Meat Smash Burger",
           "dietary_restrictions": [
             "VG",
@@ -2533,6 +2505,14 @@
           "price": null
         },
         {
+          "name": "Regular Cut Fries",
+          "dietary_restrictions": [
+            "V",
+            "SOY"
+          ],
+          "price": null
+        },
+        {
           "name": "Roasted Garlic Dijon Mayonnaise",
           "dietary_restrictions": [
             "VG",
@@ -2544,14 +2524,6 @@
         {
           "name": "Stack Haus Burger Bar",
           "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Steak Cut Fries",
-          "dietary_restrictions": [
-            "V",
-            "SOY"
-          ],
           "price": null
         },
         {
