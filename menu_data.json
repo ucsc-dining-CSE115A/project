@@ -363,14 +363,6 @@
           "price": null
         },
         {
-          "name": "Roasted Yukon Gold Potatoes",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
           "name": "Cheese Pizza",
           "dietary_restrictions": [
             "V",
@@ -2318,6 +2310,17 @@
           "price": null
         },
         {
+          "name": "Halal Chicken Patty",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
           "name": "Hamburger Bun",
           "dietary_restrictions": [
             "VG",
@@ -2336,17 +2339,10 @@
           "price": null
         },
         {
-          "name": "Sweet Potato Fries",
+          "name": "Steak Cut Fries",
           "dietary_restrictions": [
             "V",
             "SOY"
-          ],
-          "price": null
-        },
-        {
-          "name": "Turkey Burger",
-          "dietary_restrictions": [
-            "GF"
           ],
           "price": null
         },
