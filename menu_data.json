@@ -2183,17 +2183,6 @@
           "price": null
         },
         {
-          "name": "Halal Chicken Patty",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
           "name": "Hamburger Bun",
           "dietary_restrictions": [
             "VG",
@@ -2372,6 +2361,13 @@
         {
           "name": "Salad Bar",
           "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Turkey Burger",
+          "dietary_restrictions": [
+            "GF"
+          ],
           "price": null
         }
       ],
@@ -6825,16 +6821,6 @@
             "V",
             "SOY",
             "DAIRY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": "$13.00"
-        },
-        {
-          "name": "Asian Salad",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
             "SESAME",
             "WHEAT"
           ],
