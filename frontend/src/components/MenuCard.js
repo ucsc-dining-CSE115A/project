@@ -2,18 +2,22 @@ import React from 'react';
 import './MenuCard.css';
 
 // MenuCard component for displaying individual menu items in card format
-// Based on Figma design with placeholder image and XXX body text
-const MenuCard = ({ itemName }) => {
+// Updated to support new data format with dietary restrictions and price
+const MenuCard = ({ itemName, dietaryRestrictions, price }) => {
   return (
     <div className="menu-card">
-      {/* Placeholder image area - will be empty for now */}
-      <div className="menu-card-image"></div>
-      
       <div className="menu-card-text">
-        {/* Dynamic title showing the actual menu item name */}
+        {/* Display the menu item name */}
         <p className="menu-card-title">{itemName}</p>
-        {/* Placeholder body text as requested */}
-        <p className="menu-card-body">XXX</p>
+        {/* Display dietary restrictions if available, otherwise show placeholder */}
+        <p className="menu-card-body">
+          {dietaryRestrictions && dietaryRestrictions.length > 0 
+            ? dietaryRestrictions.join(', ') 
+            : 'XXX'
+          }
+        </p>
+        {/* Display price if available */}
+        {price && <p className="menu-card-price">${price}</p>}
       </div>
     </div>
   );
