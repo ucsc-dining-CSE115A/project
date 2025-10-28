@@ -1,5 +1,5 @@
 import React from 'react';
-import './MenuCard.css';
+import '../styles/MenuCard.css'; // Updated import path after moving CSS to styles folder
 
 // MenuCard component for displaying individual menu items in card format
 // Updated to support new data format with dietary restrictions and price
