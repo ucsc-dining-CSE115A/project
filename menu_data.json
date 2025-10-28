@@ -364,7 +364,7 @@
           "price": null
         },
         {
-          "name": "Roasted Kale and Butternut Squash",
+          "name": "Sauteed Garlic Kale",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -513,6 +513,14 @@
         },
         {
           "name": "Steamed Broccoli",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Cacciatore Vedura",
           "dietary_restrictions": [
             "VG",
             "GF"
