@@ -487,11 +487,6 @@
           "price": null
         },
         {
-          "name": "Condiments",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
           "name": "Masala Baked Tofu",
           "dietary_restrictions": [
             "VG",
