@@ -132,19 +132,18 @@
       ],
       "Lunch": [
         {
-          "name": "Creamy Broccoli Cheddar Soup",
+          "name": "Chicken Tortilla Soup",
           "dietary_restrictions": [
-            "V",
             "DAIRY",
-            "GF"
+            "ALC"
           ],
           "price": null
         },
         {
-          "name": "Xochitl Soup",
+          "name": "Potato Leek Soup",
           "dietary_restrictions": [
             "VG",
-            "GF"
+            "WHEAT"
           ],
           "price": null
         },
