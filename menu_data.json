@@ -2804,14 +2804,6 @@
           "price": null
         },
         {
-          "name": "Sauteed Cauliflower Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
           "name": "Vegan Corn and Veggie Tamale",
           "dietary_restrictions": [
             "VG",
@@ -2896,10 +2888,10 @@
           "price": null
         },
         {
-          "name": "Chicken & Rice Soup",
+          "name": "Chicken Tortilla Soup",
           "dietary_restrictions": [
-            "GF",
-            "ALC"
+            "SOY",
+            "GF"
           ],
           "price": null
         },
@@ -3082,10 +3074,10 @@
           "price": null
         },
         {
-          "name": "Chicken & Rice Soup",
+          "name": "Chicken Tortilla Soup",
           "dietary_restrictions": [
-            "GF",
-            "ALC"
+            "SOY",
+            "GF"
           ],
           "price": null
         },
