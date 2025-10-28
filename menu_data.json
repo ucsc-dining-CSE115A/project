@@ -158,9 +158,9 @@
           "price": null
         },
         {
-          "name": "Garlic Roast Beef",
+          "name": "Island BBQ Chicken",
           "dietary_restrictions": [
-            "BEEF",
+            "SOY",
             "GF",
             "HALAL"
           ],
