@@ -693,6 +693,15 @@
           "price": null
         },
         {
+          "name": "French Toast Sticks",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
           "name": "Hard-boiled Cage Free Egg (1)",
           "dietary_restrictions": [
             "V",
@@ -731,15 +740,6 @@
           "dietary_restrictions": [
             "V",
             "SOY"
-          ],
-          "price": null
-        },
-        {
-          "name": "Whole Wheat Vegan Blueberry Pancakes",
-          "dietary_restrictions": [
-            "VG",
-            "ALC",
-            "WHEAT"
           ],
           "price": null
         },
@@ -981,6 +981,15 @@
           "price": null
         },
         {
+          "name": "Buttered Chicken Curry",
+          "dietary_restrictions": [
+            "DAIRY",
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
           "name": "Caramelized Chipotle Tofu",
           "dietary_restrictions": [
             "VG",
@@ -997,6 +1006,14 @@
         {
           "name": "Condiments",
           "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Makhni Dal",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
           "price": null
         },
         {
