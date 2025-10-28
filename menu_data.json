@@ -3249,7 +3249,7 @@
             "SESAME",
             "WHEAT"
           ],
-          "price": "$9.25"
+          "price": "$3.95"
         },
         {
           "name": "Loaded Hashbrowns",
@@ -3259,7 +3259,7 @@
             "DAIRY",
             "PORK"
           ],
-          "price": "$9.25"
+          "price": "$8.25"
         },
         {
           "name": "Manresa Breakfast Burrito",
@@ -3280,7 +3280,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$9.00"
         },
         {
           "name": "Manresa Tofu Breakfast Burrito",
@@ -3289,7 +3289,7 @@
             "SOY",
             "WHEAT"
           ],
-          "price": "$9.25"
+          "price": "$9.00"
         },
         {
           "name": "Manresa Tofu Breakfast Scramble",
@@ -3298,7 +3298,7 @@
             "SOY",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$9.00"
         },
         {
           "name": "Banana Chocolate Chip Muffin",
@@ -3310,7 +3310,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$9.25"
+          "price": "$4.75"
         },
         {
           "name": "Chocolate Croissant",
@@ -3322,7 +3322,7 @@
             "TREENUT",
             "WHEAT"
           ],
-          "price": "$9.25"
+          "price": "$5.25"
         },
         {
           "name": "Croissant",
@@ -3332,7 +3332,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$9.25"
+          "price": "$4.25"
         },
         {
           "name": "Ham & Cheddar Croissant",
@@ -3341,7 +3341,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$9.25"
+          "price": "$6.25"
         },
         {
           "name": "Lemon Poppyseed Muffin",
@@ -3353,7 +3353,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$9.25"
+          "price": "$4.75"
         },
         {
           "name": "Mint and Chocolate Chip Cookie",
@@ -3364,7 +3364,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$9.25"
+          "price": "$2.95"
         },
         {
           "name": "Vegan Chocolate Chip Cookies",
@@ -3374,7 +3374,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$9.25"
+          "price": "$2.95"
         },
         {
           "name": "Americano 12oz",
@@ -3382,7 +3382,7 @@
             "VG",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$3.85"
         },
         {
           "name": "Americano 16oz",
@@ -3390,7 +3390,7 @@
             "VG",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$4.05"
         },
         {
           "name": "Americano 20 oz",
@@ -3398,7 +3398,7 @@
             "VG",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$4.65"
         },
         {
           "name": "Cappuccino, Single",
@@ -3407,7 +3407,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$4.50"
         },
         {
           "name": "Cappucino, Double",
@@ -3416,7 +3416,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$5.00"
         },
         {
           "name": "Caramel Latte, Double",
@@ -3426,7 +3426,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$5.75"
         },
         {
           "name": "Caramel Latte, Single",
@@ -3436,7 +3436,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$5.25"
         },
         {
           "name": "Caramel Latte, Triple",
@@ -3446,7 +3446,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$6.25"
         },
         {
           "name": "Chai Latte",
@@ -3456,7 +3456,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$9.25"
+          "price": "$5.95"
         },
         {
           "name": "Espresso",
@@ -3464,7 +3464,7 @@
             "VG",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$1.25"
         },
         {
           "name": "Espresso, Double Shot",
@@ -3472,7 +3472,7 @@
             "VG",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$3.75"
         },
         {
           "name": "Espresso, Single Shot",
@@ -3480,7 +3480,7 @@
             "VG",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$3.25"
         },
         {
           "name": "Espresso, Triple Shot",
@@ -3488,7 +3488,7 @@
             "VG",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$4.25"
         },
         {
           "name": "Hazelnut Latte, Double",
@@ -3498,7 +3498,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$5.75"
         },
         {
           "name": "Hazelnut Latte, Single",
@@ -3508,7 +3508,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$5.25"
         },
         {
           "name": "Hazelnut Latte, Triple",
@@ -3518,7 +3518,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$6.25"
         },
         {
           "name": "Hot Chocolate",
@@ -3528,7 +3528,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$9.25"
+          "price": "$4.95"
         },
         {
           "name": "Hot Tea",
@@ -3536,7 +3536,7 @@
             "VG",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$3.50"
         },
         {
           "name": "Latte, Double",
@@ -3545,7 +3545,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$5.25"
         },
         {
           "name": "Latte, Single",
@@ -3554,7 +3554,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$4.75"
         },
         {
           "name": "Latte, Triple",
@@ -3563,7 +3563,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$5.75"
         },
         {
           "name": "Mocha, Double",
@@ -3573,7 +3573,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$9.25"
+          "price": "$6.00"
         },
         {
           "name": "Mocha, Single",
@@ -3583,7 +3583,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$9.25"
+          "price": "$5.50"
         },
         {
           "name": "Mocha, Triple",
@@ -3593,7 +3593,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$9.25"
+          "price": "$6.50"
         },
         {
           "name": "Pumpkin Latte, 16 oz",
@@ -3602,7 +3602,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$5.95"
         },
         {
           "name": "Tea Latte",
@@ -3611,7 +3611,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$5.95"
         },
         {
           "name": "Vanilla Latte, Double",
@@ -3621,7 +3621,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$9.25"
+          "price": "$5.75"
         },
         {
           "name": "Vanilla Latte, Single",
@@ -3631,7 +3631,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$9.25"
+          "price": "$5.25"
         },
         {
           "name": "Vanilla Latte, Triple",
@@ -3641,7 +3641,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$9.25"
+          "price": "$6.25"
         },
         {
           "name": "Whipped Cream",
@@ -3650,7 +3650,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$0.50"
         },
         {
           "name": "White Mocha, Double",
@@ -3660,7 +3660,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$6.25"
         },
         {
           "name": "White Mocha, Single",
@@ -3670,7 +3670,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$5.75"
         },
         {
           "name": "White Mocha, Triple",
@@ -3680,7 +3680,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$9.25"
+          "price": "$6.75"
         }
       ],
       "All Day": [
@@ -3703,7 +3703,7 @@
             "SESAME",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$9.50"
         },
         {
           "name": "Chipotle Bacon Chicken Sandwich",
@@ -3712,7 +3712,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$10.50"
+          "price": "$11.50"
         },
         {
           "name": "BLT Sandwich",
@@ -3721,7 +3721,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$10.50"
+          "price": "$9.50"
         },
         {
           "name": "Cheesy Chicken Pesto",
@@ -3738,7 +3738,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$10.50"
+          "price": "$13.40"
         },
         {
           "name": "General Tso Rice Bowl",
@@ -3746,7 +3746,7 @@
             "SOY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$14.50"
         },
         {
           "name": "Grilled Cheese Sandwich",
@@ -3756,7 +3756,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$5.00"
         },
         {
           "name": "Mushroom Quinoa Burger",
@@ -3777,7 +3777,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$8.50"
         },
         {
           "name": "Spicy Crispy Chicken Sandwich",
@@ -3798,7 +3798,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$10.50"
+          "price": "$4.75"
         },
         {
           "name": "Chocolate Croissant",
@@ -3810,7 +3810,7 @@
             "TREENUT",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$5.25"
         },
         {
           "name": "Croissant",
@@ -3820,7 +3820,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$4.25"
         },
         {
           "name": "Ham & Cheddar Croissant",
@@ -3829,7 +3829,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$10.50"
+          "price": "$6.25"
         },
         {
           "name": "Lemon Poppyseed Muffin",
@@ -3841,7 +3841,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$10.50"
+          "price": "$4.75"
         },
         {
           "name": "Mint and Chocolate Chip Cookie",
@@ -3852,7 +3852,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$10.50"
+          "price": "$2.95"
         },
         {
           "name": "Vegan Chocolate Chip Cookies",
@@ -3862,7 +3862,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$10.50"
+          "price": "$2.95"
         },
         {
           "name": "Chicken Tenders, 3",
@@ -3870,7 +3870,7 @@
             "SOY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$9.00"
         },
         {
           "name": "Garden Salad (SIDE)",
@@ -3878,14 +3878,14 @@
             "VG",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$4.50"
         },
         {
           "name": "Grilled Chicken, No Antibotics Ever",
           "dietary_restrictions": [
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$5.50"
         },
         {
           "name": "Side French Fries",
@@ -3893,7 +3893,7 @@
             "V",
             "SOY"
           ],
-          "price": "$10.50"
+          "price": "$4.50"
         },
         {
           "name": "Tofu",
@@ -3902,7 +3902,7 @@
             "SOY",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$3.50"
         },
         {
           "name": "Classic Milk Tea",
@@ -3912,7 +3912,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$6.50"
         },
         {
           "name": "Dragon Fruit Smoothie",
@@ -3922,7 +3922,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$7.50"
         },
         {
           "name": "Dragon Fruit Strawberry Lemonade",
@@ -3932,7 +3932,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$6.50"
         },
         {
           "name": "Mango Black Tea",
@@ -3942,7 +3942,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$6.50"
         },
         {
           "name": "Mango Green Tea",
@@ -3952,7 +3952,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$6.50"
         },
         {
           "name": "Mango Lemonade",
@@ -3962,7 +3962,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$6.50"
         },
         {
           "name": "Mango Popping Pearls",
@@ -3970,7 +3970,7 @@
             "VG",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$0.75"
         },
         {
           "name": "Mango Smoothie",
@@ -3980,7 +3980,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$7.50"
         },
         {
           "name": "Salted Caramel Milk Tea Smoothie",
@@ -3990,7 +3990,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$7.50"
         },
         {
           "name": "Salted Caramel Milk Tea",
@@ -4000,7 +4000,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$6.50"
         },
         {
           "name": "Strawberry Jasmine Milk Tea",
@@ -4010,7 +4010,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$6.50"
         },
         {
           "name": "Strawberry Lemonade",
@@ -4020,7 +4020,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$6.50"
         },
         {
           "name": "Strawberry Popping Pearls",
@@ -4028,7 +4028,7 @@
             "VG",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$0.75"
         },
         {
           "name": "Strawberry Smoothie",
@@ -4038,7 +4038,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$7.50"
         },
         {
           "name": "Tapioca Boba Pearls",
@@ -4046,7 +4046,7 @@
             "VG",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$0.75"
         },
         {
           "name": "Taro Milk Tea",
@@ -4056,7 +4056,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$6.50"
         },
         {
           "name": "Taro Smoothie",
@@ -4066,7 +4066,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$7.50"
         },
         {
           "name": "Thai Milk Tea Smoothie",
@@ -4076,7 +4076,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$7.50"
         },
         {
           "name": "Thai Milk Tea",
@@ -4086,7 +4086,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$10.50"
+          "price": "$6.50"
         },
         {
           "name": "Americano 12oz",
@@ -4094,7 +4094,7 @@
             "VG",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$3.85"
         },
         {
           "name": "Americano 16oz",
@@ -4102,7 +4102,7 @@
             "VG",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$4.05"
         },
         {
           "name": "Americano 20 oz",
@@ -4110,7 +4110,7 @@
             "VG",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$4.65"
         },
         {
           "name": "Cappuccino, Single",
@@ -4119,7 +4119,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$4.50"
         },
         {
           "name": "Cappucino, Double",
@@ -4128,7 +4128,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$5.00"
         },
         {
           "name": "Caramel Latte, Double",
@@ -4138,7 +4138,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$5.75"
         },
         {
           "name": "Caramel Latte, Single",
@@ -4148,7 +4148,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$5.25"
         },
         {
           "name": "Caramel Latte, Triple",
@@ -4158,7 +4158,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$6.25"
         },
         {
           "name": "Chai Latte",
@@ -4168,7 +4168,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$10.50"
+          "price": "$5.95"
         },
         {
           "name": "Espresso",
@@ -4176,7 +4176,7 @@
             "VG",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$1.25"
         },
         {
           "name": "Espresso, Double Shot",
@@ -4184,7 +4184,7 @@
             "VG",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$3.75"
         },
         {
           "name": "Espresso, Single Shot",
@@ -4192,7 +4192,7 @@
             "VG",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$3.25"
         },
         {
           "name": "Espresso, Triple Shot",
@@ -4200,7 +4200,7 @@
             "VG",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$4.25"
         },
         {
           "name": "Hazelnut Latte, Double",
@@ -4210,7 +4210,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$5.75"
         },
         {
           "name": "Hazelnut Latte, Single",
@@ -4220,7 +4220,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$5.25"
         },
         {
           "name": "Hazelnut Latte, Triple",
@@ -4230,7 +4230,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$6.25"
         },
         {
           "name": "Hot Chocolate",
@@ -4240,7 +4240,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$10.50"
+          "price": "$4.95"
         },
         {
           "name": "Hot Tea",
@@ -4248,7 +4248,7 @@
             "VG",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$3.50"
         },
         {
           "name": "Latte, Double",
@@ -4257,7 +4257,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$5.25"
         },
         {
           "name": "Latte, Single",
@@ -4266,7 +4266,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$4.75"
         },
         {
           "name": "Latte, Triple",
@@ -4275,7 +4275,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$5.75"
         },
         {
           "name": "Mocha, Double",
@@ -4285,7 +4285,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$10.50"
+          "price": "$6.00"
         },
         {
           "name": "Mocha, Single",
@@ -4295,7 +4295,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$10.50"
+          "price": "$5.50"
         },
         {
           "name": "Mocha, Triple",
@@ -4305,7 +4305,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$10.50"
+          "price": "$6.50"
         },
         {
           "name": "Pumpkin Latte, 16 oz",
@@ -4314,7 +4314,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$5.95"
         },
         {
           "name": "Tea Latte",
@@ -4323,7 +4323,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$5.95"
         },
         {
           "name": "Vanilla Latte, Double",
@@ -4333,7 +4333,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$10.50"
+          "price": "$5.75"
         },
         {
           "name": "Vanilla Latte, Single",
@@ -4343,7 +4343,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$10.50"
+          "price": "$5.25"
         },
         {
           "name": "Vanilla Latte, Triple",
@@ -4353,7 +4353,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$10.50"
+          "price": "$6.25"
         },
         {
           "name": "Whipped Cream",
@@ -4362,7 +4362,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$0.50"
         },
         {
           "name": "White Mocha, Double",
@@ -4372,7 +4372,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$6.25"
         },
         {
           "name": "White Mocha, Single",
@@ -4382,7 +4382,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$5.75"
         },
         {
           "name": "White Mocha, Triple",
@@ -4392,7 +4392,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$10.50"
+          "price": "$6.75"
         }
       ]
     },
@@ -4412,7 +4412,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$5.50"
+          "price": "$8.50"
         },
         {
           "name": "Caprese Avocado Toast",
@@ -4421,7 +4421,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$8.25"
         },
         {
           "name": "Cheesy Toast",
@@ -4430,7 +4430,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$5.25"
         },
         {
           "name": "Club Avocado Toast",
@@ -4439,7 +4439,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$5.50"
+          "price": "$9.00"
         },
         {
           "name": "Egg-rything Avocado Toast",
@@ -4449,7 +4449,7 @@
             "SESAME",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$8.25"
         },
         {
           "name": "El Gallo",
@@ -4458,7 +4458,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$7.25"
         },
         {
           "name": "French Macaroons",
@@ -4471,7 +4471,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$1.25"
         },
         {
           "name": "Hot Honey Bacon Waffle",
@@ -4482,7 +4482,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$5.50"
+          "price": "$7.00"
         },
         {
           "name": "Hummus Bagel",
@@ -4492,7 +4492,7 @@
             "SESAME",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$5.25"
         },
         {
           "name": "Jalapeno Popper Toast",
@@ -4509,7 +4509,7 @@
             "VG",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$8.25"
         },
         {
           "name": "Mixed Green Salad",
@@ -4517,7 +4517,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$5.75"
         },
         {
           "name": "Nutella Banana Waffle",
@@ -4532,7 +4532,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$7.00"
         },
         {
           "name": "Strawberry Cream Cheese Waffle",
@@ -4547,7 +4547,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$7.00"
         },
         {
           "name": "Toasted Bagel & Cream Cheese",
@@ -4556,7 +4556,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$4.50"
         },
         {
           "name": "Everything Bagelry Bagel",
@@ -4565,7 +4565,7 @@
             "SESAME",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$2.85"
         },
         {
           "name": "Garlic Bagelry Bagel",
@@ -4573,7 +4573,7 @@
             "VG",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$2.85"
         },
         {
           "name": "Jalapeno Cheese Bagelry Bagel",
@@ -4582,7 +4582,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$2.85"
         },
         {
           "name": "Plain Bagelry Bagel",
@@ -4590,7 +4590,7 @@
             "VG",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$2.85"
         },
         {
           "name": "Tomato Basil Bagelry Bagel",
@@ -4598,7 +4598,7 @@
             "VG",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$2.85"
         },
         {
           "name": "Breakfast Burrito",
@@ -4609,7 +4609,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$5.25"
         },
         {
           "name": "Chicken Penne Alfredo",
@@ -4618,7 +4618,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$7.50"
         },
         {
           "name": "Chicken Salad",
@@ -4627,7 +4627,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$5.25"
         },
         {
           "name": "Chicken Salad Sandwich",
@@ -4637,7 +4637,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Ham & Jack Cheese Sandwich",
@@ -4648,7 +4648,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$5.50"
+          "price": "$6.50"
         },
         {
           "name": "Machaca Breakfast Burrito",
@@ -4659,7 +4659,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$5.50"
+          "price": "$8.25"
         },
         {
           "name": "Pesto Chicken Salad Pita Sandwich",
@@ -4667,7 +4667,7 @@
             "SOY",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$6.95"
         },
         {
           "name": "Pesto Pasta Salad",
@@ -4676,7 +4676,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$5.25"
         },
         {
           "name": "Roma Sandwich",
@@ -4685,7 +4685,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$8.95"
         },
         {
           "name": "Rotisserie Chicken Caesar Salad",
@@ -4697,7 +4697,7 @@
             "FISH",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$8.95"
         },
         {
           "name": "Salami & Swiss Cheese Sandwich",
@@ -4708,7 +4708,7 @@
             "BEEF",
             "PORK"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "The Gobbler",
@@ -4719,7 +4719,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$9.25"
         },
         {
           "name": "Turkey Bacon Provolone Sandwich",
@@ -4730,7 +4730,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$5.50"
+          "price": "$8.25"
         },
         {
           "name": "Turkey Cheddar Croissant Sandwich",
@@ -4739,7 +4739,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$7.95"
         },
         {
           "name": "Banana Chocolate Chip Muffin",
@@ -4751,7 +4751,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$4.75"
         },
         {
           "name": "Chocolate Croissant",
@@ -4763,7 +4763,7 @@
             "TREENUT",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$5.25"
         },
         {
           "name": "Croissant",
@@ -4773,7 +4773,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$4.25"
         },
         {
           "name": "Ham & Cheddar Croissant",
@@ -4782,7 +4782,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Lemon Poppyseed Muffin",
@@ -4794,7 +4794,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$4.75"
         },
         {
           "name": "Mint and Chocolate Chip Cookie",
@@ -4805,7 +4805,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$2.95"
         },
         {
           "name": "Vegan Chocolate Chip Cookie",
@@ -4815,7 +4815,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$2.95"
         },
         {
           "name": "Americano 12oz",
@@ -4823,7 +4823,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$3.85"
         },
         {
           "name": "Americano 16oz",
@@ -4831,7 +4831,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$4.05"
         },
         {
           "name": "Americano 20 oz",
@@ -4839,7 +4839,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$4.65"
         },
         {
           "name": "Cappuccino, Single",
@@ -4848,7 +4848,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$4.50"
         },
         {
           "name": "Cappucino, Double",
@@ -4857,7 +4857,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$5.00"
         },
         {
           "name": "Caramel Latte, Double",
@@ -4867,7 +4867,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$5.75"
         },
         {
           "name": "Caramel Latte, Single",
@@ -4877,7 +4877,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$5.25"
         },
         {
           "name": "Caramel Latte, Triple",
@@ -4887,7 +4887,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.25"
         },
         {
           "name": "Chai Latte",
@@ -4897,7 +4897,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$5.95"
         },
         {
           "name": "Espresso",
@@ -4905,7 +4905,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$1.25"
         },
         {
           "name": "Espresso, Double Shot",
@@ -4913,7 +4913,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$3.75"
         },
         {
           "name": "Espresso, Single Shot",
@@ -4921,7 +4921,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$3.25"
         },
         {
           "name": "Espresso, Triple Shot",
@@ -4929,7 +4929,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$4.25"
         },
         {
           "name": "Hazelnut Latte, Double",
@@ -4939,7 +4939,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$5.75"
         },
         {
           "name": "Hazelnut Latte, Single",
@@ -4949,7 +4949,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$5.25"
         },
         {
           "name": "Hazelnut Latte, Triple",
@@ -4959,7 +4959,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.25"
         },
         {
           "name": "Hot Chocolate",
@@ -4969,7 +4969,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$4.95"
         },
         {
           "name": "Hot Tea",
@@ -4977,7 +4977,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$3.50"
         },
         {
           "name": "Latte, Double",
@@ -4986,7 +4986,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$5.25"
         },
         {
           "name": "Latte, Single",
@@ -4995,7 +4995,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$4.75"
         },
         {
           "name": "Latte, Triple",
@@ -5004,7 +5004,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$5.75"
         },
         {
           "name": "Mocha, Double",
@@ -5014,7 +5014,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$6.00"
         },
         {
           "name": "Mocha, Single",
@@ -5034,7 +5034,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$6.50"
         },
         {
           "name": "Pumpkin Latte, 16 oz",
@@ -5043,7 +5043,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$5.95"
         },
         {
           "name": "Tea Latte",
@@ -5052,7 +5052,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$5.95"
         },
         {
           "name": "Vanilla Latte, Double",
@@ -5062,7 +5062,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$5.75"
         },
         {
           "name": "Vanilla Latte, Single",
@@ -5072,7 +5072,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$5.25"
         },
         {
           "name": "Vanilla Latte, Triple",
@@ -5082,7 +5082,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$6.25"
         },
         {
           "name": "Whipped Cream",
@@ -5091,7 +5091,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$0.50"
         },
         {
           "name": "White Mocha, Double",
@@ -5101,7 +5101,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.25"
         },
         {
           "name": "White Mocha, Single",
@@ -5111,7 +5111,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$5.75"
         },
         {
           "name": "White Mocha, Triple",
@@ -5121,7 +5121,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Chocolate Strawberry Smoothie",
@@ -5131,7 +5131,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$7.25"
         },
         {
           "name": "Coconut Caramel Latte, 16 oz",
@@ -5141,7 +5141,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.50"
         },
         {
           "name": "Dirty Hazelnut Chai Latte",
@@ -5152,7 +5152,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$6.50"
         },
         {
           "name": "Frozen Chocolate Banana",
@@ -5162,7 +5162,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$7.25"
         },
         {
           "name": "Frozen Horchata",
@@ -5173,7 +5173,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$7.25"
         },
         {
           "name": "Frozen Mint Cookies & Cream",
@@ -5183,7 +5183,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$7.25"
         },
         {
           "name": "Frozen Strawberry Taro",
@@ -5194,7 +5194,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$7.25"
         },
         {
           "name": "Frozen Taro",
@@ -5205,7 +5205,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$7.25"
         },
         {
           "name": "Hazelnut Brittle Latte, 16 oz",
@@ -5216,7 +5216,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.50"
         },
         {
           "name": "Peppermint Matcha Latte",
@@ -5225,7 +5225,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.50"
         },
         {
           "name": "Peppermint Mocha, 16 oz",
@@ -5235,7 +5235,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$6.50"
         },
         {
           "name": "Pumpkin Chai Latte",
@@ -5245,7 +5245,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$6.50"
         },
         {
           "name": "Raspberry White Mocha, 16 oz",
@@ -5255,7 +5255,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.50"
         },
         {
           "name": "Strawberry Matcha Latte",
@@ -5264,7 +5264,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.50"
         },
         {
           "name": "Iced Horchata",
@@ -5275,7 +5275,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$5.75"
         },
         {
           "name": "Iced Taro",
@@ -5294,7 +5294,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$5.25"
         },
         {
           "name": "Matcha Green Tea Latte",
@@ -5303,7 +5303,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.50"
         },
         {
           "name": "Natural Energy Dragon Fruit Spritzer",
@@ -5311,7 +5311,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.50"
         },
         {
           "name": "Natural Energy Starfruit Spritzer",
@@ -5319,7 +5319,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.50"
         },
         {
           "name": "Frozen Caramel Latte",
@@ -5329,7 +5329,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Frozen Cookies & Cream",
@@ -5339,7 +5339,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Frozen Espresso Cookies & Cream",
@@ -5349,7 +5349,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Frozen Latte",
@@ -5358,7 +5358,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Frozen Matcha",
@@ -5367,7 +5367,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Frozen Mocha",
@@ -5377,7 +5377,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Iced Horchata",
@@ -5388,7 +5388,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$4.95"
         },
         {
           "name": "Iced Taro",
@@ -5399,7 +5399,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.50"
+          "price": "$4.95"
         },
         {
           "name": "Italian Soda",
@@ -5407,7 +5407,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Lemonade Cream Smoothie",
@@ -5416,7 +5416,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Lemonade Smoothie",
@@ -5425,7 +5425,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Mango Cream Smoothie",
@@ -5434,7 +5434,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Mango Fruit Smoothie",
@@ -5443,7 +5443,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Matcha Green Tea Latte",
@@ -5452,7 +5452,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.25"
         },
         {
           "name": "Raspberry Cream Smoothie",
@@ -5461,7 +5461,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Raspberry Fruit Smoothie",
@@ -5470,7 +5470,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Raspberry Lemonade Smoothie",
@@ -5479,7 +5479,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Strawberry Cream Smoothie",
@@ -5488,7 +5488,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Strawberry Fruit Smoothie",
@@ -5497,7 +5497,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Strawberry Lemonade Smoothie",
@@ -5506,7 +5506,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$6.75"
         },
         {
           "name": "Add Avocado",
@@ -5514,7 +5514,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$1.85"
         },
         {
           "name": "Add Chicken, 2 oz",
@@ -5522,7 +5522,7 @@
             "SOY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$2.25"
         },
         {
           "name": "Add Fresh Mozzarella",
@@ -5531,7 +5531,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$1.95"
         },
         {
           "name": "Add Hard Boiled Egg",
@@ -5540,7 +5540,7 @@
             "EGG",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$0.95"
         },
         {
           "name": "Add Hummus",
@@ -5550,7 +5550,7 @@
             "SESAME",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$2.25"
         },
         {
           "name": "Add Queso Fresco",
@@ -5559,7 +5559,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$1.00"
         },
         {
           "name": "Add Side Pico De Gallo Salsa",
@@ -5567,7 +5567,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$1.25"
         },
         {
           "name": "Mashed Avocado",
@@ -5575,7 +5575,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$1.75"
         },
         {
           "name": "Pesto Ricotta Spread",
@@ -5584,7 +5584,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.50"
+          "price": "$1.50"
         }
       ]
     },
@@ -5613,7 +5613,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$1.25"
         },
         {
           "name": "Everything Bagelry Bagel",
@@ -5667,7 +5667,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Italian Soda",
@@ -5675,7 +5675,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Matcha Green Tea Latte",
@@ -5684,7 +5684,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Natural Energy Dragon Fruit Spritzer",
@@ -5692,7 +5692,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Natural Energy Starfruit Spritzer",
@@ -5700,7 +5700,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Banana Chocolate Chip Muffin",
@@ -5712,7 +5712,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$4.75"
         },
         {
           "name": "Chocolate Croissant",
@@ -5724,7 +5724,7 @@
             "TREENUT",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Croissant",
@@ -5734,7 +5734,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$4.25"
         },
         {
           "name": "Ham & Provolone Croissant",
@@ -5743,7 +5743,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "Lemon Poppyseed Muffin",
@@ -5755,7 +5755,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$4.75"
         },
         {
           "name": "Mint and Chocolate Chip Cookie",
@@ -5766,7 +5766,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$2.95"
         },
         {
           "name": "Vegan Chocolate Chip Cookie",
@@ -5776,7 +5776,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$2.95"
         },
         {
           "name": "Americano 12oz",
@@ -5784,7 +5784,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$3.85"
         },
         {
           "name": "Americano 16oz",
@@ -5792,7 +5792,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.05"
         },
         {
           "name": "Americano 20 oz",
@@ -5800,7 +5800,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.65"
         },
         {
           "name": "Cappuccino, Single",
@@ -5809,7 +5809,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.50"
         },
         {
           "name": "Cappucino, Double",
@@ -5818,7 +5818,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.00"
         },
         {
           "name": "Caramel Latte, Double",
@@ -5828,7 +5828,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Caramel Latte, Single",
@@ -5838,7 +5838,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Caramel Latte, Triple",
@@ -5848,7 +5848,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "Chai Latte",
@@ -5858,7 +5858,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.95"
         },
         {
           "name": "Espresso",
@@ -5866,7 +5866,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$1.25"
         },
         {
           "name": "Espresso, Double Shot",
@@ -5874,7 +5874,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$3.75"
         },
         {
           "name": "Espresso, Single Shot",
@@ -5882,7 +5882,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$3.25"
         },
         {
           "name": "Espresso, Triple Shot",
@@ -5890,7 +5890,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.25"
         },
         {
           "name": "Hazelnut Latte, Double",
@@ -5900,7 +5900,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Hazelnut Latte, Single",
@@ -5910,7 +5910,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Hazelnut Latte, Triple",
@@ -5920,7 +5920,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "Hot Chocolate",
@@ -5930,7 +5930,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$4.95"
         },
         {
           "name": "Hot Tea",
@@ -5938,7 +5938,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$3.50"
         },
         {
           "name": "Latte, Double",
@@ -5947,7 +5947,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Latte, Single",
@@ -5956,7 +5956,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.75"
         },
         {
           "name": "Latte, Triple",
@@ -5965,7 +5965,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Mocha, Double",
@@ -5975,7 +5975,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.00"
         },
         {
           "name": "Mocha, Single",
@@ -5985,7 +5985,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.50"
         },
         {
           "name": "Mocha, Triple",
@@ -5995,7 +5995,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Pumpkin Latte, 16 oz",
@@ -6004,7 +6004,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.95"
         },
         {
           "name": "Tea Latte",
@@ -6013,7 +6013,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.95"
         },
         {
           "name": "Vanilla Latte, Double",
@@ -6023,7 +6023,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Vanilla Latte, Single",
@@ -6033,7 +6033,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Vanilla Latte, Triple",
@@ -6043,7 +6043,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "Whipped Cream",
@@ -6052,7 +6052,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$0.50"
         },
         {
           "name": "White Mocha, Double",
@@ -6062,7 +6062,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "White Mocha, Single",
@@ -6072,7 +6072,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "White Mocha, Triple",
@@ -6082,7 +6082,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Coconut Caramel Latte, 16 oz",
@@ -6092,7 +6092,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Dirty Hazelnut Chai Latte",
@@ -6103,7 +6103,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Hazelnut Brittle Latte, 16 oz",
@@ -6114,7 +6114,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Peppermint Matcha Latte",
@@ -6123,7 +6123,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Peppermint Mocha, 16 oz",
@@ -6133,7 +6133,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Pumpkin Chai Latte",
@@ -6143,7 +6143,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Raspberry White Mocha, 16 oz",
@@ -6153,7 +6153,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Strawberry Matcha Latte",
@@ -6162,7 +6162,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         }
       ],
       "All": [
@@ -6189,7 +6189,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$1.25"
         },
         {
           "name": "Everything Bagelry Bagel",
@@ -6243,7 +6243,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Italian Soda",
@@ -6251,7 +6251,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Matcha Green Tea Latte",
@@ -6260,7 +6260,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Natural Energy Dragon Fruit Spritzer",
@@ -6268,7 +6268,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Natural Energy Starfruit Spritzer",
@@ -6276,7 +6276,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Americano 12oz",
@@ -6284,7 +6284,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$3.85"
         },
         {
           "name": "Americano 16oz",
@@ -6292,7 +6292,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.05"
         },
         {
           "name": "Americano 20 oz",
@@ -6300,7 +6300,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.65"
         },
         {
           "name": "Cappuccino, Single",
@@ -6309,7 +6309,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.50"
         },
         {
           "name": "Cappucino, Double",
@@ -6318,7 +6318,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.00"
         },
         {
           "name": "Caramel Latte, Double",
@@ -6328,7 +6328,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Caramel Latte, Single",
@@ -6338,7 +6338,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Caramel Latte, Triple",
@@ -6348,7 +6348,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "Chai Latte",
@@ -6358,7 +6358,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.95"
         },
         {
           "name": "Espresso",
@@ -6366,7 +6366,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$1.25"
         },
         {
           "name": "Espresso, Double Shot",
@@ -6374,7 +6374,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$3.75"
         },
         {
           "name": "Espresso, Single Shot",
@@ -6382,7 +6382,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$3.25"
         },
         {
           "name": "Espresso, Triple Shot",
@@ -6390,7 +6390,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.25"
         },
         {
           "name": "Hazelnut Latte, Double",
@@ -6400,7 +6400,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Hazelnut Latte, Single",
@@ -6410,7 +6410,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Hazelnut Latte, Triple",
@@ -6420,7 +6420,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "Hot Chocolate",
@@ -6430,7 +6430,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$4.95"
         },
         {
           "name": "Hot Tea",
@@ -6438,7 +6438,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$3.50"
         },
         {
           "name": "Latte, Double",
@@ -6447,7 +6447,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Latte, Single",
@@ -6456,7 +6456,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.75"
         },
         {
           "name": "Latte, Triple",
@@ -6465,7 +6465,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Mocha, Double",
@@ -6475,7 +6475,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.00"
         },
         {
           "name": "Mocha, Single",
@@ -6485,7 +6485,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.50"
         },
         {
           "name": "Mocha, Triple",
@@ -6495,7 +6495,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Pumpkin Latte, 16 oz",
@@ -6504,7 +6504,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.95"
         },
         {
           "name": "Tea Latte",
@@ -6513,7 +6513,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.95"
         },
         {
           "name": "Vanilla Latte, Double",
@@ -6523,7 +6523,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Vanilla Latte, Single",
@@ -6533,7 +6533,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Vanilla Latte, Triple",
@@ -6543,7 +6543,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "Whipped Cream",
@@ -6552,7 +6552,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$0.50"
         },
         {
           "name": "White Mocha, Double",
@@ -6562,7 +6562,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "White Mocha, Single",
@@ -6572,7 +6572,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "White Mocha, Triple",
@@ -6582,7 +6582,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Coconut Caramel Latte, 16 oz",
@@ -6592,7 +6592,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Dirty Hazelnut Chai Latte",
@@ -6603,7 +6603,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Hazelnut Brittle Latte, 16 oz",
@@ -6614,7 +6614,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Peppermint Matcha Latte",
@@ -6623,7 +6623,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Peppermint Mocha, 16 oz",
@@ -6633,7 +6633,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Pumpkin Chai Latte",
@@ -6643,7 +6643,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Raspberry White Mocha, 16 oz",
@@ -6653,7 +6653,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Strawberry Matcha Latte",
@@ -6662,7 +6662,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         }
       ]
     },
@@ -6688,7 +6688,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.25"
+          "price": "$4.25"
         },
         {
           "name": "Ham & Provolone Croissant",
@@ -6697,7 +6697,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$5.25"
+          "price": "$6.75"
         },
         {
           "name": "Lemon Poppyseed Muffin",
@@ -6709,7 +6709,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$4.75"
         },
         {
           "name": "Vegan Chocolate Chip Cookies",
@@ -6719,7 +6719,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$2.95"
         },
         {
           "name": "Coffee, 12 oz",
@@ -6727,7 +6727,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$3.50"
         },
         {
           "name": "Coffee, 16 oz",
@@ -6735,7 +6735,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$3.75"
         },
         {
           "name": "Coffee, 20 oz",
@@ -6743,7 +6743,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$4.00"
         },
         {
           "name": "Hot Tea",
@@ -6751,7 +6751,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$3.50"
         },
         {
           "name": "Tractor Farmers Punch",
@@ -6759,7 +6759,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$3.95"
         },
         {
           "name": "Tractor Hibiscus Jamaica",
@@ -6767,7 +6767,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$3.95"
         },
         {
           "name": "Tractor Strawberry Dragonfruit",
@@ -6775,7 +6775,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$3.95"
         },
         {
           "name": "Tractor Unsweetened Black Tea",
@@ -6783,7 +6783,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$3.95"
         }
       ]
     },
@@ -6804,7 +6804,7 @@
             "SOY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$6.00"
         },
         {
           "name": "Fries",
@@ -6813,7 +6813,7 @@
             "SOY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$7.00"
         },
         {
           "name": "Mediterranean Platter",
@@ -6824,7 +6824,7 @@
             "SESAME",
             "WHEAT"
           ],
-          "price": "$13.00"
+          "price": "$11.00"
         },
         {
           "name": "Caesar Salad Half portion",
@@ -6836,7 +6836,7 @@
             "WHEAT",
             "FISH"
           ],
-          "price": "$13.00"
+          "price": "$9.00"
         },
         {
           "name": "Caesar Salad",
@@ -6848,7 +6848,7 @@
             "WHEAT",
             "FISH"
           ],
-          "price": "$13.00"
+          "price": "$15.75"
         },
         {
           "name": "Half House Salad",
@@ -6856,7 +6856,7 @@
             "VG",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$8.00"
         },
         {
           "name": "House Salad",
@@ -6864,12 +6864,12 @@
             "VG",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$14.75"
         },
         {
           "name": "Soup Of The Day",
           "dietary_restrictions": [],
-          "price": "$13.00"
+          "price": "$8.00"
         },
         {
           "name": "Gourmet Burger",
@@ -6878,7 +6878,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$13.00"
+          "price": "$24.00"
         },
         {
           "name": "Hippie Sandwich",
@@ -6888,7 +6888,7 @@
             "SESAME",
             "WHEAT"
           ],
-          "price": "$13.00"
+          "price": "$17.00"
         },
         {
           "name": "Spicy Crispy Chicken Sandwich",
@@ -6897,7 +6897,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$13.00"
+          "price": "$22.00"
         },
         {
           "name": "BBQ Mushroom Pizza",
@@ -6909,7 +6909,7 @@
             "SESAME",
             "WHEAT"
           ],
-          "price": "$13.00"
+          "price": "$17.00"
         },
         {
           "name": "Birria Pizza",
@@ -6921,7 +6921,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$18.00"
         },
         {
           "name": "Grilled Top Sirloin Steak",
@@ -6930,7 +6930,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$34.00"
         },
         {
           "name": "Salmon Muhammara Entree",
@@ -6939,7 +6939,7 @@
             "FISH",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$26.00"
         },
         {
           "name": "Tofu Fried Rice",
@@ -6948,7 +6948,7 @@
             "SOY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$19.50"
         },
         {
           "name": "Cheesecake",
@@ -6959,7 +6959,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$13.00"
+          "price": "$9.00"
         },
         {
           "name": "Ice Cream Cookie Sandwich",
@@ -6971,7 +6971,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$10.00"
         },
         {
           "name": "Mango Sorbet",
@@ -6979,7 +6979,7 @@
             "VG",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$7.00"
         },
         {
           "name": "Tiramisu",
@@ -6989,7 +6989,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$13.00"
+          "price": "$10.00"
         },
         {
           "name": "Truffle Mousse Cake",
@@ -7003,7 +7003,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$10.00"
         },
         {
           "name": "Banana Chocolate Chip Muffin",
@@ -7015,7 +7015,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$4.75"
         },
         {
           "name": "Chocolate Croissant",
@@ -7027,7 +7027,7 @@
             "TREENUT",
             "WHEAT"
           ],
-          "price": "$13.00"
+          "price": "$5.25"
         },
         {
           "name": "Croissant",
@@ -7037,7 +7037,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$13.00"
+          "price": "$4.25"
         },
         {
           "name": "Ham & Provolone Croissant",
@@ -7046,7 +7046,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$13.00"
+          "price": "$6.25"
         },
         {
           "name": "Lemon Poppyseed Muffin",
@@ -7058,7 +7058,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$4.75"
         },
         {
           "name": "Mint and Chocolate Chip Cookie",
@@ -7069,7 +7069,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$2.95"
         },
         {
           "name": "Vegan Chocolate Chip Cookie",
@@ -7079,7 +7079,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$2.95"
         },
         {
           "name": "Americano 12oz",
@@ -7087,7 +7087,7 @@
             "VG",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$3.85"
         },
         {
           "name": "Americano 16oz",
@@ -7095,7 +7095,7 @@
             "VG",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$4.05"
         },
         {
           "name": "Americano 20 oz",
@@ -7103,7 +7103,7 @@
             "VG",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$4.65"
         },
         {
           "name": "Cappuccino, Single",
@@ -7112,7 +7112,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$4.50"
         },
         {
           "name": "Cappucino, Double",
@@ -7121,7 +7121,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$5.00"
         },
         {
           "name": "Caramel Latte, Double",
@@ -7131,7 +7131,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$5.75"
         },
         {
           "name": "Caramel Latte, Single",
@@ -7141,7 +7141,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$5.25"
         },
         {
           "name": "Caramel Latte, Triple",
@@ -7151,7 +7151,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$6.25"
         },
         {
           "name": "Chai Latte",
@@ -7161,7 +7161,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$5.95"
         },
         {
           "name": "Coconut Caramel Latte, 16 oz",
@@ -7171,7 +7171,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$6.50"
         },
         {
           "name": "Dirty Hazelnut Chai Latte",
@@ -7182,7 +7182,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$6.50"
         },
         {
           "name": "Espresso",
@@ -7190,7 +7190,7 @@
             "VG",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$1.25"
         },
         {
           "name": "Espresso, Double Shot",
@@ -7198,7 +7198,7 @@
             "VG",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$3.75"
         },
         {
           "name": "Espresso, Single Shot",
@@ -7206,7 +7206,7 @@
             "VG",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$3.25"
         },
         {
           "name": "Espresso, Triple Shot",
@@ -7214,7 +7214,7 @@
             "VG",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$4.25"
         },
         {
           "name": "Hazelnut Brittle Latte, 16 oz",
@@ -7225,7 +7225,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$6.50"
         },
         {
           "name": "Hazelnut Latte, Double",
@@ -7235,7 +7235,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$5.75"
         },
         {
           "name": "Hazelnut Latte, Single",
@@ -7245,7 +7245,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$5.25"
         },
         {
           "name": "Hazelnut Latte, Triple",
@@ -7255,7 +7255,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$6.25"
         },
         {
           "name": "Hot Chocolate",
@@ -7265,7 +7265,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$4.95"
         },
         {
           "name": "Hot Tea",
@@ -7273,7 +7273,7 @@
             "VG",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$3.50"
         },
         {
           "name": "Latte, Double",
@@ -7282,7 +7282,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$5.25"
         },
         {
           "name": "Latte, Single",
@@ -7291,7 +7291,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$4.75"
         },
         {
           "name": "Latte, Triple",
@@ -7300,7 +7300,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$5.75"
         },
         {
           "name": "Mocha, Double",
@@ -7310,7 +7310,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$6.00"
         },
         {
           "name": "Mocha, Single",
@@ -7320,7 +7320,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$5.50"
         },
         {
           "name": "Mocha, Triple",
@@ -7330,7 +7330,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$6.50"
         },
         {
           "name": "Peppermint Matcha Latte",
@@ -7339,7 +7339,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$6.50"
         },
         {
           "name": "Peppermint Mocha, 16 oz",
@@ -7349,7 +7349,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$6.50"
         },
         {
           "name": "Pumpkin Chai Latte",
@@ -7359,7 +7359,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$6.50"
         },
         {
           "name": "Pumpkin Latte, 16 oz",
@@ -7368,7 +7368,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$5.95"
         },
         {
           "name": "Raspberry White Mocha, 16 oz",
@@ -7378,7 +7378,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$6.50"
         },
         {
           "name": "Strawberry Matcha Latte",
@@ -7387,7 +7387,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$6.50"
         },
         {
           "name": "Tea Latte",
@@ -7396,7 +7396,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$5.95"
         },
         {
           "name": "Vanilla Latte, Double",
@@ -7406,7 +7406,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$5.75"
         },
         {
           "name": "Vanilla Latte, Single",
@@ -7416,7 +7416,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$5.25"
         },
         {
           "name": "Vanilla Latte, Triple",
@@ -7426,7 +7426,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$6.25"
         },
         {
           "name": "Whipped Cream",
@@ -7435,7 +7435,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$0.50"
         },
         {
           "name": "White Mocha, Double",
@@ -7445,7 +7445,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$6.25"
         },
         {
           "name": "White Mocha, Single",
@@ -7455,7 +7455,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$5.75"
         },
         {
           "name": "White Mocha, Triple",
@@ -7465,7 +7465,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$6.75"
         },
         {
           "name": "Iced Horchata",
@@ -7476,7 +7476,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$13.00"
+          "price": "$5.75"
         },
         {
           "name": "Italian Soda",
@@ -7484,7 +7484,7 @@
             "VG",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$5.25"
         },
         {
           "name": "Matcha Green Tea Latte",
@@ -7493,7 +7493,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$6.50"
         },
         {
           "name": "Natural Energy Dragon Fruit Spritzer",
@@ -7501,7 +7501,7 @@
             "VG",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$6.50"
         },
         {
           "name": "Natural Energy Starfruit Spritzer",
@@ -7509,7 +7509,7 @@
             "VG",
             "GF"
           ],
-          "price": "$13.00"
+          "price": "$6.50"
         }
       ]
     },
@@ -7572,7 +7572,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$7.00"
         },
         {
           "name": "Bagel with Turkey and Cheese",
@@ -7580,7 +7580,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$7.00"
         },
         {
           "name": "Cheese Bagel",
@@ -7589,7 +7589,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$5.00"
         },
         {
           "name": "Hummus Bagel",
@@ -7599,7 +7599,7 @@
             "SESAME",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$5.50"
         },
         {
           "name": "Salami & Cheese Bagel",
@@ -7610,7 +7610,7 @@
             "PORK",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$7.00"
         },
         {
           "name": "Toasted Bagel & Cream Cheese",
@@ -7619,7 +7619,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$4.50"
         },
         {
           "name": "Avocado & Cheese Sandwich",
@@ -7628,7 +7628,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$7.25"
         },
         {
           "name": "BLT Sandwich",
@@ -7636,7 +7636,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$2.85"
+          "price": "$7.95"
         },
         {
           "name": "Cheese Sandwich",
@@ -7645,7 +7645,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$6.00"
         },
         {
           "name": "Chipotle Chickpea Salad Sandwich",
@@ -7653,7 +7653,7 @@
             "VG",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$6.00"
         },
         {
           "name": "Hot Turkey Pesto Sandwich",
@@ -7661,7 +7661,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$8.50"
         },
         {
           "name": "Hummus Sandwich",
@@ -7671,7 +7671,7 @@
             "SESAME",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Salami Sandwich",
@@ -7680,14 +7680,14 @@
             "BEEF",
             "PORK"
           ],
-          "price": "$2.85"
+          "price": "$7.00"
         },
         {
           "name": "Turkey Sandwich",
           "dietary_restrictions": [
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$7.25"
         },
         {
           "name": "Chicken Noodle",
@@ -7695,7 +7695,7 @@
             "EGG",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$5.50"
         },
         {
           "name": "Organic Tomato Bisque",
@@ -7704,7 +7704,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.50"
         },
         {
           "name": "Soup and Cheese Toast Combo",
@@ -7713,7 +7713,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$8.95"
         },
         {
           "name": "Garden Salad (SIDE)",
@@ -7721,7 +7721,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.50"
         },
         {
           "name": "Veggie Quiche - See Menu Board For Daily Veggie Selection",
@@ -7732,7 +7732,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Classic Milk Tea",
@@ -7742,7 +7742,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Dragon Fruit Smoothie",
@@ -7752,7 +7752,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$7.50"
         },
         {
           "name": "Dragon Fruit Strawberry Lemonade",
@@ -7762,7 +7762,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Mango Black Tea",
@@ -7772,7 +7772,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Mango Green Tea",
@@ -7782,7 +7782,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Mango Lemonade",
@@ -7792,7 +7792,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Mango Popping Pearls",
@@ -7800,7 +7800,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$0.75"
         },
         {
           "name": "Mango Smoothie",
@@ -7810,7 +7810,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$7.50"
         },
         {
           "name": "Salted Caramel Milk Tea Smoothie",
@@ -7820,7 +7820,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$7.50"
         },
         {
           "name": "Salted Caramel Milk Tea",
@@ -7830,7 +7830,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Strawberry Jasmine Milk Tea",
@@ -7840,7 +7840,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Strawberry Lemonade",
@@ -7850,7 +7850,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Strawberry Popping Pearls",
@@ -7858,7 +7858,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$0.75"
         },
         {
           "name": "Strawberry Smoothie",
@@ -7868,7 +7868,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$7.50"
         },
         {
           "name": "Tapioca Boba Pearls",
@@ -7876,7 +7876,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$0.75"
         },
         {
           "name": "Taro Milk Tea",
@@ -7886,7 +7886,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Taro Smoothie",
@@ -7896,7 +7896,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$7.50"
         },
         {
           "name": "Thai Milk Tea Smoothie",
@@ -7906,7 +7906,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$7.50"
         },
         {
           "name": "Thai Milk Tea",
@@ -7916,7 +7916,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Cinnamon Roll",
@@ -7928,7 +7928,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Stevenson Coffee House Fudgie Bar",
@@ -7940,7 +7940,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$2.50"
         },
         {
           "name": "Banana Chocolate Chip Muffin",
@@ -7952,7 +7952,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$4.75"
         },
         {
           "name": "Chocolate Croissant",
@@ -7964,7 +7964,7 @@
             "TREENUT",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Croissant",
@@ -7974,7 +7974,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$4.25"
         },
         {
           "name": "Ham & Provolone Croissant",
@@ -7983,7 +7983,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "Lemon Poppyseed Muffin",
@@ -7995,7 +7995,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$4.75"
         },
         {
           "name": "Mint and Chocolate Chip Cookie",
@@ -8006,7 +8006,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$2.95"
         },
         {
           "name": "Vegan Chocolate Chip Cookies",
@@ -8016,7 +8016,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$2.75"
         },
         {
           "name": "Breakfast Burrito",
@@ -8027,7 +8027,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Chicken Penne Alfredo",
@@ -8036,7 +8036,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$7.50"
         },
         {
           "name": "Pesto Pasta Salad",
@@ -8045,7 +8045,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Roma Sandwich",
@@ -8054,7 +8054,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$8.95"
         },
         {
           "name": "Rotisserie Chicken Caesar Salad",
@@ -8066,7 +8066,7 @@
             "FISH",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$8.95"
         },
         {
           "name": "Spinach & Artichoke Quiche",
@@ -8078,7 +8078,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.95"
         },
         {
           "name": "The Gobbler",
@@ -8089,7 +8089,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$9.25"
         },
         {
           "name": "Turkey Cheddar Croissant Sandwich",
@@ -8098,7 +8098,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$7.95"
         },
         {
           "name": "Americano 12oz",
@@ -8106,7 +8106,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$3.85"
         },
         {
           "name": "Americano 16oz",
@@ -8114,7 +8114,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.05"
         },
         {
           "name": "Americano 20 oz",
@@ -8122,7 +8122,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.65"
         },
         {
           "name": "Cappuccino, Single",
@@ -8131,7 +8131,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.50"
         },
         {
           "name": "Cappucino, Double",
@@ -8140,7 +8140,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.00"
         },
         {
           "name": "Caramel Latte, Double",
@@ -8150,7 +8150,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Caramel Latte, Single",
@@ -8160,7 +8160,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Caramel Latte, Triple",
@@ -8170,7 +8170,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "Chai Latte",
@@ -8180,7 +8180,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.95"
         },
         {
           "name": "Espresso",
@@ -8188,7 +8188,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$1.25"
         },
         {
           "name": "Espresso, Double Shot",
@@ -8196,7 +8196,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$3.75"
         },
         {
           "name": "Espresso, Single Shot",
@@ -8204,7 +8204,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$3.25"
         },
         {
           "name": "Espresso, Triple Shot",
@@ -8212,7 +8212,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.25"
         },
         {
           "name": "Hazelnut Latte, Double",
@@ -8222,7 +8222,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Hazelnut Latte, Single",
@@ -8232,7 +8232,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Hazelnut Latte, Triple",
@@ -8242,7 +8242,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "Hot Chocolate",
@@ -8252,7 +8252,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$4.95"
         },
         {
           "name": "Hot Tea",
@@ -8260,7 +8260,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$3.50"
         },
         {
           "name": "Latte, Double",
@@ -8269,7 +8269,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Latte, Single",
@@ -8278,7 +8278,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.75"
         },
         {
           "name": "Latte, Triple",
@@ -8287,7 +8287,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Mocha, Double",
@@ -8297,7 +8297,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.00"
         },
         {
           "name": "Mocha, Single",
@@ -8307,7 +8307,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.50"
         },
         {
           "name": "Mocha, Triple",
@@ -8317,7 +8317,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Pumpkin Latte, 16 oz",
@@ -8326,7 +8326,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.95"
         },
         {
           "name": "Tea Latte",
@@ -8335,7 +8335,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.95"
         },
         {
           "name": "Vanilla Latte, Double",
@@ -8345,7 +8345,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Vanilla Latte, Single",
@@ -8355,7 +8355,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Vanilla Latte, Triple",
@@ -8365,7 +8365,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "Whipped Cream",
@@ -8374,7 +8374,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$0.50"
         },
         {
           "name": "White Mocha, Double",
@@ -8384,7 +8384,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "White Mocha, Single",
@@ -8394,7 +8394,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "White Mocha, Triple",
@@ -8404,7 +8404,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Coconut Caramel Latte, 16 oz",
@@ -8414,7 +8414,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Dirty Hazelnut Chai Latte",
@@ -8425,7 +8425,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Hazelnut Brittle Latte, 16 oz",
@@ -8436,7 +8436,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Peppermint Matcha Latte",
@@ -8445,7 +8445,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Peppermint Mocha, 16 oz",
@@ -8455,7 +8455,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Pumpkin Chai Latte",
@@ -8465,7 +8465,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Raspberry White Mocha, 16 oz",
@@ -8475,7 +8475,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Iced Horchata",
@@ -8486,7 +8486,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Italian Soda",
@@ -8494,7 +8494,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Matcha Green Tea Latte",
@@ -8503,7 +8503,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         }
       ]
     },
@@ -8527,7 +8527,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.25"
+          "price": "$7.50"
         },
         {
           "name": "Chicken Salad",
@@ -8546,7 +8546,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$6.75"
         },
         {
           "name": "Ham & Jack Cheese Sandwich",
@@ -8557,7 +8557,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$5.25"
+          "price": "$6.50"
         },
         {
           "name": "Machaca Breakfast Burrito",
@@ -8568,7 +8568,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$5.25"
+          "price": "$8.25"
         },
         {
           "name": "Pesto Chicken Salad Pita Sandwich",
@@ -8576,7 +8576,7 @@
             "SOY",
             "WHEAT"
           ],
-          "price": "$5.25"
+          "price": "$6.95"
         },
         {
           "name": "Pesto Pasta Salad",
@@ -8594,7 +8594,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.25"
+          "price": "$8.95"
         },
         {
           "name": "Rotisserie Chicken Caesar Salad",
@@ -8606,7 +8606,7 @@
             "FISH",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$8.95"
         },
         {
           "name": "Salami & Swiss Cheese Sandwich",
@@ -8617,7 +8617,7 @@
             "BEEF",
             "PORK"
           ],
-          "price": "$5.25"
+          "price": "$6.75"
         },
         {
           "name": "Spinach & Artichoke Quiche",
@@ -8629,7 +8629,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$6.95"
         },
         {
           "name": "The Gobbler",
@@ -8640,7 +8640,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$9.25"
         },
         {
           "name": "Turkey Bacon Provolone Sandwich",
@@ -8651,7 +8651,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$5.25"
+          "price": "$8.25"
         },
         {
           "name": "Turkey Cheddar Croissant Sandwich",
@@ -8660,7 +8660,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.25"
+          "price": "$7.95"
         },
         {
           "name": "Banana Chocolate Chip Muffin",
@@ -8672,7 +8672,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$4.75"
         },
         {
           "name": "Chocolate Croissant",
@@ -8694,7 +8694,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$5.25"
+          "price": "$4.25"
         },
         {
           "name": "Ham & Provolone Croissant",
@@ -8703,7 +8703,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$5.25"
+          "price": "$6.25"
         },
         {
           "name": "Lemon Poppyseed Muffin",
@@ -8715,7 +8715,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$4.75"
         },
         {
           "name": "Mint and Chocolate Chip Cookie",
@@ -8726,7 +8726,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$2.95"
         },
         {
           "name": "Vegan Chocolate Chip Cookies",
@@ -8736,7 +8736,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$2.95"
         },
         {
           "name": "Americano 12oz",
@@ -8744,7 +8744,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$3.85"
         },
         {
           "name": "Americano 16oz",
@@ -8752,7 +8752,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$4.05"
         },
         {
           "name": "Americano 20 oz",
@@ -8760,7 +8760,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$4.65"
         },
         {
           "name": "Cappuccino, Single",
@@ -8769,7 +8769,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$4.50"
         },
         {
           "name": "Cappucino, Double",
@@ -8778,7 +8778,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$5.00"
         },
         {
           "name": "Caramel Latte, Double",
@@ -8788,7 +8788,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$5.75"
         },
         {
           "name": "Caramel Latte, Single",
@@ -8808,7 +8808,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$6.25"
         },
         {
           "name": "Chai Latte",
@@ -8818,7 +8818,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$5.95"
         },
         {
           "name": "Coconut Caramel Latte, 16 oz",
@@ -8828,7 +8828,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$6.50"
         },
         {
           "name": "Dirty Hazelnut Chai Latte",
@@ -8839,7 +8839,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$6.50"
         },
         {
           "name": "Espresso",
@@ -8847,7 +8847,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$1.25"
         },
         {
           "name": "Espresso, Double Shot",
@@ -8855,7 +8855,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$3.75"
         },
         {
           "name": "Espresso, Single Shot",
@@ -8863,7 +8863,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$3.25"
         },
         {
           "name": "Espresso, Triple Shot",
@@ -8871,7 +8871,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$4.25"
         },
         {
           "name": "Hazelnut Brittle Latte, 16 oz",
@@ -8882,7 +8882,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$6.50"
         },
         {
           "name": "Hazelnut Latte, Double",
@@ -8892,7 +8892,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$5.75"
         },
         {
           "name": "Hazelnut Latte, Single",
@@ -8912,7 +8912,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$6.25"
         },
         {
           "name": "Hot Chocolate",
@@ -8922,7 +8922,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$4.95"
         },
         {
           "name": "Hot Tea",
@@ -8930,7 +8930,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$3.50"
         },
         {
           "name": "Latte, Double",
@@ -8948,7 +8948,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$4.75"
         },
         {
           "name": "Latte, Triple",
@@ -8957,7 +8957,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$5.75"
         },
         {
           "name": "Mocha, Double",
@@ -8967,7 +8967,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$6.00"
         },
         {
           "name": "Mocha, Single",
@@ -8977,7 +8977,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$5.50"
         },
         {
           "name": "Mocha, Triple",
@@ -8987,7 +8987,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$6.50"
         },
         {
           "name": "Peppermint Matcha Latte",
@@ -8996,7 +8996,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$6.50"
         },
         {
           "name": "Peppermint Mocha, 16 oz",
@@ -9006,7 +9006,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$6.50"
         },
         {
           "name": "Pumpkin Chai Latte",
@@ -9016,7 +9016,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$6.50"
         },
         {
           "name": "Pumpkin Latte, 16 oz",
@@ -9025,7 +9025,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$5.95"
         },
         {
           "name": "Raspberry White Mocha, 16 oz",
@@ -9035,7 +9035,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$6.50"
         },
         {
           "name": "Strawberry Matcha Latte",
@@ -9044,7 +9044,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$6.50"
         },
         {
           "name": "Tea Latte",
@@ -9053,7 +9053,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$5.95"
         },
         {
           "name": "Vanilla Latte, Double",
@@ -9063,7 +9063,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$5.75"
         },
         {
           "name": "Vanilla Latte, Single",
@@ -9083,7 +9083,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$6.25"
         },
         {
           "name": "Whipped Cream",
@@ -9092,7 +9092,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$0.50"
         },
         {
           "name": "White Mocha, Double",
@@ -9102,7 +9102,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$6.25"
         },
         {
           "name": "White Mocha, Single",
@@ -9112,7 +9112,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$5.75"
         },
         {
           "name": "White Mocha, Triple",
@@ -9122,7 +9122,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$6.75"
         },
         {
           "name": "Iced Horchata",
@@ -9133,7 +9133,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$5.75"
         },
         {
           "name": "Iced Taro",
@@ -9144,7 +9144,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$5.25"
+          "price": "$5.75"
         },
         {
           "name": "Italian Soda",
@@ -9160,7 +9160,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$6.50"
         },
         {
           "name": "Natural Energy Starfruit Spritzer",
@@ -9168,7 +9168,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$6.50"
         },
         {
           "name": "Slug Boost Ricky",
@@ -9176,7 +9176,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$6.50"
         },
         {
           "name": "Slug Boost Summertime",
@@ -9184,7 +9184,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$6.50"
         },
         {
           "name": "Slug Boost Tropical Sunset",
@@ -9192,7 +9192,7 @@
             "VG",
             "GF"
           ],
-          "price": "$5.25"
+          "price": "$6.50"
         }
       ]
     },
@@ -9236,7 +9236,7 @@
             "WHEAT",
             "BEEF"
           ],
-          "price": "$7.00"
+          "price": "$5.50"
         },
         {
           "name": "Taco A-Go Go, OG Cheesy",
@@ -9246,7 +9246,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$4.50"
         },
         {
           "name": "Taco A-Go Go, Smokey the Bird",
@@ -9263,7 +9263,7 @@
             "VG",
             "WHEAT"
           ],
-          "price": "$7.00"
+          "price": "$2.85"
         },
         {
           "name": "Cinnamon Raisin Bagelry Bagel",
@@ -9271,7 +9271,7 @@
             "VG",
             "WHEAT"
           ],
-          "price": "$7.00"
+          "price": "$2.85"
         },
         {
           "name": "Cream Cheese pck",
@@ -9280,7 +9280,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$1.25"
         },
         {
           "name": "Everything Bagelry Bagel",
@@ -9289,7 +9289,7 @@
             "SESAME",
             "WHEAT"
           ],
-          "price": "$7.00"
+          "price": "$2.85"
         },
         {
           "name": "Jalapeno Cheese Bagelry Bagel",
@@ -9298,7 +9298,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$7.00"
+          "price": "$2.85"
         },
         {
           "name": "Pesto Bagelry Bagel",
@@ -9307,7 +9307,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$7.00"
+          "price": "$2.85"
         },
         {
           "name": "Plain Bagelry Bagel",
@@ -9315,7 +9315,7 @@
             "VG",
             "WHEAT"
           ],
-          "price": "$7.00"
+          "price": "$2.85"
         },
         {
           "name": "Tomato Basil Bagelry Bagel",
@@ -9323,7 +9323,7 @@
             "VG",
             "WHEAT"
           ],
-          "price": "$7.00"
+          "price": "$2.85"
         },
         {
           "name": "Banana Chocolate Chip Muffin",
@@ -9335,7 +9335,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$7.00"
+          "price": "$4.75"
         },
         {
           "name": "Chocolate Croissant",
@@ -9347,7 +9347,7 @@
             "TREENUT",
             "WHEAT"
           ],
-          "price": "$7.00"
+          "price": "$5.25"
         },
         {
           "name": "Croissant",
@@ -9357,7 +9357,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$7.00"
+          "price": "$4.25"
         },
         {
           "name": "Ham & Provolone Croissant",
@@ -9366,7 +9366,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$7.00"
+          "price": "$6.75"
         },
         {
           "name": "Lemon Poppyseed Muffin",
@@ -9378,7 +9378,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$7.00"
+          "price": "$4.75"
         },
         {
           "name": "Mint and Chocolate Chip Cookie",
@@ -9389,7 +9389,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$7.00"
+          "price": "$2.95"
         },
         {
           "name": "Vegan Chocolate Chip Cookies",
@@ -9399,7 +9399,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$7.00"
+          "price": "$2.95"
         },
         {
           "name": "Frozen Caramel Latte",
@@ -9409,7 +9409,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.75"
         },
         {
           "name": "Frozen Cookies & Cream",
@@ -9419,7 +9419,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$7.00"
+          "price": "$6.75"
         },
         {
           "name": "Frozen Espresso Cookies & Cream",
@@ -9429,7 +9429,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$7.00"
+          "price": "$6.75"
         },
         {
           "name": "Frozen Latte",
@@ -9438,7 +9438,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.75"
         },
         {
           "name": "Frozen Matcha",
@@ -9447,7 +9447,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.75"
         },
         {
           "name": "Frozen Mocha",
@@ -9457,7 +9457,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$7.00"
+          "price": "$6.75"
         },
         {
           "name": "Lemonade Cream Smoothie",
@@ -9466,7 +9466,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.75"
         },
         {
           "name": "Lemonade Smoothie",
@@ -9475,7 +9475,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.75"
         },
         {
           "name": "Mango Cream Smoothie",
@@ -9484,7 +9484,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.75"
         },
         {
           "name": "Mango Fruit Smoothie",
@@ -9493,7 +9493,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.75"
         },
         {
           "name": "Raspberry Cream Smoothie",
@@ -9502,7 +9502,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.75"
         },
         {
           "name": "Raspberry Fruit Smoothie",
@@ -9511,7 +9511,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.75"
         },
         {
           "name": "Raspberry Lemonade Smoothie",
@@ -9520,7 +9520,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.75"
         },
         {
           "name": "Strawberry Cream Smoothie",
@@ -9529,7 +9529,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.75"
         },
         {
           "name": "Strawberry Fruit Smoothie",
@@ -9538,7 +9538,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.75"
         },
         {
           "name": "Strawberry Lemonade Smoothie",
@@ -9547,7 +9547,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.75"
         },
         {
           "name": "Americano 12oz",
@@ -9555,7 +9555,7 @@
             "VG",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$3.85"
         },
         {
           "name": "Americano 16oz",
@@ -9563,7 +9563,7 @@
             "VG",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$4.05"
         },
         {
           "name": "Americano 20 oz",
@@ -9571,7 +9571,7 @@
             "VG",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$4.65"
         },
         {
           "name": "Cappuccino, Single",
@@ -9580,7 +9580,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$4.50"
         },
         {
           "name": "Cappucino, Double",
@@ -9589,7 +9589,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$5.00"
         },
         {
           "name": "Caramel Latte, Double",
@@ -9599,7 +9599,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$5.75"
         },
         {
           "name": "Caramel Latte, Single",
@@ -9609,7 +9609,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$5.25"
         },
         {
           "name": "Caramel Latte, Triple",
@@ -9619,7 +9619,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.25"
         },
         {
           "name": "Chai Latte",
@@ -9629,7 +9629,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$7.00"
+          "price": "$5.95"
         },
         {
           "name": "Espresso",
@@ -9637,7 +9637,7 @@
             "VG",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$1.25"
         },
         {
           "name": "Espresso, Double Shot",
@@ -9645,7 +9645,7 @@
             "VG",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$3.75"
         },
         {
           "name": "Espresso, Single Shot",
@@ -9653,7 +9653,7 @@
             "VG",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$3.25"
         },
         {
           "name": "Espresso, Triple Shot",
@@ -9661,7 +9661,7 @@
             "VG",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$4.25"
         },
         {
           "name": "Hazelnut Latte, Double",
@@ -9671,7 +9671,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$5.75"
         },
         {
           "name": "Hazelnut Latte, Single",
@@ -9681,7 +9681,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$5.25"
         },
         {
           "name": "Hazelnut Latte, Triple",
@@ -9691,7 +9691,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.25"
         },
         {
           "name": "Hot Chocolate",
@@ -9701,7 +9701,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$7.00"
+          "price": "$4.95"
         },
         {
           "name": "Hot Tea",
@@ -9709,7 +9709,7 @@
             "VG",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$3.50"
         },
         {
           "name": "Latte, Double",
@@ -9718,7 +9718,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$5.25"
         },
         {
           "name": "Latte, Single",
@@ -9727,7 +9727,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$4.75"
         },
         {
           "name": "Latte, Triple",
@@ -9736,7 +9736,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$5.75"
         },
         {
           "name": "Matcha Green Tea Latte",
@@ -9745,7 +9745,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.25"
         },
         {
           "name": "Mocha, Double",
@@ -9755,7 +9755,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$7.00"
+          "price": "$6.00"
         },
         {
           "name": "Mocha, Single",
@@ -9765,7 +9765,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$7.00"
+          "price": "$5.50"
         },
         {
           "name": "Mocha, Triple",
@@ -9775,7 +9775,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$7.00"
+          "price": "$6.50"
         },
         {
           "name": "Tea Latte",
@@ -9784,7 +9784,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$5.95"
         },
         {
           "name": "Vanilla Latte, Double",
@@ -9794,7 +9794,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$7.00"
+          "price": "$5.75"
         },
         {
           "name": "Vanilla Latte, Single",
@@ -9804,7 +9804,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$7.00"
+          "price": "$5.25"
         },
         {
           "name": "Vanilla Latte, Triple",
@@ -9814,7 +9814,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$7.00"
+          "price": "$6.25"
         },
         {
           "name": "Whipped Cream",
@@ -9823,7 +9823,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$0.50"
         },
         {
           "name": "White Mocha, Double",
@@ -9833,7 +9833,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.25"
         },
         {
           "name": "White Mocha, Single",
@@ -9843,7 +9843,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$5.75"
         },
         {
           "name": "White Mocha, Triple",
@@ -9853,7 +9853,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.75"
         },
         {
           "name": "Iced Horchata",
@@ -9864,7 +9864,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$7.00"
+          "price": "$5.75"
         },
         {
           "name": "Iced Taro",
@@ -9875,7 +9875,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$7.00"
+          "price": "$5.50"
         },
         {
           "name": "Italian Soda",
@@ -9883,7 +9883,7 @@
             "VG",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$5.25"
         },
         {
           "name": "Matcha Green Tea Latte",
@@ -9892,7 +9892,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.50"
         },
         {
           "name": "Natural Energy Dragon Fruit Spritzer",
@@ -9900,7 +9900,7 @@
             "VG",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.50"
         },
         {
           "name": "Natural Energy Starfruit Spritzer",
@@ -9908,7 +9908,7 @@
             "VG",
             "GF"
           ],
-          "price": "$7.00"
+          "price": "$6.50"
         }
       ]
     },
@@ -9937,7 +9937,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$1.25"
         },
         {
           "name": "Everything Bagelry Bagel",
@@ -9992,7 +9992,7 @@
             "TREENUT",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$1.50"
         },
         {
           "name": "Matcha Mini Beignet",
@@ -10002,7 +10002,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$1.50"
         },
         {
           "name": "Raspberry Mini Beignet",
@@ -10012,7 +10012,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$1.50"
         },
         {
           "name": "Yuzu Mini Beignet",
@@ -10022,7 +10022,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$1.50"
         },
         {
           "name": "Banana Chocolate Chip Muffin",
@@ -10034,7 +10034,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$4.75"
         },
         {
           "name": "Chocolate Croissant",
@@ -10046,7 +10046,7 @@
             "TREENUT",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Croissant",
@@ -10056,7 +10056,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$4.25"
         },
         {
           "name": "Ham & Provolone Croissant",
@@ -10065,7 +10065,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Lemon Poppyseed Muffin",
@@ -10077,7 +10077,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$4.75"
         },
         {
           "name": "Mint and Chocolate Chip Cookie",
@@ -10088,7 +10088,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$2.95"
         },
         {
           "name": "Vegan Chocolate Chip Cookies",
@@ -10098,7 +10098,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$2.95"
         },
         {
           "name": "Frozen Caramel Latte",
@@ -10108,7 +10108,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Frozen Cookies & Cream",
@@ -10118,7 +10118,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Frozen Espresso Cookies & Cream",
@@ -10128,7 +10128,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Frozen Latte",
@@ -10137,7 +10137,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Frozen Matcha",
@@ -10146,7 +10146,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Frozen Mocha",
@@ -10156,7 +10156,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Iced Horchata",
@@ -10167,7 +10167,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$4.95"
         },
         {
           "name": "Iced Taro",
@@ -10178,7 +10178,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$4.95"
         },
         {
           "name": "Italian Soda",
@@ -10186,7 +10186,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Lemonade Cream Smoothie",
@@ -10195,7 +10195,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Lemonade Smoothie",
@@ -10204,7 +10204,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Mango Cream Smoothie",
@@ -10213,7 +10213,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Mango Fruit Smoothie",
@@ -10222,7 +10222,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Matcha Green Tea Latte",
@@ -10231,7 +10231,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "Raspberry Cream Smoothie",
@@ -10240,7 +10240,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Raspberry Fruit Smoothie",
@@ -10249,7 +10249,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Raspberry Lemonade Smoothie",
@@ -10258,7 +10258,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Strawberry Cream Smoothie",
@@ -10267,7 +10267,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Strawberry Fruit Smoothie",
@@ -10276,7 +10276,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Strawberry Lemonade Smoothie",
@@ -10285,7 +10285,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Americano 12oz",
@@ -10293,7 +10293,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$3.85"
         },
         {
           "name": "Americano 16oz",
@@ -10301,7 +10301,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.05"
         },
         {
           "name": "Americano 20 oz",
@@ -10309,7 +10309,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.65"
         },
         {
           "name": "Cappuccino, Single",
@@ -10318,7 +10318,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.50"
         },
         {
           "name": "Cappucino, Double",
@@ -10327,7 +10327,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.00"
         },
         {
           "name": "Caramel Latte, Double",
@@ -10337,7 +10337,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Caramel Latte, Single",
@@ -10347,7 +10347,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Caramel Latte, Triple",
@@ -10357,7 +10357,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "Chai Latte",
@@ -10367,7 +10367,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.95"
         },
         {
           "name": "Espresso",
@@ -10375,7 +10375,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$1.25"
         },
         {
           "name": "Espresso, Double Shot",
@@ -10383,7 +10383,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$3.75"
         },
         {
           "name": "Espresso, Single Shot",
@@ -10391,7 +10391,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$3.25"
         },
         {
           "name": "Espresso, Triple Shot",
@@ -10399,7 +10399,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.25"
         },
         {
           "name": "Hazelnut Latte, Double",
@@ -10409,7 +10409,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Hazelnut Latte, Single",
@@ -10419,7 +10419,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Hazelnut Latte, Triple",
@@ -10429,7 +10429,7 @@
             "TREENUT",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "Hot Chocolate",
@@ -10439,7 +10439,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$4.95"
         },
         {
           "name": "Hot Tea",
@@ -10447,7 +10447,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$3.50"
         },
         {
           "name": "Latte, Double",
@@ -10456,7 +10456,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Latte, Single",
@@ -10465,7 +10465,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$4.75"
         },
         {
           "name": "Latte, Triple",
@@ -10474,7 +10474,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Mocha, Double",
@@ -10484,7 +10484,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.00"
         },
         {
           "name": "Mocha, Single",
@@ -10494,7 +10494,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.50"
         },
         {
           "name": "Mocha, Triple",
@@ -10504,7 +10504,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Pumpkin Latte, 16 oz",
@@ -10513,7 +10513,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.95"
         },
         {
           "name": "Tea Latte",
@@ -10522,7 +10522,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.95"
         },
         {
           "name": "Vanilla Latte, Double",
@@ -10532,7 +10532,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Vanilla Latte, Single",
@@ -10542,7 +10542,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Vanilla Latte, Triple",
@@ -10552,7 +10552,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "Whipped Cream",
@@ -10561,7 +10561,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$0.50"
         },
         {
           "name": "White Mocha, Double",
@@ -10571,7 +10571,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.25"
         },
         {
           "name": "White Mocha, Single",
@@ -10581,7 +10581,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "White Mocha, Triple",
@@ -10591,7 +10591,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.75"
         },
         {
           "name": "Iced Horchata",
@@ -10602,7 +10602,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.75"
         },
         {
           "name": "Iced Taro",
@@ -10613,7 +10613,7 @@
             "GF",
             "ALC"
           ],
-          "price": "$2.85"
+          "price": "$5.50"
         },
         {
           "name": "Italian Soda",
@@ -10621,7 +10621,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$5.25"
         },
         {
           "name": "Matcha Green Tea Latte",
@@ -10630,7 +10630,7 @@
             "DAIRY",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Natural Energy Dragon Fruit Spritzer",
@@ -10638,7 +10638,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Natural Energy Starfruit Spritzer",
@@ -10646,7 +10646,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Slug Boost Ricky",
@@ -10654,7 +10654,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Slug Boost Summertime",
@@ -10662,7 +10662,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         },
         {
           "name": "Slug Boost Tropical Sunset",
@@ -10670,7 +10670,7 @@
             "VG",
             "GF"
           ],
-          "price": "$2.85"
+          "price": "$6.50"
         }
       ]
     }
