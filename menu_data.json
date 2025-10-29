@@ -2659,6 +2659,14 @@
           "price": null
         },
         {
+          "name": "Regular Cut Fries",
+          "dietary_restrictions": [
+            "V",
+            "SOY"
+          ],
+          "price": null
+        },
+        {
           "name": "Roasted Garlic Dijon Mayonnaise",
           "dietary_restrictions": [
             "VG",
@@ -2670,14 +2678,6 @@
         {
           "name": "Stack Haus Burger Bar",
           "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Steak Cut Fries",
-          "dietary_restrictions": [
-            "V",
-            "SOY"
-          ],
           "price": null
         },
         {
