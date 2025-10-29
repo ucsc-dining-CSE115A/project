@@ -26,7 +26,7 @@
 
 /* Choose Dining Hall Button - Updated to dark blue theme #003C6C */
 .choose-dining-hall-button {
-  padding: 20px 40px;
+  padding: 10px 20px;
   background: #003C6C;
   color: #fff;
   border: none;
@@ -36,7 +36,8 @@
   cursor: pointer;
   box-shadow: 0 4px 12px rgba(0, 60, 108, 0.3);
   transition: all 0.3s ease;
-  margin-top: 20px;
+  margin-top: 75px;
+  margin-left: 300px;
   display: block;
 }
 
