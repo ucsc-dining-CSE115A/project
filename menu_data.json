@@ -2483,14 +2483,6 @@
           "price": null
         },
         {
-          "name": "Crispy Bacon",
-          "dietary_restrictions": [
-            "PORK",
-            "GF"
-          ],
-          "price": null
-        },
-        {
           "name": "Harissa Potatoes",
           "dietary_restrictions": [
             "VG",
@@ -2507,6 +2499,13 @@
             "DAIRY",
             "WHEAT",
             "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Turkey Sausage Patties",
+          "dietary_restrictions": [
+            "GF"
           ],
           "price": null
         },
