@@ -24,7 +24,11 @@
 
 /* Dining Halls Title */
 .dining-halls-page-title {
-  font-size: 1.875rem; /* text-3xl */
+  border: 2px solid rgba(253, 213, 75);
+  padding: 0rem 0.5rem; /* py-2 px-4 */
+  width: fit-content;
+  color: rgba(253, 213, 75);
+  font-size: 1rem; /* text-3xl */
   font-weight: 700; /* font-bold */
   margin-bottom: 2rem; /* mb-8 */
   margin-top: 1rem;
