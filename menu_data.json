@@ -729,18 +729,9 @@
       ],
       "Lunch": [
         {
-          "name": "Garden Vegetable Soup",
+          "name": "Organic Kale and Sweet Potato Soup",
           "dietary_restrictions": [
             "VG",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Sweet & Sour Mushroom Soup",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
             "GF"
           ],
           "price": null
@@ -764,7 +755,15 @@
           "price": null
         },
         {
-          "name": "Roasted Asparagus",
+          "name": "Sauteed Garlic Kale",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Steamed Bok Choy",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -776,25 +775,6 @@
           "dietary_restrictions": [
             "VG",
             "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cheese Quesadilla",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "DAIRY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Mushroom Spinach Quesadilla",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT"
           ],
           "price": null
         },
