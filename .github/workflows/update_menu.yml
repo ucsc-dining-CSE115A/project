@@ -43,7 +43,7 @@ jobs:
       - name: Install Python deps
         run: |
           python -m pip install --upgrade pip
-          pip install selenium webdriver-manager
+          pip install selenium webdriver-manager beautifulsoup4
 
       - name: Run scraper (headless)
         env:
@@ -68,7 +68,7 @@ jobs:
             echo "No changes"
             exit 0
           fi
-          BRANCH="$(git rev-parse --abbrev-ref HEAD)"
-          echo "Current branch: $BRANCH"
+          TARGET_BRANCH="main"
+          echo "Pushing to branch: $TARGET_BRANCH"
           git commit -m "Update menu_data.json [skip ci]"
-          git push "https://x-access-token:${GH_PAT}@github.com/${GH_REPO}.git" "HEAD:${BRANCH}"
+          git push "https://x-access-token:${GH_PAT}@github.com/${GH_REPO}.git" "HEAD:${TARGET_BRANCH}"
