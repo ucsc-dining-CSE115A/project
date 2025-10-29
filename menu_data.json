@@ -472,21 +472,21 @@
           "price": null
         },
         {
+          "name": "Bolognese Sauce",
+          "dietary_restrictions": [
+            "BEEF",
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
           "name": "Focaccia Breadsticks",
           "dietary_restrictions": [
             "VG",
             "SOY",
             "SESAME",
             "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Housemade Creamy Alfredo Sauce",
-          "dietary_restrictions": [
-            "V",
-            "DAIRY",
-            "GF"
           ],
           "price": null
         },
