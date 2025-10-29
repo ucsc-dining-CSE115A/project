@@ -1,41 +1,43 @@
 import { Link } from 'react-router-dom';
 
 function Home() {
+  // Map display names to actual JSON keys
   const diningHalls = [
-    'JRL/C9',
-    'Cowell/Stevenson',
-    'Crown/Merrill',
-    'Porter/Kresge',
-    'RC/Oakes'
+    { display: 'JRL/C9', key: 'John R. Lewis & College Nine Dining Hall' },
+    { display: 'Cowell/Stevenson', key: 'Cowell & Stevenson Dining Hall' },
+    { display: 'Crown/Merrill', key: 'Crown & Merrill Dining Hall' },
+    { display: 'Porter/Kresge', key: 'Porter & Kresge Dining Hall' },
+    { display: 'RC/Oakes', key: 'Rachel Carson & Oakes Dining Hall' }
   ];
-  const cafes = [
-    'Oakes Cafe',
-    'Global Village Cafe',
-    'Owl\'s Nest Cafe',
-    'Stevenson Coffee House',
-    'Perk Coffee Bar',
-    'Banana Joe\'s Cafe'
 
-  ]
+  const cafes = [
+    { display: 'Oakes Cafe', key: 'Oakes Cafe' },
+    { display: 'Global Village Cafe', key: 'Global Village Cafe' },
+    { display: 'Owl\'s Nest Cafe', key: 'Owl\'s Nest Cafe' },
+    { display: 'Stevenson Coffee House', key: 'Stevenson Coffee House' },
+    { display: 'Perk Coffee Bar', key: 'Perk Coffee Bar' },
+    { display: 'Banana Joe\'s Cafe', key: 'Banana Joe\'s Cafe' }
+  ];
 
   return (
     <div className="home-container">
       <h1 className="dining-halls-page-title">Dining Halls</h1>
       <div className="dining-halls-grid">
         {diningHalls.map((hall, index) => (
-          <Link key={index} to={`/menu/${hall}`}>
+          <Link key={index} to={`/menu/${encodeURIComponent(hall.key)}`}>
             <div className="dining-hall-card">
-              <h2>{hall}</h2>
+              <h2>{hall.display}</h2>
             </div>
           </Link>
         ))}
       </div>
-      <div className="dining-halls-page-title">Cafes</div>
+      
+      <h1 className="dining-halls-page-title">Cafes</h1>
       <div className="dining-halls-grid">
         {cafes.map((cafe, index) => (
-          <Link key={index} to={`/menu/${cafe}`}>
+          <Link key={index} to={`/menu/${encodeURIComponent(cafe.key)}`}>
             <div className="dining-hall-card">
-              <h2>{cafe}</h2>
+              <h2>{cafe.display}</h2>
             </div>
           </Link>
         ))}

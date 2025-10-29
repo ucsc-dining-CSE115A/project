@@ -17,7 +17,7 @@ const MenuCard = ({ itemName, dietaryRestrictions, price }) => {
           }
         </p>
         {/* Display price if available */}
-        {price && <p className="menu-card-price">${price}</p>}
+        {price && <p className="menu-card-price">{price}</p>}
       </div>
     </div>
   );
