@@ -2154,6 +2154,14 @@
           "price": null
         },
         {
+          "name": "Available Upon Request: Gluten Free Rotini Pasta",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
           "name": "Beef Bolognese Baked Pasta",
           "dietary_restrictions": [
             "DAIRY",
