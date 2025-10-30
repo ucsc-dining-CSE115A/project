@@ -793,15 +793,6 @@
       ],
       "Lunch": [
         {
-          "name": "Spicy Red Beans and Vegetables",
-          "dietary_restrictions": [
-            "VG",
-            "GF",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
           "name": "Chipotle Cuban Black Bean Soup",
           "dietary_restrictions": [
             "VG",
@@ -928,14 +919,6 @@
           "price": null
         },
         {
-          "name": "Hot Honey",
-          "dietary_restrictions": [
-            "V",
-            "GF"
-          ],
-          "price": null
-        },
-        {
           "name": "Mac and Cheese Bar",
           "dietary_restrictions": [],
           "price": null
@@ -947,6 +930,15 @@
             "DAIRY",
             "FISH",
             "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Spicy Red Beans and Vegetables",
+          "dietary_restrictions": [
+            "VG",
+            "GF",
+            "ALC"
           ],
           "price": null
         },
