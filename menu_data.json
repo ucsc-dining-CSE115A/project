@@ -1152,12 +1152,13 @@
       ],
       "Late Night": [
         {
-          "name": "Vietnamese Pork Banh Mi Sandwich",
+          "name": "Kickin' Chicken Sandwich",
           "dietary_restrictions": [
             "SOY",
             "SESAME",
+            "DAIRY",
             "WHEAT",
-            "PORK"
+            "HALAL"
           ],
           "price": null
         },
