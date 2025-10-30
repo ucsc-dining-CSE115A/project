@@ -2043,10 +2043,11 @@
       ],
       "Lunch": [
         {
-          "name": "Chicken Soup Tlalpan",
+          "name": "Chicken Noodle Soup",
           "dietary_restrictions": [
-            "GF",
-            "ALC"
+            "SOY",
+            "EGG",
+            "WHEAT"
           ],
           "price": null
         },
