@@ -1517,6 +1517,30 @@
           "price": null
         },
         {
+          "name": "Cheese Pizza",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Ham And Pineapple Pizza",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT",
+            "PORK"
+          ],
+          "price": null
+        },
+        {
           "name": "Allergen Free Halal Chicken Thigh",
           "dietary_restrictions": [
             "GF",
@@ -2046,6 +2070,14 @@
           "name": "Chicken Noodle Soup",
           "dietary_restrictions": [
             "SOY",
+            "EGG",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Chicken Spaetzle Soup",
+          "dietary_restrictions": [
             "EGG",
             "WHEAT"
           ],
