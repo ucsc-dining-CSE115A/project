@@ -1552,6 +1552,16 @@
           "price": null
         },
         {
+          "name": "Cheese Ravioli",
+          "dietary_restrictions": [
+            "V",
+            "EGG",
+            "DAIRY",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
           "name": "Italian Roasted Squash and Carrots",
           "dietary_restrictions": [
             "VG",
@@ -1575,14 +1585,6 @@
             "DAIRY",
             "WHEAT",
             "BEEF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Spaghetti Noodles",
-          "dietary_restrictions": [
-            "VG",
-            "WHEAT"
           ],
           "price": null
         },
@@ -2730,16 +2732,6 @@
           "price": null
         },
         {
-          "name": "Pacific Cookie Co. Vegan Dr. Midnight Cookies",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
           "name": "Vegan Brownie",
           "dietary_restrictions": [
             "VG",
@@ -2914,10 +2906,9 @@
           "price": null
         },
         {
-          "name": "Pacific Cookie Co. Vegan Dr. Midnight Cookies",
+          "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
           "dietary_restrictions": [
             "VG",
-            "SOY",
             "WHEAT",
             "ALC"
           ],
