@@ -911,22 +911,6 @@
           "price": null
         },
         {
-          "name": "Baked Beans",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Buffalo Wing Sauce",
-          "dietary_restrictions": [
-            "DAIRY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
           "name": "Chili Crisp",
           "dietary_restrictions": [
             "VG",
@@ -935,9 +919,26 @@
           "price": null
         },
         {
+          "name": "Harissa Tofu",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
           "name": "Hot Honey",
           "dietary_restrictions": [
             "V",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Kimchi Fried Rice",
+          "dietary_restrictions": [
+            "VG",
             "GF"
           ],
           "price": null
@@ -958,16 +959,15 @@
           "price": null
         },
         {
-          "name": "Popcorn Shrimp",
+          "name": "Steamed Broccoli",
           "dietary_restrictions": [
-            "SOY",
-            "SHELLFISH",
-            "WHEAT"
+            "VG",
+            "GF"
           ],
           "price": null
         },
         {
-          "name": "Steamed Broccoli",
+          "name": "Steamed Brown Rice",
           "dietary_restrictions": [
             "VG",
             "GF"
