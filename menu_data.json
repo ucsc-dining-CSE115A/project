@@ -975,6 +975,84 @@
           "name": "Salad Bar",
           "dietary_restrictions": [],
           "price": null
+        },
+        {
+          "name": "Char Siu Gardein",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "SESAME",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Char Siu Sauce",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "SESAME",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Chickpea Harira",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Ginger Garlic Chicken",
+          "dietary_restrictions": [
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
+          "name": "Ginger Garlic Tofu",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Kickin' Chicken Sandwich",
+          "dietary_restrictions": [
+            "SOY",
+            "SESAME",
+            "DAIRY",
+            "WHEAT",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
+          "name": "Sesame Yakisoba Noodles",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "SESAME",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Stir Fry Vegetables",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "SESAME",
+            "GF"
+          ],
+          "price": null
         }
       ],
       "Dinner": [
