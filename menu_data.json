@@ -361,30 +361,6 @@
           "price": null
         },
         {
-          "name": "Cheese Pizza",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Street Corn Pizza with Bacon",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT",
-            "PORK"
-          ],
-          "price": null
-        },
-        {
           "name": "Allergen Free Halal Chicken Thigh",
           "dietary_restrictions": [
             "GF",
@@ -1271,14 +1247,6 @@
             "SESAME",
             "WHEAT",
             "BEEF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Pickled Red Onions",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
           ],
           "price": null
         },
