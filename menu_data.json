@@ -689,6 +689,14 @@
           "price": null
         },
         {
+          "name": "Crispy Bacon",
+          "dietary_restrictions": [
+            "PORK",
+            "GF"
+          ],
+          "price": null
+        },
+        {
           "name": "Hard-boiled Cage Free Egg (1)",
           "dietary_restrictions": [
             "V",
@@ -714,10 +722,10 @@
           "price": null
         },
         {
-          "name": "Spicy Gold Potatoes",
+          "name": "Tater Tots",
           "dietary_restrictions": [
-            "VG",
-            "GF"
+            "V",
+            "SOY"
           ],
           "price": null
         },
