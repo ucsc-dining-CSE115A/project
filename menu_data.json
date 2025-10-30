@@ -2675,6 +2675,14 @@
           "price": null
         },
         {
+          "name": "Roasted Cauliflower",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
           "name": "Steamed Brown Rice",
           "dietary_restrictions": [
             "VG",
@@ -2764,13 +2772,14 @@
           "price": null
         },
         {
-          "name": "Linguisa Pizza",
+          "name": "Pepperoni Pizza",
           "dietary_restrictions": [
             "SOY",
             "EGG",
             "DAIRY",
             "SESAME",
             "WHEAT",
+            "BEEF",
             "PORK"
           ],
           "price": null
@@ -2988,13 +2997,14 @@
           "price": null
         },
         {
-          "name": "Linguisa Pizza",
+          "name": "Pepperoni Pizza",
           "dietary_restrictions": [
             "SOY",
             "EGG",
             "DAIRY",
             "SESAME",
             "WHEAT",
+            "BEEF",
             "PORK"
           ],
           "price": null
