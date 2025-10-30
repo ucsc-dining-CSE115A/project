@@ -793,6 +793,15 @@
       ],
       "Lunch": [
         {
+          "name": "Spicy Red Beans and Vegetables",
+          "dietary_restrictions": [
+            "VG",
+            "GF",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
           "name": "Chipotle Cuban Black Bean Soup",
           "dietary_restrictions": [
             "VG",
@@ -819,7 +828,15 @@
           "price": null
         },
         {
-          "name": "Roasted Brussels Sprouts",
+          "name": "Kimchi Fried Rice",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Sauteed Garlic Kale",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -911,34 +928,9 @@
           "price": null
         },
         {
-          "name": "Chili Crisp",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Harissa Tofu",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
           "name": "Hot Honey",
           "dietary_restrictions": [
             "V",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Kimchi Fried Rice",
-          "dietary_restrictions": [
-            "VG",
             "GF"
           ],
           "price": null
