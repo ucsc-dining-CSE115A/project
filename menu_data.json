@@ -1389,6 +1389,18 @@
           "price": null
         },
         {
+          "name": "Veggie Supreme Pizza",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
           "name": "Allergen Free Halal Chicken Thigh",
           "dietary_restrictions": [
             "GF",
