@@ -315,19 +315,18 @@
       ],
       "Dinner": [
         {
-          "name": "New England Clam Chowder",
+          "name": "Chicken Tortilla Soup",
           "dietary_restrictions": [
-            "DAIRY",
-            "SHELLFISH",
+            "SOY",
             "GF"
           ],
           "price": null
         },
         {
-          "name": "Organic Vegan Chili",
+          "name": "Mushroom & Barley Soup",
           "dietary_restrictions": [
             "VG",
-            "GF"
+            "WHEAT"
           ],
           "price": null
         },
@@ -488,15 +487,6 @@
           "price": null
         },
         {
-          "name": "Pao Bhaji",
-          "dietary_restrictions": [
-            "V",
-            "DAIRY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
           "name": "Steamed Basmati Rice",
           "dietary_restrictions": [
             "VG",
@@ -508,6 +498,15 @@
           "name": "Tarka Dal",
           "dietary_restrictions": [
             "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Tofu Vindaloo",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
             "GF"
           ],
           "price": null
