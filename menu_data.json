@@ -1461,48 +1461,16 @@
       ],
       "Dinner": [
         {
-          "name": "New England Clam Chowder",
+          "name": "Chicken Noodle Soup",
           "dietary_restrictions": [
-            "DAIRY",
-            "SHELLFISH",
-            "GF"
+            "SOY",
+            "EGG",
+            "WHEAT"
           ],
           "price": null
         },
         {
           "name": "Three Sisters Crave Soup",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Local Lingcod Puttanesca",
-          "dietary_restrictions": [
-            "FISH",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Rice Pilaf",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Roasted Balsamic Vegetables",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Italian White Beans",
           "dietary_restrictions": [
             "VG",
             "GF"
