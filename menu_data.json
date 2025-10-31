@@ -503,7 +503,7 @@
           "price": null
         },
         {
-          "name": "Malfouf (Middle Eastern Cole Slaw)",
+          "name": "Steamed Rice",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -589,14 +589,6 @@
           "price": null
         },
         {
-          "name": "Cilantro Slaw",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
           "name": "Condiments",
           "dietary_restrictions": [],
           "price": null
@@ -615,19 +607,19 @@
           "price": null
         },
         {
-          "name": "Tempeh Roasted with Chorizo Spice",
+          "name": "Tortilla Chips",
           "dietary_restrictions": [
             "VG",
-            "SOY",
             "GF"
           ],
           "price": null
         },
         {
-          "name": "Tortilla Chips",
+          "name": "Vegan Chipotle Gardein",
           "dietary_restrictions": [
             "VG",
-            "GF"
+            "SOY",
+            "WHEAT"
           ],
           "price": null
         },
