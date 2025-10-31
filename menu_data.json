@@ -132,19 +132,18 @@
       ],
       "Lunch": [
         {
-          "name": "New England Clam Chowder",
+          "name": "Chicken Tortilla Soup",
           "dietary_restrictions": [
-            "DAIRY",
-            "SHELLFISH",
+            "SOY",
             "GF"
           ],
           "price": null
         },
         {
-          "name": "Organic Vegan Chili",
+          "name": "Mushroom & Barley Soup",
           "dietary_restrictions": [
             "VG",
-            "GF"
+            "WHEAT"
           ],
           "price": null
         },
@@ -166,10 +165,9 @@
           "price": null
         },
         {
-          "name": "Creamy Mashed Yukon Golds",
+          "name": "Lime Cilantro Basmati Rice",
           "dietary_restrictions": [
-            "V",
-            "DAIRY",
+            "VG",
             "GF"
           ],
           "price": null
@@ -281,16 +279,18 @@
           "price": null
         },
         {
-          "name": "Lime Cilantro Basmati Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
+          "name": "Pacific Rim Fusion Bowl Bar",
+          "dietary_restrictions": [],
           "price": null
         },
         {
-          "name": "Pacific Rim Fusion Bowl Bar",
-          "dietary_restrictions": [],
+          "name": "Pineapple Fried Rice",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "SESAME",
+            "GF"
+          ],
           "price": null
         },
         {
@@ -1340,11 +1340,11 @@
       ],
       "Lunch": [
         {
-          "name": "New England Clam Chowder",
+          "name": "Chicken Noodle Soup",
           "dietary_restrictions": [
-            "DAIRY",
-            "SHELLFISH",
-            "GF"
+            "SOY",
+            "EGG",
+            "WHEAT"
           ],
           "price": null
         },
@@ -1389,7 +1389,7 @@
           "price": null
         },
         {
-          "name": "Veggie Supreme Pizza",
+          "name": "Cheese Pizza",
           "dietary_restrictions": [
             "V",
             "SOY",
@@ -1397,6 +1397,18 @@
             "DAIRY",
             "SESAME",
             "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Ham And Pineapple Pizza",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT",
+            "PORK"
           ],
           "price": null
         },
