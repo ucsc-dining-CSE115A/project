@@ -1780,6 +1780,17 @@
     "Porter & Kresge Dining Hall": {
       "Breakfast": [
         {
+          "name": "Belgian Waffle Squares",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
           "name": "Cage-Free Scrambled Eggs",
           "dietary_restrictions": [
             "V",
@@ -1823,22 +1834,10 @@
           "price": null
         },
         {
-          "name": "Shredded Hash Browns",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Texas French Toast",
+          "name": "Tater Tots",
           "dietary_restrictions": [
             "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
+            "SOY"
           ],
           "price": null
         },
@@ -1904,14 +1903,6 @@
             "V",
             "DAIRY",
             "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Lentil & Lemon Soup",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
           ],
           "price": null
         },
