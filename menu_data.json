@@ -374,32 +374,6 @@
           "price": null
         },
         {
-          "name": "Beef Frank",
-          "dietary_restrictions": [
-            "BEEF",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Hot Dog Bun",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Hot Dog",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
           "name": "Cheese Pizza",
           "dietary_restrictions": [
             "V",
@@ -2103,14 +2077,6 @@
           "price": null
         },
         {
-          "name": "Vegan Italian White Beans",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
           "name": "Deli Bar",
           "dietary_restrictions": [],
           "price": null
@@ -2212,6 +2178,11 @@
             "BEEF",
             "GF"
           ],
+          "price": null
+        },
+        {
+          "name": "Chef Special",
+          "dietary_restrictions": [],
           "price": null
         },
         {
