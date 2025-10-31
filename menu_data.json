@@ -4,6 +4,18 @@
     "John R. Lewis & College Nine Dining Hall": {
       "Breakfast": [
         {
+          "name": "Banana and Coconut Pancakes",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
           "name": "Cage-Free Scrambled Eggs",
           "dietary_restrictions": [
             "V",
@@ -13,9 +25,9 @@
           "price": null
         },
         {
-          "name": "Crispy Bacon",
+          "name": "Coconut Syrup",
           "dietary_restrictions": [
-            "PORK",
+            "VG",
             "GF"
           ],
           "price": null
@@ -38,390 +50,7 @@
           "price": null
         },
         {
-          "name": "Sweet Potato, Black Bean, and Kale Hash",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Texas French Toast",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Triangle Hash Brown Patty",
-          "dietary_restrictions": [
-            "V",
-            "SOY"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Assorted Scones",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Pumpkin Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Three Berry Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        }
-      ],
-      "Lunch": [
-        {
-          "name": "Chicken Noodle Soup",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Garbanzo Sesame Soup",
-          "dietary_restrictions": [
-            "VG",
-            "SESAME",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Caramelized Chipotle Tofu",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Roasted Zucchini and Peppers",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Santa Maria Style Chicken",
-          "dietary_restrictions": [
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cheese Pizza",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Street Corn Pizza with Bacon",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT",
-            "PORK"
-          ],
-          "price": null
-        },
-        {
-          "name": "Allergen Free Halal Chicken Thigh",
-          "dietary_restrictions": [
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Tofu with Kosher Salt",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Pacific Cookie Co. Vegan Dr. Midnight Cookies",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Brownie",
-          "dietary_restrictions": [
-            "VG",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Char Siu Chicken",
-          "dietary_restrictions": [
-            "SOY",
-            "SESAME",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Char Siu Gardein",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Char Siu Sauce",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Condiments",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Sesame Yakisoba Noodles",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Stir Fry Vegetables",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Szechuan Sweet Chili Sauce",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Yakisoba Noodle Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Deli Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Salad Bar",
-          "dietary_restrictions": [],
-          "price": null
-        }
-      ],
-      "Dinner": [
-        {
-          "name": "Chicken Noodle Soup",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Garbanzo Sesame Soup",
-          "dietary_restrictions": [
-            "VG",
-            "SESAME",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "General Tso's Gardein",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "General Tso's Pork",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "SESAME",
-            "WHEAT",
-            "PORK"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Broccoli",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Allergen Free Halal Chicken Thigh",
-          "dietary_restrictions": [
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Tofu with Kosher Salt",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Pacific Cookie Co. Vegan Dr. Midnight Cookies",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Black Forest Cake",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Nutella Hazelnut Cheese Ring",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "TREENUT",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "BBQ Shredded Pork",
+          "name": "Pork Sausage Patties",
           "dietary_restrictions": [
             "PORK",
             "GF"
@@ -429,1003 +58,7 @@
           "price": null
         },
         {
-          "name": "Cajun Coleslaw",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Charro Beans",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Condiments",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Corn Cobbettes",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Jalapeno Corn Cakes",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "DAIRY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Smokehouse BBQ Ribs Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Tempeh Roasted with Chorizo Spice",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Deli Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Salad Bar",
-          "dietary_restrictions": [],
-          "price": null
-        }
-      ],
-      "Late Night": [
-        {
-          "name": "Harissa Tofu",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Za'atar Chicken",
-          "dietary_restrictions": [
-            "SESAME",
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cheese Pizza",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Street Corn Pizza with Bacon",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT",
-            "PORK"
-          ],
-          "price": null
-        },
-        {
-          "name": "Allergen Free Halal Chicken Thigh",
-          "dietary_restrictions": [
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Tofu with Kosher Salt",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Pacific Cookie Co. Vegan Dr. Midnight Cookies",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cheese Sauce",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "DAIRY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Condiments",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Nachos Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Pork Carnitas",
-          "dietary_restrictions": [
-            "PORK",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Tortilla Chips",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Chipotle Gardein",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Refried Beans",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Deli Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Salad Bar",
-          "dietary_restrictions": [],
-          "price": null
-        }
-      ]
-    },
-    "Cowell & Stevenson Dining Hall": {
-      "Breakfast": [
-        {
-          "name": "Buttermilk Pancakes",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Crispy Bacon",
-          "dietary_restrictions": [
-            "PORK",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Hard-boiled Cage Free Egg (1)",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Mexican Chorizo Sausage",
-          "dietary_restrictions": [
-            "PORK",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Organic Gluten-Free Oatmeal",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Tater Tots",
-          "dietary_restrictions": [
-            "V",
-            "SOY"
-          ],
-          "price": null
-        },
-        {
-          "name": "Tempeh, Black Bean, and Potato Hash",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cage-Free Scrambled Eggs",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Assorted Scones",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Pumpkin Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Three Berry Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        }
-      ],
-      "Lunch": [
-        {
-          "name": "Chipotle Cuban Black Bean Soup",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Chicken Adobo",
-          "dietary_restrictions": [
-            "SOY",
-            "GF",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Harissa Tofu",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Kimchi Fried Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Sauteed Garlic Kale",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Brown Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cheese Pizza",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Linguisa Pizza",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT",
-            "PORK"
-          ],
-          "price": null
-        },
-        {
-          "name": "Allergen Free Halal Chicken Thigh",
-          "dietary_restrictions": [
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Tofu with Kosher Salt",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Pacific Cookie Co. Vegan Dr. Midnight Cookies",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Brownie",
-          "dietary_restrictions": [
-            "VG",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "BBQ Shredded Pork",
-          "dietary_restrictions": [
-            "PORK",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Mac and Cheese Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Macaroni & Cheese",
-          "dietary_restrictions": [
-            "SOY",
-            "DAIRY",
-            "FISH",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Spicy Red Beans and Vegetables",
-          "dietary_restrictions": [
-            "VG",
-            "GF",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Broccoli",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Brown Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Macaroni & Cheese",
-          "dietary_restrictions": [
-            "VG",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Deli Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Salad Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Char Siu Gardein",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Char Siu Sauce",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Chickpea Harira",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Ginger Garlic Chicken",
-          "dietary_restrictions": [
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Ginger Garlic Tofu",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Kickin' Chicken Sandwich",
-          "dietary_restrictions": [
-            "SOY",
-            "SESAME",
-            "DAIRY",
-            "WHEAT",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Sesame Yakisoba Noodles",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Stir Fry Vegetables",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "GF"
-          ],
-          "price": null
-        }
-      ],
-      "Dinner": [
-        {
-          "name": "Chipotle Cuban Black Bean Soup",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Garlic Roast Beef",
-          "dietary_restrictions": [
-            "BEEF",
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Harissa Tofu",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Red Parslied Potatoes and Olive Oil",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Roasted Asparagus",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cheese Pizza",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Linguisa Pizza",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT",
-            "PORK"
-          ],
-          "price": null
-        },
-        {
-          "name": "Allergen Free Halal Chicken Thigh",
-          "dietary_restrictions": [
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Tofu with Kosher Salt",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Pacific Cookie Co. Vegan Dr. Midnight Cookies",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Black Forest Cake",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Nutella Hazelnut Cheese Ring",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "TREENUT",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "6\" Flour Tortilla",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Baja Taco Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Battered Fried Fish",
-          "dietary_restrictions": [
-            "SOY",
-            "FISH",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Black Bean Corn Salsa",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Caramelized Chipotle Tofu",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Charro Beans",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Condiments",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Mexican Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Yellow Corn Tortillas",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Deli Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Salad Bar",
-          "dietary_restrictions": [],
-          "price": null
-        }
-      ],
-      "Late Night": [
-        {
-          "name": "Chili Cheese Hot Dog",
-          "dietary_restrictions": [
-            "SOY",
-            "DAIRY",
-            "SESAME",
-            "WHEAT",
-            "BEEF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cheese Pizza",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Linguisa Pizza",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT",
-            "PORK"
-          ],
-          "price": null
-        },
-        {
-          "name": "Allergen Free Halal Chicken Thigh",
-          "dietary_restrictions": [
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Tofu with Kosher Salt",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Pacific Cookie Co. Vegan Dr. Midnight Cookies",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Basmati Rice Pullao",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cauliflower Lentil Dal",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Central Indian Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Chana Masala",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Chicken Tikka Masala",
-          "dietary_restrictions": [
-            "DAIRY",
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Chickpea & Roasted Cauliflower Buttered Curry",
-          "dietary_restrictions": [
-            "V",
-            "DAIRY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Condiments",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Original Naan",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Deli Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Salad Bar",
-          "dietary_restrictions": [],
-          "price": null
-        }
-      ]
-    },
-    "Crown & Merrill Dining Hall and Banana Joe's": {
-      "Breakfast": [
-        {
-          "name": "Belgian Waffle Squares",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cage-Free Scrambled Eggs",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cajun Roasted Red Potatoes",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Hard-boiled Cage Free Egg (1)",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Mexican Chorizo Sausage",
-          "dietary_restrictions": [
-            "PORK",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Organic Gluten-Free Oatmeal",
+          "name": "Shredded Hash Browns",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -1451,18 +84,17 @@
           "price": null
         },
         {
-          "name": "Assorted Scones",
+          "name": "Apple Strudel",
           "dietary_restrictions": [
-            "V",
+            "VG",
             "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT"
+            "WHEAT",
+            "ALC"
           ],
           "price": null
         },
         {
-          "name": "Pumpkin Muffin",
+          "name": "Chocolate Muffin",
           "dietary_restrictions": [
             "V",
             "SOY",
@@ -1474,13 +106,25 @@
           "price": null
         },
         {
-          "name": "Three Berry Muffin",
+          "name": "Orange Cranberry Muffin",
           "dietary_restrictions": [
             "V",
             "SOY",
             "EGG",
             "DAIRY",
             "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Fruit and Nut Granola",
+          "dietary_restrictions": [
+            "VG",
+            "PEANUT",
+            "TREENUT",
+            "SESAME",
+            "GF",
             "ALC"
           ],
           "price": null
@@ -1488,23 +132,16 @@
       ],
       "Lunch": [
         {
-          "name": "Chicken Soup Tlalpan",
+          "name": "New England Clam Chowder",
           "dietary_restrictions": [
-            "GF",
-            "ALC"
+            "DAIRY",
+            "SHELLFISH",
+            "GF"
           ],
           "price": null
         },
         {
-          "name": "Garden Vegetable Soup",
-          "dietary_restrictions": [
-            "VG",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Available Upon Request: Gluten Free Rotini Pasta",
+          "name": "Organic Vegan Chili",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -1512,39 +149,36 @@
           "price": null
         },
         {
-          "name": "Cheese Ravioli",
+          "name": "BBQ Pork Chops",
+          "dietary_restrictions": [
+            "PORK",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "BBQ Tofu",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Creamy Mashed Yukon Golds",
           "dietary_restrictions": [
             "V",
-            "EGG",
             "DAIRY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Italian Roasted Squash and Carrots",
-          "dietary_restrictions": [
-            "VG",
             "GF"
           ],
           "price": null
         },
         {
-          "name": "Marinara Sauce",
+          "name": "Roasted Green Beans in Garlic Oil",
           "dietary_restrictions": [
             "VG",
             "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Meatballs",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "BEEF"
           ],
           "price": null
         },
@@ -1561,13 +195,715 @@
           "price": null
         },
         {
-          "name": "Ham And Pineapple Pizza",
+          "name": "Pizza with Gochujang Chicken",
           "dietary_restrictions": [
             "SOY",
             "EGG",
             "DAIRY",
             "SESAME",
             "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Allergen Free Halal Chicken Thigh",
+          "dietary_restrictions": [
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
+          "name": "Steamed Rice",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Tofu with Kosher Salt",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Chocolate Chip Cookie",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Rice Krispy Treats",
+          "dietary_restrictions": [
+            "GF",
+            "PORK"
+          ],
+          "price": null
+        },
+        {
+          "name": "Black Bean & Corn Saute",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Condiments",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Ginger Garlic Tofu",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Grilled Huli Huli Chicken",
+          "dietary_restrictions": [
+            "SOY",
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
+          "name": "Lime Cilantro Basmati Rice",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Pacific Rim Fusion Bowl Bar",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Sauteed Bok Choy and Carrots with Sesame",
+          "dietary_restrictions": [
+            "VG",
+            "SESAME",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Deli Bar",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Salad Bar",
+          "dietary_restrictions": [],
+          "price": null
+        }
+      ],
+      "Dinner": [
+        {
+          "name": "New England Clam Chowder",
+          "dietary_restrictions": [
+            "DAIRY",
+            "SHELLFISH",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Organic Vegan Chili",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Baja Sandbar Bass Piccata",
+          "dietary_restrictions": [
+            "DAIRY",
+            "FISH",
+            "GF",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Orzo Toscana",
+          "dietary_restrictions": [
+            "VG",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Oven Roasted Herbed Potatoes",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Roasted Asparagus",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Roasted Tomatoes",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Beef Frank",
+          "dietary_restrictions": [
+            "BEEF",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Hot Dog Bun",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "SESAME",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Hot Dog",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Cheese Pizza",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Pizza with Gochujang Chicken",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Allergen Free Halal Chicken Thigh",
+          "dietary_restrictions": [
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
+          "name": "Steamed Rice",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Tofu with Kosher Salt",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Chocolate Chip Cookie",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Brownie M&M",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "PEANUT",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Blackberry Turnovers",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Cilantro Chutney",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Mumbai Street Bar",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Original Naan",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Palak Spinach Paneer",
+          "dietary_restrictions": [
+            "V",
+            "DAIRY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Pao Bhaji",
+          "dietary_restrictions": [
+            "V",
+            "DAIRY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Steamed Basmati Rice",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Tarka Dal",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Tomato Chutney",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegetable Tikkis",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Deli Bar",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Salad Bar",
+          "dietary_restrictions": [],
+          "price": null
+        }
+      ],
+      "Late Night": [
+        {
+          "name": "Curry Tomato Tempeh Stir Fry",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "SESAME",
+            "GF",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Steamed Rice",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Cheese Pizza",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Pizza with Gochujang Chicken",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Allergen Free Halal Chicken Thigh",
+          "dietary_restrictions": [
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
+          "name": "Steamed Rice",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Tofu with Kosher Salt",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Chocolate Chip Cookie",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Balsamic Caramelized Onions",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Beyond Meat Smash Burger",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Halal Beef Patty",
+          "dietary_restrictions": [
+            "BEEF",
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
+          "name": "Hamburger Bun",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "SESAME",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Roasted Garlic Dijon Mayonnaise",
+          "dietary_restrictions": [
+            "VG",
+            "GF",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Stack Haus Burger Bar",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Steak Cut Fries",
+          "dietary_restrictions": [
+            "V",
+            "SOY"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Thousand Island Dressing",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Deli Bar",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Salad Bar",
+          "dietary_restrictions": [],
+          "price": null
+        }
+      ]
+    },
+    "Cowell & Stevenson Dining Hall": {
+      "Breakfast": [
+        {
+          "name": "Banana Pancakes",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Cage-Free Scrambled Eggs",
+          "dietary_restrictions": [
+            "V",
+            "EGG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Chicken Apple Sausage",
+          "dietary_restrictions": [
+            "DAIRY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Hard-boiled Cage Free Egg (1)",
+          "dietary_restrictions": [
+            "V",
+            "EGG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Organic Gluten-Free Oatmeal",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Roasted Red Potatoes",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Sweet Potato, Black Bean, and Kale Hash",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Steamed Rice",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Apple Strudel",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Chocolate Muffin",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Orange Cranberry Muffin",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Fruit and Nut Granola",
+          "dietary_restrictions": [
+            "VG",
+            "PEANUT",
+            "TREENUT",
+            "SESAME",
+            "GF",
+            "ALC"
+          ],
+          "price": null
+        }
+      ],
+      "Lunch": [
+        {
+          "name": "New England Clam Chowder",
+          "dietary_restrictions": [
+            "DAIRY",
+            "SHELLFISH",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "BBQ Tofu",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Beef Steak Picado",
+          "dietary_restrictions": [
+            "GF",
+            "BEEF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
+          "name": "Garlic Herb Roasted Red Potatoes",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Steamed Broccoli",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Cheese Pizza",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Pepperoni Pizza",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT",
+            "BEEF",
             "PORK"
           ],
           "price": null
@@ -1598,7 +934,7 @@
           "price": null
         },
         {
-          "name": "Pacific Cookie Co. Vegan Dr. Midnight Cookies",
+          "name": "Vegan Chocolate Chip Cookie",
           "dietary_restrictions": [
             "VG",
             "SOY",
@@ -1608,17 +944,28 @@
           "price": null
         },
         {
-          "name": "Vegan Brownie",
+          "name": "Rice Krispy Treats",
           "dietary_restrictions": [
-            "VG",
-            "WHEAT",
-            "ALC"
+            "GF",
+            "PORK"
           ],
           "price": null
         },
         {
-          "name": "Andean Feast Bar",
-          "dietary_restrictions": [],
+          "name": "Available Upon Request: Gluten Free Rotini Pasta",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Bolognese Sauce",
+          "dietary_restrictions": [
+            "BEEF",
+            "GF",
+            "HALAL"
+          ],
           "price": null
         },
         {
@@ -1627,16 +974,17 @@
           "price": null
         },
         {
-          "name": "Grilled Chimichurri Tofu",
+          "name": "Focaccia Breadsticks",
           "dietary_restrictions": [
             "VG",
             "SOY",
-            "GF"
+            "SESAME",
+            "WHEAT"
           ],
           "price": null
         },
         {
-          "name": "Herbed Lentils",
+          "name": "Marinara Sauce",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -1644,31 +992,20 @@
           "price": null
         },
         {
-          "name": "Peruvian Beef Saltado",
-          "dietary_restrictions": [
-            "SOY",
-            "BEEF"
-          ],
+          "name": "Pasta Bar",
+          "dietary_restrictions": [],
           "price": null
         },
         {
-          "name": "Quinoa with Lemon and Thyme",
+          "name": "Penne",
           "dietary_restrictions": [
             "VG",
-            "GF"
+            "WHEAT"
           ],
           "price": null
         },
         {
-          "name": "Roasted Corn",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Sauteed Onions and Peppers",
+          "name": "Steamed Broccoli",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -1688,54 +1025,69 @@
       ],
       "Dinner": [
         {
-          "name": "Chicken Soup Tlalpan",
+          "name": "New England Clam Chowder",
           "dietary_restrictions": [
-            "GF",
-            "ALC"
+            "DAIRY",
+            "SHELLFISH",
+            "GF"
           ],
           "price": null
         },
         {
-          "name": "Garden Vegetable Soup",
+          "name": "Chimichurri Roasted Chicken",
+          "dietary_restrictions": [
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
+          "name": "Grilled Chimichurri Tofu",
           "dietary_restrictions": [
             "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Sauteed Rainbow Chard with Garlic Oil",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Steamed Brown Rice",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Cheese Pizza",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
             "WHEAT"
           ],
           "price": null
         },
         {
-          "name": "Red Curry Tofu",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Carrots and Broccoli",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Sticky Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Thai Red Curry Beef",
+          "name": "Pepperoni Pizza",
           "dietary_restrictions": [
             "SOY",
-            "FISH",
-            "GF",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT",
             "BEEF",
-            "HALAL"
+            "PORK"
           ],
           "price": null
         },
@@ -1765,7 +1117,7 @@
           "price": null
         },
         {
-          "name": "Pacific Cookie Co. Vegan Dr. Midnight Cookies",
+          "name": "Vegan Chocolate Chip Cookie",
           "dietary_restrictions": [
             "VG",
             "SOY",
@@ -1775,7 +1127,152 @@
           "price": null
         },
         {
-          "name": "Black Forest Cake",
+          "name": "Brownie M&M",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "PEANUT",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Blackberry Turnovers",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Hawaiian Bar",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Kalua Pork",
+          "dietary_restrictions": [
+            "PORK",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Roasted Corn Salad",
+          "dietary_restrictions": [
+            "V",
+            "DAIRY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Spam Fried Rice",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "PORK",
+            "GF",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Sweet Potato, Black Bean, and Kale Hash",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Teriyaki Tofu",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Hawaiian Macaroni Salad",
+          "dietary_restrictions": [
+            "VG",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Deli Bar",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Salad Bar",
+          "dietary_restrictions": [],
+          "price": null
+        }
+      ],
+      "Late Night": []
+    },
+    "Crown & Merrill Dining Hall and Banana Joe's": {
+      "Breakfast": [
+        {
+          "name": "Cage-Free Scrambled Eggs",
+          "dietary_restrictions": [
+            "V",
+            "EGG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Crispy Bacon",
+          "dietary_restrictions": [
+            "PORK",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Hard-boiled Cage Free Egg (1)",
+          "dietary_restrictions": [
+            "V",
+            "EGG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Natural Bridges Tofu Scramble",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Organic Gluten-Free Oatmeal",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Shredded Hash Browns",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Texas French Toast",
           "dietary_restrictions": [
             "V",
             "SOY",
@@ -1787,47 +1284,148 @@
           "price": null
         },
         {
-          "name": "Nutella Hazelnut Cheese Ring",
+          "name": "Steamed Rice",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Apple Strudel",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Chocolate Muffin",
           "dietary_restrictions": [
             "V",
             "SOY",
             "EGG",
             "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Orange Cranberry Muffin",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Fruit and Nut Granola",
+          "dietary_restrictions": [
+            "VG",
+            "PEANUT",
             "TREENUT",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Char Siu Chicken",
-          "dietary_restrictions": [
-            "SOY",
             "SESAME",
-            "WHEAT",
+            "GF",
             "ALC"
+          ],
+          "price": null
+        }
+      ],
+      "Lunch": [
+        {
+          "name": "New England Clam Chowder",
+          "dietary_restrictions": [
+            "DAIRY",
+            "SHELLFISH",
+            "GF"
           ],
           "price": null
         },
         {
-          "name": "Char Siu Gardein",
+          "name": "Three Sisters Crave Soup",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Charro Beans",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Chicken Enchilada Casserole",
+          "dietary_restrictions": [
+            "DAIRY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Roasted Green Beans in Garlic Oil",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Spanish Rice With Peas And Corn",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Allergen Free Halal Chicken Thigh",
+          "dietary_restrictions": [
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
+          "name": "Steamed Rice",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Tofu with Kosher Salt",
           "dietary_restrictions": [
             "VG",
             "SOY",
-            "SESAME",
-            "WHEAT",
-            "ALC"
+            "GF"
           ],
           "price": null
         },
         {
-          "name": "Char Siu Sauce",
+          "name": "Rice Krispy Treats",
+          "dietary_restrictions": [
+            "GF",
+            "PORK"
+          ],
+          "price": null
+        },
+        {
+          "name": "Available Upon Request: Gluten Free Rotini Pasta",
           "dietary_restrictions": [
             "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT",
-            "ALC"
+            "GF"
           ],
           "price": null
         },
@@ -1837,7 +1435,7 @@
           "price": null
         },
         {
-          "name": "Sesame Yakisoba Noodles",
+          "name": "Focaccia Breadsticks",
           "dietary_restrictions": [
             "VG",
             "SOY",
@@ -1847,28 +1445,219 @@
           "price": null
         },
         {
-          "name": "Stir Fry Vegetables",
+          "name": "Italian Roasted Tofu",
           "dietary_restrictions": [
             "VG",
             "SOY",
-            "SESAME",
             "GF"
           ],
           "price": null
         },
         {
-          "name": "Szechuan Sweet Chili Sauce",
+          "name": "Marinara Sauce",
           "dietary_restrictions": [
             "VG",
-            "SOY",
-            "SESAME",
             "GF"
           ],
           "price": null
         },
         {
-          "name": "Yakisoba Noodle Bar",
+          "name": "Penne",
+          "dietary_restrictions": [
+            "VG",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Roasted Eggplant",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Southern Italian Bar",
           "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Sustainable Scampi with Tomato and Spinach",
+          "dietary_restrictions": [
+            "DAIRY",
+            "SHELLFISH",
+            "GF",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Italian White Beans",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Deli Bar",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Salad Bar",
+          "dietary_restrictions": [],
+          "price": null
+        }
+      ],
+      "Dinner": [
+        {
+          "name": "New England Clam Chowder",
+          "dietary_restrictions": [
+            "DAIRY",
+            "SHELLFISH",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Three Sisters Crave Soup",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Local Lingcod Puttanesca",
+          "dietary_restrictions": [
+            "FISH",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Rice Pilaf",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Roasted Balsamic Vegetables",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Italian White Beans",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Allergen Free Halal Chicken Thigh",
+          "dietary_restrictions": [
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
+          "name": "Steamed Rice",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Tofu with Kosher Salt",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Brownie M&M",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "PEANUT",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Blackberry Turnovers",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "BBQ Shredded Pork",
+          "dietary_restrictions": [
+            "PORK",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Condiments",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Mac and Cheese Bar",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Macaroni & Cheese",
+          "dietary_restrictions": [
+            "SOY",
+            "DAIRY",
+            "FISH",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Steamed Broccoli",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Chipotle Gardein",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Macaroni & Cheese",
+          "dietary_restrictions": [
+            "VG",
+            "WHEAT"
+          ],
           "price": null
         },
         {
@@ -1991,17 +1780,6 @@
     "Porter & Kresge Dining Hall": {
       "Breakfast": [
         {
-          "name": "Belgian Waffle Squares",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
           "name": "Cage-Free Scrambled Eggs",
           "dietary_restrictions": [
             "V",
@@ -2011,9 +1789,9 @@
           "price": null
         },
         {
-          "name": "Cajun Roasted Red Potatoes",
+          "name": "Crispy Bacon",
           "dietary_restrictions": [
-            "VG",
+            "PORK",
             "GF"
           ],
           "price": null
@@ -2028,9 +1806,10 @@
           "price": null
         },
         {
-          "name": "Mexican Chorizo Sausage",
+          "name": "Natural Bridges Tofu Scramble",
           "dietary_restrictions": [
-            "PORK",
+            "VG",
+            "SOY",
             "GF"
           ],
           "price": null
@@ -2044,12 +1823,22 @@
           "price": null
         },
         {
-          "name": "Thai Tofu Scramble",
+          "name": "Shredded Hash Browns",
           "dietary_restrictions": [
             "VG",
-            "SOY",
-            "SESAME",
             "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Texas French Toast",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
           ],
           "price": null
         },
@@ -2062,18 +1851,17 @@
           "price": null
         },
         {
-          "name": "Assorted Scones",
+          "name": "Apple Strudel",
           "dietary_restrictions": [
-            "V",
+            "VG",
             "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT"
+            "WHEAT",
+            "ALC"
           ],
           "price": null
         },
         {
-          "name": "Pumpkin Muffin",
+          "name": "Chocolate Muffin",
           "dietary_restrictions": [
             "V",
             "SOY",
@@ -2085,13 +1873,25 @@
           "price": null
         },
         {
-          "name": "Three Berry Muffin",
+          "name": "Orange Cranberry Muffin",
           "dietary_restrictions": [
             "V",
             "SOY",
             "EGG",
             "DAIRY",
             "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Fruit and Nut Granola",
+          "dietary_restrictions": [
+            "VG",
+            "PEANUT",
+            "TREENUT",
+            "SESAME",
+            "GF",
             "ALC"
           ],
           "price": null
@@ -2099,70 +1899,60 @@
       ],
       "Lunch": [
         {
-          "name": "Chicken Noodle Soup",
+          "name": "Fire Roasted Corn Soup",
           "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Chicken Spaetzle Soup",
-          "dietary_restrictions": [
-            "EGG",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Garden Vegetable Soup",
-          "dietary_restrictions": [
-            "VG",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Available Upon Request: Gluten Free Rotini Pasta",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Italian Roasted Squash and Carrots",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Marinara Sauce",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Meatballs",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
+            "V",
             "DAIRY",
-            "WHEAT",
-            "BEEF"
+            "WHEAT"
           ],
           "price": null
         },
         {
-          "name": "Spaghetti Noodles",
+          "name": "Lentil & Lemon Soup",
           "dietary_restrictions": [
             "VG",
-            "WHEAT"
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "New England Clam Chowder",
+          "dietary_restrictions": [
+            "DAIRY",
+            "SHELLFISH",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Charro Beans",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Chicken Enchilada Casserole",
+          "dietary_restrictions": [
+            "DAIRY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Roasted Green Beans in Garlic Oil",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Spanish Rice With Peas And Corn",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
           ],
           "price": null
         },
@@ -2179,9 +1969,15 @@
           "price": null
         },
         {
-          "name": "Vegan Pepperoni Pizza",
+          "name": "Gyro Pizza",
           "dietary_restrictions": [
-            "VG"
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT",
+            "BEEF",
+            "HALAL"
           ],
           "price": null
         },
@@ -2211,7 +2007,7 @@
           "price": null
         },
         {
-          "name": "Pacific Cookie Co. Vegan Dr. Midnight Cookies",
+          "name": "Vegan Chocolate Chip Cookie",
           "dietary_restrictions": [
             "VG",
             "SOY",
@@ -2221,17 +2017,19 @@
           "price": null
         },
         {
-          "name": "Vegan Brownie",
+          "name": "Rice Krispy Treats",
           "dietary_restrictions": [
-            "VG",
-            "WHEAT",
-            "ALC"
+            "GF",
+            "PORK"
           ],
           "price": null
         },
         {
-          "name": "Andean Feast Bar",
-          "dietary_restrictions": [],
+          "name": "Available Upon Request: Gluten Free Rotini Pasta",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
           "price": null
         },
         {
@@ -2240,7 +2038,17 @@
           "price": null
         },
         {
-          "name": "Grilled Chimichurri Tofu",
+          "name": "Focaccia Breadsticks",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "SESAME",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Italian Roasted Tofu",
           "dietary_restrictions": [
             "VG",
             "SOY",
@@ -2249,7 +2057,7 @@
           "price": null
         },
         {
-          "name": "Herbed Lentils",
+          "name": "Marinara Sauce",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -2257,31 +2065,30 @@
           "price": null
         },
         {
-          "name": "Peruvian Beef Saltado",
-          "dietary_restrictions": [
-            "SOY",
-            "BEEF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Quinoa with Lemon and Thyme",
+          "name": "Penne",
           "dietary_restrictions": [
             "VG",
-            "GF"
+            "WHEAT"
           ],
           "price": null
         },
         {
-          "name": "Roasted Corn",
+          "name": "Southern Italian Bar",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Sustainable Scampi with Tomato and Spinach",
           "dietary_restrictions": [
-            "VG",
-            "GF"
+            "DAIRY",
+            "SHELLFISH",
+            "GF",
+            "ALC"
           ],
           "price": null
         },
         {
-          "name": "Sauteed Onions and Peppers",
+          "name": "Vegan Italian White Beans",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -2299,12 +2106,544 @@
           "price": null
         },
         {
+          "name": "Halal Beef Patty",
+          "dietary_restrictions": [
+            "BEEF",
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
           "name": "Hamburger Bun",
           "dietary_restrictions": [
             "VG",
             "SOY",
             "SESAME",
             "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Portobello Mushroom Patty",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Sidewinder Fry",
+          "dietary_restrictions": [
+            "V",
+            "SOY"
+          ],
+          "price": null
+        }
+      ],
+      "Dinner": [
+        {
+          "name": "Lentil & Lemon Soup",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "New England Clam Chowder",
+          "dietary_restrictions": [
+            "DAIRY",
+            "SHELLFISH",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Local Lingcod Puttanesca",
+          "dietary_restrictions": [
+            "FISH",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Rice Pilaf",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Roasted Balsamic Vegetables",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Italian White Beans",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Beef Frank",
+          "dietary_restrictions": [
+            "BEEF",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Hot Dog Bun",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "SESAME",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Hot Dog",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Allergen Free Halal Chicken Thigh",
+          "dietary_restrictions": [
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
+          "name": "Steamed Rice",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Tofu with Kosher Salt",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Chocolate Chip Cookie",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Brownie M&M",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "PEANUT",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Blackberry Turnovers",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "BBQ Shredded Pork",
+          "dietary_restrictions": [
+            "PORK",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Condiments",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Mac and Cheese Bar",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Macaroni & Cheese",
+          "dietary_restrictions": [
+            "SOY",
+            "DAIRY",
+            "FISH",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Steamed Broccoli",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Chipotle Gardein",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Macaroni & Cheese",
+          "dietary_restrictions": [
+            "VG",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Deli Bar",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Salad Bar",
+          "dietary_restrictions": [],
+          "price": null
+        }
+      ],
+      "Late Night": []
+    },
+    "Rachel Carson & Oakes Dining Hall": {
+      "Breakfast": [
+        {
+          "name": "Apple Strudel",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Chocolate Muffin",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Orange Cranberry Muffin",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Fruit and Nut Granola",
+          "dietary_restrictions": [
+            "VG",
+            "PEANUT",
+            "TREENUT",
+            "SESAME",
+            "GF",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Cage-Free Scrambled Eggs",
+          "dietary_restrictions": [
+            "V",
+            "EGG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Chicken Apple Sausage",
+          "dietary_restrictions": [
+            "DAIRY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Roasted Red Potatoes",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Sweet Potato, Black Bean, and Kale Hash",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Whole Wheat Vegan Blueberry Pancakes",
+          "dietary_restrictions": [
+            "VG",
+            "ALC",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Hard-boiled Cage Free Egg (1)",
+          "dietary_restrictions": [
+            "V",
+            "EGG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Steamed Rice",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Organic Gluten-Free Oatmeal",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        }
+      ],
+      "Lunch": [
+        {
+          "name": "Allergen Free Halal Chicken Thigh",
+          "dietary_restrictions": [
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
+          "name": "Steamed Rice",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Tofu with Kosher Salt",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Chocolate Chip Cookie",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Rice Krispy Treats",
+          "dietary_restrictions": [
+            "GF",
+            "PORK"
+          ],
+          "price": null
+        },
+        {
+          "name": "Deli Bar",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Salad Bar",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "BBQ Tofu",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Beef Steak Picado",
+          "dietary_restrictions": [
+            "GF",
+            "BEEF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
+          "name": "Garlic Herb Roasted Red Potatoes",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Steamed Broccoli",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Available Upon Request: Gluten Free Rotini Pasta",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Bolognese Sauce",
+          "dietary_restrictions": [
+            "BEEF",
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
+          "name": "Chicken Tenders",
+          "dietary_restrictions": [
+            "SOY",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Condiments",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Focaccia Breadsticks",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "SESAME",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Marinara Sauce",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Pasta Bar",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Penne",
+          "dietary_restrictions": [
+            "VG",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Steamed Broccoli",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "White Beans",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Hamburger Bun",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "SESAME",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "New England Clam Chowder",
+          "dietary_restrictions": [
+            "DAIRY",
+            "SHELLFISH",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Organic Black Bean Soup",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
           ],
           "price": null
         },
@@ -2330,89 +2669,35 @@
             "GF"
           ],
           "price": null
+        },
+        {
+          "name": "Cheese Pizza",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Pepperoni Pizza",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT",
+            "BEEF",
+            "PORK"
+          ],
+          "price": null
         }
       ],
       "Dinner": [
         {
-          "name": "Chicken Soup Tlalpan",
-          "dietary_restrictions": [
-            "GF",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Garden Vegetable Soup",
-          "dietary_restrictions": [
-            "VG",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Red Curry Tofu",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Carrots and Broccoli",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Sticky Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Thai Red Curry Beef",
-          "dietary_restrictions": [
-            "SOY",
-            "FISH",
-            "GF",
-            "BEEF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "French Fries",
-          "dietary_restrictions": [
-            "V",
-            "SOY"
-          ],
-          "price": null
-        },
-        {
-          "name": "Halal Chicken Nuggets",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "WHEAT",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Tenders",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
           "name": "Allergen Free Halal Chicken Thigh",
           "dietary_restrictions": [
             "GF",
@@ -2438,7 +2723,7 @@
           "price": null
         },
         {
-          "name": "Pacific Cookie Co. Vegan Dr. Midnight Cookies",
+          "name": "Vegan Chocolate Chip Cookie",
           "dietary_restrictions": [
             "VG",
             "SOY",
@@ -2448,100 +2733,24 @@
           "price": null
         },
         {
-          "name": "Black Forest Cake",
+          "name": "Brownie M&M",
           "dietary_restrictions": [
             "V",
             "SOY",
             "EGG",
             "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Nutella Hazelnut Cheese Ring",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "TREENUT",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Char Siu Chicken",
-          "dietary_restrictions": [
-            "SOY",
-            "SESAME",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Char Siu Gardein",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Char Siu Sauce",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Condiments",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Sesame Yakisoba Noodles",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
+            "PEANUT",
             "WHEAT"
           ],
           "price": null
         },
         {
-          "name": "Stir Fry Vegetables",
+          "name": "Vegan Blackberry Turnovers",
           "dietary_restrictions": [
             "VG",
             "SOY",
-            "SESAME",
-            "GF"
+            "WHEAT"
           ],
-          "price": null
-        },
-        {
-          "name": "Szechuan Sweet Chili Sauce",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Yakisoba Noodle Bar",
-          "dietary_restrictions": [],
           "price": null
         },
         {
@@ -2553,121 +2762,9 @@
           "name": "Salad Bar",
           "dietary_restrictions": [],
           "price": null
-        }
-      ],
-      "Late Night": []
-    },
-    "Rachel Carson & Oakes Dining Hall": {
-      "Breakfast": [
-        {
-          "name": "Assorted Scones",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT"
-          ],
-          "price": null
         },
         {
-          "name": "Pumpkin Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Three Berry Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Buttermilk Pancakes",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cage-Free Scrambled Eggs",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Harissa Potatoes",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Mexican Chorizo Sausage",
-          "dietary_restrictions": [
-            "PORK",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Tempeh, Black Bean, and Potato Hash",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Hard-boiled Cage Free Egg (1)",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Organic Gluten-Free Oatmeal",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        }
-      ],
-      "Lunch": [
-        {
-          "name": "Allergen Free Halal Chicken Thigh",
+          "name": "Chimichurri Roasted Chicken",
           "dietary_restrictions": [
             "GF",
             "HALAL"
@@ -2675,15 +2772,7 @@
           "price": null
         },
         {
-          "name": "Steamed Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Tofu with Kosher Salt",
+          "name": "Grilled Chimichurri Tofu",
           "dietary_restrictions": [
             "VG",
             "SOY",
@@ -2692,44 +2781,7 @@
           "price": null
         },
         {
-          "name": "Vegan Brownie",
-          "dietary_restrictions": [
-            "VG",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Deli Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Salad Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Chicken Adobo",
-          "dietary_restrictions": [
-            "SOY",
-            "GF",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Harissa Tofu",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Roasted Cauliflower",
+          "name": "Sauteed Rainbow Chard with Garlic Oil",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -2745,441 +2797,12 @@
           "price": null
         },
         {
-          "name": "Beef Frank",
-          "dietary_restrictions": [
-            "BEEF",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Caramelized Onions",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cheese Sauce",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "DAIRY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Curly Fries",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Hot Dog Bun",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Hot Dog",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Chicken Spaetzle Soup",
-          "dietary_restrictions": [
-            "EGG",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Chipotle Cuban Black Bean Soup",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cheese Pizza",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Pepperoni Pizza",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT",
-            "BEEF",
-            "PORK"
-          ],
-          "price": null
-        }
-      ],
-      "Dinner": [
-        {
-          "name": "Allergen Free Halal Chicken Thigh",
-          "dietary_restrictions": [
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Tofu with Kosher Salt",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
-          "dietary_restrictions": [
-            "VG",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Black Forest Cake",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Nutella Hazelnut Cheese Ring",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "TREENUT",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Deli Bar",
+          "name": "Hawaiian Bar",
           "dietary_restrictions": [],
           "price": null
         },
         {
-          "name": "Salad Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Argentine Tri-Tip with Chimichurri",
-          "dietary_restrictions": [
-            "BEEF",
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Grilled Balsamic Tofu",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Red Parslied Potatoes and Olive Oil",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Roasted Asparagus",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "6\" Flour Tortilla",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Baja Taco Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Battered Fried Fish",
-          "dietary_restrictions": [
-            "SOY",
-            "FISH",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Black Bean Corn Salsa",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Caramelized Chipotle Tofu",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Charro Beans",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cilantro Lime Riced Cauliflower",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Condiments",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Mexican Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Yellow Corn Tortillas",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Chicken Spaetzle Soup",
-          "dietary_restrictions": [
-            "EGG",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Chipotle Cuban Black Bean Soup",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cheese Pizza",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Pepperoni Pizza",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT",
-            "BEEF",
-            "PORK"
-          ],
-          "price": null
-        }
-      ],
-      "Late Night": [
-        {
-          "name": "Beef and Lamb Gyro",
-          "dietary_restrictions": [
-            "SOY",
-            "DAIRY",
-            "WHEAT",
-            "BEEF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Couscous & Tomato Salad",
-          "dietary_restrictions": [
-            "VG",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cheese Pizza",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Linguisa Pizza",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT",
-            "PORK"
-          ],
-          "price": null
-        },
-        {
-          "name": "Allergen Free Halal Chicken Thigh",
-          "dietary_restrictions": [
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Steamed Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Tofu with Kosher Salt",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Deli Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Salad Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Cage-Free Scrambled Eggs",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "French Toast Sticks",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Hard-boiled Cage Free Egg (1)",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Natural Bridges Tofu Scramble",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Sausage Links",
+          "name": "Kalua Pork",
           "dietary_restrictions": [
             "PORK",
             "GF"
@@ -3187,14 +2810,94 @@
           "price": null
         },
         {
-          "name": "Tater Tots",
+          "name": "Roasted Corn Salad",
           "dietary_restrictions": [
             "V",
-            "SOY"
+            "DAIRY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Spam Fried Rice",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "PORK",
+            "GF",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Sweet Potato, Black Bean, and Kale Hash",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Teriyaki Tofu",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Hawaiian Macaroni Salad",
+          "dietary_restrictions": [
+            "VG",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "New England Clam Chowder",
+          "dietary_restrictions": [
+            "DAIRY",
+            "SHELLFISH",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Organic Black Bean Soup",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Cheese Pizza",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Pepperoni Pizza",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT",
+            "BEEF",
+            "PORK"
           ],
           "price": null
         }
-      ]
+      ],
+      "Late Night": []
     },
     "Oakes Cafe": {
       "Breakfast": [
@@ -3271,6 +2974,18 @@
           "price": "$9.00"
         },
         {
+          "name": "Blueberry Muffin",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": "$4.75"
+        },
+        {
           "name": "Chocolate Croissant",
           "dietary_restrictions": [
             "V",
@@ -3280,16 +2995,19 @@
             "TREENUT",
             "WHEAT"
           ],
-          "price": "$4.95"
+          "price": "$5.25"
         },
         {
-          "name": "Cinnamon Downtowner",
+          "name": "Chocolate Muffin",
           "dietary_restrictions": [
             "V",
+            "SOY",
+            "EGG",
             "DAIRY",
-            "WHEAT"
+            "WHEAT",
+            "ALC"
           ],
-          "price": "$4.25"
+          "price": "$4.75"
         },
         {
           "name": "Croissant",
@@ -3299,42 +3017,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$3.95"
-        },
-        {
-          "name": "Peach Crunch Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$3.75"
-        },
-        {
-          "name": "Snickerdoodle Cookie",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$2.95"
-        },
-        {
-          "name": "Three Berry Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$3.75"
+          "price": "$4.25"
         },
         {
           "name": "Vegan Chocolate Chip Cookies",
@@ -3759,6 +3442,18 @@
           "price": "$10.50"
         },
         {
+          "name": "Blueberry Muffin",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": "$4.75"
+        },
+        {
           "name": "Chocolate Croissant",
           "dietary_restrictions": [
             "V",
@@ -3768,16 +3463,19 @@
             "TREENUT",
             "WHEAT"
           ],
-          "price": "$4.95"
+          "price": "$5.25"
         },
         {
-          "name": "Cinnamon Downtowner",
+          "name": "Chocolate Muffin",
           "dietary_restrictions": [
             "V",
+            "SOY",
+            "EGG",
             "DAIRY",
-            "WHEAT"
+            "WHEAT",
+            "ALC"
           ],
-          "price": "$4.25"
+          "price": "$4.75"
         },
         {
           "name": "Croissant",
@@ -3787,42 +3485,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$3.95"
-        },
-        {
-          "name": "Peach Crunch Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$3.75"
-        },
-        {
-          "name": "Snickerdoodle Cookie",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$2.95"
-        },
-        {
-          "name": "Three Berry Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$3.75"
+          "price": "$4.25"
         },
         {
           "name": "Vegan Chocolate Chip Cookies",
@@ -4672,6 +4335,18 @@
           "price": "$6.75"
         },
         {
+          "name": "Spinach & Artichoke Quiche",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": "$6.95"
+        },
+        {
           "name": "The Gobbler",
           "dietary_restrictions": [
             "SOY",
@@ -4703,6 +4378,18 @@
           "price": "$7.95"
         },
         {
+          "name": "Blueberry Muffin",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": "$4.75"
+        },
+        {
           "name": "Chocolate Croissant",
           "dietary_restrictions": [
             "V",
@@ -4715,13 +4402,16 @@
           "price": "$5.25"
         },
         {
-          "name": "Cinnamon Downtowner",
+          "name": "Chocolate Muffin",
           "dietary_restrictions": [
             "V",
+            "SOY",
+            "EGG",
             "DAIRY",
-            "WHEAT"
+            "WHEAT",
+            "ALC"
           ],
-          "price": "$5.25"
+          "price": "$4.75"
         },
         {
           "name": "Croissant",
@@ -4732,41 +4422,6 @@
             "WHEAT"
           ],
           "price": "$4.25"
-        },
-        {
-          "name": "Peach Crunch Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$4.75"
-        },
-        {
-          "name": "Snickerdoodle Cookie",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$2.95"
-        },
-        {
-          "name": "Three Berry Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$4.75"
         },
         {
           "name": "Vegan Chocolate Chip Cookie",
@@ -5664,6 +5319,18 @@
           "price": "$6.50"
         },
         {
+          "name": "Blueberry Muffin",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": "$4.75"
+        },
+        {
           "name": "Chocolate Croissant",
           "dietary_restrictions": [
             "V",
@@ -5676,13 +5343,16 @@
           "price": "$5.25"
         },
         {
-          "name": "Cinnamon Downtowner",
+          "name": "Chocolate Muffin",
           "dietary_restrictions": [
             "V",
+            "SOY",
+            "EGG",
             "DAIRY",
-            "WHEAT"
+            "WHEAT",
+            "ALC"
           ],
-          "price": "$5.25"
+          "price": "$4.75"
         },
         {
           "name": "Croissant",
@@ -5693,41 +5363,6 @@
             "WHEAT"
           ],
           "price": "$4.25"
-        },
-        {
-          "name": "Peach Crunch Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$4.75"
-        },
-        {
-          "name": "Snickerdoodle Cookie",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$2.95"
-        },
-        {
-          "name": "Three Berry Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$4.75"
         },
         {
           "name": "Vegan Chocolate Chip Cookie",
@@ -6630,6 +6265,18 @@
     "Slug Stop": {
       "Menu": [
         {
+          "name": "Blueberry Muffin",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": "$4.75"
+        },
+        {
           "name": "Chocolate Croissant",
           "dietary_restrictions": [
             "V",
@@ -6642,13 +6289,16 @@
           "price": "$5.25"
         },
         {
-          "name": "Cinnamon Downtowner",
+          "name": "Chocolate Muffin",
           "dietary_restrictions": [
             "V",
+            "SOY",
+            "EGG",
             "DAIRY",
-            "WHEAT"
+            "WHEAT",
+            "ALC"
           ],
-          "price": "$5.25"
+          "price": "$4.75"
         },
         {
           "name": "Croissant",
@@ -6659,41 +6309,6 @@
             "WHEAT"
           ],
           "price": "$4.25"
-        },
-        {
-          "name": "Peach Crunch Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$4.75"
-        },
-        {
-          "name": "Snickerdoodle Cookie",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$2.95"
-        },
-        {
-          "name": "Three Berry Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$4.75"
         },
         {
           "name": "Vegan Chocolate Chip Cookies",
@@ -7000,6 +6615,18 @@
           "price": "$10.00"
         },
         {
+          "name": "Blueberry Muffin",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": "$4.75"
+        },
+        {
           "name": "Chocolate Croissant",
           "dietary_restrictions": [
             "V",
@@ -7012,13 +6639,16 @@
           "price": "$5.25"
         },
         {
-          "name": "Cinnamon Downtowner",
+          "name": "Chocolate Muffin",
           "dietary_restrictions": [
             "V",
+            "SOY",
+            "EGG",
             "DAIRY",
-            "WHEAT"
+            "WHEAT",
+            "ALC"
           ],
-          "price": "$5.25"
+          "price": "$4.75"
         },
         {
           "name": "Croissant",
@@ -7029,41 +6659,6 @@
             "WHEAT"
           ],
           "price": "$4.25"
-        },
-        {
-          "name": "Peach Crunch Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$4.75"
-        },
-        {
-          "name": "Snickerdoodle Cookie",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$2.95"
-        },
-        {
-          "name": "Three Berry Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$4.75"
         },
         {
           "name": "Vegan Chocolate Chip Cookie",
@@ -7937,6 +7532,18 @@
           "price": "$2.50"
         },
         {
+          "name": "Blueberry Muffin",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": "$4.75"
+        },
+        {
           "name": "Chocolate Croissant",
           "dietary_restrictions": [
             "V",
@@ -7949,13 +7556,16 @@
           "price": "$5.25"
         },
         {
-          "name": "Cinnamon Downtowner",
+          "name": "Chocolate Muffin",
           "dietary_restrictions": [
             "V",
+            "SOY",
+            "EGG",
             "DAIRY",
-            "WHEAT"
+            "WHEAT",
+            "ALC"
           ],
-          "price": "$5.25"
+          "price": "$4.75"
         },
         {
           "name": "Croissant",
@@ -7968,41 +7578,6 @@
           "price": "$4.25"
         },
         {
-          "name": "Peach Crunch Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$4.75"
-        },
-        {
-          "name": "Snickerdoodle Cookie",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$2.95"
-        },
-        {
-          "name": "Three Berry Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$4.75"
-        },
-        {
           "name": "Vegan Chocolate Chip Cookies",
           "dietary_restrictions": [
             "VG",
@@ -8010,7 +7585,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$2.75"
+          "price": "$2.95"
         },
         {
           "name": "Breakfast Burrito",
@@ -8512,7 +8087,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$4.95"
+          "price": "$5.25"
         },
         {
           "name": "Chicken Penne Alfredo",
@@ -8521,16 +8096,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$9.95"
-        },
-        {
-          "name": "Chicken Salad",
-          "dietary_restrictions": [
-            "SOY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$6.95"
+          "price": "$7.50"
         },
         {
           "name": "Chicken Salad Sandwich",
@@ -8540,7 +8106,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$6.95"
+          "price": "$6.75"
         },
         {
           "name": "Ham & Jack Cheese Sandwich",
@@ -8551,7 +8117,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$6.95"
+          "price": "$6.50"
         },
         {
           "name": "Machaca Breakfast Burrito",
@@ -8579,7 +8145,7 @@
             "DAIRY",
             "WHEAT"
           ],
-          "price": "$6.95"
+          "price": "$5.25"
         },
         {
           "name": "Roma Sandwich",
@@ -8600,7 +8166,7 @@
             "FISH",
             "ALC"
           ],
-          "price": "$8.25"
+          "price": "$8.95"
         },
         {
           "name": "Salami & Swiss Cheese Sandwich",
@@ -8611,7 +8177,7 @@
             "BEEF",
             "PORK"
           ],
-          "price": "$6.95"
+          "price": "$6.75"
         },
         {
           "name": "Spinach & Artichoke Quiche",
@@ -8634,7 +8200,7 @@
             "WHEAT",
             "ALC"
           ],
-          "price": "$8.50"
+          "price": "$9.25"
         },
         {
           "name": "Turkey Bacon Provolone Sandwich",
@@ -8645,7 +8211,7 @@
             "WHEAT",
             "PORK"
           ],
-          "price": "$6.95"
+          "price": "$8.25"
         },
         {
           "name": "Turkey Cheddar Croissant Sandwich",
@@ -8655,6 +8221,18 @@
             "WHEAT"
           ],
           "price": "$7.95"
+        },
+        {
+          "name": "Blueberry Muffin",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": "$4.75"
         },
         {
           "name": "Chocolate Croissant",
@@ -8669,13 +8247,16 @@
           "price": "$5.25"
         },
         {
-          "name": "Cinnamon Downtowner",
+          "name": "Chocolate Muffin",
           "dietary_restrictions": [
             "V",
+            "SOY",
+            "EGG",
             "DAIRY",
-            "WHEAT"
+            "WHEAT",
+            "ALC"
           ],
-          "price": "$5.25"
+          "price": "$4.75"
         },
         {
           "name": "Croissant",
@@ -8686,41 +8267,6 @@
             "WHEAT"
           ],
           "price": "$4.25"
-        },
-        {
-          "name": "Peach Crunch Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$4.75"
-        },
-        {
-          "name": "Snickerdoodle Cookie",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$2.95"
-        },
-        {
-          "name": "Three Berry Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$4.75"
         },
         {
           "name": "Vegan Chocolate Chip Cookies",
@@ -9193,6 +8739,28 @@
     "Porter Market": {
       "Menu": [
         {
+          "name": "Avocado Paradise Breakfast Crunch Wrap",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT"
+          ],
+          "price": "$7.00"
+        },
+        {
+          "name": "Breakfast Bacon Crunch Wrap",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "PORK"
+          ],
+          "price": "$7.00"
+        },
+        {
           "name": "Taco A-Go Go, Cruz Ole",
           "dietary_restrictions": [
             "SOY",
@@ -9298,6 +8866,18 @@
           "price": "$2.85"
         },
         {
+          "name": "Blueberry Muffin",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": "$4.75"
+        },
+        {
           "name": "Chocolate Croissant",
           "dietary_restrictions": [
             "V",
@@ -9310,13 +8890,16 @@
           "price": "$5.25"
         },
         {
-          "name": "Cinnamon Downtowner",
+          "name": "Chocolate Muffin",
           "dietary_restrictions": [
             "V",
+            "SOY",
+            "EGG",
             "DAIRY",
-            "WHEAT"
+            "WHEAT",
+            "ALC"
           ],
-          "price": "$5.25"
+          "price": "$4.75"
         },
         {
           "name": "Croissant",
@@ -9327,41 +8910,6 @@
             "WHEAT"
           ],
           "price": "$4.25"
-        },
-        {
-          "name": "Peach Crunch Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$4.75"
-        },
-        {
-          "name": "Snickerdoodle Cookie",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$2.95"
-        },
-        {
-          "name": "Three Berry Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$4.75"
         },
         {
           "name": "Vegan Chocolate Chip Cookies",
@@ -9997,6 +9545,18 @@
           "price": "$1.50"
         },
         {
+          "name": "Blueberry Muffin",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": "$4.75"
+        },
+        {
           "name": "Chocolate Croissant",
           "dietary_restrictions": [
             "V",
@@ -10009,13 +9569,16 @@
           "price": "$5.25"
         },
         {
-          "name": "Cinnamon Downtowner",
+          "name": "Chocolate Muffin",
           "dietary_restrictions": [
             "V",
+            "SOY",
+            "EGG",
             "DAIRY",
-            "WHEAT"
+            "WHEAT",
+            "ALC"
           ],
-          "price": "$5.25"
+          "price": "$4.75"
         },
         {
           "name": "Croissant",
@@ -10026,41 +9589,6 @@
             "WHEAT"
           ],
           "price": "$4.25"
-        },
-        {
-          "name": "Peach Crunch Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$4.75"
-        },
-        {
-          "name": "Snickerdoodle Cookie",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$2.95"
-        },
-        {
-          "name": "Three Berry Muffin",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": "$4.75"
         },
         {
           "name": "Vegan Chocolate Chip Cookies",
