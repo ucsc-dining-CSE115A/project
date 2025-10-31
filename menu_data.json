@@ -156,15 +156,6 @@
           "price": null
         },
         {
-          "name": "BBQ Tofu",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
           "name": "Lime Cilantro Basmati Rice",
           "dietary_restrictions": [
             "VG",
@@ -177,30 +168,6 @@
           "dietary_restrictions": [
             "VG",
             "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cheese Pizza",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Pizza with Gochujang Chicken",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT",
-            "ALC"
           ],
           "price": null
         },
