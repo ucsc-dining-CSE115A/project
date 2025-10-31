@@ -3133,16 +3133,6 @@
           "price": null
         },
         {
-          "name": "Pacific Cookie Co. Vegan Dr. Midnight Cookies",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
           "name": "Deli Bar",
           "dietary_restrictions": [],
           "price": null
