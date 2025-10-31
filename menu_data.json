@@ -2388,17 +2388,17 @@
           "price": null
         },
         {
-          "name": "Chicken Apple Sausage",
+          "name": "Roasted Red Potatoes",
           "dietary_restrictions": [
-            "DAIRY",
+            "VG",
             "GF"
           ],
           "price": null
         },
         {
-          "name": "Roasted Red Potatoes",
+          "name": "Sausage Links",
           "dietary_restrictions": [
-            "VG",
+            "PORK",
             "GF"
           ],
           "price": null
