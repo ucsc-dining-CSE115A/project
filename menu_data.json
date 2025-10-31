@@ -2600,14 +2600,6 @@
           "price": null
         },
         {
-          "name": "Steamed Broccoli",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
           "name": "White Beans",
           "dietary_restrictions": [
             "VG",
