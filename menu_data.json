@@ -2552,14 +2552,6 @@
           "price": null
         },
         {
-          "name": "Chicken Tenders",
-          "dietary_restrictions": [
-            "SOY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
           "name": "Condiments",
           "dietary_restrictions": [],
           "price": null
@@ -2612,16 +2604,6 @@
           "price": null
         },
         {
-          "name": "Hamburger Bun",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
           "name": "New England Clam Chowder",
           "dietary_restrictions": [
             "DAIRY",
@@ -2634,29 +2616,6 @@
           "name": "Organic Black Bean Soup",
           "dietary_restrictions": [
             "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Portobello Mushroom Patty",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Sweet Potato Fries",
-          "dietary_restrictions": [
-            "V",
-            "SOY"
-          ],
-          "price": null
-        },
-        {
-          "name": "Turkey Burger",
-          "dietary_restrictions": [
             "GF"
           ],
           "price": null
