@@ -1972,6 +1972,17 @@
           "price": null
         },
         {
+          "name": "Meatballs",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "BEEF"
+          ],
+          "price": null
+        },
+        {
           "name": "Penne",
           "dietary_restrictions": [
             "VG",
