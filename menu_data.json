@@ -1330,22 +1330,6 @@
           "price": null
         },
         {
-          "name": "Charro Beans",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Chicken Enchilada Casserole",
-          "dietary_restrictions": [
-            "DAIRY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
           "name": "Roasted Green Beans in Garlic Oil",
           "dietary_restrictions": [
             "VG",
