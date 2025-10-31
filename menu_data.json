@@ -1916,6 +1916,15 @@
           "price": null
         },
         {
+          "name": "Caramelized Chipotle Tofu",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
           "name": "Charro Beans",
           "dietary_restrictions": [
             "VG",
@@ -2035,15 +2044,6 @@
             "SOY",
             "SESAME",
             "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Italian Roasted Tofu",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
           ],
           "price": null
         },
