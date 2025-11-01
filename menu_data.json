@@ -308,7 +308,15 @@
           "price": null
         },
         {
-          "name": "Quinoa with Lemon and Thyme",
+          "name": "Corn Cobbettes",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Lime Cilantro Basmati Rice",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -441,7 +449,7 @@
           "price": null
         },
         {
-          "name": "Roasted Eggplant",
+          "name": "Roasted Zucchini and Peppers",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -460,14 +468,6 @@
             "SHELLFISH",
             "GF",
             "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Italian White Beans",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
           ],
           "price": null
         },
