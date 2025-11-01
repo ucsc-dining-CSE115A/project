@@ -763,15 +763,6 @@
           "price": null
         },
         {
-          "name": "Hearty Beef Chili",
-          "dietary_restrictions": [
-            "BEEF",
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
           "name": "Cheese Pizza",
           "dietary_restrictions": [
             "V",
@@ -902,15 +893,6 @@
         }
       ],
       "Dinner": [
-        {
-          "name": "Hearty Beef Chili",
-          "dietary_restrictions": [
-            "BEEF",
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
         {
           "name": "Caramelized Onion & Apple Puree",
           "dietary_restrictions": [
