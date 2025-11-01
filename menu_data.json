@@ -1229,12 +1229,13 @@
           "price": null
         },
         {
-          "name": "Gluten-Free Snickerdoodle Cookie",
+          "name": "Mint Condition",
           "dietary_restrictions": [
             "V",
-            "SOY",
             "EGG",
-            "GF"
+            "DAIRY",
+            "WHEAT",
+            "ALC"
           ],
           "price": null
         },
@@ -1259,14 +1260,13 @@
           "price": null
         },
         {
-          "name": "Chocolate Chip Pancakes",
+          "name": "Belgian Waffle Squares",
           "dietary_restrictions": [
             "V",
             "SOY",
             "EGG",
             "DAIRY",
-            "WHEAT",
-            "ALC"
+            "WHEAT"
           ],
           "price": null
         },
@@ -1279,10 +1279,10 @@
           "price": null
         },
         {
-          "name": "Potatoes O'Brien",
+          "name": "Tater Tots",
           "dietary_restrictions": [
-            "VG",
-            "GF"
+            "V",
+            "SOY"
           ],
           "price": null
         },
@@ -1361,45 +1361,7 @@
           "price": null
         },
         {
-          "name": "Garlic Fries",
-          "dietary_restrictions": [
-            "V",
-            "SOY"
-          ],
-          "price": null
-        },
-        {
-          "name": "Halal Chicken Patty",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Hamburger Bun",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Hearty Beef Chili",
-          "dietary_restrictions": [
-            "BEEF",
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Portobello Mushroom Patty",
+          "name": "Organic Vegan Chili",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -1407,15 +1369,7 @@
           "price": null
         },
         {
-          "name": "Regular Cut Fries",
-          "dietary_restrictions": [
-            "V",
-            "SOY"
-          ],
-          "price": null
-        },
-        {
-          "name": "Three Sisters Crave Soup",
+          "name": "Vegan Tortilla Soup",
           "dietary_restrictions": [
             "VG",
             "GF"
