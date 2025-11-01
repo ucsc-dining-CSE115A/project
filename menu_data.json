@@ -1136,23 +1136,22 @@
           "price": null
         },
         {
-          "name": "Cage-Free Scrambled Eggs",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Chocolate Chip Pancakes",
+          "name": "Belgian Waffle Squares",
           "dietary_restrictions": [
             "V",
             "SOY",
             "EGG",
             "DAIRY",
-            "WHEAT",
-            "ALC"
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Cage-Free Scrambled Eggs",
+          "dietary_restrictions": [
+            "V",
+            "EGG",
+            "GF"
           ],
           "price": null
         },
