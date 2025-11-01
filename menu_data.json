@@ -1209,6 +1209,19 @@
       ],
       "Lunch": [
         {
+          "name": "Pepperoni Pizza",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT",
+            "BEEF",
+            "PORK"
+          ],
+          "price": null
+        },
+        {
           "name": "Allergen Free Halal Chicken Thigh",
           "dietary_restrictions": [
             "GF",
@@ -1436,13 +1449,6 @@
             "DAIRY",
             "SESAME",
             "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Spinach and Roasted Garlic Pizza",
-          "dietary_restrictions": [
-            "VG"
           ],
           "price": null
         }
