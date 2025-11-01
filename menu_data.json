@@ -247,19 +247,6 @@
           "price": null
         },
         {
-          "name": "Sidewinder Fry Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Sidewinder Fry",
-          "dietary_restrictions": [
-            "V",
-            "SOY"
-          ],
-          "price": null
-        },
-        {
           "name": "Tempeh Roasted with Chorizo Spice",
           "dietary_restrictions": [
             "VG",
