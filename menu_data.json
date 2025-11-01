@@ -1164,10 +1164,10 @@
           "price": null
         },
         {
-          "name": "Potatoes O'Brien",
+          "name": "Tater Tots",
           "dietary_restrictions": [
-            "VG",
-            "GF"
+            "V",
+            "SOY"
           ],
           "price": null
         },
