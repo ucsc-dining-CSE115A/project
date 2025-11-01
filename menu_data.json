@@ -999,16 +999,6 @@
           "price": null
         },
         {
-          "name": "Cheese Tortellini",
-          "dietary_restrictions": [
-            "V",
-            "EGG",
-            "DAIRY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
           "name": "Condiments",
           "dietary_restrictions": [],
           "price": null
