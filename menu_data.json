@@ -1432,6 +1432,19 @@
             "WHEAT"
           ],
           "price": null
+        },
+        {
+          "name": "Pepperoni Pizza",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT",
+            "BEEF",
+            "PORK"
+          ],
+          "price": null
         }
       ],
       "Dinner": [
@@ -1627,8 +1640,9 @@
           "price": null
         },
         {
-          "name": "Bombay Chicken Pizza",
+          "name": "Cheese Pizza",
           "dietary_restrictions": [
+            "V",
             "SOY",
             "EGG",
             "DAIRY",
@@ -1638,14 +1652,15 @@
           "price": null
         },
         {
-          "name": "Cheese Pizza",
+          "name": "Pepperoni Pizza",
           "dietary_restrictions": [
-            "V",
             "SOY",
             "EGG",
             "DAIRY",
             "SESAME",
-            "WHEAT"
+            "WHEAT",
+            "BEEF",
+            "PORK"
           ],
           "price": null
         }
@@ -1698,6 +1713,52 @@
           "price": null
         },
         {
+          "name": "Broccoli Slaw Salad",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Chili Bar",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Condiments",
+          "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Cornbread",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Organic Vegan Chili",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Texas Beef Chili",
+          "dietary_restrictions": [
+            "BEEF",
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
           "name": "Chili Cheese Hot Dog",
           "dietary_restrictions": [
             "SOY",
@@ -1717,8 +1778,9 @@
           "price": null
         },
         {
-          "name": "Bombay Chicken Pizza",
+          "name": "Cheese Pizza",
           "dietary_restrictions": [
+            "V",
             "SOY",
             "EGG",
             "DAIRY",
@@ -1728,14 +1790,15 @@
           "price": null
         },
         {
-          "name": "Cheese Pizza",
+          "name": "Pepperoni Pizza",
           "dietary_restrictions": [
-            "V",
             "SOY",
             "EGG",
             "DAIRY",
             "SESAME",
-            "WHEAT"
+            "WHEAT",
+            "BEEF",
+            "PORK"
           ],
           "price": null
         }
