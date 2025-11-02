@@ -553,17 +553,6 @@
     "Cowell & Stevenson Dining Hall": {
       "Breakfast": [
         {
-          "name": "Apple Pancakes",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
           "name": "Cage-Free Scrambled Eggs",
           "dietary_restrictions": [
             "V",
@@ -606,6 +595,18 @@
           "price": null
         },
         {
+          "name": "Texas French Toast",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
+          ],
+          "price": null
+        },
+        {
           "name": "Vegan Happy Scramble",
           "dietary_restrictions": [
             "VG",
@@ -636,17 +637,6 @@
       ],
       "Lunch": [
         {
-          "name": "Apple Pancakes",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
           "name": "Harissa Potatoes",
           "dietary_restrictions": [
             "VG",
@@ -659,6 +649,17 @@
           "dietary_restrictions": [
             "PORK",
             "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Sourdough French Toast",
+          "dietary_restrictions": [
+            "V",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
           ],
           "price": null
         },
