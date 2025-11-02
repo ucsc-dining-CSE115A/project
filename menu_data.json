@@ -321,7 +321,7 @@
           "price": null
         },
         {
-          "name": "Sticky Rice",
+          "name": "Steamed Basmati Rice",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -329,11 +329,9 @@
           "price": null
         },
         {
-          "name": "Stir Fry Vegetables",
+          "name": "Steamed Broccoli",
           "dietary_restrictions": [
             "VG",
-            "SOY",
-            "SESAME",
             "GF"
           ],
           "price": null
