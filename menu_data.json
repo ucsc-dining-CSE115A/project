@@ -331,14 +331,15 @@
           "price": null
         },
         {
-          "name": "Focaccia Pizza with Basil Pesto",
+          "name": "Pepperoni Pizza",
           "dietary_restrictions": [
-            "V",
             "SOY",
             "EGG",
             "DAIRY",
             "SESAME",
-            "WHEAT"
+            "WHEAT",
+            "BEEF",
+            "PORK"
           ],
           "price": null
         },
@@ -471,7 +472,15 @@
       ],
       "Late Night": [
         {
-          "name": "Cajun Coleslaw",
+          "name": "Chicken Tenders",
+          "dietary_restrictions": [
+            "SOY",
+            "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Garlic Mashed Potatoes",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -479,11 +488,11 @@
           "price": null
         },
         {
-          "name": "Memphis Chicken Wrap",
+          "name": "Vegan Mushroom Gravy",
           "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "WHEAT"
+            "VG",
+            "WHEAT",
+            "ALC"
           ],
           "price": null
         },
@@ -500,14 +509,15 @@
           "price": null
         },
         {
-          "name": "Focaccia Pizza with Basil Pesto",
+          "name": "Pepperoni Pizza",
           "dietary_restrictions": [
-            "V",
             "SOY",
             "EGG",
             "DAIRY",
             "SESAME",
-            "WHEAT"
+            "WHEAT",
+            "BEEF",
+            "PORK"
           ],
           "price": null
         },
@@ -572,14 +582,6 @@
         },
         {
           "name": "Charro Beans",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Happy Plant Vegan Chorizo Crumbles and Potatoes",
           "dietary_restrictions": [
             "VG",
             "GF"
