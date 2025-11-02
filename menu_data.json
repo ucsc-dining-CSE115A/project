@@ -339,32 +339,6 @@
           "price": null
         },
         {
-          "name": "Beef Frank",
-          "dietary_restrictions": [
-            "BEEF",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Hot Dog Bun",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Hot Dog",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
           "name": "Cheese Pizza",
           "dietary_restrictions": [
             "V",
@@ -752,6 +726,14 @@
           "price": null
         },
         {
+          "name": "Chimichurri Roasted Chicken",
+          "dietary_restrictions": [
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
           "name": "Happy Plant Vegan Chorizo Crumbles and Potatoes",
           "dietary_restrictions": [
             "VG",
@@ -772,6 +754,14 @@
           "dietary_restrictions": [
             "V",
             "DAIRY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Sweet Potato, Black Bean, and Kale Hash",
+          "dietary_restrictions": [
+            "VG",
             "GF"
           ],
           "price": null
