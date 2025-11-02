@@ -1308,14 +1308,11 @@
           "price": null
         },
         {
-          "name": "Cinnamon Raisin French Toast",
+          "name": "French Toast Sticks",
           "dietary_restrictions": [
-            "V",
+            "VG",
             "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
+            "WHEAT"
           ],
           "price": null
         },
@@ -1698,82 +1695,6 @@
         {
           "name": "Salad Bar",
           "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "6\" Flour Tortilla",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Black Bean Corn Salsa",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Caramelized Chipotle Tofu",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Chicken Taqueria Bar",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Cilantro Lime Riced Cauliflower",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Condiments",
-          "dietary_restrictions": [],
-          "price": null
-        },
-        {
-          "name": "Mexican Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Shredded Taqueria Chicken",
-          "dietary_restrictions": [
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Refried Beans",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Yellow Corn Tortillas",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
           "price": null
         },
         {
