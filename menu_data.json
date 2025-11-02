@@ -199,19 +199,6 @@
           "price": null
         },
         {
-          "name": "Truffle Mousse Cake",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "PEANUT",
-            "TREENUT",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
           "name": "Chickpea Harira",
           "dietary_restrictions": [
             "VG",
