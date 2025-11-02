@@ -138,25 +138,6 @@
           "price": null
         },
         {
-          "name": "Cheese Quesadilla",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "DAIRY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Mushroom Spinach Quesadilla",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
           "name": "Cheese Pizza",
           "dietary_restrictions": [
             "V",
