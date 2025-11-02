@@ -1220,18 +1220,6 @@
           "price": null
         },
         {
-          "name": "Cinnamon Raisin French Toast",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
           "name": "Harissa Potatoes",
           "dietary_restrictions": [
             "VG",
