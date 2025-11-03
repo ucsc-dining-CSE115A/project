@@ -2626,7 +2626,7 @@
           "price": null
         },
         {
-          "name": "Braised Toscano Potatoes",
+          "name": "Harissa Potatoes",
           "dietary_restrictions": [
             "VG",
             "GF"
@@ -2732,6 +2732,15 @@
           "dietary_restrictions": [
             "VG",
             "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Chicken Noodle Soup",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "WHEAT"
           ],
           "price": null
         },
