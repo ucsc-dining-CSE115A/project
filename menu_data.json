@@ -643,6 +643,14 @@
           "price": null
         },
         {
+          "name": "Potatoes O'Brien",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
           "name": "Tempeh, Black Bean, and Potato Hash",
           "dietary_restrictions": [
             "VG",
