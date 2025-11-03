@@ -346,49 +346,10 @@
           "price": null
         },
         {
-          "name": "Pineapple Fried Rice",
+          "name": "Sticky Rice",
           "dietary_restrictions": [
             "VG",
-            "SOY",
-            "SESAME",
             "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Sesame Yakisoba Noodles",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "French Fries",
-          "dietary_restrictions": [
-            "V",
-            "SOY"
-          ],
-          "price": null
-        },
-        {
-          "name": "Halal Chicken Nuggets",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "WHEAT",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Tenders",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT"
           ],
           "price": null
         },
@@ -478,23 +439,15 @@
           "price": null
         },
         {
-          "name": "Buffalo Cauliflower",
-          "dietary_restrictions": [
-            "V"
-          ],
-          "price": null
-        },
-        {
           "name": "Condiments",
           "dietary_restrictions": [],
           "price": null
         },
         {
-          "name": "Green Chili and Cheese Potato Salad",
+          "name": "Fries",
           "dietary_restrictions": [
             "V",
-            "DAIRY",
-            "GF"
+            "SOY"
           ],
           "price": null
         },
@@ -515,16 +468,16 @@
           "price": null
         },
         {
-          "name": "Smoke & Spice Wing Bar",
-          "dietary_restrictions": [],
+          "name": "Roasted Cauliflower",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
           "price": null
         },
         {
-          "name": "Tater Tots",
-          "dietary_restrictions": [
-            "V",
-            "SOY"
-          ],
+          "name": "Smoke & Spice Wing Bar",
+          "dietary_restrictions": [],
           "price": null
         },
         {
@@ -2274,15 +2227,16 @@
       ],
       "Dinner": [
         {
-          "name": "House Made Vegan Tomato Soup",
+          "name": "Creamy Broccoli Cheddar Soup",
           "dietary_restrictions": [
-            "VG",
+            "V",
+            "DAIRY",
             "GF"
           ],
           "price": null
         },
         {
-          "name": "Vegan Tortilla Soup",
+          "name": "Lentil & Lemon Soup",
           "dietary_restrictions": [
             "VG",
             "GF"
