@@ -666,6 +666,14 @@
       ],
       "Lunch": [
         {
+          "name": "Organic Kale and Sweet Potato Soup",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
           "name": "Organic Vegan Chili",
           "dietary_restrictions": [
             "VG",
@@ -2728,42 +2736,7 @@
           "price": null
         },
         {
-          "name": "Beef Frank",
-          "dietary_restrictions": [
-            "BEEF",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Fire Roasted Corn Soup",
-          "dietary_restrictions": [
-            "V",
-            "DAIRY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Hot Dog Bun",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
           "name": "Organic Vegan Chili",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Hot Dog",
           "dietary_restrictions": [
             "VG",
             "GF"
