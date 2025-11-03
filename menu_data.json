@@ -311,10 +311,10 @@
       ],
       "Dinner": [
         {
-          "name": "Chicken Pozole",
+          "name": "Chicken Spaetzle Soup",
           "dietary_restrictions": [
-            "GF",
-            "ALC"
+            "EGG",
+            "WHEAT"
           ],
           "price": null
         },
