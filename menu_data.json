@@ -135,14 +135,6 @@
           "price": null
         },
         {
-          "name": "Cajun Rice",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
           "name": "Creamy Cajun Chicken Pasta",
           "dietary_restrictions": [
             "DAIRY",
@@ -160,49 +152,11 @@
           "price": null
         },
         {
-          "name": "Whaler Fish Sandwich",
-          "dietary_restrictions": [
-            "SOY",
-            "SESAME",
-            "WHEAT",
-            "FISH"
-          ],
-          "price": null
-        },
-        {
-          "name": "Hamburger Bun",
+          "name": "Spicy Red Beans and Vegetables",
           "dietary_restrictions": [
             "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Opah Burger Patty",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "FISH",
             "GF",
             "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Portobello Mushroom Patty",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Sweet Potato Fries",
-          "dietary_restrictions": [
-            "V",
-            "SOY"
           ],
           "price": null
         },
