@@ -712,15 +712,6 @@
       ],
       "Lunch": [
         {
-          "name": "Fire Roasted Corn Soup",
-          "dietary_restrictions": [
-            "V",
-            "DAIRY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
           "name": "Organic Vegan Chili",
           "dietary_restrictions": [
             "VG",
@@ -729,9 +720,27 @@
           "price": null
         },
         {
-          "name": "Braised Toscano Potatoes",
+          "name": "Caramelized Chipotle Tofu",
           "dietary_restrictions": [
             "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Garlic Herb Roasted Red Potatoes",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Grilled Chimichurri Tofu",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
             "GF"
           ],
           "price": null
@@ -742,6 +751,14 @@
             "PORK",
             "GF",
             "ALC"
+          ],
+          "price": null
+        },
+        {
+          "name": "Roasted Corn",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
           ],
           "price": null
         },
@@ -870,9 +887,34 @@
           "price": null
         },
         {
+          "name": "Chana Masala",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Chickpea Harira",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
           "name": "Cilantro Chutney",
           "dietary_restrictions": [
             "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Coconut Curry Tofu",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
             "GF"
           ],
           "price": null
@@ -929,14 +971,6 @@
           "price": null
         },
         {
-          "name": "Tarka Dal",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
           "name": "Tomato Chutney",
           "dietary_restrictions": [
             "VG",
@@ -964,15 +998,6 @@
         }
       ],
       "Dinner": [
-        {
-          "name": "Fire Roasted Corn Soup",
-          "dietary_restrictions": [
-            "V",
-            "DAIRY",
-            "WHEAT"
-          ],
-          "price": null
-        },
         {
           "name": "Organic Vegan Chili",
           "dietary_restrictions": [
