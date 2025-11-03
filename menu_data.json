@@ -2326,6 +2326,17 @@
           "price": null
         },
         {
+          "name": "Asian Pork Spareribs",
+          "dietary_restrictions": [
+            "SOY",
+            "SESAME",
+            "FISH",
+            "PORK",
+            "GF"
+          ],
+          "price": null
+        },
+        {
           "name": "Allergen Free Halal Chicken Thigh",
           "dietary_restrictions": [
             "GF",
