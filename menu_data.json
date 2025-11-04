@@ -821,18 +821,17 @@
       ],
       "Lunch": [
         {
-          "name": "Chicken Noodle Soup",
+          "name": "Organic Vegan Chili",
           "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "WHEAT"
+            "VG",
+            "GF"
           ],
           "price": null
         },
         {
-          "name": "Lentil & Lemon Soup",
+          "name": "Pork Pozole",
           "dietary_restrictions": [
-            "VG",
+            "PORK",
             "GF"
           ],
           "price": null
@@ -1026,11 +1025,10 @@
       ],
       "Dinner": [
         {
-          "name": "Chicken Noodle Soup",
+          "name": "Organic Vegan Chili",
           "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "WHEAT"
+            "VG",
+            "GF"
           ],
           "price": null
         },
