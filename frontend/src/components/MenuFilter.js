@@ -1,49 +1,82 @@
 import React from 'react';
+// Updated import path: moved CSS file from components to styles folder for better organization
+import '../styles/MenuFilter.css';
 
+// Complete list of dietary restriction filters
+const DIETARY_FILTERS = [
+  'VG',        // Vegan
+  'V',         // Vegetarian
+  'GF',        // Gluten-Free
+  'EGG',       // Contains Eggs
+  'SOY',       // Contains Soy
+  'DAIRY',     // Contains Dairy
+  'WHEAT',     // Contains Wheat
+  'ALC',       // Contains Alcohol
+  'PORK',      // Contains Pork
+  'SHELLFISH', // Contains Shellfish
+  'SESAME',    // Contains Sesame
+  'BEEF',      // Contains Beef
+  'FISH',      // Contains Fish
+  'HALAL',     // Halal
+  'PEANUT',    // Contains Peanuts
+  'TREENUT'    // Contains Tree Nuts
+];
+
+// MenuFilter component for filtering menu items by dietary restrictions
 function MenuFilter({ selectedFilters, onFilterChange }) {
-  const dietaryOptions = [
-    'V',
-    'VG',
-    'SOY',
-    'Dairy-Free',
-    'Nut-Free',
-    'Halal',
-    'Kosher'
-  ];
-
-  const handleCheckboxChange = (option) => {
-    if (selectedFilters.includes(option)) {
-      // Remove filter
-      onFilterChange(selectedFilters.filter(f => f !== option));
-    } else {
-      // Add filter
-      onFilterChange([...selectedFilters, option]);
-    }
+  
+  // Handle individual filter toggle
+  const handleFilterToggle = (filter) => {
+    const updatedFilters = selectedFilters.includes(filter)
+      ? selectedFilters.filter(f => f !== filter) // Remove if already selected
+      : [...selectedFilters, filter]; // Add if not selected
+    
+    onFilterChange(updatedFilters);
   };
 
+  // Clear all selected filters
   const clearAllFilters = () => {
     onFilterChange([]);
   };
 
   return (
     <div className="menu-filter">
-      <h3>Filter by Dietary Restrictions</h3>
+      <div className="filter-header">
+        <h3>Filter by Dietary Restrictions</h3>
+        {selectedFilters.length > 0 && (
+          <button 
+            className="clear-filters-btn" 
+            onClick={clearAllFilters}
+            aria-label="Clear all filters"
+          >
+            Clear All ({selectedFilters.length})
+          </button>
+        )}
+      </div>
+      
       <div className="filter-options">
-        {dietaryOptions.map((option) => (
-          <label key={option} className="filter-checkbox">
+        {DIETARY_FILTERS.map((filter) => (
+          <label 
+            key={filter} 
+            className={`filter-checkbox ${selectedFilters.includes(filter) ? 'selected' : ''}`}
+            title={`Filter by ${filter}`}
+          >
             <input
               type="checkbox"
-              checked={selectedFilters.includes(option)}
-              onChange={() => handleCheckboxChange(option)}
+              checked={selectedFilters.includes(filter)}
+              onChange={() => handleFilterToggle(filter)}
+              aria-label={`Filter by ${filter}`}
             />
-            <span>{option}</span>
+            <span className="filter-label">{filter}</span>
           </label>
         ))}
       </div>
+      
+      {/* Show active filters count */}
       {selectedFilters.length > 0 && (
-        <button onClick={clearAllFilters} className="clear-filters-btn">
-          Clear All Filters
-        </button>
+        <div className="active-filters-info">
+          {selectedFilters.length} filter{selectedFilters.length !== 1 ? 's' : ''} active
+        </div>
       )}
     </div>
   );

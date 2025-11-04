@@ -13,6 +13,24 @@
   font-size: 28px;
 }
 
+/* Main content layout with filter on left and menu on right */
+.menu-detail-content {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+/* No results message styling */
+.no-results {
+  text-align: center;
+  padding: 40px 20px;
+  color: #6b7280;
+  font-size: 16px;
+  background: #f9fafb;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
 .back-button {
   display: inline-block;
   padding: 10px 20px;
@@ -34,6 +52,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  flex: 1; /* Take remaining space after filter */
 }
 
 .menu-section {
@@ -81,6 +100,12 @@
   .menu-cards-grid {
     grid-template-columns: 325px;
     justify-content: center;
+  }
+  
+  /* Stack filter and menu vertically on mobile */
+  .menu-detail-content {
+    flex-direction: column;
+    gap: 20px;
   }
 }
 

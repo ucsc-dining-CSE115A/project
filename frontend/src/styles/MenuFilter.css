@@ -1,0 +1,157 @@
+/* MenuFilter component styles - Consolidated and optimized version */
+/* Moved from components folder to styles folder for better organization */
+/* Includes complete allergen filtering functionality with modern UI design */
+
+.menu-filter {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Filter header with title and clear button */
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.filter-header h3 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Clear all filters button */
+.clear-filters-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.clear-filters-btn:hover {
+  background: #c0392b;
+  transform: translateY(-1px);
+}
+
+/* Filter options container - responsive grid */
+.filter-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+/* Individual filter checkbox styling */
+.filter-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: white;
+  min-height: 40px;
+  position: relative;
+  user-select: none;
+}
+
+.filter-checkbox:hover {
+  border-color: #3498db;
+  background: #f0f8ff;
+  transform: translateY(-1px);
+}
+
+/* Selected state */
+.filter-checkbox.selected {
+  background: #3498db;
+  border-color: #2980b9;
+  color: white;
+  font-weight: 600;
+}
+
+.filter-checkbox.selected:hover {
+  background: #2980b9;
+  border-color: #1f5f8b;
+}
+
+/* Hide the actual checkbox input */
+.filter-checkbox input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+/* Filter label text */
+.filter-label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-align: center;
+  pointer-events: none;
+}
+
+/* Active filters info */
+.active-filters-info {
+  text-align: center;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .filter-options {
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    gap: 6px;
+  }
+  
+  .filter-checkbox {
+    padding: 6px 8px;
+    min-height: 36px;
+  }
+  
+  .filter-label {
+    font-size: 0.8rem;
+  }
+  
+  .filter-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .clear-filters-btn {
+    align-self: flex-end;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .filter-options {
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  }
+  
+  .filter-checkbox {
+    padding: 4px 6px;
+    min-height: 32px;
+  }
+  
+  .filter-label {
+    font-size: 0.75rem;
+  }
+}

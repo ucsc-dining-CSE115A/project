@@ -8,7 +8,7 @@ function MenuDetail() {
   const [menuData, setMenuData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [selectedFilters, setSelectedFilters] = useState([]);
+  const [selectedFilters, setSelectedFilters] = useState([]); // State for selected allergen filters
 
   const decodedName = decodeURIComponent(diningHallName);
 
@@ -57,10 +57,12 @@ function MenuDetail() {
     return organizedMenu;
   };
 
-  // Filter items based on selected dietary restrictions
+  // Filter items based on selected allergen filters
+  // Only show items that contain ALL selected allergen tags
+  // Fixed: Use exact matching to prevent V/VG confusion
   const filterItems = (items) => {
     if (selectedFilters.length === 0) {
-      return items; // No filters, show all
+      return items; // No filters selected, show all items
     }
 
     return items.filter(item => {
@@ -71,14 +73,23 @@ function MenuDetail() {
         return false; // No dietary info, don't show when filtering
       }
 
-      // Convert to string if it's an array or other type
-      const restrictionsStr = Array.isArray(dietaryRestrictions) 
-        ? dietaryRestrictions.join(' ').toLowerCase()
-        : String(dietaryRestrictions).toLowerCase();
+      // Convert dietary restrictions to array for exact matching
+      // This prevents V/VG confusion by using exact tag matching instead of string includes
+      let restrictionsArray = [];
+      if (Array.isArray(dietaryRestrictions)) {
+        restrictionsArray = dietaryRestrictions;
+      } else if (typeof dietaryRestrictions === 'string') {
+        // Split by common separators and clean up whitespace
+        restrictionsArray = dietaryRestrictions
+          .split(/[,\s]+/)
+          .map(tag => tag.trim().toUpperCase())
+          .filter(tag => tag.length > 0);
+      }
 
-      // Check if item matches ALL selected filters
+      // Check if item contains ALL selected filters using exact matching
+      // This ensures V and VG are treated as separate, distinct tags
       return selectedFilters.every(filter => 
-        restrictionsStr.includes(filter.toLowerCase())
+        restrictionsArray.includes(filter.toUpperCase())
       );
     });
   };
@@ -117,51 +128,55 @@ function MenuDetail() {
       <Link to="/" className="back-button">← Back to Dining Halls</Link>
       <h1>{decodedName}</h1>
       
-      {/* Filter Component */}
-      <MenuFilter 
-        selectedFilters={selectedFilters}
-        onFilterChange={setSelectedFilters}
-      />
+      {/* Main content with filter on left and menu on right */}
+      <div className="menu-detail-content">
+        {/* Filter component on the left */}
+        <MenuFilter 
+          selectedFilters={selectedFilters}
+          onFilterChange={setSelectedFilters}
+        />
 
-      <div className="menu-content">
-        {Object.entries(organizedMenu).map(([mealType, items]) => {
-          const filteredItems = filterItems(items);
-          
-          // Don't show meal section if no items pass the filter
-          if (filteredItems.length === 0) {
-            return null;
-          }
+        {/* Menu content on the right */}
+        <div className="menu-content">
+          {Object.entries(organizedMenu).map(([mealType, items]) => {
+            const filteredItems = filterItems(items);
+            
+            // Don't show meal section if no items pass the filter
+            if (filteredItems.length === 0) {
+              return null;
+            }
 
-          return (
-            <div key={mealType} className="menu-section">
-              <h2>{mealType}</h2>
-              <div className="menu-cards-grid">
-                {filteredItems.map((item, index) => {
-                  const itemName = typeof item === 'string' ? item : item.name;
-                  const dietaryRestrictions = typeof item === 'object' ? item.dietary_restrictions : null;
-                  const price = typeof item === 'object' ? item.price : null;
-                  
-                  return (
-                    <MenuCard 
-                      key={index} 
-                      itemName={itemName}
-                      dietaryRestrictions={dietaryRestrictions}
-                      price={price}
-                    />
-                  );
-                })}
+            return (
+              <div key={mealType} className="menu-section">
+                <h2>{mealType}</h2>
+                <div className="menu-cards-grid">
+                  {filteredItems.map((item, index) => {
+                    const itemName = typeof item === 'string' ? item : item.name;
+                    const dietaryRestrictions = typeof item === 'object' ? item.dietary_restrictions : null;
+                    const price = typeof item === 'object' ? item.price : null;
+                    
+                    return (
+                      <MenuCard 
+                        key={index} 
+                        itemName={itemName}
+                        dietaryRestrictions={dietaryRestrictions}
+                        price={price}
+                      />
+                    );
+                  })}
+                </div>
               </div>
+            );
+          })}
+
+          {/* Show message if no items match filters */}
+          {selectedFilters.length > 0 && 
+           Object.values(organizedMenu).every(items => filterItems(items).length === 0) && (
+            <div className="no-results">
+              No items match the selected filters. Try adjusting your selections.
             </div>
-          );
-        })}
-        
-        {/* Show message if no items match filters */}
-        {selectedFilters.length > 0 && 
-         Object.values(organizedMenu).every(items => filterItems(items).length === 0) && (
-          <div className="no-results">
-            No items match the selected filters. Try adjusting your selections.
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </div>
   );
