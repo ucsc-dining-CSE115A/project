@@ -439,6 +439,14 @@
           "price": null
         },
         {
+          "name": "Cajun Coleslaw",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
           "name": "Condiments",
           "dietary_restrictions": [],
           "price": null
@@ -448,14 +456,6 @@
           "dietary_restrictions": [
             "V",
             "SOY"
-          ],
-          "price": null
-        },
-        {
-          "name": "Green Onion Slaw",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
           ],
           "price": null
         },
@@ -2272,20 +2272,9 @@
           "price": null
         },
         {
-          "name": "Steamed Carrots and Broccoli",
+          "name": "Steamed Broccoli",
           "dietary_restrictions": [
             "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Asian Pork Spareribs",
-          "dietary_restrictions": [
-            "SOY",
-            "SESAME",
-            "FISH",
-            "PORK",
             "GF"
           ],
           "price": null
@@ -2775,6 +2764,16 @@
       ],
       "Dinner": [
         {
+          "name": "Beef Bolognese Baked Pasta",
+          "dietary_restrictions": [
+            "DAIRY",
+            "WHEAT",
+            "BEEF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
           "name": "Allergen Free Halal Chicken Thigh",
           "dietary_restrictions": [
             "GF",
@@ -2862,17 +2861,6 @@
           "price": null
         },
         {
-          "name": "Lasagna Bolognese",
-          "dietary_restrictions": [
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "BEEF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
           "name": "Marinara Sauce",
           "dietary_restrictions": [
             "VG",
@@ -2885,22 +2873,6 @@
           "dietary_restrictions": [
             "VG",
             "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Sauteed Rainbow Chard with Garlic Oil",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Meatballs",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
           ],
           "price": null
         },
@@ -2937,14 +2909,6 @@
         },
         {
           "name": "Roasted Cauliflower and Vegetable Medley",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Roasted Eggplant",
           "dietary_restrictions": [
             "VG",
             "GF"
