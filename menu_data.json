@@ -821,6 +821,19 @@
       ],
       "Lunch": [
         {
+          "name": "Pepperoni Pizza",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT",
+            "BEEF",
+            "PORK"
+          ],
+          "price": null
+        },
+        {
           "name": "Organic Vegan Chili",
           "dietary_restrictions": [
             "VG",
@@ -869,20 +882,19 @@
           "price": null
         },
         {
-          "name": "Cheese Pizza",
+          "name": "BBQ Ginger Soy Chicken",
           "dietary_restrictions": [
-            "V",
             "SOY",
-            "EGG",
-            "DAIRY",
             "SESAME",
-            "WHEAT"
+            "GF",
+            "HALAL"
           ],
           "price": null
         },
         {
-          "name": "Thai Chicken Pizza",
+          "name": "Cheese Pizza",
           "dietary_restrictions": [
+            "V",
             "SOY",
             "EGG",
             "DAIRY",
@@ -939,16 +951,6 @@
             "VG",
             "SOY",
             "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "BBQ Ginger Soy Chicken",
-          "dietary_restrictions": [
-            "SOY",
-            "SESAME",
-            "GF",
-            "HALAL"
           ],
           "price": null
         },
@@ -1069,17 +1071,6 @@
           "name": "Cheese Pizza",
           "dietary_restrictions": [
             "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Thai Chicken Pizza",
-          "dietary_restrictions": [
             "SOY",
             "EGG",
             "DAIRY",
@@ -2669,17 +2660,6 @@
           "price": null
         },
         {
-          "name": "Belgian Waffle Squares",
-          "dietary_restrictions": [
-            "V",
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
           "name": "Cage-Free Scrambled Eggs",
           "dietary_restrictions": [
             "V",
@@ -2710,6 +2690,18 @@
           "dietary_restrictions": [
             "VG",
             "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Texas French Toast",
+          "dietary_restrictions": [
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "ALC"
           ],
           "price": null
         },
