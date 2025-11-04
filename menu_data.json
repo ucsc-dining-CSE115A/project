@@ -864,19 +864,6 @@
           "price": null
         },
         {
-          "name": "Pepperoni Pizza",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT",
-            "BEEF",
-            "PORK"
-          ],
-          "price": null
-        },
-        {
           "name": "Allergen Free Halal Chicken Thigh",
           "dietary_restrictions": [
             "GF",
@@ -958,6 +945,19 @@
         {
           "name": "Kogi BBQ Bowl Bar",
           "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Pepperoni Pizza",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT",
+            "BEEF",
+            "PORK"
+          ],
           "price": null
         },
         {
@@ -1515,41 +1515,6 @@
           "price": null
         },
         {
-          "name": "Halal Beef Patty",
-          "dietary_restrictions": [
-            "BEEF",
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Hamburger Bun",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Portobello Mushroom Patty",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Sidewinder Fry",
-          "dietary_restrictions": [
-            "V",
-            "SOY"
-          ],
-          "price": null
-        },
-        {
           "name": "Cheese Pizza",
           "dietary_restrictions": [
             "V",
@@ -1562,9 +1527,14 @@
           "price": null
         },
         {
-          "name": "Vegan Spinach and Roasted Garlic Pizza",
+          "name": "Sausage and Onion Pizza",
           "dietary_restrictions": [
-            "VG"
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT",
+            "PORK"
           ],
           "price": null
         },
@@ -1664,15 +1634,6 @@
           "name": "Tamarind Chutney",
           "dietary_restrictions": [
             "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Tofu Vindaloo",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
             "GF"
           ],
           "price": null
