@@ -996,6 +996,55 @@
           "name": "Salad Bar",
           "dietary_restrictions": [],
           "price": null
+        },
+        {
+          "name": "Coconut Curry Tofu",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Garlic Mashed Yukon Golds",
+          "dietary_restrictions": [
+            "V",
+            "DAIRY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Meatballs",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "WHEAT",
+            "BEEF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Porcini Crusted Roasted Chicken",
+          "dietary_restrictions": [
+            "DAIRY",
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
+          "name": "Spam Fried Rice",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "PORK",
+            "GF",
+            "ALC"
+          ],
+          "price": null
         }
       ],
       "Dinner": [
