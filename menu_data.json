@@ -170,41 +170,6 @@
           "price": null
         },
         {
-          "name": "Halal Beef Patty",
-          "dietary_restrictions": [
-            "BEEF",
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Hamburger Bun",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Portobello Mushroom Patty",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Sidewinder Fry",
-          "dietary_restrictions": [
-            "V",
-            "SOY"
-          ],
-          "price": null
-        },
-        {
           "name": "Cheese Pizza",
           "dietary_restrictions": [
             "V",
