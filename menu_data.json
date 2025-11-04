@@ -786,19 +786,6 @@
       ],
       "Lunch": [
         {
-          "name": "Pepperoni Pizza",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "SESAME",
-            "WHEAT",
-            "BEEF",
-            "PORK"
-          ],
-          "price": null
-        },
-        {
           "name": "Organic Vegan Chili",
           "dietary_restrictions": [
             "VG",
@@ -865,6 +852,27 @@
             "DAIRY",
             "SESAME",
             "WHEAT"
+          ],
+          "price": null
+        },
+        {
+          "name": "Hot Honey",
+          "dietary_restrictions": [
+            "V",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Pepperoni Pizza",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT",
+            "BEEF",
+            "PORK"
           ],
           "price": null
         },
