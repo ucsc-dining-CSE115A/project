@@ -2163,10 +2163,9 @@
       ],
       "Lunch": [
         {
-          "name": "Creamy Broccoli Cheddar Soup",
+          "name": "Organic Kale and Sweet Potato Soup",
           "dietary_restrictions": [
-            "V",
-            "DAIRY",
+            "VG",
             "GF"
           ],
           "price": null
@@ -2396,10 +2395,9 @@
       ],
       "Dinner": [
         {
-          "name": "Creamy Broccoli Cheddar Soup",
+          "name": "Organic Kale and Sweet Potato Soup",
           "dietary_restrictions": [
-            "V",
-            "DAIRY",
+            "VG",
             "GF"
           ],
           "price": null
