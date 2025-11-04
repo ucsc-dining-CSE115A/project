@@ -1216,13 +1216,15 @@
           "price": null
         },
         {
-          "name": "Thai Chicken Pizza",
+          "name": "Pepperoni Pizza",
           "dietary_restrictions": [
             "SOY",
             "EGG",
             "DAIRY",
             "SESAME",
-            "WHEAT"
+            "WHEAT",
+            "BEEF",
+            "PORK"
           ],
           "price": null
         },
