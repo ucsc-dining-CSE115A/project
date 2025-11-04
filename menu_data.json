@@ -337,18 +337,11 @@
           "price": null
         },
         {
-          "name": "Garlic Thyme Mushrooms",
+          "name": "BBQ Chicken",
           "dietary_restrictions": [
-            "VG",
+            "SOY",
+            "HALAL",
             "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Honey Mustard Chicken",
-          "dietary_restrictions": [
-            "GF",
-            "ALC"
           ],
           "price": null
         },
@@ -468,6 +461,14 @@
         {
           "name": "Mashed Potato Bowl Bar",
           "dietary_restrictions": [],
+          "price": null
+        },
+        {
+          "name": "Sauteed Garlic Kale",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
           "price": null
         },
         {
