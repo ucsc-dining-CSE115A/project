@@ -947,11 +947,10 @@
           "price": null
         },
         {
-          "name": "BBQ Ginger Soy Beef",
+          "name": "BBQ Ginger Soy Chicken",
           "dietary_restrictions": [
             "SOY",
             "SESAME",
-            "BEEF",
             "GF",
             "HALAL"
           ],
@@ -2911,56 +2910,10 @@
           "price": null
         },
         {
-          "name": "Chicken Noodle Soup",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Halal Chicken Patty",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "DAIRY",
-            "WHEAT",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Hamburger Bun",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
           "name": "Lentil & Lemon Soup",
           "dietary_restrictions": [
             "VG",
             "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Portobello Mushroom Patty",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Regular Cut Fries",
-          "dietary_restrictions": [
-            "V",
-            "SOY"
           ],
           "price": null
         },
@@ -3161,15 +3114,6 @@
           "dietary_restrictions": [
             "VG",
             "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Chicken Noodle Soup",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "WHEAT"
           ],
           "price": null
         },
