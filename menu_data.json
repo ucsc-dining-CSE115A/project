@@ -2924,6 +2924,15 @@
       ],
       "Dinner": [
         {
+          "name": "BBQ Tempeh",
+          "dietary_restrictions": [
+            "VG",
+            "SOY",
+            "GF"
+          ],
+          "price": null
+        },
+        {
           "name": "Allergen Free Halal Chicken Thigh",
           "dietary_restrictions": [
             "GF",
