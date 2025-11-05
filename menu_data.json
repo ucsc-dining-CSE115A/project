@@ -101,6 +101,23 @@
           "price": null
         },
         {
+          "name": "Organic Black Bean Soup",
+          "dietary_restrictions": [
+            "VG",
+            "GF"
+          ],
+          "price": null
+        },
+        {
+          "name": "Vegan Garbanzo Sesame Soup",
+          "dietary_restrictions": [
+            "VG",
+            "SESAME",
+            "GF"
+          ],
+          "price": null
+        },
+        {
           "name": "Baja Sandbar Bass Piccata",
           "dietary_restrictions": [
             "DAIRY",
