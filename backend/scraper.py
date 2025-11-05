@@ -1,3 +1,4 @@
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
@@ -8,12 +9,15 @@ from bs4 import BeautifulSoup
 import time
 import os
 import json
+import re
+from urllib.parse import urlparse, parse_qsl, urlencode, urlunparse
 
 # -----------------
 # Config
 # -----------------
 JSON_PATH = os.environ.get("MENU_JSON", "menu_data.json")
 IS_HEADLESS = os.environ.get("IS_HEADLESS", "1") == "1"
+TEST_DATE = os.environ.get("TEST_DATE", "")  # e.g. "10/28/2025"
 
 colleges = [
     "John R. Lewis & College Nine Dining Hall",
@@ -21,33 +25,43 @@ colleges = [
     "Crown & Merrill Dining Hall and Banana Joe's",
     "Porter & Kresge Dining Hall",
     "Rachel Carson & Oakes Dining Hall",
+    "Oakes Cafe",
+    "Global Village Cafe",
+    "Owl's Nest Cafe",
+    "Slug Stop",
+    "UCen Coffee Bar",
+    "Stevenson Coffee House",
+    "Perk Coffee Bar",
+    "Porter Market",
+    "Merrill Market"
 ]
 
-# Map each legend icon filename -> short code we want in dietary_restrictions[]
+# Map legend icon filename -> tag we want in dietary_restrictions
 ICON_MAP = {
-    "vegan.gif":   "VG",  # vegan
-    "veggie.gif":  "V",   # vegetarian
-    "gluten.gif":  "GF",  # gluten-free
-    "eggs.gif":    "EGG",   # contains eggs
-    "soy.gif":     "SOY",   # contains soy
-    "milk.gif":    "DAIRY",   # contains dairy
-    "wheat.gif":   "WHEAT",   # contains wheat
-    "alcohol.gif": "ALC", # contains alcohol
-    "pork.gif":   "PORK",# contains pork
-    "shellfish.gif": "SHELLFISH", # contains shellfish
-    "sesame.gif": "SESAME", # contains sesame
-    "beef.gif": "BEEF", # contains beef
-    "fish.gif": "FISH", # contains fish
-    "halal.gif": "HALAL", # halal
-    "nuts.gif": "PEANUT", # contains peanuts *IMPORTANT - this icon is only for peanuts!!*
-    "treenut.gif": "TREENUT", # contains tree nuts
+    "vegan.gif":      "VG",  # item is vegan
+    "veggie.gif":     "V",   # item is vegetarian
+    "gluten.gif":     "GF",  # item is gluten free
+    "eggs.gif":       "EGG", # item contains eggs
+    "soy.gif":        "SOY", # item contains soy
+    "milk.gif":       "DAIRY", # item contains dairy
+    "wheat.gif":      "WHEAT", # item contains wheat
+    "alcohol.gif":    "ALC",   # item contains alcohol
+    "pork.gif":       "PORK",  # item contains pork
+    "shellfish.gif":  "SHELLFISH", # item contains shellfish
+    "sesame.gif":     "SESAME",    # item contains sesame
+    "beef.gif":       "BEEF",      # item contains beef
+    "fish.gif":       "FISH",      # item contains fish
+    "halal.gif":      "HALAL",     # item is halal
+    "nuts.gif":       "PEANUT",    # item contains peanuts
+    "treenut.gif":    "TREENUT",   # item contains tree nuts
 }
+
+PRICE_REGEX = re.compile(r"\$\s*\d+(?:\.\d{1,2})?")
 
 
 def make_driver():
     chrome_opts = Options()
     if IS_HEADLESS:
-        # "--headless=new" works on modern Chrome; keep it for container usage
         chrome_opts.add_argument("--headless=new")
     chrome_opts.add_argument("--no-sandbox")
     chrome_opts.add_argument("--disable-dev-shm-usage")
@@ -57,8 +71,7 @@ def make_driver():
 
 def wait_for_locations_list(driver, timeout=10):
     """
-    Ensures the landing page (https://nutrition.sa.ucsc.edu/) is loaded
-    and the dining hall location links are present.
+    Load https://nutrition.sa.ucsc.edu/ and ensure dining hall links render.
     """
     WebDriverWait(driver, timeout).until(
         EC.presence_of_all_elements_located((By.CSS_SELECTOR, "li.locations a"))
@@ -67,8 +80,7 @@ def wait_for_locations_list(driver, timeout=10):
 
 def get_hall_links(driver):
     """
-    From the landing page (after cookies are set), collect (name, href)
-    for just the halls we care about.
+    After cookies/session are set, collect (name, href) for the halls/markets we care about.
     """
     links = driver.find_elements(By.CSS_SELECTOR, "li.locations a")
     hall_links = []
@@ -79,82 +91,269 @@ def get_hall_links(driver):
     return hall_links
 
 
-def parse_menu_html(html_text):
+def apply_date_param(base_url: str, date_str: str) -> str:
     """
-    Given the full HTML of one dining hall's page (driver.page_source),
-    build a dict of:
-       {
-         "Breakfast": [ {name, dietary_restrictions: [...]}, ... ],
-         "Lunch":     [ ... ],
-         ...
-       }
+    Inject or override dtdate=MM/DD/YYYY in the hall URL if TEST_DATE is set.
+    """
+    if not date_str:
+        return base_url
+
+    parsed = urlparse(base_url)
+    query_pairs = dict(parse_qsl(parsed.query))
+    query_pairs["dtdate"] = date_str
+
+    new_query = urlencode(query_pairs)
+    new_url = urlunparse((
+        parsed.scheme,
+        parsed.netloc,
+        parsed.path,
+        parsed.params,
+        new_query,
+        parsed.fragment
+    ))
+    return new_url
+
+
+def clean_item_name_and_price(text_val: str):
+    """
+    If the recipe text itself includes a price like "Crunch Wrap $7.00",
+    split that out:
+       returns ( "Crunch Wrap", "$7.00" )
+    Otherwise:
+       returns ( original_text, None )
+    """
+    m = PRICE_REGEX.search(text_val)
+    if not m:
+        return text_val.strip(), None
+
+    price = m.group(0)
+
+    # remove the price block from the name
+    name_wo_price = (text_val[:m.start()] + text_val[m.end():]).strip()
+
+    # strip trailing punctuation from leftover "Crunch Wrap -"
+    name_wo_price = re.sub(r"[-–:]\s*$", "", name_wo_price).strip()
+
+    return name_wo_price, price
+
+
+def find_icon_row(el):
+    """
+    Return the closest <tr> that directly wraps this <div class="shortmenurecipes">
+    and its allergen/veg/etc. icons.
+    In your sample, that's the INNER <tr height="30px">.
+    """
+    return el.find_parent("tr")
+
+
+def find_price_row(el):
+    """
+    Walk up through ancestor <tr> elements.
+    Return the FIRST <tr> in that chain that actually contains a .shortmenuprices.
+    That <tr> is where the correct price for THIS item lives.
+
+    If we never find a price row, fall back to the closest <tr> just so we don't crash.
+    """
+    closest_tr = el.find_parent("tr")
+    cur = closest_tr
+    first_with_price = None
+
+    while cur:
+        if cur.name != "tr":
+            cur = cur.find_parent("tr")
+            continue
+
+        if cur.select_one(".shortmenuprices"):
+            first_with_price = cur
+            break  # stop at the first ancestor row that has a price
+
+        cur = cur.find_parent("tr")
+
+    return first_with_price if first_with_price else closest_tr
+
+
+def extract_dietary_tags_from_row(tr):
+    """
+    Look at just this row's LegendImages icons and map them to tags like ["V","DAIRY","WHEAT"].
+    """
+    tags = []
+    if tr is None:
+        return tags
+
+    imgs = tr.select("img[src*='LegendImages/']")
+    for img in imgs:
+        src = (img.get("src") or "").strip()
+        icon_file = os.path.basename(src)
+        tag = ICON_MAP.get(icon_file)
+        if tag and tag not in tags:
+            tags.append(tag)
+
+    return tags
+
+
+def extract_price_from_row(tr):
+    """
+    From the row that actually contains .shortmenuprices, pull "$X.XX".
+    """
+    if tr is None:
+        return None
+
+    # most direct: <div class="shortmenuprices"><span>$7.00</span></div>
+    price_divs = tr.select(".shortmenuprices")
+    for cand in price_divs:
+        txt = cand.get_text(" ", strip=True)
+        m = PRICE_REGEX.search(txt)
+        if m:
+            return m.group(0)
+
+    # fallback: any $ in the row text
+    txt_all = tr.get_text(" ", strip=True)
+    m2 = PRICE_REGEX.search(txt_all)
+    if m2:
+        return m2.group(0)
+
+    return None
+
+
+def _normalize_category_text(raw_text: str) -> str:
+    """
+    Normalize section/subsection names.
+    - Turn things like '-- Breakfast --' or '  Clean Plate  ' into 'Breakfast' / 'Clean Plate'.
+    - Collapse whitespace.
+    """
+    # Replace non-breaking spaces and trim
+    t = (raw_text or "").replace("\xa0", " ")
+    # Remove leading/trailing dashes and surrounding spaces
+    t = re.sub(r"^\\s*-+\\s*|\\s*-+\\s*$", "", t).strip()
+    # Collapse internal whitespace
+    t = re.sub(r"\\s{2,}", " ", t)
+    return t
+
+
+def _ensure_nested(hall_menu: dict, section: str, subsection: str):
+    """Ensure nested dict/list exists for hall_menu[section][subsection]."""
+    if section not in hall_menu:
+        hall_menu[section] = {}
+    if subsection not in hall_menu[section]:
+        hall_menu[section][subsection] = []
+
+
+def parse_menu_html(html_text: str):
+    """
+    Parse one location's HTML into a nested dict:
+    {
+      "Breakfast": {
+        "Breakfast": [ {...}, {...} ],
+        "Clean Plate": [ {...} ],
+        "Campus Bakery": [ {...} ]
+      },
+      "Lunch": { ... },
+      ...
+    }
+
+    Recognizes:
+      - <div class="shortmenumeals"> ... </div>   (sections: Breakfast/Lunch/Dinner/Late Night)
+      - <div class="shortmenucats">  ... </div>   (subsections: 'Clean Plate', 'Soups', 'Campus Bakery', or even 'Breakfast')
+      - <div class="shortmenurecipes"> ... </div> (actual items)
+
+    If the page is closed / weekend / "No Data Available", we return {}.
     """
     soup = BeautifulSoup(html_text, "html.parser")
 
-    # We'll walk the page in DOM order, toggling current_meal whenever we see div.shortmenumeals
-    hall_menu = {}
-    current_meal = None
+    # Closed case: markets on weekends etc.
+    no_data_div = soup.select_one("div.shortmenuinstructs")
+    if no_data_div and "No Data Available" in no_data_div.get_text(strip=True):
+        return {}
 
-    # Get all meal headers + recipe entries in order
-    elements = soup.select("div.shortmenumeals, div.shortmenurecipes")
+    # Walk headers & items in DOM order.
+    elements = soup.select("div.shortmenumeals, div.shortmenucats, div.shortmenurecipes")
+    if not elements:
+        return {}
+
+    hall_menu: dict[str, dict[str, list]] = {}
+    current_section = None
+    current_subsection = None
 
     for el in elements:
         classes = el.get("class", [])
-        text_val = el.get_text(strip=True).replace("\xa0", " ")
+        raw_text = el.get_text(strip=True).replace("\xa0", " ")
 
+        # SECTION header (Breakfast / Lunch / Dinner / Late Night, etc.)
         if "shortmenumeals" in classes:
-            # Start a new meal section, like "Breakfast", "Lunch", "Dinner", etc.
-            current_meal = text_val
-            if current_meal not in hall_menu:
-                hall_menu[current_meal] = []
+            current_section = _normalize_category_text(raw_text) or "Uncategorized"
+            # Do NOT create a default subsection yet; wait for a shortmenucats or first item
+            current_subsection = None
+            # Ensure the section dict exists (no subsections yet)
+            if current_section not in hall_menu:
+                hall_menu[current_section] = {}
+            continue
 
-        elif "shortmenurecipes" in classes:
-            if current_meal is None:
-                # If somehow we saw a recipe before any meal header,
-                # just shove it under "Uncategorized"
-                current_meal = "Uncategorized"
-                if current_meal not in hall_menu:
-                    hall_menu[current_meal] = []
+        # SUBSECTION header (e.g., '-- Breakfast --', 'Clean Plate', 'Campus Bakery', 'Soups')
+        if "shortmenucats" in classes:
+            # Must belong to a section; if missing, create an 'Uncategorized' section
+            if current_section is None:
+                current_section = "Uncategorized"
+            current_subsection = _normalize_category_text(raw_text) or current_section
+            _ensure_nested(hall_menu, current_section, current_subsection)
+            continue
 
-            item_name = text_val
+        # Actual menu item line
+        if "shortmenurecipes" in classes:
+            # If nothing has been set yet, fall back to Uncategorized/Uncategorized
+            if current_section is None:
+                current_section = "Uncategorized"
+            if current_subsection is None:
+                current_subsection = current_section
+            _ensure_nested(hall_menu, current_section, current_subsection)
 
-            # Find icons in the same table row as this recipe
-            tr = el.find_parent("tr")
-            dietary_tags = []
-            if tr:
-                imgs = tr.select("img")
-                for img in imgs:
-                    src = (img.get("src") or "").strip()
-                    if "LegendImages" in src:
-                        icon_file = os.path.basename(src)
-                        tag = ICON_MAP.get(icon_file)
-                        if tag and tag not in dietary_tags:
-                            dietary_tags.append(tag)
+            # 1) Clean inline price off the item name (if the item text itself had it)
+            cleaned_name, inline_price = clean_item_name_and_price(raw_text)
 
-            hall_menu[current_meal].append(
+            # 2) Find the row that has JUST THIS ITEM and its icons
+            icon_row = el.find_parent("tr")
+
+            # 3) Find the nearest ancestor row that actually has a .shortmenuprices block
+            price_row = find_price_row(el)
+
+            # 4) Extract dietary tags from icon_row ONLY
+            dietary_tags = extract_dietary_tags_from_row(icon_row)
+
+            # 5) Price: inline has priority; else pull from price_row
+            item_price = inline_price if inline_price is not None else extract_price_from_row(price_row)
+
+            hall_menu[current_section][current_subsection].append(
                 {
-                    "name": item_name,
+                    "name": cleaned_name,
                     "dietary_restrictions": dietary_tags,
+                    "price": item_price,
                 }
             )
 
     return hall_menu
 
 
-def scrape_hall(driver, hall_name, hall_href):
+def scrape_hall(driver, hall_name, hall_href, date_override):
     """
-    Navigate to one hall, wait for menu to load, return structured dict for that hall.
+    Load an individual hall/market URL (optionally pinned to TEST_DATE),
+    wait for either menu content or a 'No Data Available' marker,
+    parse, and return structured data for that hall.
     """
-    driver.get(hall_href)
+    url_to_fetch = apply_date_param(hall_href, date_override)
+    driver.get(url_to_fetch)
 
-    # Wait until we see at least one recipe or meal block so we know content loaded.
-    WebDriverWait(driver, 10).until(
-        EC.presence_of_all_elements_located(
-            (By.CSS_SELECTOR, "div.shortmenumeals, div.shortmenurecipes")
+    # Try to wait for something meaningful to load, but don't crash if it's closed
+    try:
+        WebDriverWait(driver, 5).until(
+            EC.presence_of_all_elements_located(
+                (
+                    By.CSS_SELECTOR,
+                    "div.shortmenumeals, div.shortmenucats, div.shortmenurecipes, div.shortmenuinstructs"
+                )
+            )
         )
-    )
+    except Exception:
+        pass  # closed / after hours / nothing rendered, still parse what we got
 
-    # Grab rendered HTML and parse
     html_text = driver.page_source
     hall_menu = parse_menu_html(html_text)
     return hall_menu
@@ -162,30 +361,43 @@ def scrape_hall(driver, hall_name, hall_href):
 
 def main():
     driver = make_driver()
-    menu_data = {}
+
+    # Final output JSON shape:
+    # {
+    #   "scrape_date": "10/28/2025",
+    #   "halls": {
+    #       "Porter Market": { ... },
+    #       "Crown & Merrill Dining Hall and Banana Joe's": { ... }
+    #   }
+    # }
+    result = {
+        "scrape_date": TEST_DATE if TEST_DATE else None,
+        "halls": {}
+    }
 
     try:
-        # Step 1. Load homepage to set cookies/session
+        # 1. Hit homepage first so session cookies get set
         driver.get("https://nutrition.sa.ucsc.edu/")
         wait_for_locations_list(driver)
 
-        # Step 2. Filter for only the halls we care about
+        # 2. Collect links for every dining hall / cafe / market we care about
         hall_links = get_hall_links(driver)
 
-        # Step 3. Visit each hall and scrape
+        # 3. Scrape each one
         for (hall_name, hall_href) in hall_links:
-            hall_menu = scrape_hall(driver, hall_name, hall_href)
-            menu_data[hall_name] = hall_menu
-            # Small pause is polite / avoids hammering server
-            time.sleep(1)
+            hall_menu = scrape_hall(driver, hall_name, hall_href, TEST_DATE)
+            result["halls"][hall_name] = hall_menu
+            time.sleep(1)  # be polite to their server
 
     finally:
         driver.quit()
 
-    # Step 4. Write JSON
+    # 4. Write to JSON file
     with open(JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(menu_data, f, ensure_ascii=False, indent=2)
+        json.dump(result, f, ensure_ascii=False, indent=2)
 
+    # Optional: print to stdout for debugging in CI
+    print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":
