@@ -1485,33 +1485,6 @@
           "price": null
         },
         {
-          "name": "French Fries",
-          "dietary_restrictions": [
-            "V",
-            "SOY"
-          ],
-          "price": null
-        },
-        {
-          "name": "Halal Chicken Nuggets",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "WHEAT",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
-          "name": "Vegan Tenders",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
           "name": "Cheese Pizza",
           "dietary_restrictions": [
             "V",
@@ -1524,9 +1497,13 @@
           "price": null
         },
         {
-          "name": "Cilantro Flatbread with Red Onions and Mushrooms",
+          "name": "Pizza Special",
           "dietary_restrictions": [
-            "VG",
+            "V",
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
             "WHEAT"
           ],
           "price": null
