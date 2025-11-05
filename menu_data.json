@@ -319,20 +319,17 @@
       ],
       "Dinner": [
         {
-          "name": "Organic Kale and Sweet Potato Soup",
+          "name": "Hearty Turkey Chili",
           "dietary_restrictions": [
-            "VG",
             "GF"
           ],
           "price": null
         },
         {
-          "name": "Portuguese Sausage and Bean Soup",
+          "name": "Organic Kale and Sweet Potato Soup",
           "dietary_restrictions": [
-            "DAIRY",
-            "WHEAT",
-            "PORK",
-            "ALC"
+            "VG",
+            "GF"
           ],
           "price": null
         },
