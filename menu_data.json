@@ -1696,43 +1696,6 @@
           "price": null
         },
         {
-          "name": "Hamburger Bun",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Opah Burger Patty",
-          "dietary_restrictions": [
-            "SOY",
-            "EGG",
-            "FISH",
-            "GF",
-            "ALC"
-          ],
-          "price": null
-        },
-        {
-          "name": "Portobello Mushroom Patty",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Sweet Potato Fries",
-          "dietary_restrictions": [
-            "V",
-            "SOY"
-          ],
-          "price": null
-        },
-        {
           "name": "Cheese Pizza",
           "dietary_restrictions": [
             "V",
@@ -1740,14 +1703,6 @@
             "EGG",
             "DAIRY",
             "SESAME",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Cilantro Flatbread with Red Onions and Mushrooms",
-          "dietary_restrictions": [
-            "VG",
             "WHEAT"
           ],
           "price": null
