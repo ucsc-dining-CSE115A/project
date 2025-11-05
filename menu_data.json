@@ -93,19 +93,10 @@
       ],
       "Lunch": [
         {
-          "name": "Garden Vegetable Soup",
+          "name": "Chicken Spaetzle Soup",
           "dietary_restrictions": [
-            "VG",
+            "EGG",
             "WHEAT"
-          ],
-          "price": null
-        },
-        {
-          "name": "Sweet & Sour Mushroom Soup",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "GF"
           ],
           "price": null
         },
