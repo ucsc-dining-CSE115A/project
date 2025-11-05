@@ -11,6 +11,12 @@ function MenuDetail() {
   const [selectedFilters, setSelectedFilters] = useState([]); // State for selected allergen filters
 
   const decodedName = decodeURIComponent(diningHallName);
+  
+  // Alias mapping to handle variations in data source keys (e.g., Crown/Merrill)
+  // This maps route keys to actual keys present in menu_data.json when names differ
+  const aliasMap = {
+    "Crown & Merrill Dining Hall": "Crown & Merrill Dining Hall and Banana Joe's", // Map old key to current data key
+  };
 
   useEffect(() => {
     const fetchMenuData = async () => {
@@ -81,7 +87,7 @@ function MenuDetail() {
       } else if (typeof dietaryRestrictions === 'string') {
         // Split by common separators and clean up whitespace
         restrictionsArray = dietaryRestrictions
-          .split(/[,\s]+/)
+          .split(/[\,\s]+/)
           .map(tag => tag.trim().toUpperCase())
           .filter(tag => tag.length > 0);
       }
@@ -111,7 +117,9 @@ function MenuDetail() {
     );
   }
 
-  const diningHallMenu = menuData[decodedName];
+  // Resolve source key using alias map when direct key not found
+  const sourceKey = menuData[decodedName] ? decodedName : (aliasMap[decodedName] || decodedName); // Pick actual key if name changed
+  const diningHallMenu = menuData[sourceKey];
   if (!diningHallMenu) {
     return (
       <div className="menu-detail-container">
