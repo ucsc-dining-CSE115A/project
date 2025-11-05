@@ -813,6 +813,18 @@
           "price": null
         },
         {
+          "name": "Sausage and Mushroom Pizza",
+          "dietary_restrictions": [
+            "SOY",
+            "EGG",
+            "DAIRY",
+            "SESAME",
+            "WHEAT",
+            "PORK"
+          ],
+          "price": null
+        },
+        {
           "name": "Veggie Supreme Pizza",
           "dietary_restrictions": [
             "V",
