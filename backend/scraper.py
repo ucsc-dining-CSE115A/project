@@ -1,3 +1,4 @@
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
@@ -37,22 +38,22 @@ colleges = [
 
 # Map legend icon filename -> tag we want in dietary_restrictions
 ICON_MAP = {
-    "vegan.gif":      "VG", # item is vegan
-    "veggie.gif":     "V", # item is vegetarian
-    "gluten.gif":     "GF", # item is gluten free
+    "vegan.gif":      "VG",  # item is vegan
+    "veggie.gif":     "V",   # item is vegetarian
+    "gluten.gif":     "GF",  # item is gluten free
     "eggs.gif":       "EGG", # item contains eggs
     "soy.gif":        "SOY", # item contains soy
     "milk.gif":       "DAIRY", # item contains dairy
     "wheat.gif":      "WHEAT", # item contains wheat
-    "alcohol.gif":    "ALC", # item contains alcohol
-    "pork.gif":       "PORK", # item contains pork
+    "alcohol.gif":    "ALC",   # item contains alcohol
+    "pork.gif":       "PORK",  # item contains pork
     "shellfish.gif":  "SHELLFISH", # item contains shellfish
-    "sesame.gif":     "SESAME", # item contains sesame
-    "beef.gif":       "BEEF", # item contains beef
-    "fish.gif":       "FISH", # item contains fish
-    "halal.gif":      "HALAL", # item is halal
-    "nuts.gif":       "PEANUT",   # item contains peanuts 
-    "treenut.gif":    "TREENUT",  # item contains tree nuts
+    "sesame.gif":     "SESAME",    # item contains sesame
+    "beef.gif":       "BEEF",      # item contains beef
+    "fish.gif":       "FISH",      # item contains fish
+    "halal.gif":      "HALAL",     # item is halal
+    "nuts.gif":       "PEANUT",    # item contains peanuts
+    "treenut.gif":    "TREENUT",   # item contains tree nuts
 }
 
 PRICE_REGEX = re.compile(r"\$\s*\d+(?:\.\d{1,2})?")
@@ -214,20 +215,46 @@ def extract_price_from_row(tr):
     return None
 
 
+def _normalize_category_text(raw_text: str) -> str:
+    """
+    Normalize section/subsection names.
+    - Turn things like '-- Breakfast --' or '  Clean Plate  ' into 'Breakfast' / 'Clean Plate'.
+    - Collapse whitespace.
+    """
+    # Replace non-breaking spaces and trim
+    t = (raw_text or "").replace("\xa0", " ")
+    # Remove leading/trailing dashes and surrounding spaces
+    t = re.sub(r"^\\s*-+\\s*|\\s*-+\\s*$", "", t).strip()
+    # Collapse internal whitespace
+    t = re.sub(r"\\s{2,}", " ", t)
+    return t
+
+
+def _ensure_nested(hall_menu: dict, section: str, subsection: str):
+    """Ensure nested dict/list exists for hall_menu[section][subsection]."""
+    if section not in hall_menu:
+        hall_menu[section] = {}
+    if subsection not in hall_menu[section]:
+        hall_menu[section][subsection] = []
+
+
 def parse_menu_html(html_text: str):
     """
-    Parse one location's HTML into a dict of meals -> [ {name, dietary_restrictions, price}, ... ]
-
-    Example return shape:
+    Parse one location's HTML into a nested dict:
     {
-      "Breakfast": [
-        {"name": "Cage-Free Scrambled Eggs", "dietary_restrictions": [], "price": null},
-        {"name": "Harissa Potatoes", "dietary_restrictions": ["GF","VG"], "price": null}
-      ],
-      "Uncategorized": [
-        {"name": "Blueberry Muffin", "dietary_restrictions": ["V","SOY","EGG","DAIRY","WHEAT","ALC"], "price": "$4.75"}
-      ]
+      "Breakfast": {
+        "Breakfast": [ {...}, {...} ],
+        "Clean Plate": [ {...} ],
+        "Campus Bakery": [ {...} ]
+      },
+      "Lunch": { ... },
+      ...
     }
+
+    Recognizes:
+      - <div class="shortmenumeals"> ... </div>   (sections: Breakfast/Lunch/Dinner/Late Night)
+      - <div class="shortmenucats">  ... </div>   (subsections: 'Clean Plate', 'Soups', 'Campus Bakery', or even 'Breakfast')
+      - <div class="shortmenurecipes"> ... </div> (actual items)
 
     If the page is closed / weekend / "No Data Available", we return {}.
     """
@@ -238,53 +265,63 @@ def parse_menu_html(html_text: str):
     if no_data_div and "No Data Available" in no_data_div.get_text(strip=True):
         return {}
 
-    # We'll walk menu headers & items in DOM order
-    elements = soup.select("div.shortmenumeals, div.shortmenurecipes")
+    # Walk headers & items in DOM order.
+    elements = soup.select("div.shortmenumeals, div.shortmenucats, div.shortmenurecipes")
     if not elements:
         return {}
 
-    hall_menu = {}
-    current_meal = None
+    hall_menu: dict[str, dict[str, list]] = {}
+    current_section = None
+    current_subsection = None
 
     for el in elements:
         classes = el.get("class", [])
         raw_text = el.get_text(strip=True).replace("\xa0", " ")
 
-        # Meal header (Breakfast / Lunch / Dinner / etc)
+        # SECTION header (Breakfast / Lunch / Dinner / Late Night, etc.)
         if "shortmenumeals" in classes:
-            current_meal = raw_text
-            if current_meal not in hall_menu:
-                hall_menu[current_meal] = []
+            current_section = _normalize_category_text(raw_text) or "Uncategorized"
+            # Do NOT create a default subsection yet; wait for a shortmenucats or first item
+            current_subsection = None
+            # Ensure the section dict exists (no subsections yet)
+            if current_section not in hall_menu:
+                hall_menu[current_section] = {}
+            continue
+
+        # SUBSECTION header (e.g., '-- Breakfast --', 'Clean Plate', 'Campus Bakery', 'Soups')
+        if "shortmenucats" in classes:
+            # Must belong to a section; if missing, create an 'Uncategorized' section
+            if current_section is None:
+                current_section = "Uncategorized"
+            current_subsection = _normalize_category_text(raw_text) or current_section
+            _ensure_nested(hall_menu, current_section, current_subsection)
             continue
 
         # Actual menu item line
         if "shortmenurecipes" in classes:
-            # Markets / cafés don't always break out meals, so fallback
-            if current_meal is None:
-                current_meal = "Uncategorized"
-                if current_meal not in hall_menu:
-                    hall_menu[current_meal] = []
+            # If nothing has been set yet, fall back to Uncategorized/Uncategorized
+            if current_section is None:
+                current_section = "Uncategorized"
+            if current_subsection is None:
+                current_subsection = current_section
+            _ensure_nested(hall_menu, current_section, current_subsection)
 
-            # 1. Clean inline price off the name (if the item text itself had it)
+            # 1) Clean inline price off the item name (if the item text itself had it)
             cleaned_name, inline_price = clean_item_name_and_price(raw_text)
 
-            # 2. Find the row that has JUST THIS ITEM and its icons
-            icon_row = find_icon_row(el)
+            # 2) Find the row that has JUST THIS ITEM and its icons
+            icon_row = el.find_parent("tr")
 
-            # 3. Find the nearest ancestor row that actually has a .shortmenuprices block
+            # 3) Find the nearest ancestor row that actually has a .shortmenuprices block
             price_row = find_price_row(el)
 
-            # 4. Extract dietary tags from icon_row ONLY
+            # 4) Extract dietary tags from icon_row ONLY
             dietary_tags = extract_dietary_tags_from_row(icon_row)
 
-            # 5. Price:
-            #    inline wins (e.g. "Crunch Wrap $7.00"),
-            #    else pull the first .shortmenuprices from the price_row.
-            item_price = inline_price
-            if item_price is None:
-                item_price = extract_price_from_row(price_row)
+            # 5) Price: inline has priority; else pull from price_row
+            item_price = inline_price if inline_price is not None else extract_price_from_row(price_row)
 
-            hall_menu[current_meal].append(
+            hall_menu[current_section][current_subsection].append(
                 {
                     "name": cleaned_name,
                     "dietary_restrictions": dietary_tags,
@@ -310,7 +347,7 @@ def scrape_hall(driver, hall_name, hall_href, date_override):
             EC.presence_of_all_elements_located(
                 (
                     By.CSS_SELECTOR,
-                    "div.shortmenumeals, div.shortmenurecipes, div.shortmenuinstructs"
+                    "div.shortmenumeals, div.shortmenucats, div.shortmenurecipes, div.shortmenuinstructs"
                 )
             )
         )
