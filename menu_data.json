@@ -2499,15 +2499,6 @@
           "price": null
         },
         {
-          "name": "6\" Flour Tortilla",
-          "dietary_restrictions": [
-            "VG",
-            "SOY",
-            "WHEAT"
-          ],
-          "price": null
-        },
-        {
           "name": "Caramelized Chipotle Tofu",
           "dietary_restrictions": [
             "VG",
@@ -2527,6 +2518,16 @@
           "price": null
         },
         {
+          "name": "Harissa BBQ Beef",
+          "dietary_restrictions": [
+            "SOY",
+            "BEEF",
+            "GF",
+            "HALAL"
+          ],
+          "price": null
+        },
+        {
           "name": "Mexican Rice",
           "dietary_restrictions": [
             "VG",
@@ -2535,23 +2536,7 @@
           "price": null
         },
         {
-          "name": "Shredded Taqueria Chicken",
-          "dietary_restrictions": [
-            "GF",
-            "HALAL"
-          ],
-          "price": null
-        },
-        {
           "name": "Vegan Refried Beans",
-          "dietary_restrictions": [
-            "VG",
-            "GF"
-          ],
-          "price": null
-        },
-        {
-          "name": "Yellow Corn Tortillas",
           "dietary_restrictions": [
             "VG",
             "GF"
