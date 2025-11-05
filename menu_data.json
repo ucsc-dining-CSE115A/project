@@ -1040,14 +1040,14 @@
           "price": null
         },
         {
-          "name": "Veggie Supreme Pizza",
+          "name": "Sausage and Mushroom Pizza",
           "dietary_restrictions": [
-            "V",
             "SOY",
             "EGG",
             "DAIRY",
             "SESAME",
-            "WHEAT"
+            "WHEAT",
+            "PORK"
           ],
           "price": null
         },
@@ -1218,14 +1218,14 @@
           "price": null
         },
         {
-          "name": "Veggie Supreme Pizza",
+          "name": "Sausage and Mushroom Pizza",
           "dietary_restrictions": [
-            "V",
             "SOY",
             "EGG",
             "DAIRY",
             "SESAME",
-            "WHEAT"
+            "WHEAT",
+            "PORK"
           ],
           "price": null
         },
