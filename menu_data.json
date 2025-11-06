@@ -462,8 +462,8 @@
             "price": null
           },
           {
-            "id": 39,
-            "name": "Roasted Asparagus",
+            "id": 374,
+            "name": "Roasted Cauliflower",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -611,16 +611,6 @@
             "price": null
           },
           {
-            "id": 45,
-            "name": "Black Bean Corn Salsa",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 46,
             "name": "Caramelized Chipotle Tofu",
             "avg_rating": 0.0,
@@ -634,16 +624,6 @@
           {
             "id": 47,
             "name": "Charro Beans",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 48,
-            "name": "Cilantro Lime Riced Cauliflower",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
