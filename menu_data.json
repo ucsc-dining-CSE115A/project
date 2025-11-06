@@ -118,23 +118,30 @@
       "Lunch": {
         "-- Soups --": [
           {
-            "name": "Chicken Spaetzle Soup",
-            "dietary_restrictions": [
-              "EGG",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "name": "Chipotle Cuban Black Bean Soup",
             "dietary_restrictions": [
               "VG",
               "GF"
             ],
             "price": null
+          },
+          {
+            "name": "Hearty Turkey Chili",
+            "dietary_restrictions": [
+              "GF"
+            ],
+            "price": null
           }
         ],
         "-- Entrees --": [
+          {
+            "name": "Black Bean & Corn Saute",
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
           {
             "name": "Chicken Adobo",
             "dietary_restrictions": [
@@ -166,43 +173,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          }
-        ],
-        "-- Grill --": [
-          {
-            "name": "BBQ Pulled Shiitake",
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "name": "Green Onion Slaw",
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "name": "Hamburger Bun",
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "name": "Sweet Potato Fries",
-            "dietary_restrictions": [
-              "V",
-              "SOY"
             ],
             "price": null
           }
@@ -285,20 +255,16 @@
         ],
         "-- Hot Bars --": [
           {
-            "name": "Buffalo Cauliflower",
-            "dietary_restrictions": [
-              "V"
-            ],
-            "price": null
-          },
-          {
             "name": "Chengdu Wing Bar",
             "dietary_restrictions": [],
             "price": null
           },
           {
-            "name": "Condiments",
-            "dietary_restrictions": [],
+            "name": "Chickpea Harira",
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
             "price": null
           },
           {
@@ -320,6 +286,24 @@
             "price": null
           },
           {
+            "name": "Orange Glazed Gardein",
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "name": "Steamed Broccoli",
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "name": "Sticky Rice",
             "dietary_restrictions": [
               "VG",
@@ -333,15 +317,6 @@
               "SOY",
               "SESAME",
               "ALC"
-            ],
-            "price": null
-          },
-          {
-            "name": "Vegan Tenders",
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
             ],
             "price": null
           }
@@ -935,6 +910,15 @@
               "VG"
             ],
             "price": null
+          },
+          {
+            "name": "Sauteed Bok Choy and Carrots with Sesame",
+            "dietary_restrictions": [
+              "VG",
+              "SESAME",
+              "GF"
+            ],
+            "price": null
           }
         ],
         "-- Pizza --": [
@@ -1013,6 +997,15 @@
             "name": "Avocado Mayonnaise",
             "dietary_restrictions": [
               "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "name": "Caramelized Chipotle Tofu",
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
               "GF"
             ],
             "price": null
@@ -2365,15 +2358,6 @@
             "price": null
           },
           {
-            "name": "Green Chili and Cheese Potato Salad",
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "name": "Green Onion Slaw",
             "dietary_restrictions": [
               "VG",
@@ -2386,14 +2370,6 @@
             "dietary_restrictions": [
               "GF",
               "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "name": "Jasmine Rice",
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           },
