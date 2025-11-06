@@ -1314,17 +1314,20 @@
         ]
       },
       "Dinner": {
-        "- Soups -": [
+        "- Miscellaneous -": [
           {
-            "id": 80,
-            "name": "Chicken Soup Tlalpan",
+            "id": 373,
+            "name": "Pork Adobado",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "GF",
-              "ALC"
+              "ALC",
+              "PORK",
+              "GF"
             ],
             "price": null
-          },
+          }
+        ],
+        "- Soups -": [
           {
             "id": 64,
             "name": "Organic Kale and Sweet Potato Soup",
@@ -1355,17 +1358,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 82,
-            "name": "Pork Chile Verde",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "PORK",
-              "GF",
-              "ALC"
             ],
             "price": null
           },
