@@ -349,11 +349,9 @@
             "price": null
           },
           {
-            "name": "Fried Chicken and Waffles",
+            "name": "Chicken Tenders",
             "dietary_restrictions": [
               "SOY",
-              "EGG",
-              "DAIRY",
               "WHEAT"
             ],
             "price": null
@@ -387,8 +385,9 @@
         ],
         "-- Pizza --": [
           {
-            "name": "Asian Spicy Chicken Pizza",
+            "name": "Cheese Pizza",
             "dietary_restrictions": [
+              "V",
               "SOY",
               "EGG",
               "DAIRY",
@@ -398,14 +397,15 @@
             "price": null
           },
           {
-            "name": "Cheese Pizza",
+            "name": "Pepperoni Pizza",
             "dietary_restrictions": [
-              "V",
               "SOY",
               "EGG",
               "DAIRY",
               "SESAME",
-              "WHEAT"
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
@@ -577,8 +577,9 @@
         ],
         "-- Pizza --": [
           {
-            "name": "Asian Spicy Chicken Pizza",
+            "name": "Cheese Pizza",
             "dietary_restrictions": [
+              "V",
               "SOY",
               "EGG",
               "DAIRY",
@@ -588,14 +589,15 @@
             "price": null
           },
           {
-            "name": "Cheese Pizza",
+            "name": "Pepperoni Pizza",
             "dietary_restrictions": [
-              "V",
               "SOY",
               "EGG",
               "DAIRY",
               "SESAME",
-              "WHEAT"
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
@@ -691,14 +693,6 @@
           {
             "name": "Kogi BBQ Bowl Bar",
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "name": "Pickled Red Onions and Peppers",
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
             "price": null
           },
           {
