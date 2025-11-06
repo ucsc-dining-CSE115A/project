@@ -1,13 +1,15 @@
-/* MenuFilter component styles - Consolidated and optimized version */
-/* Moved from components folder to styles folder for better organization */
-/* Includes complete allergen filtering functionality with modern UI design */
+/* MenuFilter component styles - Themed to UCSC dark blue */
+/* Consolidated and optimized version with clear module framing */
 
+/* Top-level container theme and framing */
 .menu-filter {
-  background: #f8f9fa;
+  background: #ffffff; /* Clean white background to match cards */
+  border: 2px solid #003C6C; /* Dark blue frame for clear module look */
+  border-top: 6px solid #003C6C; /* Accent bar at top for emphasis */
   border-radius: 12px;
   padding: 20px;
   margin-bottom: 24px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 60, 108, 0.15); /* Slightly stronger shadow */
 }
 
 /* Filter header with title and clear button */
@@ -18,17 +20,18 @@
   margin-bottom: 16px;
 }
 
+/* Header title color aligned with theme */
 .filter-header h3 {
   margin: 0;
-  color: #2c3e50;
+  color: #003C6C; /* Dark blue title to match theme */
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-/* Clear all filters button */
+/* Clear all filters button - themed to dark blue */
 .clear-filters-btn {
-  background: #e74c3c;
-  color: white;
+  background: #003C6C; /* Match theme color for consistency */
+  color: #ffffff;
   border: none;
   border-radius: 20px;
   padding: 6px 12px;
@@ -39,7 +42,7 @@
 }
 
 .clear-filters-btn:hover {
-  background: #c0392b;
+  background: #004080; /* Darker blue on hover */
   transform: translateY(-1px);
 }
 
@@ -57,33 +60,33 @@
   align-items: center;
   justify-content: center;
   padding: 8px 12px;
-  border: 2px solid #ddd;
+  border: 2px solid #ddd; /* Neutral border by default */
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.2s ease;
-  background: white;
+  background: #ffffff;
   min-height: 40px;
   position: relative;
   user-select: none;
 }
 
+/* Checkbox hover and selected states themed */
 .filter-checkbox:hover {
-  border-color: #3498db;
-  background: #f0f8ff;
+  border-color: #003C6C; /* Themed border on hover */
+  background: #f0f6ff; /* Light blue tint on hover */
   transform: translateY(-1px);
 }
 
-/* Selected state */
 .filter-checkbox.selected {
-  background: #3498db;
-  border-color: #2980b9;
-  color: white;
+  background: #003C6C; /* Selected matches theme */
+  border-color: #004080; /* Slightly darker border for depth */
+  color: #ffffff;
   font-weight: 600;
 }
 
 .filter-checkbox.selected:hover {
-  background: #2980b9;
-  border-color: #1f5f8b;
+  background: #004080; /* Darker hover for selected */
+  border-color: #003060; /* Deeper blue on hover */
 }
 
 /* Hide the actual checkbox input */
@@ -104,10 +107,10 @@
   pointer-events: none;
 }
 
-/* Active filters info */
+/* Active filters info - themed */
 .active-filters-info {
   text-align: center;
-  color: #7f8c8d;
+  color: #003C6C; /* Themed info text */
   font-size: 0.9rem;
   font-style: italic;
   margin-top: 8px;
