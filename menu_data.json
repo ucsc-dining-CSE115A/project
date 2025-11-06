@@ -407,21 +407,20 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 35,
-            "name": "Chicken Spaetzle Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "EGG",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 12,
             "name": "Chipotle Cuban Black Bean Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 13,
+            "name": "Hearty Turkey Chili",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
               "GF"
             ],
             "price": null
@@ -2957,12 +2956,11 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 97,
-            "name": "Chicken Noodle Soup",
+            "id": 120,
+            "name": "Mushroom & Barley Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "SOY",
-              "EGG",
+              "VG",
               "WHEAT"
             ],
             "price": null
