@@ -8,7 +8,7 @@ function MenuDetail() {
   const [menuData, setMenuData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [selectedFilters, setSelectedFilters] = useState([]); // State for selected allergen filters
+  const [selectedFilters, setSelectedFilters] = useState([]);
 
   const decodedName = decodeURIComponent(diningHallName);
 
@@ -36,14 +36,11 @@ function MenuDetail() {
     if (menuData && typeof menuData === 'object' && !Array.isArray(menuData)) {
       return menuData;
     }
-    
     const standardMealTypes = ['Breakfast', 'Lunch', 'Dinner', 'Late Night'];
     const organizedMenu = {};
-
     const isMealType = (item) => {
       return standardMealTypes.includes(item) || item.startsWith('Late Night @');
     };
-
     let currentMealType = null;
     menuData.forEach(item => {
       if (isMealType(item)) {
@@ -53,41 +50,27 @@ function MenuDetail() {
         organizedMenu[currentMealType].push(item);
       }
     });
-
     return organizedMenu;
   };
 
-  // Filter items based on selected allergen filters
-  // Only show items that contain ALL selected allergen tags
-  // Fixed: Use exact matching to prevent V/VG confusion
   const filterItems = (items) => {
     if (selectedFilters.length === 0) {
-      return items; // No filters selected, show all items
+      return items;
     }
-
     return items.filter(item => {
-      // Handle both string and object formats
       const dietaryRestrictions = typeof item === 'object' ? item.dietary_restrictions : null;
-      
       if (!dietaryRestrictions) {
-        return false; // No dietary info, don't show when filtering
+        return false;
       }
-
-      // Convert dietary restrictions to array for exact matching
-      // This prevents V/VG confusion by using exact tag matching instead of string includes
       let restrictionsArray = [];
       if (Array.isArray(dietaryRestrictions)) {
         restrictionsArray = dietaryRestrictions;
       } else if (typeof dietaryRestrictions === 'string') {
-        // Split by common separators and clean up whitespace
         restrictionsArray = dietaryRestrictions
-          .split(/[,\s]+/)
+          .split(/[\,\s]+/)
           .map(tag => tag.trim().toUpperCase())
           .filter(tag => tag.length > 0);
       }
-
-      // Check if item contains ALL selected filters using exact matching
-      // This ensures V and VG are treated as separate, distinct tags
       return selectedFilters.every(filter => 
         restrictionsArray.includes(filter.toUpperCase())
       );
@@ -123,55 +106,91 @@ function MenuDetail() {
 
   const organizedMenu = organizeMenuByMealType(diningHallMenu);
 
+  // Determine if no items match filters across all meal types and subcategories
+  const noResults = selectedFilters.length > 0 && Object.values(organizedMenu).every((value) => {
+    if (Array.isArray(value)) {
+      return filterItems(value).length === 0;
+    }
+    if (value && typeof value === 'object') {
+      return Object.values(value).every((items) => filterItems(items).length === 0);
+    }
+    return true;
+  });
+
   return (
     <div className="menu-detail-container">
       <Link to="/" className="back-button">← Back to Dining Halls</Link>
       <h1>{decodedName}</h1>
-      
-      {/* Main content with filter on left and menu on right */}
       <div className="menu-detail-content">
-        {/* Filter component on the left */}
         <MenuFilter 
           selectedFilters={selectedFilters}
           onFilterChange={setSelectedFilters}
         />
-
-        {/* Menu content on the right */}
         <div className="menu-content">
-          {Object.entries(organizedMenu).map(([mealType, items]) => {
-            const filteredItems = filterItems(items);
-            
-            // Don't show meal section if no items pass the filter
-            if (filteredItems.length === 0) {
-              return null;
+          {Object.entries(organizedMenu).map(([mealType, value]) => {
+            const isSubcategoryObject = value && typeof value === 'object' && !Array.isArray(value);
+
+            if (!isSubcategoryObject) {
+              const filteredItems = filterItems(Array.isArray(value) ? value : []);
+              if (filteredItems.length === 0) return null;
+              return (
+                <div key={mealType} className="menu-section">
+                  <h2>{mealType}</h2>
+                  <div className="menu-cards-grid">
+                    {filteredItems.map((item, index) => {
+                      const itemName = typeof item === 'string' ? item : item.name;
+                      const dietaryRestrictions = typeof item === 'object' ? item.dietary_restrictions : null;
+                      const price = typeof item === 'object' ? item.price : null;
+                      return (
+                        <MenuCard
+                          key={index}
+                          itemName={itemName}
+                          dietaryRestrictions={dietaryRestrictions}
+                          price={price}
+                        />
+                      );
+                    })}
+                  </div>
+                </div>
+              );
             }
+
+            const subcategories = Object.entries(value);
+            const anySubHasItems = subcategories.some(([sub, items]) => filterItems(items).length > 0);
+            if (!anySubHasItems) return null;
 
             return (
               <div key={mealType} className="menu-section">
                 <h2>{mealType}</h2>
-                <div className="menu-cards-grid">
-                  {filteredItems.map((item, index) => {
-                    const itemName = typeof item === 'string' ? item : item.name;
-                    const dietaryRestrictions = typeof item === 'object' ? item.dietary_restrictions : null;
-                    const price = typeof item === 'object' ? item.price : null;
-                    
-                    return (
-                      <MenuCard 
-                        key={index} 
-                        itemName={itemName}
-                        dietaryRestrictions={dietaryRestrictions}
-                        price={price}
-                      />
-                    );
-                  })}
-                </div>
+                {subcategories.map(([subCategory, items]) => {
+                  const filteredSubItems = filterItems(items);
+                  if (filteredSubItems.length === 0) return null;
+                  return (
+                    <div key={subCategory}>
+                      <h3 style={{ color: '#003C6C', margin: '8px 0' }}>{subCategory}</h3>
+                      <div className="menu-cards-grid">
+                        {filteredSubItems.map((item, index) => {
+                          const itemName = typeof item === 'string' ? item : item.name;
+                          const dietaryRestrictions = typeof item === 'object' ? item.dietary_restrictions : null;
+                          const price = typeof item === 'object' ? item.price : null;
+                          return (
+                            <MenuCard
+                              key={index}
+                              itemName={itemName}
+                              dietaryRestrictions={dietaryRestrictions}
+                              price={price}
+                            />
+                          );
+                        })}
+                      </div>
+                    </div>
+                  );
+                })}
               </div>
             );
           })}
 
-          {/* Show message if no items match filters */}
-          {selectedFilters.length > 0 && 
-           Object.values(organizedMenu).every(items => filterItems(items).length === 0) && (
+          {noResults && (
             <div className="no-results">
               No items match the selected filters. Try adjusting your selections.
             </div>
