@@ -2228,10 +2228,9 @@
       "Lunch": {
         "-- Soups --": [
           {
-            "name": "Chicken Noodle Soup",
+            "name": "Mushroom & Barley Soup",
             "dietary_restrictions": [
-              "SOY",
-              "EGG",
+              "VG",
               "WHEAT"
             ],
             "price": null
@@ -2251,6 +2250,14 @@
             "dietary_restrictions": [
               "VG",
               "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "name": "Jasmine Rice",
+            "dietary_restrictions": [
+              "VG",
               "GF"
             ],
             "price": null
@@ -2358,18 +2365,6 @@
             "price": null
           },
           {
-            "name": "Buffalo Cauliflower",
-            "dietary_restrictions": [
-              "V"
-            ],
-            "price": null
-          },
-          {
-            "name": "Condiments",
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
             "name": "Green Chili and Cheese Potato Salad",
             "dietary_restrictions": [
               "V",
@@ -2391,6 +2386,14 @@
             "dietary_restrictions": [
               "GF",
               "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "name": "Jasmine Rice",
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           },
