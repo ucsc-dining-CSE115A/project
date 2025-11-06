@@ -280,7 +280,7 @@
             "dietary_restrictions": [
               "SOY",
               "SESAME",
-              "WHEAT",
+              "GF",
               "ALC"
             ],
             "price": null
@@ -861,10 +861,28 @@
       "Lunch": {
         "-- Soups --": [
           {
-            "name": "Chicken Soup Tlalpan",
+            "name": "Organic Kale and Sweet Potato Soup",
             "dietary_restrictions": [
-              "GF",
-              "ALC"
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "-- Salads --": [
+          {
+            "name": "Beet Salad with Orange & Cilantro",
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "name": "Broccoli Slaw Salad",
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           }
@@ -1074,6 +1092,14 @@
               "ALC"
             ],
             "price": null
+          },
+          {
+            "name": "Organic Kale and Sweet Potato Soup",
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
           }
         ],
         "-- Entrees --": [
@@ -1205,7 +1231,7 @@
             "dietary_restrictions": [
               "SOY",
               "SESAME",
-              "WHEAT",
+              "GF",
               "ALC"
             ],
             "price": null
@@ -1699,7 +1725,7 @@
             "dietary_restrictions": [
               "SOY",
               "SESAME",
-              "WHEAT",
+              "GF",
               "ALC"
             ],
             "price": null
@@ -3117,7 +3143,7 @@
             "dietary_restrictions": [
               "SOY",
               "SESAME",
-              "WHEAT",
+              "GF",
               "ALC"
             ],
             "price": null
