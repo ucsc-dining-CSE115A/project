@@ -281,7 +281,7 @@
               "SOY",
               "SESAME",
               "WHEAT",
-              "HALAL"
+              "ALC"
             ],
             "price": null
           },
@@ -1227,7 +1227,7 @@
               "VG",
               "SOY",
               "SESAME",
-              "WHEAT",
+              "GF",
               "ALC"
             ],
             "price": null
@@ -1721,7 +1721,7 @@
               "VG",
               "SOY",
               "SESAME",
-              "WHEAT",
+              "GF",
               "ALC"
             ],
             "price": null
@@ -3139,7 +3139,7 @@
               "VG",
               "SOY",
               "SESAME",
-              "WHEAT",
+              "GF",
               "ALC"
             ],
             "price": null
