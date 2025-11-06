@@ -1917,11 +1917,8 @@
             "price": null
           },
           {
-            "name": "Chicken Tenders",
-            "dietary_restrictions": [
-              "SOY",
-              "WHEAT"
-            ],
+            "name": "Chef Special",
+            "dietary_restrictions": [],
             "price": null
           },
           {
