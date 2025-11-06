@@ -5,7 +5,7 @@ function Home() {
   const diningHalls = [
     { display: 'JRL/C9', key: 'John R. Lewis & College Nine Dining Hall' },
     { display: 'Cowell/Stevenson', key: 'Cowell & Stevenson Dining Hall' },
-    { display: 'Crown/Merrill', key: 'Crown & Merrill Dining Hall' },
+    { display: 'Crown/Merrill', key: 'Crown & Merrill Dining Hall and Banana Joe\'s' },
     { display: 'Porter/Kresge', key: 'Porter & Kresge Dining Hall' },
     { display: 'RC/Oakes', key: 'Rachel Carson & Oakes Dining Hall' }
   ];
