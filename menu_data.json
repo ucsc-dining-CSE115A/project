@@ -447,18 +447,20 @@
         ],
         "- Entrees -": [
           {
-            "id": 393,
-            "name": "Chimichurri Roasted Chicken",
+            "id": 84,
+            "name": "Char Siu Chicken",
             "avg_rating": 0.0,
             "dietary_restrictions": [
+              "SOY",
+              "SESAME",
               "GF",
-              "HALAL"
+              "ALC"
             ],
             "price": null
           },
           {
-            "id": 136,
-            "name": "Grilled Chimichurri Tofu",
+            "id": 423,
+            "name": "Ginger Garlic Tofu",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -595,6 +597,16 @@
         ],
         "- Hot Bars -": [
           {
+            "id": 47,
+            "name": "Charro Beans",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 397,
             "name": "Hawaiian Bar",
             "avg_rating": 0.0,
@@ -632,16 +644,6 @@
               "PORK",
               "GF",
               "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 94,
-            "name": "Sweet Potato, Black Bean, and Kale Hash",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           },
