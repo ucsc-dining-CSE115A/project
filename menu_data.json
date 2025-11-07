@@ -2514,14 +2514,12 @@
         ],
         "- Entrees -": [
           {
-            "id": 428,
-            "name": "Baja Sandbar Bass Piccata",
+            "id": 412,
+            "name": "Local Lingcod Puttanesca",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "DAIRY",
               "FISH",
-              "GF",
-              "ALC"
+              "GF"
             ],
             "price": null
           },
