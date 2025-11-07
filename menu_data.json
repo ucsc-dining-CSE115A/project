@@ -2048,16 +2048,6 @@
             "price": null
           },
           {
-            "id": 421,
-            "name": "Coconut Syrup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 3,
             "name": "Hard-boiled Cage Free Egg (1)",
             "avg_rating": 0.0,
@@ -2394,17 +2384,6 @@
             "price": null
           },
           {
-            "id": 423,
-            "name": "Ginger Garlic Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 424,
             "name": "Lime Cilantro Basmati Rice",
             "avg_rating": 0.0,
@@ -2419,6 +2398,18 @@
             "name": "Pacific Rim Fusion Bowl Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 427,
+            "name": "Pineapple Fried Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "GF"
+            ],
             "price": null
           },
           {
