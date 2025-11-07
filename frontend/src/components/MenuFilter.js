@@ -42,16 +42,19 @@ function MenuFilter({ selectedFilters, onFilterChange }) {
   return (
     <div className="menu-filter">
       <div className="filter-header">
-        <h3>Filter by Dietary Restrictions</h3>
-        {selectedFilters.length > 0 && (
-          <button 
-            className="clear-filters-btn" 
-            onClick={clearAllFilters}
-            aria-label="Clear all filters"
-          >
-            Clear All ({selectedFilters.length})
-          </button>
-        )}
+        {/* Simplify header to keep module narrow */}
+        <h3>Filter</h3>
+        {/* Place Clear button below title for vertical header layout */}
+        {/* Disable when no filters are selected; show count when active */}
+        <button
+          className="clear-filters-btn"
+          onClick={clearAllFilters}
+          aria-label="Clear all filters"
+          disabled={selectedFilters.length === 0}
+          title={selectedFilters.length === 0 ? 'No filters selected' : 'Clear all selected filters'}
+        >
+          {selectedFilters.length > 0 ? `Clear All (${selectedFilters.length})` : 'Clear All'}
+        </button>
       </div>
       
       <div className="filter-options">
