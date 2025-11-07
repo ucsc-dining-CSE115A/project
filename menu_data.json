@@ -2164,17 +2164,6 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 97,
-            "name": "Chicken Noodle Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 98,
             "name": "Vegan Garbanzo Sesame Soup",
             "avg_rating": 0.0,
@@ -2359,30 +2348,11 @@
             "price": null
           },
           {
-            "id": 49,
-            "name": "Condiments",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
             "id": 107,
             "name": "Corn Cobbettes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 108,
-            "name": "Jalapeno Corn Cakes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
               "GF"
             ],
             "price": null
