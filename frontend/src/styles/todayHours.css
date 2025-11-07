@@ -1,0 +1,83 @@
+/* TodayHours Component Styles */
+.today-hours-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px 20px;
+  /* Match Filter module framing: deep navy outline + top accent */
+  border: 2px solid #003C6C;
+  border-top: 6px solid #003C6C;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 60, 108, 0.15);
+  max-width: 280px;
+  min-width: 200px;
+  margin-top: 20px;
+  align-self: flex-start;
+}
+
+.today-hours-title {
+  font-weight: 700;
+  color: #003C6C;
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+
+.today-hours-subtitle {
+  font-weight: 600;
+  color: #4a5568;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.today-hours-time {
+  font-weight: 600;
+  color: #2d3748;
+  font-size: 16px;
+  padding: 4px 0;
+}
+
+.today-hours-closed {
+  color: #e53e3e;
+  font-weight: 600;
+}
+
+/* Updated menu layout to accommodate hours on the right */
+.menu-main-content {
+  display: flex;
+  gap: 30px;
+  flex: 1;
+}
+
+.menu-content {
+  flex: 1;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 1024px) {
+  .menu-main-content {
+    flex-direction: column;
+  }
+  
+  .today-hours-card {
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-detail-content {
+    flex-direction: column;
+  }
+  
+  .menu-main-content {
+    flex-direction: column;
+  }
+  
+  .today-hours-card {
+    order: -1;
+    margin-bottom: 20px;
+  }
+}
