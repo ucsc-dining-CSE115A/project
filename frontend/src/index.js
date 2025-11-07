@@ -11,6 +11,7 @@ import './styles/home.css';
 import './styles/college-menus.css';
 import './styles/utility.css';
 import './styles/dining-halls.css';
+import './styles/todayHours.css';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
