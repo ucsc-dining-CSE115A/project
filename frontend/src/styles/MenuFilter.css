@@ -7,16 +7,28 @@
   border: 2px solid #003C6C; /* Dark blue frame for clear module look */
   border-top: 6px solid #003C6C; /* Accent bar at top for emphasis */
   border-radius: 12px;
-  padding: 20px;
+  padding: 12px 8px; /* Tighter horizontal padding to keep module narrow */
   margin-bottom: 24px;
+  /* Content-driven width: follow widest child (Clear All button) */
+  width: max-content; /* Container width equals content width */
+  max-width: max-content; /* Match button width incl. padding */
+  margin-left: auto; /* Center the module horizontally */
+  margin-right: auto;
   box-shadow: 0 4px 12px rgba(0, 60, 108, 0.15); /* Slightly stronger shadow */
+}
+
+/* Keep a fixed column width when placed next to menu content */
+.menu-detail-content .menu-filter {
+  flex: 0 0 auto; /* Content-based column width in desktop two-column layout */
 }
 
 /* Filter header with title and clear button */
 .filter-header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* Vertical header: title on first line, button on second */
+  flex-direction: column; /* Stack header elements vertically */
+  align-items: flex-start; /* Left align to allow narrower width */
+  gap: 8px; /* Slightly tighter to save space */
   margin-bottom: 16px;
 }
 
@@ -26,6 +38,8 @@
   color: #003C6C; /* Dark blue title to match theme */
   font-size: 1.2rem;
   font-weight: 600;
+  /* Allow title to wrap instead of forcing container to grow */
+  min-width: 0;
 }
 
 /* Clear all filters button - themed to dark blue */
@@ -39,6 +53,8 @@
   cursor: pointer;
   transition: all 0.2s ease;
   font-weight: 500;
+  /* Button width equals its text + padding for accurate module sizing */
+  width: max-content;
 }
 
 .clear-filters-btn:hover {
@@ -48,8 +64,9 @@
 
 /* Filter options container - responsive grid */
 .filter-options {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  /* Stack options vertically: one item per line for a long strip */
+  display: flex; /* Vertical list layout */
+  flex-direction: column; /* One option per row */
   gap: 8px;
   margin-bottom: 12px;
 }
@@ -58,14 +75,15 @@
 .filter-checkbox {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 8px 12px;
+  justify-content: flex-start; /* Left-align text in full-width rows */
+  width: 100%; /* Each option fills the row */
+  padding: 8px 12px; /* Fixed padding to keep consistent size */
   border: 2px solid #ddd; /* Neutral border by default */
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.2s ease;
   background: #ffffff;
-  min-height: 40px;
+  min-height: 40px; /* Fixed height to maintain visual consistency */
   position: relative;
   user-select: none;
 }
@@ -118,10 +136,20 @@
 
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
+  /* Keep vertical single-column list on mobile as well */
   .filter-options {
-    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 6px;
   }
+  
+  /* On mobile, let filter take full width when stacked */
+  .menu-detail-content .menu-filter {
+    flex: 1 1 100%; /* Full width in stacked layout */
+    max-width: 100%;
+  }
+  /* Remove grid override; maintain vertical layout */
+  /* .filter-options grid override removed */
   
   .filter-checkbox {
     padding: 6px 8px;
@@ -145,8 +173,10 @@
 
 /* Extra small screens */
 @media (max-width: 480px) {
+  /* Keep vertical single-column list on extra small screens */
   .filter-options {
-    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    display: flex;
+    flex-direction: column;
   }
   
   .filter-checkbox {
