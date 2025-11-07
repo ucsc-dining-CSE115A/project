@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import MenuCard from '../components/MenuCard';
 import MenuFilter from '../components/MenuFilter';
+import TodayHours from '../components/TodayHours';
 
 function MenuDetail() {
   const { diningHallName } = useParams();
@@ -134,7 +135,8 @@ function MenuDetail() {
           selectedFilters={selectedFilters}
           onFilterChange={setSelectedFilters}
         />
-        <div className="menu-content">
+        <div className="menu-main-content">
+          <div className="menu-content">
           {Object.entries(organizedMenu).map(([mealType, value]) => {
             const isSubcategoryObject = value && typeof value === 'object' && !Array.isArray(value);
 
@@ -203,6 +205,8 @@ function MenuDetail() {
               No items match the selected filters. Try adjusting your selections.
             </div>
           )}
+          </div>
+          <TodayHours diningHallName={decodedName} />
         </div>
       </div>
     </div>
