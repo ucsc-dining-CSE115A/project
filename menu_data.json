@@ -163,19 +163,19 @@
         ],
         "- Soups -": [
           {
-            "id": 452,
-            "name": "Hearty Beef Chili",
+            "id": 97,
+            "name": "Chicken Noodle Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "BEEF",
-              "GF",
-              "HALAL"
+              "SOY",
+              "EGG",
+              "WHEAT"
             ],
             "price": null
           },
           {
-            "id": 446,
-            "name": "Three Sisters Crave Soup",
+            "id": 383,
+            "name": "Organic Black Bean Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -249,18 +249,6 @@
           }
         ],
         "- Sweet Treats -": [
-          {
-            "id": 453,
-            "name": "Gluten-Free Snickerdoodle Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "GF"
-            ],
-            "price": null
-          },
           {
             "id": 454,
             "name": "Pound Cake",
