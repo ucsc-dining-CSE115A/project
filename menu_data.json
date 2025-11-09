@@ -403,17 +403,6 @@
               "GF"
             ],
             "price": null
-          },
-          {
-            "id": 382,
-            "name": "New England Clam Chowder",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "SHELLFISH",
-              "GF"
-            ],
-            "price": null
           }
         ],
         "- Entrees -": [
@@ -436,28 +425,6 @@
               "SOY",
               "GF",
               "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 417,
-            "name": "Macaroni & Cheese",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "DAIRY",
-              "FISH",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 461,
-            "name": "Roasted Butternut Squash",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           }
@@ -602,16 +569,6 @@
               "SOY",
               "SESAME",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 464,
-            "name": "Italian Roasted Squash and Carrots",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           },
