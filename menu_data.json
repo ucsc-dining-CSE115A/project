@@ -7,7 +7,7 @@
           {
             "id": 2,
             "name": "Cage-Free Scrambled Eggs",
-            "avg_rating": 4.0,
+            "avg_rating": 3.0,
             "dietary_restrictions": [
               "V",
               "EGG",
@@ -661,7 +661,7 @@
           {
             "id": 2,
             "name": "Cage-Free Scrambled Eggs",
-            "avg_rating": 4.0,
+            "avg_rating": 3.0,
             "dietary_restrictions": [
               "V",
               "EGG",
@@ -1277,7 +1277,7 @@
           {
             "id": 2,
             "name": "Cage-Free Scrambled Eggs",
-            "avg_rating": 4.0,
+            "avg_rating": 3.0,
             "dietary_restrictions": [
               "V",
               "EGG",
