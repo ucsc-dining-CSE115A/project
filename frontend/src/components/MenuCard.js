@@ -2,7 +2,7 @@ import React from 'react';
 import Rating from './Rating';
 import '../styles/MenuCard.css';
 
-const MenuCard = ({ itemName, dietaryRestrictions, price, diningHall }) => {
+const MenuCard = ({ itemName, dietaryRestrictions, price, diningHall, averageRating }) => {
   return (
     <div className="menu-card">
       <div className="menu-card-text">
@@ -19,6 +19,8 @@ const MenuCard = ({ itemName, dietaryRestrictions, price, diningHall }) => {
         
         {/* Display price if available */}
         {price && <p className="menu-card-price">{price}</p>}
+
+        {<p className="menu-card-rating">Average Rating: {averageRating}</p>}
         
         {/* Rating component - manages its own state internally */}
         <Rating itemName={itemName} diningHall={diningHall} />
