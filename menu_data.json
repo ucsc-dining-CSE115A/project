@@ -7,7 +7,7 @@
           {
             "id": 2,
             "name": "Cage-Free Scrambled Eggs",
-            "avg_rating": 0.0,
+            "avg_rating": 4.0,
             "dietary_restrictions": [
               "V",
               "EGG",
@@ -417,8 +417,8 @@
             "price": null
           },
           {
-            "id": 487,
-            "name": "Italian Roasted Mushrooms and Veggies",
+            "id": 488,
+            "name": "Sauteed Garlic Kale",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -427,12 +427,13 @@
             "price": null
           },
           {
-            "id": 488,
-            "name": "Sauteed Garlic Kale",
+            "id": 513,
+            "name": "Vegan Mushroom Gravy",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           }
@@ -531,10 +532,11 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 490,
-            "name": "Chicken Vindaloo",
+            "id": 455,
+            "name": "Chicken Tikka Masala",
             "avg_rating": 0.0,
             "dietary_restrictions": [
+              "DAIRY",
               "GF",
               "HALAL"
             ],
@@ -603,17 +605,6 @@
             "price": null
           },
           {
-            "id": 495,
-            "name": "Tofu Vindaloo",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 438,
             "name": "Tomato Chutney",
             "avg_rating": 0.0,
@@ -670,7 +661,7 @@
           {
             "id": 2,
             "name": "Cage-Free Scrambled Eggs",
-            "avg_rating": 0.0,
+            "avg_rating": 4.0,
             "dietary_restrictions": [
               "V",
               "EGG",
@@ -1286,7 +1277,7 @@
           {
             "id": 2,
             "name": "Cage-Free Scrambled Eggs",
-            "avg_rating": 0.0,
+            "avg_rating": 4.0,
             "dietary_restrictions": [
               "V",
               "EGG",
