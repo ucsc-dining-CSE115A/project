@@ -1556,16 +1556,6 @@
             "price": null
           },
           {
-            "id": 510,
-            "name": "Grilled Broccolini",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 501,
             "name": "Housemade Creamy Alfredo Sauce",
             "avg_rating": 0.0,
@@ -1647,45 +1637,12 @@
             "price": null
           },
           {
-            "id": 115,
-            "name": "French Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 130,
-            "name": "Halal Chicken Nuggets",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "WHEAT",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 511,
-            "name": "Potato Leek Soup",
+            "id": 482,
+            "name": "Vegan Tortilla Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 129,
-            "name": "Vegan Tenders",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
+              "GF"
             ],
             "price": null
           }
