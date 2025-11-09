@@ -396,6 +396,16 @@
         ],
         "- Entrees -": [
           {
+            "id": 449,
+            "name": "BBQ Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
             "id": 485,
             "name": "Garlic Mashed Yukon Golds",
             "avg_rating": 0.0,
@@ -403,16 +413,6 @@
               "V",
               "DAIRY",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 486,
-            "name": "Honey Mustard Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "ALC"
             ],
             "price": null
           },
@@ -1046,17 +1046,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 99,
-            "name": "BBQ Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 460,
             "name": "Chipotle Lime Pork Loin",
             "avg_rating": 0.0,
@@ -1182,16 +1171,6 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 505,
-            "name": "Grilled Pineapple Rings",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 506,
             "name": "Halal Beef Patty",
             "avg_rating": 0.0,
@@ -1211,17 +1190,6 @@
               "SOY",
               "SESAME",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 507,
-            "name": "House Made Gluten-Friendly Teriyaki Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
             ],
             "price": null
           },
@@ -1253,13 +1221,6 @@
               "V",
               "SOY"
             ],
-            "price": null
-          },
-          {
-            "id": 509,
-            "name": "Teriyaki Burger Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
             "price": null
           }
         ],
@@ -1469,12 +1430,13 @@
         ],
         "- Entrees -": [
           {
-            "id": 497,
-            "name": "Biscuit and Gravy",
+            "id": 61,
+            "name": "Belgian Waffle Squares",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
               "SOY",
+              "EGG",
               "DAIRY",
               "WHEAT"
             ],
@@ -1713,8 +1675,8 @@
         ],
         "- Sweet Treats -": [
           {
-            "id": 489,
-            "name": "German Chocolate Cake With Nuts",
+            "id": 512,
+            "name": "Carrot Cake With Nuts",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -1722,8 +1684,7 @@
               "EGG",
               "DAIRY",
               "TREENUT",
-              "WHEAT",
-              "ALC"
+              "WHEAT"
             ],
             "price": null
           },
@@ -1896,12 +1857,12 @@
             "price": null
           },
           {
-            "id": 511,
-            "name": "Potato Leek Soup",
+            "id": 482,
+            "name": "Vegan Tortilla Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "WHEAT"
+              "GF"
             ],
             "price": null
           }
