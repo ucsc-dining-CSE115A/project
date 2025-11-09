@@ -45,7 +45,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install selenium webdriver-manager beautifulsoup4 supabase
 
-      - name: Run scraper (headless)
+      - name: Run scraper (headless) -> writes menu_data.json
         env:
           MENU_JSON: menu_data.json
           IS_HEADLESS: "1"
@@ -54,6 +54,21 @@ jobs:
           python backend/scraper.py
           echo "First lines of menu_data.json:"
           head -n 20 menu_data.json || true
+
+      # NEW: run fetch_macros.py against the same menu_data.json that was just written
+      - name: Run fetch_macros on menu_data.json (writes to Supabase)
+        env:
+          MENU_JSON: menu_data.json
+          IS_HEADLESS: "1"
+          # Provide these via repository secrets:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          # Optional: override table name (defaults to 'macros')
+          # SUPABASE_TABLE: macros
+        run: |
+          set -e
+          # If your script supports flags like --date/--limit, add them here
+          python backend/fetch_macros.py
 
       - name: Commit & push with PAT if changed
         env:
