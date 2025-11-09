@@ -1185,6 +1185,16 @@
             "price": null
           },
           {
+            "id": 476,
+            "name": "Happy Plant Vegan Chorizo Crumbles and Potatoes",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 77,
             "name": "Portobello Mushroom Patty",
             "avg_rating": 0.0,
