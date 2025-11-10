@@ -163,8 +163,8 @@
             "price": null
           },
           {
-            "id": 422,
-            "name": "Organic Vegan Chili",
+            "id": 536,
+            "name": "House Made Vegan Tomato Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -448,8 +448,8 @@
             "price": null
           },
           {
-            "id": 422,
-            "name": "Organic Vegan Chili",
+            "id": 536,
+            "name": "House Made Vegan Tomato Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3073,18 +3073,20 @@
         ],
         "- Entrees -": [
           {
-            "id": 83,
-            "name": "Steamed Carrots and Broccoli",
+            "id": 87,
+            "name": "Sesame Yakisoba Noodles",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
+              "SOY",
+              "SESAME",
+              "WHEAT"
             ],
             "price": null
           },
           {
-            "id": 31,
-            "name": "Sticky Rice",
+            "id": 83,
+            "name": "Steamed Carrots and Broccoli",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3235,11 +3237,12 @@
         ],
         "- Grill and Soups -": [
           {
-            "id": 536,
-            "name": "House Made Vegan Tomato Soup",
+            "id": 554,
+            "name": "Chicken and Pork Sausage Gumbo",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
+              "DAIRY",
+              "PORK",
               "GF"
             ],
             "price": null
