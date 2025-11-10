@@ -1809,6 +1809,18 @@
             "price": null
           },
           {
+            "id": 417,
+            "name": "Macaroni & Cheese",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "DAIRY",
+              "FISH",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 77,
             "name": "Portobello Mushroom Patty",
             "avg_rating": 0.0,
@@ -1829,20 +1841,20 @@
             "price": null
           },
           {
-            "id": 508,
-            "name": "Sidewinder Fry",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
             "id": 509,
             "name": "Teriyaki Burger Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 419,
+            "name": "Vegan Macaroni & Cheese",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT"
+            ],
             "price": null
           }
         ],
