@@ -2626,16 +2626,6 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 543,
-            "name": "Chicken Pozole",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
             "id": 446,
             "name": "Three Sisters Crave Soup",
             "avg_rating": 0.0,
@@ -2809,12 +2799,11 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 126,
-            "name": "BBQ Wings",
+            "id": 538,
+            "name": "Buffalo Cauliflower",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "GF",
-              "HALAL"
+              "V"
             ],
             "price": null
           },
@@ -2861,6 +2850,17 @@
             "name": "Smoke & Spice Wing Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 555,
+            "name": "Teriyaki Glazed Wings",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "WHEAT",
+              "ALC"
+            ],
             "price": null
           },
           {
