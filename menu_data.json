@@ -2931,16 +2931,6 @@
             "price": null
           },
           {
-            "id": 375,
-            "name": "Chicken Apple Sausage",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 450,
             "name": "Chocolate Chip Pancakes",
             "avg_rating": 0.0,
@@ -2971,6 +2961,16 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 467,
+            "name": "Sausage Links",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
               "GF"
             ],
             "price": null
