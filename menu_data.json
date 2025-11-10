@@ -396,23 +396,13 @@
         ],
         "- Entrees -": [
           {
-            "id": 449,
-            "name": "BBQ Chicken",
+            "id": 425,
+            "name": "Malaysian Pork Rendang",
             "avg_rating": 0.0,
             "dietary_restrictions": [
+              "PORK",
               "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 485,
-            "name": "Garlic Mashed Yukon Golds",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF"
+              "ALC"
             ],
             "price": null
           },
