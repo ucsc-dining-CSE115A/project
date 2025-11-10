@@ -688,16 +688,6 @@
             "price": null
           },
           {
-            "id": 409,
-            "name": "Roasted Eggplant",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 535,
             "name": "Tahini Sauce",
             "avg_rating": 0.0,
