@@ -1806,6 +1806,16 @@
             "price": null
           },
           {
+            "id": 464,
+            "name": "Italian Roasted Squash and Carrots",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 427,
             "name": "Pineapple Fried Rice",
             "avg_rating": 0.0,
