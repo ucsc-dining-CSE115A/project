@@ -2747,24 +2747,23 @@
       "Lunch": {
         "- Soups -": [
           {
+            "id": 97,
+            "name": "Chicken Noodle Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 64,
             "name": "Organic Kale and Sweet Potato Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 591,
-            "name": "Portuguese Sausage and Bean Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "WHEAT",
-              "PORK",
-              "ALC"
             ],
             "price": null
           }
@@ -2792,8 +2791,8 @@
             "price": null
           },
           {
-            "id": 593,
-            "name": "Sauteed Cauliflower Rice",
+            "id": 30,
+            "name": "Steamed Broccoli",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -2918,12 +2917,11 @@
             "price": null
           },
           {
-            "id": 46,
-            "name": "Caramelized Chipotle Tofu",
+            "id": 47,
+            "name": "Charro Beans",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SOY",
               "GF"
             ],
             "price": null
@@ -2963,11 +2961,12 @@
             "price": null
           },
           {
-            "id": 580,
-            "name": "Vegan Refried Beans",
+            "id": 607,
+            "name": "Tofu with Basil and Lime",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "SOY",
               "GF"
             ],
             "price": null
@@ -3024,16 +3023,6 @@
             "price": null
           },
           {
-            "id": 77,
-            "name": "Portobello Mushroom Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 508,
             "name": "Sidewinder Fry",
             "avg_rating": 0.0,
@@ -3042,11 +3031,33 @@
               "SOY"
             ],
             "price": null
+          },
+          {
+            "id": 129,
+            "name": "Vegan Tenders",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "WHEAT"
+            ],
+            "price": null
           }
         ]
       },
       "Dinner": {
         "- Soups -": [
+          {
+            "id": 97,
+            "name": "Chicken Noodle Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "WHEAT"
+            ],
+            "price": null
+          },
           {
             "id": 64,
             "name": "Organic Kale and Sweet Potato Soup",
@@ -3054,18 +3065,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 591,
-            "name": "Portuguese Sausage and Bean Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "WHEAT",
-              "PORK",
-              "ALC"
             ],
             "price": null
           }
@@ -3149,12 +3148,13 @@
             "price": null
           },
           {
-            "id": 77,
-            "name": "Portobello Mushroom Patty",
+            "id": 129,
+            "name": "Vegan Tenders",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
+              "SOY",
+              "WHEAT"
             ],
             "price": null
           }
