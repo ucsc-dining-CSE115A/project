@@ -3616,6 +3616,26 @@
             "price": null
           },
           {
+            "id": 56,
+            "name": "Cauliflower Lentil Dal",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 58,
+            "name": "Chana Masala",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 491,
             "name": "Coastal Indian Bar",
             "avg_rating": 0.0,
@@ -3629,6 +3649,16 @@
             "dietary_restrictions": [
               "VG",
               "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 456,
+            "name": "Dal Saag",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
               "GF"
             ],
             "price": null
@@ -3711,12 +3741,12 @@
             "price": null
           },
           {
-            "id": 121,
-            "name": "Xochitl Soup",
+            "id": 469,
+            "name": "Spicy North African Chicken Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           }
@@ -4143,31 +4173,6 @@
             "dietary_restrictions": [
               "VG",
               "WHEAT"
-            ],
-            "price": null
-          }
-        ],
-        "- Grill and Soups -": [
-          {
-            "id": 78,
-            "name": "Sweet Potato Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 588,
-            "name": "Vietnamese Pork Banh Mi Sandwich",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "WHEAT",
-              "PORK",
-              "ALC"
             ],
             "price": null
           }
