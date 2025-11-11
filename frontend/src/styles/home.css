@@ -70,7 +70,6 @@
 
 /* Dining Halls Title */
 .dining-halls-page-title {
-
   border: 2px solid rgba(253, 213, 75);
   padding: 0rem 0.5rem; /* py-2 px-4 */
   width: fit-content;
@@ -86,29 +85,36 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem; /* gap-4 */
-  max-width: 56rem; /* max-w-4xl */
   margin-left: auto;
   margin-right: auto;
 }
 
 /* Dining Hall Card */
 .dining-hall-card {
-  background-color: white;
-  padding: 1.5rem; /* p-6 */
+  /* background-color: white; */
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+  /* padding: 8rem; */
   border-radius: 0.5rem; /* rounded-lg */
   transition: box-shadow 0.3s ease; /* transition-shadow */
   cursor: pointer;
-  border: 2px solid #BFDBFE; /* border-2 border-blue-200 */
+  border: 2px solid #bfdbfe; /* border-2 border-blue-200 */
 }
 
 .dining-hall-card:hover {
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); /* hover:shadow-xl */
-  border-color: #3B82F6; /* hover:border-blue-500 */
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04); /* hover:shadow-xl */
+  border-color: #3b82f6; /* hover:border-blue-500 */
 }
 
 .dining-hall-card h2 {
   font-size: 1.25rem; /* text-xl */
   font-weight: 600; /* font-semibold */
+  text-shadow: 2px 2px black;
   text-align: center;
-  color: #1E3A8A; /* text-blue-900 */
+  position: relative;
+  top: 45%;
+  color: rgba(253, 213, 75);
 }
