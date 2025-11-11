@@ -2638,6 +2638,19 @@
         ],
         "- Entrees -": [
           {
+            "id": 104,
+            "name": "General Tso's Pork",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "SESAME",
+              "WHEAT",
+              "PORK"
+            ],
+            "price": null
+          },
+          {
             "id": 548,
             "name": "Orange Glazed Chicken",
             "avg_rating": 0.0,
