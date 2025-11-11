@@ -1052,8 +1052,8 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 121,
-            "name": "Xochitl Soup",
+            "id": 422,
+            "name": "Organic Vegan Chili",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -1064,6 +1064,19 @@
         ],
         "- Entrees -": [
           {
+            "id": 500,
+            "name": "Chicken & Pesto Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 389,
             "name": "Focaccia Breadsticks",
             "avg_rating": 0.0,
@@ -1072,6 +1085,26 @@
               "SOY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 510,
+            "name": "Grilled Broccolini",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 464,
+            "name": "Italian Roasted Squash and Carrots",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           },
@@ -1124,19 +1157,6 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 500,
-            "name": "Chicken & Pesto Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
               "SOY",
               "EGG",
               "DAIRY",
@@ -1214,6 +1234,16 @@
           }
         ],
         "- Hot Bars -": [
+          {
+            "id": 54,
+            "name": "Basmati Rice Pullao",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
           {
             "id": 490,
             "name": "Chicken Vindaloo",
@@ -1338,8 +1368,8 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 121,
-            "name": "Xochitl Soup",
+            "id": 422,
+            "name": "Organic Vegan Chili",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
