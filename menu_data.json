@@ -3383,21 +3383,34 @@
             "price": null
           },
           {
-            "id": 375,
-            "name": "Chicken Apple Sausage",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 479,
             "name": "Harissa Potatoes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 145,
+            "name": "Natural Bridges Tofu Scramble",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 63,
+            "name": "Thai Tofu Scramble",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
               "GF"
             ],
             "price": null
