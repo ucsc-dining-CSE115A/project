@@ -166,19 +166,18 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 97,
-            "name": "Chicken Noodle Soup",
+            "id": 543,
+            "name": "Chicken Pozole",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "WHEAT"
+              "GF",
+              "ALC"
             ],
             "price": null
           },
           {
-            "id": 560,
-            "name": "Lentil & Lemon Soup",
+            "id": 383,
+            "name": "Organic Black Bean Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
