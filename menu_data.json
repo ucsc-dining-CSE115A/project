@@ -1379,6 +1379,17 @@
         ],
         "- Entrees -": [
           {
+            "id": 609,
+            "name": "Creamy Polenta",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 520,
             "name": "Roast Pork Loin with Parsley and Shallot Sauce",
             "avg_rating": 0.0,
@@ -1522,22 +1533,6 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 538,
-            "name": "Buffalo Cauliflower",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V"
-            ],
-            "price": null
-          },
-          {
-            "id": 25,
-            "name": "Chengdu Wing Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
             "id": 49,
             "name": "Condiments",
             "avg_rating": 0.0,
@@ -1555,35 +1550,33 @@
             "price": null
           },
           {
-            "id": 28,
-            "name": "Hoisin Chicken Wings",
+            "id": 610,
+            "name": "Jerk Chicken Wings",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "SOY",
-              "SESAME",
               "GF",
-              "ALC"
+              "HALAL"
             ],
             "price": null
           },
           {
-            "id": 31,
-            "name": "Sticky Rice",
+            "id": 611,
+            "name": "Lemon Pepper Chicken Wings",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
+              "DAIRY",
+              "GF",
+              "HALAL"
             ],
             "price": null
           },
           {
-            "id": 32,
-            "name": "Szechuan Chicken Wings",
+            "id": 498,
+            "name": "Tater Tots",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "ALC"
+              "V",
+              "SOY"
             ],
             "price": null
           },
@@ -1596,6 +1589,13 @@
               "SOY",
               "WHEAT"
             ],
+            "price": null
+          },
+          {
+            "id": 612,
+            "name": "Wing Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
             "price": null
           }
         ],
