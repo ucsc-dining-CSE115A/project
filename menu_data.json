@@ -470,19 +470,6 @@
             "price": null
           },
           {
-            "id": 527,
-            "name": "Lasagna Bolognese",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "BEEF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
             "id": 132,
             "name": "Marinara Sauce",
             "avg_rating": 0.0,
@@ -1794,18 +1781,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 428,
-            "name": "Baja Sandbar Bass Piccata",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
             "id": 464,
             "name": "Italian Roasted Squash and Carrots",
             "avg_rating": 0.0,
@@ -1828,12 +1803,34 @@
             "price": null
           },
           {
+            "id": 124,
+            "name": "Santa Maria Style Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
             "id": 8,
             "name": "Steamed Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 556,
+            "name": "Szechuan Jet Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SHELLFISH",
+              "SESAME",
+              "ALC"
             ],
             "price": null
           }
@@ -2638,19 +2635,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 104,
-            "name": "General Tso's Pork",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "SESAME",
-              "WHEAT",
-              "PORK"
-            ],
-            "price": null
-          },
-          {
             "id": 548,
             "name": "Orange Glazed Chicken",
             "avg_rating": 0.0,
@@ -2664,18 +2648,6 @@
           {
             "id": 29,
             "name": "Orange Glazed Gardein",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 87,
-            "name": "Sesame Yakisoba Noodles",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -2698,25 +2670,12 @@
             "price": null
           },
           {
-            "id": 130,
-            "name": "Halal Chicken Nuggets",
+            "id": 412,
+            "name": "Local Lingcod Puttanesca",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "WHEAT",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 129,
-            "name": "Vegan Tenders",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
+              "FISH",
+              "GF"
             ],
             "price": null
           }
