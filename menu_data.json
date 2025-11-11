@@ -1064,18 +1064,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 583,
-            "name": "Beef Bolognese Baked Pasta",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "WHEAT",
-              "BEEF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
             "id": 389,
             "name": "Focaccia Breadsticks",
             "avg_rating": 0.0,
@@ -1136,6 +1124,19 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 500,
+            "name": "Chicken & Pesto Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
               "SOY",
               "EGG",
               "DAIRY",
@@ -3573,10 +3574,11 @@
         ],
         "- Bars & Clean Plate -": [
           {
-            "id": 490,
-            "name": "Chicken Vindaloo",
+            "id": 55,
+            "name": "Buttered Chicken Curry",
             "avg_rating": 0.0,
             "dietary_restrictions": [
+              "DAIRY",
               "GF",
               "HALAL"
             ],
@@ -3640,17 +3642,6 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 495,
-            "name": "Tofu Vindaloo",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
               "GF"
             ],
             "price": null
