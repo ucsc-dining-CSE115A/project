@@ -367,23 +367,23 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 64,
-            "name": "Organic Kale and Sweet Potato Soup",
-            "avg_rating": 0.0,
+            "id": 97,
+            "name": "Chicken Noodle Soup",
+            "avg_rating": 3.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
+              "SOY",
+              "EGG",
+              "WHEAT"
             ],
             "price": null
           },
           {
-            "id": 617,
-            "name": "Turkey Noodle Soup",
+            "id": 536,
+            "name": "House Made Vegan Tomato Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "EGG",
-              "WHEAT",
-              "ALC"
+              "VG",
+              "GF"
             ],
             "price": null
           }
