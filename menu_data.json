@@ -3046,17 +3046,6 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 97,
-            "name": "Chicken Noodle Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 64,
             "name": "Organic Kale and Sweet Potato Soup",
             "avg_rating": 0.0,
@@ -3069,26 +3058,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 596,
-            "name": "Garlic Thyme Mushrooms",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 413,
-            "name": "Rice Pilaf",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 597,
             "name": "Roasted Turkey Breast with Honey Dijon Sauce",
             "avg_rating": 0.0,
@@ -3099,60 +3068,12 @@
             "price": null
           },
           {
-            "id": 123,
-            "name": "Roasted Zucchini and Peppers",
+            "id": 30,
+            "name": "Steamed Broccoli",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Grill -": [
-          {
-            "id": 602,
-            "name": "Garlic Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 603,
-            "name": "Halal Chicken Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 76,
-            "name": "Hamburger Bun",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 129,
-            "name": "Vegan Tenders",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
             ],
             "price": null
           }
@@ -3265,16 +3186,6 @@
             "name": "Mashed Potato Bowl Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 585,
-            "name": "Roasted Kale and Butternut Squash",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
             "price": null
           },
           {
