@@ -62,7 +62,7 @@
       }
     ]
   },
-  "Crown & Merrill Dining Hall": {
+  "Crown & Merrill Dining Hall and Banana Joe's": {
     "Breakfast": [
       {
         "days": "Monday-Friday",
@@ -79,6 +79,12 @@
       {
         "days": "Monday-Friday",
         "time": "5-8 PM"
+      }
+    ],
+    "Late Night": [
+      {
+        "days": "Sunday-Thursday",
+        "time": "8-11 PM"
       }
     ]
   },
