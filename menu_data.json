@@ -1500,20 +1500,22 @@
         ]
       },
       "Late Night": {
-        "- Grill -": [
+        "- Entrees -": [
           {
-            "id": 634,
-            "name": "Barcelona Steak Sandwich",
+            "id": 588,
+            "name": "Vietnamese Pork Banh Mi Sandwich",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
-              "DAIRY",
               "SESAME",
               "WHEAT",
-              "BEEF"
+              "PORK",
+              "ALC"
             ],
             "price": null
-          },
+          }
+        ],
+        "- Grill -": [
           {
             "id": 498,
             "name": "Tater Tots",
