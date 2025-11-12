@@ -2302,17 +2302,6 @@
             "price": null
           },
           {
-            "id": 425,
-            "name": "Malaysian Pork Rendang",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "PORK",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
             "id": 426,
             "name": "Pacific Rim Fusion Bowl Bar",
             "avg_rating": 0.0,
