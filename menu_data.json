@@ -1821,6 +1821,18 @@
         ]
       },
       "Lunch": {
+        "- Miscellaneous -": [
+          {
+            "id": 647,
+            "name": "Sand Bass Pico de Gallo with Lemon",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "FISH",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Soups -": [
           {
             "id": 142,
@@ -1845,18 +1857,6 @@
           }
         ],
         "- Entrees -": [
-          {
-            "id": 428,
-            "name": "Baja Sandbar Bass Piccata",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
           {
             "id": 637,
             "name": "Garlic Linguinie",
