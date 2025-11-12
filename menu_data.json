@@ -3058,16 +3058,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 597,
-            "name": "Roasted Turkey Breast with Honey Dijon Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
             "id": 30,
             "name": "Steamed Broccoli",
             "avg_rating": 0.0,
@@ -3168,17 +3158,6 @@
             "name": "Condiments",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 600,
-            "name": "Creamy Mashed Yukon Golds",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF"
-            ],
             "price": null
           },
           {
