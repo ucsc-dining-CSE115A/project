@@ -1039,6 +1039,20 @@
               "WHEAT"
             ],
             "price": null
+          },
+          {
+            "id": 648,
+            "name": "Sausage and Onion Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "PORK"
+            ],
+            "price": null
           }
         ],
         "- Clean Plate -": [
