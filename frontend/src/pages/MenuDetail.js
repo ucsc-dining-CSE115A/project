@@ -177,12 +177,15 @@ function MenuDetail() {
                       const itemName = typeof item === 'string' ? item : item.name;
                       const dietaryRestrictions = typeof item === 'object' ? item.dietary_restrictions : null;
                       const price = typeof item === 'object' ? item.price : null;
+                      const averageRating = typeof item === 'object' ? item.avg_rating : null;
                       return (
                         <MenuCard
                           key={index}
                           itemName={itemName}
                           dietaryRestrictions={dietaryRestrictions}
                           price={price}
+                          averageRating={averageRating}
+                          diningHall={decodedName}
                         />
                       );
                     })}
@@ -221,6 +224,7 @@ function MenuDetail() {
                               dietaryRestrictions={dietaryRestrictions}
                               price={price}
                               averageRating={averageRating}
+                              diningHall={decodedName}
                             />
                           );
                         })}
