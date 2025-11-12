@@ -1402,16 +1402,6 @@
             "price": null
           },
           {
-            "id": 388,
-            "name": "Chicken Tenders",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 49,
             "name": "Condiments",
             "avg_rating": 0.0,
