@@ -8,6 +8,7 @@
   border-top: 6px solid #003C6C; /* Accent bar at top for emphasis */
   border-radius: 12px;
   padding: 12px 8px; /* Tighter horizontal padding to keep module narrow */
+  margin-top: 65px;
   margin-bottom: 24px;
   /* Content-driven width: follow widest child (Clear All button) */
   width: max-content; /* Container width equals content width */

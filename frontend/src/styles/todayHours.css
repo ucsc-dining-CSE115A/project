@@ -1,3 +1,28 @@
+/* example in src/styles/todayHours.css or a new file */
+
+.current-meal-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  background: rgba(0, 60, 108, 0.08);
+  border: 1px solid rgba(0, 60, 108, 0.18);
+  color: #003c6c;
+  font-size: 0.9rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.current-meal-main {
+  font-weight: 600;
+}
+
+.current-meal-next {
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+
 /* TodayHours Component Styles */
 .today-hours-card {
   display: flex;
@@ -12,7 +37,7 @@
   box-shadow: 0 4px 12px rgba(0, 60, 108, 0.15);
   max-width: 280px;
   min-width: 200px;
-  margin-top: 20px;
+  margin-top: 45px;
   align-self: flex-start;
 }
 
@@ -24,16 +49,16 @@
   margin-bottom: 4px;
 }
 
-.today-hours-subtitle {
-  font-weight: 600;
-  color: #4a5568;
-  font-size: 14px;
-  text-transform: capitalize;
+.today-hours-range {
+  font-weight: 600; /* Make it bold like the meal times */
+  color: #3070c3;
+  margin-top: -5px;
+  margin-bottom: 25px;
 }
 
 .today-hours-time {
   font-weight: 600;
-  color: #2d3748;
+  color: #3070c3;
   font-size: 16px;
   padding: 4px 0;
 }

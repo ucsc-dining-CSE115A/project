@@ -3,6 +3,8 @@ import { useParams, Link } from 'react-router-dom';
 import MenuCard from '../components/MenuCard';
 import MenuFilter from '../components/MenuFilter';
 import TodayHours from '../components/TodayHours';
+import CurrentMealBanner from '../components/CurrentMealBanner';
+import { useCurrentMeal } from '../components/useCurrentMeal';
 
 function MenuDetail() {
   const { diningHallName } = useParams();
@@ -18,6 +20,8 @@ function MenuDetail() {
   const aliasMap = {
     "Crown & Merrill Dining Hall": "Crown & Merrill Dining Hall and Banana Joe's", // Map old key to current data key
   };
+
+  const { sortedMeals } = useCurrentMeal(decodedName);
 
   useEffect(() => {
     const fetchMenuData = async () => {
@@ -39,17 +43,25 @@ function MenuDetail() {
     fetchMenuData();
   }, []);
 
-  const organizeMenuByMealType = (menuData) => {
-    if (menuData && typeof menuData === 'object' && !Array.isArray(menuData)) {
-      return menuData;
+  const organizeMenuByMealType = (menuDataForHall) => {
+    // New JSON format: already an object keyed by meal (Breakfast, Lunch, etc.)
+    if (
+      menuDataForHall &&
+      typeof menuDataForHall === 'object' &&
+      !Array.isArray(menuDataForHall)
+    ) {
+      return menuDataForHall;
     }
+
+    // Legacy flat array format (meal headers + items)
     const standardMealTypes = ['Breakfast', 'Lunch', 'Dinner', 'Late Night'];
     const organizedMenu = {};
-    const isMealType = (item) => {
-      return standardMealTypes.includes(item) || item.startsWith('Late Night @');
-    };
+    const isMealType = (item) =>
+      standardMealTypes.includes(item) || item.startsWith('Late Night @');
+
     let currentMealType = null;
-    menuData.forEach(item => {
+
+    menuDataForHall.forEach((item) => {
       if (isMealType(item)) {
         currentMealType = item;
         organizedMenu[currentMealType] = [];
@@ -57,6 +69,7 @@ function MenuDetail() {
         organizedMenu[currentMealType].push(item);
       }
     });
+
     return organizedMenu;
   };
 
@@ -126,10 +139,23 @@ function MenuDetail() {
     return true;
   });
 
+  const orderedMealEntries = Object.entries(organizedMenu).sort(
+    ([mealTypeA], [mealTypeB]) => {
+      const idxA = sortedMeals.indexOf(mealTypeA);
+      const idxB = sortedMeals.indexOf(mealTypeB);
+      const safeA = idxA === -1 ? 999 : idxA;
+      const safeB = idxB === -1 ? 999 : idxB;
+      return safeA - safeB;
+    }
+  );
+
   return (
     <div className="menu-detail-container">
       <Link to="/" className="back-button">← Back to Dining Halls</Link>
       <h1>{decodedName}</h1>
+
+      <CurrentMealBanner hallName={decodedName} />
+
       <div className="menu-detail-content">
         <MenuFilter 
           selectedFilters={selectedFilters}
@@ -137,7 +163,7 @@ function MenuDetail() {
         />
         <div className="menu-main-content">
           <div className="menu-content">
-          {Object.entries(organizedMenu).map(([mealType, value]) => {
+          {orderedMealEntries.map(([mealType, value]) => {
             const isSubcategoryObject = value && typeof value === 'object' && !Array.isArray(value);
 
             if (!isSubcategoryObject) {
@@ -165,9 +191,13 @@ function MenuDetail() {
               );
             }
 
-            const subcategories = Object.entries(value);
-            const anySubHasItems = subcategories.some(([sub, items]) => filterItems(items).length > 0);
-            if (!anySubHasItems) return null;
+           // With subcategories (Soups, Entrees, etc.)
+           const subcategories = Object.entries(value);
+           const anySubHasItems = subcategories.some(([_, items]) => {
+             const filteredSubItems = filterItems(items);
+             return filteredSubItems.length > 0;
+           });
+           if (!anySubHasItems) return null;
 
             return (
               <div key={mealType} className="menu-section">
