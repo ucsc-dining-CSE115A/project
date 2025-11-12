@@ -694,13 +694,12 @@
       "Late Night": {
         "- Grill -": [
           {
-            "id": 581,
-            "name": "Falafel  Wrap",
+            "id": 613,
+            "name": "Chicken Corn Dogs",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
               "SOY",
-              "DAIRY",
+              "EGG",
               "WHEAT"
             ],
             "price": null
