@@ -295,20 +295,6 @@
             "price": null
           }
         ],
-        "- Sweet Treats -": [
-          {
-            "id": 23,
-            "name": "Pacific Cookie Co. Vegan Dr. Midnight Cookies",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
         "- Campus Bakery -": [
           {
             "id": 24,
@@ -1015,13 +1001,12 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 97,
-            "name": "Chicken Noodle Soup",
-            "avg_rating": 3.0,
+            "id": 481,
+            "name": "Pork Pozole",
+            "avg_rating": 0.0,
             "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "WHEAT"
+              "PORK",
+              "GF"
             ],
             "price": null
           }
@@ -1242,32 +1227,7 @@
         ]
       },
       "Dinner": {
-        "- Soups -": [
-          {
-            "id": 97,
-            "name": "Chicken Noodle Soup",
-            "avg_rating": 3.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "WHEAT"
-            ],
-            "price": null
-          }
-        ],
         "- Entrees -": [
-          {
-            "id": 651,
-            "name": "General Tso's Fable",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
           {
             "id": 104,
             "name": "General Tso's Pork",
@@ -1278,6 +1238,18 @@
               "SESAME",
               "WHEAT",
               "PORK"
+            ],
+            "price": null
+          },
+          {
+            "id": 621,
+            "name": "General Tso's Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "WHEAT"
             ],
             "price": null
           },
