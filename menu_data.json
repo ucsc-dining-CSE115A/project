@@ -639,29 +639,6 @@
         ]
       },
       "Late Night": {
-        "- Grill -": [
-          {
-            "id": 608,
-            "name": "Regular Cut Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 630,
-            "name": "Turkey Club Wrap",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "WHEAT",
-              "PORK"
-            ],
-            "price": null
-          }
-        ],
         "- Pizza -": [
           {
             "id": 19,
@@ -770,16 +747,6 @@
             "price": null
           },
           {
-            "id": 45,
-            "name": "Black Bean Corn Salsa",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 46,
             "name": "Caramelized Chipotle Tofu",
             "avg_rating": 0.0,
@@ -801,8 +768,8 @@
             "price": null
           },
           {
-            "id": 48,
-            "name": "Cilantro Lime Riced Cauliflower",
+            "id": 50,
+            "name": "Mexican Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -811,8 +778,8 @@
             "price": null
           },
           {
-            "id": 50,
-            "name": "Mexican Rice",
+            "id": 374,
+            "name": "Roasted Cauliflower",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
