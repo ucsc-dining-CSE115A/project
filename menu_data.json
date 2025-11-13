@@ -3238,6 +3238,19 @@
         ],
         "- Entrees -": [
           {
+            "id": 61,
+            "name": "Belgian Waffle Squares",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 2,
             "name": "Cage-Free Scrambled Eggs",
             "avg_rating": 3.0,
@@ -3255,17 +3268,6 @@
             "dietary_restrictions": [
               "PORK",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 466,
-            "name": "French Toast Sticks",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
             ],
             "price": null
           },
@@ -3486,21 +3488,20 @@
             "price": null
           },
           {
+            "id": 511,
+            "name": "Potato Leek Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 627,
             "name": "Stack Haus Burger Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 98,
-            "name": "Vegan Garbanzo Sesame Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SESAME",
-              "GF"
-            ],
             "price": null
           }
         ],
