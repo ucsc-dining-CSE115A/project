@@ -427,17 +427,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 548,
-            "name": "Orange Glazed Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 400,
             "name": "Spam Fried Rice",
             "avg_rating": 0.0,
@@ -468,6 +457,19 @@
               "VG",
               "SOY",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 664,
+            "name": "Thai Red Curry Beef",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "FISH",
+              "GF",
+              "BEEF",
+              "HALAL"
             ],
             "price": null
           }
