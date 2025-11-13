@@ -3,6 +3,7 @@
   flex: 0 1 400px;
   display: flex;
   align-items: center;
+  position: relative; /* Added for dropdown positioning */
 }
 
 .search-input {
