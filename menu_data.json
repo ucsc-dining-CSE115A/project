@@ -3267,30 +3267,6 @@
               "GF"
             ],
             "price": null
-          },
-          {
-            "id": 95,
-            "name": "Texas French Toast",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 96,
-            "name": "Triangle Hash Brown Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
           }
         ],
         "- Bars & Clean Plate -": [
