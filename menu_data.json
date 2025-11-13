@@ -1944,19 +1944,24 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 538,
-            "name": "Buffalo Cauliflower",
+            "id": 67,
+            "name": "Available Upon Request: Gluten Free Rotini Pasta",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V"
+              "VG",
+              "GF"
             ],
             "price": null
           },
           {
-            "id": 25,
-            "name": "Chengdu Wing Bar",
+            "id": 387,
+            "name": "Bolognese Sauce",
             "avg_rating": 0.0,
-            "dietary_restrictions": [],
+            "dietary_restrictions": [
+              "BEEF",
+              "GF",
+              "HALAL"
+            ],
             "price": null
           },
           {
@@ -1967,56 +1972,61 @@
             "price": null
           },
           {
-            "id": 27,
-            "name": "Green Onion Slaw",
+            "id": 389,
+            "name": "Focaccia Breadsticks",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 28,
-            "name": "Hoisin Chicken Wings",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
               "SOY",
               "SESAME",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 31,
-            "name": "Sticky Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 32,
-            "name": "Szechuan Chicken Wings",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 129,
-            "name": "Vegan Tenders",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 132,
+            "name": "Marinara Sauce",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 390,
+            "name": "Pasta Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 391,
+            "name": "Penne",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 30,
+            "name": "Steamed Broccoli",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 392,
+            "name": "White Beans",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           }
