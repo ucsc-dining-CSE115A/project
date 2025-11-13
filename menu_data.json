@@ -141,6 +141,16 @@
       "Lunch": {
         "- Soups -": [
           {
+            "id": 543,
+            "name": "Chicken Pozole",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
             "id": 80,
             "name": "Chicken Soup Tlalpan",
             "avg_rating": 0.0,
@@ -151,12 +161,23 @@
             "price": null
           },
           {
-            "id": 142,
-            "name": "Garden Vegetable Soup",
+            "id": 518,
+            "name": "Fire Roasted Corn Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "DAIRY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 383,
+            "name": "Organic Black Bean Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "WHEAT"
+              "GF"
             ],
             "price": null
           }
