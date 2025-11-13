@@ -1229,15 +1229,13 @@
       "Dinner": {
         "- Entrees -": [
           {
-            "id": 104,
-            "name": "General Tso's Pork",
+            "id": 663,
+            "name": "General Tso's Chicken",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
-              "EGG",
               "SESAME",
-              "WHEAT",
-              "PORK"
+              "WHEAT"
             ],
             "price": null
           },
