@@ -1224,6 +1224,60 @@
             "dietary_restrictions": [],
             "price": null
           }
+        ],
+        "- Available 2pm-5pm -": [
+          {
+            "id": 471,
+            "name": "Black Beans with Cumin Spice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 540,
+            "name": "Harissa BBQ Beef",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "BEEF",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 50,
+            "name": "Mexican Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 585,
+            "name": "Roasted Kale and Butternut Squash",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 579,
+            "name": "Shredded Taqueria Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          }
         ]
       },
       "Dinner": {
@@ -3645,8 +3699,8 @@
         ],
         "- Entrees -": [
           {
-            "id": 651,
-            "name": "General Tso's Fable",
+            "id": 103,
+            "name": "General Tso's Gardein",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
