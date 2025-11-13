@@ -3259,6 +3259,27 @@
             "price": null
           },
           {
+            "id": 466,
+            "name": "French Toast Sticks",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 479,
+            "name": "Harissa Potatoes",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 94,
             "name": "Sweet Potato, Black Bean, and Kale Hash",
             "avg_rating": 0.0,
