@@ -154,14 +154,12 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 382,
-            "name": "New England Clam Chowder",
+            "id": 35,
+            "name": "Chicken Spaetzle Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "SHELLFISH",
-              "GF"
+              "EGG",
+              "WHEAT"
             ],
             "price": null
           },
