@@ -28,7 +28,7 @@ function Home() {
         <div className="hero-overlay">
           <h1 className="hero-title">UCSC DINING</h1>
           <p className="hero-subtitle">
-            Discover UCSC dining hall and cafe menus
+            Explore dining hall and cafe menus
           </p>
         </div>
       </section>
