@@ -83,7 +83,7 @@
     ],
     "Late Night": [
       {
-        "days": "Sunday-Thursday",
+        "days": "Monday-Friday",
         "time": "8-11 PM"
       }
     ]
