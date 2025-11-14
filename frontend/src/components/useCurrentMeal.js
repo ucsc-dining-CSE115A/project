@@ -14,7 +14,7 @@ import { useEffect, useState } from "react";
 // Turn this ON when you want to simulate a specific time of day.
 // Set it back to false to use the real current time.
 const DEBUG_ENABLED = false;     // <-- set to true to enable debug time
-const DEBUG_TIME = "23:59";      // <-- HH:MM in 24h format, e.g. "07:30", "12:00", "23:15"
+const DEBUG_TIME = "00:00";      // <-- HH:MM in 24h format, e.g. "07:30", "12:00", "23:15"
 
 // Returns a Date object representing "now", but can be overridden by DEBUG_TIME.
 function getNow() {
@@ -158,6 +158,11 @@ export function useCurrentMeal(hallName) {
   const [hasSchedule, setHasSchedule] = useState(false);
   const [isContinuous, setIsContinuous] = useState(false);
 
+  function isCafeSchedule(hallTimes) {
+    const mealKeys = ["Breakfast", "Brunch", "Lunch", "Dinner", "Late Night"];
+    return !mealKeys.some((key) => Array.isArray(hallTimes[key]) && hallTimes[key].length > 0);
+  }
+
   useEffect(() => {
     async function load() {
       try {
@@ -172,6 +177,45 @@ export function useCurrentMeal(hallName) {
 
         // Get the times for the selected dining hall
         const hallTimes = data.halls?.[hallName];
+
+        // --- SPECIAL CASE: CAFÉS WITH SINGLE OPEN/CLOSE RANGE ---
+        if (isCafeSchedule(hallTimes)) {
+            // Expecting: hallTimes.AllDay = [{ days: "...", time: "8 AM - 8 PM" }]
+            const slot = hallTimes.AllDay?.[0];
+            if (!slot) {
+            setHasSchedule(false);
+            return;
+            }
+        
+            const now = getNow();
+            const todayName = DAY_NAMES[now.getDay()];
+            const nowMinutes = now.getHours() * 60 + now.getMinutes();
+            const { inRange, start, end } = checkSlot(slot, todayName, nowMinutes);
+        
+            setHasSchedule(true);
+            setCurrentMeal(inRange ? "Now Open" : null);
+            setIsContinuous(false);
+            setNextMeal(null);
+        
+            // Build "Closes at ___"
+            if (end != null) {
+            const h24 = Math.floor(end / 60);
+            const m = end % 60;
+            const ampm = h24 >= 12 ? "PM" : "AM";
+            let h = h24 % 12;
+            if (h === 0) h = 12;
+        
+            const label =
+                m === 0 ? `${h} ${ampm}` : `${h}:${m.toString().padStart(2, "0")} ${ampm}`;
+            setNextStartLabel(label); // reused for close time
+            } else {
+            setNextStartLabel(null);
+            }
+        
+            setSortedMeals([]);
+            return; // <-- IMPORTANT: skip dining hall logic entirely
+        }
+
         if (!hallTimes) {
           setHasSchedule(false);
           setCurrentMeal(null);

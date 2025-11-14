@@ -143,6 +143,66 @@
         "time": "8-11 PM"
       }
     ]
+  },
+  "Oakes Cafe": {
+    "AllDay": [
+      {
+        "days": "Monday-Friday",
+        "time": "8 AM - 8 PM"
+      }
+    ]
+  },
+  "Global Village Cafe": {
+    "AllDay": [
+      {
+        "days": "Monday-Thursday",
+        "time": "8 AM - 8 PM"
+      }
+    ],
+    "AllDay": [
+      {
+        "days": "Friday",
+        "time": "8 AM - 5 PM"
+      }
+    ]
+  },
+  "Owl's Nest Cafe": {
+    "AllDay": [
+      {
+        "days": "Monday-Friday",
+        "time": "8 AM - 5 PM"
+      }
+    ],
+    "AllDay": [
+      {
+        "days": "Friday",
+        "time": "8 AM - 4 PM"
+      }
+    ]
+  },
+  "Stevenson Coffee House": {
+    "AllDay": [
+      {
+        "days": "Monday-Friday",
+        "time": "8 AM - 8 PM"
+      }
+    ]
+  },
+  "Perk Coffee Bar": {
+    "AllDay": [
+      {
+        "days": "Monday-Friday",
+        "time": "8 AM - 5 PM"
+      }
+    ]
+  },
+  "University Center Cafe": {
+    "AllDay": [
+      {
+        "days": "Monday-Friday",
+        "time": "8 AM - 4 PM"
+      }
+    ]
   }
 }
 }

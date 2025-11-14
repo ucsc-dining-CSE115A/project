@@ -198,6 +198,27 @@ function TodayHours({ diningHallName }) {
           });
         });
 
+        // ---- Handle AllDay hours for cafés ----
+        if (Array.isArray(hallTimes.AllDay)) {
+          hallTimes.AllDay.forEach((slot) => {
+            if (!slot.time || !slot.days) return;
+            if (!dayMatches(slot.days, todayName)) return;
+
+            // Use a generic label for cafés
+            meals.push({
+              mealType: "All Day",
+              time: slot.time,
+            });
+
+            const range = parseTimeRange(slot.time);
+            if (!range) return;
+            const { start, end } = range;
+
+            if (earliestStart == null || start < earliestStart) earliestStart = start;
+            if (latestEnd == null || end > latestEnd) latestEnd = end;
+          });
+        } 
+
         setTodayMeals(meals);
 
         // Determine total open window for the day

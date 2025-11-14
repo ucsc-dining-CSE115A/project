@@ -25,6 +25,14 @@
     background: #003c6c;
     color: #ffffff;
   }
+
+  .meal-status-fineprint {
+    font-size: 11px;
+    margin-top: 2px;
+    color: #555;
+    text-align: center;
+    opacity: 0.85;
+}
   
   .meal-status-primary {
     font-weight: 700;
