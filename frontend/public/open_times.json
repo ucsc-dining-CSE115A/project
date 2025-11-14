@@ -57,7 +57,7 @@
     ],
     "Late Night": [
       {
-        "days": "Sunday-Thursday",
+        "days": "Monday-Thursday",
         "time": "8-11 PM"
       }
     ]

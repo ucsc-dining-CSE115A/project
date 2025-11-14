@@ -24,17 +24,17 @@ function CurrentMealBanner({ hallName }) {
         return (
         <div className="meal-status-banner meal-status-banner--open">
             <div className="meal-status-chip">ALL DAY</div>
-            <div className="meal-status-primary">Open right now</div>
+            <div className="meal-status-primary">Open</div>
     
             {nextStartLabel && (
             <div className="meal-status-secondary">
                 Closes at {nextStartLabel}
-                {isPerk && "*"}
+                {isPerk && " *"}
             </div>
             )}
     
             {isPerk && (
-            <div className="meal-status-footnote">
+            <div className="meal-status-fineprint">
                 * Earth &amp; Marine Sciences and Baskin Engineering locations close at
                 6 PM Mon – Thurs.
             </div>
@@ -47,7 +47,7 @@ function CurrentMealBanner({ hallName }) {
         // Café closed, but has an AllDay schedule
         return (
         <div className="meal-status-banner meal-status-banner--closed">
-            <div className="meal-status-primary">Closed right now</div>
+            <div className="meal-status-primary">Closed</div>
         </div>
         );
     }
@@ -72,7 +72,7 @@ function CurrentMealBanner({ hallName }) {
             ? currentMeal
             : isContinuous
             ? "Limited service period — select entree options available"
-            : "Closed right now"}
+            : "Closed"}
         </div>
 
         {nextMeal && nextStartLabel && (

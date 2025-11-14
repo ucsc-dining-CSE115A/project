@@ -14,7 +14,7 @@ import { useEffect, useState } from "react";
 // Turn this ON when you want to simulate a specific time of day.
 // Set it back to false to use the real current time.
 const DEBUG_ENABLED = false;     // <-- set to true to enable debug time
-const DEBUG_TIME = "00:00";      // <-- HH:MM in 24h format, e.g. "07:30", "12:00", "23:15"
+const DEBUG_TIME = "20:00";      // <-- HH:MM in 24h format, e.g. "07:30", "12:00", "23:15"
 
 // Returns a Date object representing "now", but can be overridden by DEBUG_TIME.
 function getNow() {
