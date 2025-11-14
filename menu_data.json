@@ -447,11 +447,23 @@
         ],
         "- Entrees -": [
           {
-            "id": 412,
-            "name": "Local Lingcod Puttanesca",
+            "id": 428,
+            "name": "Baja Sandbar Bass Piccata",
             "avg_rating": 0.0,
             "dietary_restrictions": [
+              "DAIRY",
               "FISH",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 137,
+            "name": "Herbed Lentils",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
               "GF"
             ],
             "price": null
@@ -469,16 +481,6 @@
           {
             "id": 414,
             "name": "Roasted Balsamic Vegetables",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 415,
-            "name": "Vegan Italian White Beans",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -594,6 +596,17 @@
         ],
         "- Hot Bars -": [
           {
+            "id": 441,
+            "name": "BBQ Pulled Shiitake",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 105,
             "name": "BBQ Shredded Pork",
             "avg_rating": 0.0,
@@ -636,17 +649,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 418,
-            "name": "Vegan Chipotle Gardein",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
             ],
             "price": null
           },
