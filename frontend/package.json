@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@supabase/supabase-js": "^2.80.0",
+    "@supabase/supabase-js": "^2.81.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.8.1",

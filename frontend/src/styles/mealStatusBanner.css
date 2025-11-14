@@ -1,5 +1,6 @@
 .meal-status-banner {
     max-width: 1200px;
+    min-height: 77px;
     margin: 24px auto 12px;
     padding: 14px 28px;
     border-radius: 999px;
@@ -8,6 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
     gap: 4px;
     color: #003c6c;

@@ -3,11 +3,11 @@ import { useCurrentMeal } from "./useCurrentMeal";
 import "../styles/mealStatusBanner.css"; // <- important for styling
 
 function CurrentMealBanner({ hallName }) {
-  const { currentMeal, nextMeal, nextStartLabel, isContinuous } =
+  const { currentMeal, nextMeal, nextStartLabel, isContinuous, hasSchedule } =
     useCurrentMeal(hallName);
 
-  // Fallback if the hook couldn't determine anything for today
-  if (!currentMeal && !nextMeal && !isContinuous) {
+  // Only show "unavailable" if there is NO schedule at all for this hall
+  if (hasSchedule === false) {
     return (
       <div className="meal-status-banner meal-status-banner--closed">
         <div className="meal-status-primary">

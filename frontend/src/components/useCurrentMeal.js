@@ -10,6 +10,25 @@
 
 import { useEffect, useState } from "react";
 
+// ------------------ DEBUG TIME & DEMO COMPONENT -------------------
+// Turn this ON when you want to simulate a specific time of day.
+// Set it back to false to use the real current time.
+const DEBUG_ENABLED = false;     // <-- set to true to enable debug time
+const DEBUG_TIME = "23:59";      // <-- HH:MM in 24h format, e.g. "07:30", "12:00", "23:15"
+
+// Returns a Date object representing "now", but can be overridden by DEBUG_TIME.
+function getNow() {
+  if (!DEBUG_ENABLED) {
+    return new Date();
+  }
+  const now = new Date();
+  const [hStr, mStr = "0"] = DEBUG_TIME.split(":");
+  const h = parseInt(hStr, 10) || 0;
+  const m = parseInt(mStr, 10) || 0;
+  now.setHours(h, m, 0, 0);
+  return now;
+}
+
 // Days of the week - used to match which day's schedule applies today
 const DAY_NAMES = [
   "Sunday",
@@ -73,7 +92,7 @@ function parseTimeRange(rangeStr) {
   return { start, end };
 }
 
-// Checks if a slot's day range mathces today's day.
+// Checks if a slot's day range matches today's day.
 // "Monday-Friday" is true if today is Wednesday.
 function dayMatches(daysStr, todayName) {
   if (!daysStr) return false;
@@ -131,7 +150,7 @@ function checkSlot(slot, todayName, nowMinutes) {
 //      - nextMeal: what's next and when.
 //      - isContinuous: true if open but between meals.
 export function useCurrentMeal(hallName) {
-  // Store state for UI to consome
+  // Store state for UI to consume
   const [currentMeal, setCurrentMeal] = useState(null);
   const [nextMeal, setNextMeal] = useState(null);
   const [nextStartLabel, setNextStartLabel] = useState(null);
@@ -151,7 +170,7 @@ export function useCurrentMeal(hallName) {
         }
         const data = await res.json();
 
-        // Get the times for the selected dining halls
+        // Get the times for the selected dining hall
         const hallTimes = data.halls?.[hallName];
         if (!hallTimes) {
           setHasSchedule(false);
@@ -165,8 +184,8 @@ export function useCurrentMeal(hallName) {
 
         setHasSchedule(true);
 
-        // Figure out what time it is right now and convert to minutes since midnight
-        const now = new Date();
+        // ---- USE DEBUG CLOCK (if enabled) INSTEAD OF RAW new Date() ----
+        const now = getNow();
         const todayName = DAY_NAMES[now.getDay()];
         const nowMinutes = now.getHours() * 60 + now.getMinutes();
 
@@ -202,14 +221,14 @@ export function useCurrentMeal(hallName) {
               nowMinutes
             );
 
-            // Store all time ranges for continous dining calculation
+            // Store all time ranges for continuous dining calculation
             if (start != null && end != null) todayRanges.push({ start, end });
 
             // If we're currently within a range, mark that meal as current
             if (inRange) {
               current = mealType;
 
-            // Otherwise, track the earliest upcoming start time for next meal
+              // Otherwise, track the earliest upcoming start time for next meal
             } else if (start != null && nowMinutes < start) {
               if (nextStart == null || start < nextStart) {
                 next = mealType;
