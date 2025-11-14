@@ -3600,16 +3600,16 @@
         ],
         "- Campus Bakery -": [
           {
-            "id": 395,
-            "name": "Brownie M&M",
+            "id": 666,
+            "name": "Carrot Cake",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
               "SOY",
               "EGG",
               "DAIRY",
-              "PEANUT",
-              "WHEAT"
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           },
