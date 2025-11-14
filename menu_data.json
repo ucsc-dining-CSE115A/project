@@ -3861,6 +3861,21 @@
         ]
       },
       "Late Night": {
+        "- Entrees -": [
+          {
+            "id": 634,
+            "name": "Barcelona Steak Sandwich",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF"
+            ],
+            "price": null
+          }
+        ],
         "- Clean Plate -": [
           {
             "id": 21,
@@ -3986,40 +4001,6 @@
             "dietary_restrictions": [
               "V",
               "SOY"
-            ],
-            "price": null
-          }
-        ],
-        "- Grill and Soups -": [
-          {
-            "id": 16,
-            "name": "Harissa Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 660,
-            "name": "Malfouf (Middle Eastern Cole Slaw)",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 661,
-            "name": "Za'atar Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SESAME",
-              "GF",
-              "HALAL"
             ],
             "price": null
           }
