@@ -851,7 +851,7 @@
           {
             "id": 498,
             "name": "Tater Tots",
-            "avg_rating": 0.0,
+            "avg_rating": 4.0,
             "dietary_restrictions": [
               "V",
               "SOY"
@@ -2451,7 +2451,7 @@
           {
             "id": 498,
             "name": "Tater Tots",
-            "avg_rating": 0.0,
+            "avg_rating": 4.0,
             "dietary_restrictions": [
               "V",
               "SOY"
