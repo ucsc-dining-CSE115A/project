@@ -1396,6 +1396,17 @@
             "price": null
           },
           {
+            "id": 501,
+            "name": "Housemade Creamy Alfredo Sauce",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 408,
             "name": "Italian Roasted Tofu",
             "avg_rating": 0.0,
@@ -1423,16 +1434,6 @@
             "dietary_restrictions": [
               "VG",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 409,
-            "name": "Roasted Eggplant",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           },
