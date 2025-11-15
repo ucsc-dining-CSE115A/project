@@ -1709,6 +1709,17 @@
         ],
         "- Bars & Clean Plate -": [
           {
+            "id": 99,
+            "name": "BBQ Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 669,
             "name": "Braised Pork",
             "avg_rating": 0.0,
@@ -1771,17 +1782,6 @@
             "dietary_restrictions": [
               "V",
               "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 110,
-            "name": "Tempeh Roasted with Chorizo Spice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
             ],
             "price": null
           }
