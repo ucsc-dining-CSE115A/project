@@ -1717,6 +1717,16 @@
               "GF"
             ],
             "price": null
+          },
+          {
+            "id": 94,
+            "name": "Sweet Potato, Black Bean, and Kale Hash",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
           }
         ],
         "- Bars & Clean Plate -": [
