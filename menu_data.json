@@ -586,22 +586,18 @@
             "price": null
           },
           {
+            "id": 49,
+            "name": "Condiments",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          },
+          {
             "id": 50,
             "name": "Mexican Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 399,
-            "name": "Roasted Corn Salad",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
               "GF"
             ],
             "price": null
