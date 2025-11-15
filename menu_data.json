@@ -681,16 +681,6 @@
       "Late Night": {
         "- Grill -": [
           {
-            "id": 602,
-            "name": "Garlic Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
             "id": 665,
             "name": "Thai Tofu Wrap",
             "avg_rating": 0.0,
@@ -815,16 +805,6 @@
             "dietary_restrictions": [
               "V",
               "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 27,
-            "name": "Green Onion Slaw",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "GF"
             ],
             "price": null
