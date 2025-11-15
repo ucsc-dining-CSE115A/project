@@ -153,6 +153,27 @@
         ],
         "- Soups -": [
           {
+            "id": 97,
+            "name": "Chicken Noodle Soup",
+            "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 80,
+            "name": "Chicken Soup Tlalpan",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
             "id": 383,
             "name": "Organic Black Bean Soup",
             "avg_rating": 0.0,
@@ -326,6 +347,16 @@
             "name": "Condiments",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 493,
+            "name": "Makhni Dal",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
             "price": null
           },
           {
