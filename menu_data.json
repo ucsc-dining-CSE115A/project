@@ -426,6 +426,16 @@
             "price": null
           },
           {
+            "id": 677,
+            "name": "Cilantro Lemon Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 472,
             "name": "Martha's Asado De Boda",
             "avg_rating": 0.0,
@@ -434,16 +444,6 @@
               "WHEAT",
               "PORK",
               "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 50,
-            "name": "Mexican Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           },
@@ -567,30 +567,17 @@
             "price": null
           },
           {
-            "id": 475,
-            "name": "Carne Picada",
+            "id": 678,
+            "name": "Carne Beef",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "BEEF",
-              "SOY",
-              "GF",
-              "HALAL"
+              "BEEF"
             ],
             "price": null
           },
           {
             "id": 47,
             "name": "Charro Beans",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 476,
-            "name": "Happy Plant Vegan Chorizo Crumbles and Potatoes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -616,6 +603,17 @@
               "V",
               "DAIRY",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 418,
+            "name": "Vegan Chipotle Gardein",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "WHEAT"
             ],
             "price": null
           },
