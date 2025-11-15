@@ -448,8 +448,8 @@
             "price": null
           },
           {
-            "id": 473,
-            "name": "Steamed Broccolini",
+            "id": 30,
+            "name": "Steamed Broccoli",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -583,13 +583,6 @@
               "VG",
               "GF"
             ],
-            "price": null
-          },
-          {
-            "id": 49,
-            "name": "Condiments",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
             "price": null
           },
           {
