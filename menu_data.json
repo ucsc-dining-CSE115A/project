@@ -156,7 +156,7 @@
           {
             "id": 35,
             "name": "Chicken Spaetzle Soup",
-            "avg_rating": 0.0,
+            "avg_rating": 1.0,
             "dietary_restrictions": [
               "EGG",
               "WHEAT"
@@ -425,7 +425,7 @@
           {
             "id": 35,
             "name": "Chicken Spaetzle Soup",
-            "avg_rating": 0.0,
+            "avg_rating": 1.0,
             "dietary_restrictions": [
               "EGG",
               "WHEAT"
@@ -1336,6 +1336,18 @@
         ],
         "- Entrees -": [
           {
+            "id": 667,
+            "name": "Braised Kale with Shallots",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 412,
             "name": "Local Lingcod Puttanesca",
             "avg_rating": 0.0,
@@ -1358,26 +1370,6 @@
           {
             "id": 430,
             "name": "Oven Roasted Herbed Potatoes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 431,
-            "name": "Roasted Tomatoes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 394,
-            "name": "Sauteed Rainbow Chard with Garlic Oil",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
