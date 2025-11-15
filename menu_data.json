@@ -1688,19 +1688,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 672,
-            "name": "Apple Pancakes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 62,
             "name": "Cajun Roasted Red Potatoes",
             "avg_rating": 0.0,
@@ -1727,16 +1714,6 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "PORK",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 480,
-            "name": "Vegan Happy Scramble",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "GF"
             ],
             "price": null
