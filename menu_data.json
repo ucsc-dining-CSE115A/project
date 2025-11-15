@@ -998,6 +998,22 @@
         ]
       },
       "Lunch": {
+        "- Miscellaneous -": [
+          {
+            "id": 676,
+            "name": "Hawaiian Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "PORK"
+            ],
+            "price": null
+          }
+        ],
         "- Breakfast -": [
           {
             "id": 672,
@@ -1059,20 +1075,6 @@
           {
             "id": 19,
             "name": "Cheese Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 674,
-            "name": "Focaccia Pizza with Basil Pesto",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -1241,6 +1243,22 @@
         ]
       },
       "Dinner": {
+        "- Miscellaneous -": [
+          {
+            "id": 676,
+            "name": "Hawaiian Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "PORK"
+            ],
+            "price": null
+          }
+        ],
         "- Soups -": [
           {
             "id": 673,
@@ -1291,20 +1309,6 @@
           {
             "id": 19,
             "name": "Cheese Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 674,
-            "name": "Focaccia Pizza with Basil Pesto",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
