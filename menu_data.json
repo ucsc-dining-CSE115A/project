@@ -394,22 +394,22 @@
       "Dinner": {
         "- Soups -": [
           {
+            "id": 80,
+            "name": "Chicken Soup Tlalpan",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
             "id": 383,
             "name": "Organic Black Bean Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 469,
-            "name": "Spicy North African Chicken Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "WHEAT",
-              "ALC"
             ],
             "price": null
           }
@@ -1230,22 +1230,6 @@
         ]
       },
       "Dinner": {
-        "- Miscellaneous -": [
-          {
-            "id": 676,
-            "name": "Hawaiian Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "PORK"
-            ],
-            "price": null
-          }
-        ],
         "- Soups -": [
           {
             "id": 673,
@@ -1304,6 +1288,20 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 676,
+            "name": "Hawaiian Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "PORK"
             ],
             "price": null
           }
