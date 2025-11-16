@@ -879,6 +879,20 @@
               "WHEAT"
             ],
             "price": null
+          },
+          {
+            "id": 692,
+            "name": "Ham And Pineapple Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "PORK"
+            ],
+            "price": null
           }
         ],
         "- Clean Plate -": [
@@ -1383,6 +1397,17 @@
             "name": "Mashed Potato Bowl Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 502,
+            "name": "Porcini Crusted Roasted Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "GF",
+              "HALAL"
+            ],
             "price": null
           },
           {
