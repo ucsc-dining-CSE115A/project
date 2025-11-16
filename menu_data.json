@@ -1075,6 +1075,16 @@
               "BEEF"
             ],
             "price": null
+          },
+          {
+            "id": 30,
+            "name": "Steamed Broccoli",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
           }
         ],
         "- Pizza -": [
@@ -1089,6 +1099,20 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 692,
+            "name": "Ham And Pineapple Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "PORK"
             ],
             "price": null
           }
@@ -1158,6 +1182,29 @@
         ],
         "- Hot Bars -": [
           {
+            "id": 84,
+            "name": "Char Siu Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 492,
+            "name": "Coconut Curry Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 690,
             "name": "Grilled Huli Huli Chicken",
             "avg_rating": 0.0,
@@ -1169,36 +1216,26 @@
             "price": null
           },
           {
-            "id": 691,
-            "name": "Huli Huli Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 682,
-            "name": "Spicy Gardein with Garlic & Basil",
+            "id": 693,
+            "name": "Portabello Tofu Fried Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "SOY",
               "SESAME",
-              "WHEAT",
-              "ALC"
+              "GF"
             ],
             "price": null
           },
           {
-            "id": 31,
-            "name": "Sticky Rice",
+            "id": 87,
+            "name": "Sesame Yakisoba Noodles",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
+              "SOY",
+              "SESAME",
+              "WHEAT"
             ],
             "price": null
           },
