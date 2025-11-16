@@ -1071,22 +1071,23 @@
         ],
         "- Entrees -": [
           {
+            "id": 694,
+            "name": "Carne Asada",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
             "id": 424,
             "name": "Lime Cilantro Basmati Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 138,
-            "name": "Peruvian Beef Saltado",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "BEEF"
             ],
             "price": null
           },
