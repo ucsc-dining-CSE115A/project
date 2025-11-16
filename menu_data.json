@@ -1057,6 +1057,19 @@
         ]
       },
       "Dinner": {
+        "- Miscellaneous -": [
+          {
+            "id": 99,
+            "name": "BBQ Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Soups -": [
           {
             "id": 680,
@@ -1078,6 +1091,18 @@
               "BEEF",
               "GF",
               "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 84,
+            "name": "Char Siu Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "GF",
+              "ALC"
             ],
             "price": null
           },
@@ -1197,29 +1222,6 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 84,
-            "name": "Char Siu Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 492,
-            "name": "Coconut Curry Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 690,
             "name": "Grilled Huli Huli Chicken",
             "avg_rating": 0.0,
@@ -1227,18 +1229,6 @@
               "SOY",
               "GF",
               "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 693,
-            "name": "Portabello Tofu Fried Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "GF"
             ],
             "price": null
           },
