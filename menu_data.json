@@ -1396,23 +1396,24 @@
             "price": null
           },
           {
+            "id": 37,
+            "name": "Grilled Balsamic Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
             "id": 501,
             "name": "Housemade Creamy Alfredo Sauce",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
               "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 408,
-            "name": "Italian Roasted Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
               "GF"
             ],
             "price": null
