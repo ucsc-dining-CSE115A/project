@@ -879,21 +879,6 @@
               "WHEAT"
             ],
             "price": null
-          },
-          {
-            "id": 681,
-            "name": "Combination Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "BEEF",
-              "PORK"
-            ],
-            "price": null
           }
         ],
         "- Clean Plate -": [
@@ -1072,12 +1057,12 @@
         ],
         "- Entrees -": [
           {
-            "id": 602,
-            "name": "Garlic Fries",
+            "id": 424,
+            "name": "Lime Cilantro Basmati Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "SOY"
+              "VG",
+              "GF"
             ],
             "price": null
           },
@@ -1104,21 +1089,6 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 681,
-            "name": "Combination Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "BEEF",
-              "PORK"
             ],
             "price": null
           }
@@ -1188,22 +1158,25 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 84,
-            "name": "Char Siu Chicken",
+            "id": 690,
+            "name": "Grilled Huli Huli Chicken",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
-              "SESAME",
               "GF",
-              "ALC"
+              "HALAL"
             ],
             "price": null
           },
           {
-            "id": 659,
-            "name": "Chef Special",
+            "id": 691,
+            "name": "Huli Huli Sauce",
             "avg_rating": 0.0,
-            "dietary_restrictions": [],
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
             "price": null
           },
           {
@@ -1302,21 +1275,6 @@
               "WHEAT"
             ],
             "price": null
-          },
-          {
-            "id": 681,
-            "name": "Combination Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "BEEF",
-              "PORK"
-            ],
-            "price": null
           }
         ],
         "- Clean Plate -": [
@@ -1368,16 +1326,6 @@
           }
         ],
         "- Hot Bars -": [
-          {
-            "id": 599,
-            "name": "Battered Popcorn Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          },
           {
             "id": 49,
             "name": "Condiments",
