@@ -29,7 +29,8 @@
   line-height: 29px;
   letter-spacing: -0.48px;
   color: #333333;
-  font-family: Inter, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+  font-family: Inter, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    SimHei, Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: 600;
   margin: 0;
@@ -41,7 +42,8 @@
   line-height: 22px;
   letter-spacing: 0;
   color: #666666;
-  font-family: Inter, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+  font-family: Inter, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    SimHei, Arial, Helvetica, sans-serif;
   font-size: 16px;
   margin: 0;
 }
@@ -50,13 +52,25 @@
 .menu-card-price {
   font-size: 18px;
   font-weight: 600;
-  color: #003C6C;
+  color: #003c6c;
   margin: 4px 0;
 }
 
 /* Rating container styling - fixed at bottom */
 .menu-card-text > div {
-  margin-top: auto; /* Push rating to bottom */
+  margin-top: flex-end; /* Push rating to bottom */
   padding-top: 12px;
   border-top: 1px solid #f0f0f0; /* Optional: add separator line */
+}
+
+.menu-card-rating {
+  flex-shrink: 0;
+  line-height: 22px;
+  letter-spacing: 0;
+  color: #666666;
+  font-family: Inter, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    SimHei, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  margin-top: auto;
 }
