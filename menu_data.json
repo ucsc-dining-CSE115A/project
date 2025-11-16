@@ -675,6 +675,34 @@
       "Breakfast": {
         "- Breakfast -": [
           {
+            "id": 689,
+            "name": "Banana Nut Muffin",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "TREENUT",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 447,
+            "name": "Blueberry Muffin",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "TREENUT",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 1,
             "name": "Buttermilk Pancakes",
             "avg_rating": 0.0,
@@ -903,6 +931,25 @@
         ],
         "- Sweets Treats -": [
           {
+            "id": 49,
+            "name": "Condiments",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 454,
+            "name": "Pound Cake",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "EGG",
+              "DAIRY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 484,
             "name": "Sugar Cookie",
             "avg_rating": 0.0,
@@ -932,13 +979,6 @@
           }
         ],
         "- Hot Bars -": [
-          {
-            "id": 49,
-            "name": "Condiments",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
           {
             "id": 416,
             "name": "Mac and Cheese Bar",
