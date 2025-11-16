@@ -1283,17 +1283,14 @@
               "PORK"
             ],
             "price": null
-          }
-        ],
-        "- Grill -": [
+          },
           {
-            "id": 683,
-            "name": "Curly Fries",
+            "id": 8,
+            "name": "Steamed Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "SOY",
-              "WHEAT"
+              "VG",
+              "GF"
             ],
             "price": null
           }
