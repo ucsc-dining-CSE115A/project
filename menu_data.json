@@ -635,31 +635,6 @@
         ]
       },
       "Late Night": {
-        "- Grill -": [
-          {
-            "id": 668,
-            "name": "Grilled Reuben Sandwich",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "BEEF"
-            ],
-            "price": null
-          },
-          {
-            "id": 608,
-            "name": "Regular Cut Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          }
-        ],
         "- Pizza -": [
           {
             "id": 19,
