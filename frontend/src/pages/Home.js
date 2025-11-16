@@ -19,7 +19,7 @@ function Home() {
     { display: "Owl's Nest Cafe", key: "Owl's Nest Cafe" },
     { display: "Stevenson Coffee House", key: "Stevenson Coffee House" },
     { display: "Perk Coffee Bar", key: "Perk Coffee Bar" },
-    { display: "Banana Joe's Cafe", key: "Banana Joe's Cafe" },
+    { display: "UCen Coffee Bar", key: "UCen Coffee Bar" },
   ];
 
   return (
@@ -27,9 +27,7 @@ function Home() {
       <section className="home-hero">
         <div className="hero-overlay">
           <h1 className="hero-title">UCSC DINING</h1>
-          <p className="hero-subtitle">
-            Explore dining hall and cafe menus
-          </p>
+          <p className="hero-subtitle">Explore dining hall and cafe menus</p>
         </div>
       </section>
 
