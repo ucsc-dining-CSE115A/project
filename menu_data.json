@@ -456,13 +456,13 @@
             "price": null
           },
           {
-            "id": 503,
-            "name": "Papas Bravas",
+            "id": 600,
+            "name": "Creamy Mashed Yukon Golds",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF",
-              "ALC"
+              "V",
+              "DAIRY",
+              "GF"
             ],
             "price": null
           },
