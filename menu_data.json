@@ -2111,6 +2111,42 @@
         ]
       },
       "Late Night": {
+        "- Miscellaneous -": [
+          {
+            "id": 132,
+            "name": "Marinara Sauce",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Entrees -": [
+          {
+            "id": 443,
+            "name": "Hot Dog Bun",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 132,
+            "name": "Marinara Sauce",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Clean Plate -": [
           {
             "id": 21,
@@ -2155,6 +2191,38 @@
               "DAIRY",
               "WHEAT",
               "ALC"
+            ],
+            "price": null
+          }
+        ],
+        "- Hot Bars -": [
+          {
+            "id": 442,
+            "name": "Beef Frank",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 391,
+            "name": "Penne",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 444,
+            "name": "Vegan Hot Dog",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           }
@@ -2205,18 +2273,6 @@
             "dietary_restrictions": [
               "V",
               "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 581,
-            "name": "Falafel  Wrap",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "DAIRY",
               "WHEAT"
             ],
             "price": null
