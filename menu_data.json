@@ -310,16 +310,6 @@
             "price": null
           },
           {
-            "id": 48,
-            "name": "Cilantro Lime Riced Cauliflower",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 706,
             "name": "Corn",
             "avg_rating": 0.0,
@@ -370,8 +360,8 @@
             "price": null
           },
           {
-            "id": 405,
-            "name": "Roasted Green Beans in Garlic Oil",
+            "id": 39,
+            "name": "Roasted Asparagus",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
