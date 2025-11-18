@@ -595,46 +595,6 @@
             "price": null
           },
           {
-            "id": 48,
-            "name": "Cilantro Lime Riced Cauliflower",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 696,
-            "name": "Fresh Cilantro",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 697,
-            "name": "Fresh Diced Yellow Onion",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 698,
-            "name": "Fresh Green Cabbage",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 699,
             "name": "Limes",
             "avg_rating": 0.0,
