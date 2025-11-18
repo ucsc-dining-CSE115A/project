@@ -608,6 +608,19 @@
             "price": null
           },
           {
+            "id": 85,
+            "name": "Char Siu Gardein",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
             "id": 86,
             "name": "Char Siu Sauce",
             "avg_rating": 0.0,
@@ -623,16 +636,6 @@
           {
             "id": 705,
             "name": "Chili Crisp",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 48,
-            "name": "Cilantro Lime Riced Cauliflower",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
