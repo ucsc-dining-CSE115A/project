@@ -16,11 +16,6 @@ body.modal-open {
   overflow: hidden;
 }
 
-/* Modal: blur the app content underneath the overlay */
-body.modal-open #root {
-  filter: blur(4px);
-}
-
 a {
   text-decoration: none;
 }
