@@ -1043,6 +1043,15 @@
               "PORK"
             ],
             "price": null
+          },
+          {
+            "id": 584,
+            "name": "Vegan Spinach and Roasted Garlic Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG"
+            ],
+            "price": null
           }
         ],
         "- Clean Plate -": [
