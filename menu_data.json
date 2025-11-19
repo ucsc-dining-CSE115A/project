@@ -3206,11 +3206,11 @@
     },
     "Rachel Carson & Oakes Dining Hall": {
       "Breakfast": {
-        "- Campus Bakery -": [
+        "- Sweet Treats -": [
           {
-            "id": 615,
-            "name": "Carrot Raisin Muffin",
-            "avg_rating": 4.0,
+            "id": 451,
+            "name": "Old Fashioned Cake Donuts",
+            "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
               "SOY",
@@ -3222,11 +3222,13 @@
             "price": null
           },
           {
-            "id": 616,
-            "name": "Vegan Chocolate Granola Bars",
+            "id": 454,
+            "name": "Pound Cake",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
+              "V",
+              "EGG",
+              "DAIRY",
               "WHEAT"
             ],
             "price": null
