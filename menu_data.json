@@ -930,42 +930,15 @@
             ],
             "price": null
           }
-        ],
-        "- Campus Bakery -": [
-          {
-            "id": 615,
-            "name": "Carrot Raisin Muffin",
-            "avg_rating": 4.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 616,
-            "name": "Vegan Chocolate Granola Bars",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT"
-            ],
-            "price": null
-          }
         ]
       },
       "Lunch": {
         "- Soups -": [
           {
-            "id": 636,
-            "name": "Sweet & Sour Mushroom Soup",
+            "id": 499,
+            "name": "Chicken Tortilla Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
               "SOY",
               "GF"
             ],
@@ -1103,22 +1076,6 @@
             "price": null
           }
         ],
-        "- Campus Bakery -": [
-          {
-            "id": 620,
-            "name": "Cream Cheese Swirled Brownie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
         "- Hot Bars -": [
           {
             "id": 624,
@@ -1222,21 +1179,10 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 142,
-            "name": "Garden Vegetable Soup",
+            "id": 499,
+            "name": "Chicken Tortilla Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 636,
-            "name": "Sweet & Sour Mushroom Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "SOY",
               "GF"
             ],
@@ -1302,19 +1248,6 @@
         ],
         "- Pizza -": [
           {
-            "id": 640,
-            "name": "Asian Spicy Chicken Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 19,
             "name": "Cheese Pizza",
             "avg_rating": 0.0,
@@ -1325,6 +1258,21 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 727,
+            "name": "Combo Meat Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
@@ -1399,6 +1347,17 @@
               "V",
               "SOY",
               "DAIRY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 526,
+            "name": "Dutch Apple Pie",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
               "WHEAT"
             ],
             "price": null
@@ -1541,19 +1500,6 @@
           }
         ],
         "- Pizza -": [
-          {
-            "id": 640,
-            "name": "Asian Spicy Chicken Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
           {
             "id": 19,
             "name": "Cheese Pizza",
