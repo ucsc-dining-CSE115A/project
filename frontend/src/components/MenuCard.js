@@ -1,10 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Rating from './Rating';
 import MacroModal from './MacroModal';
 import '../styles/MenuCard.css';
 
 const MenuCard = ({ itemName, dietaryRestrictions, price, diningHall, averageRating }) => {
   const [showPopup, setShowPopup] = useState(false);
+
+  // Add background blur
+  useEffect(() => {
+    if (showPopup) {
+      document.body.classList.add('modal-open');
+    } else {
+      document.body.classList.remove('modal-open');
+    }
+    
+    // Cleanup function
+    return () => {
+      document.body.classList.remove('modal-open');
+    };
+  }, [showPopup]);
 
   return (
     <>
@@ -37,10 +51,9 @@ const MenuCard = ({ itemName, dietaryRestrictions, price, diningHall, averageRat
         <div className="popup-overlay" onClick={() => setShowPopup(false)}>
           <div className="popup-content" onClick={(e) => e.stopPropagation()}>
             <button className="popup-close" onClick={() => setShowPopup(false)}>
-                &times;
+              ×
             </button>
-            {/* Blank popup content - add your content here later */}
-            <MacroModal itemName={itemName} macroData={{}} />
+            <MacroModal itemName={itemName} macroData={{}} onClose={() => setShowPopup(false)} />
           </div>
         </div>
       )}
