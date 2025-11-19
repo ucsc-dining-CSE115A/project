@@ -1165,6 +1165,21 @@
             "dietary_restrictions": [],
             "price": null
           }
+        ],
+        "- Available 2pm-5pm -": [
+          {
+            "id": 603,
+            "name": "Halal Chicken Patty",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "HALAL"
+            ],
+            "price": null
+          }
         ]
       },
       "Dinner": {
@@ -1190,28 +1205,6 @@
               "EGG",
               "DAIRY",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 642,
-            "name": "Hot Honey",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 108,
-            "name": "Jalapeno Corn Cakes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "GF"
             ],
             "price": null
           },
@@ -1356,16 +1349,6 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 14,
-            "name": "Black Bean & Corn Saute",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 86,
             "name": "Char Siu Sauce",
             "avg_rating": 0.0,
@@ -1425,24 +1408,22 @@
             "price": null
           },
           {
-            "id": 427,
-            "name": "Pineapple Fried Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 72,
             "name": "Sauteed Bok Choy and Carrots with Sesame",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "SESAME",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 18,
+            "name": "Steamed Brown Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
               "GF"
             ],
             "price": null
