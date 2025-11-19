@@ -121,6 +121,34 @@
               "WHEAT"
             ],
             "price": null
+          },
+          {
+            "id": 726,
+            "name": "Cinnamon Apple Muffin",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "TREENUT",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 451,
+            "name": "Old Fashioned Cake Donuts",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
           }
         ]
       },
@@ -240,30 +268,38 @@
             "price": null
           }
         ],
-        "- Sweet Treats -": [
-          {
-            "id": 453,
-            "name": "Gluten-Free Snickerdoodle Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
         "- Campus Bakery -": [
           {
-            "id": 620,
-            "name": "Cream Cheese Swirled Brownie",
+            "id": 526,
+            "name": "Dutch Apple Pie",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 530,
+            "name": "Red Velvet Cake",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
               "SOY",
               "EGG",
               "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 563,
+            "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
               "WHEAT",
               "ALC"
             ],
@@ -513,48 +549,6 @@
             "price": null
           }
         ],
-        "- Sweet Treats -": [
-          {
-            "id": 453,
-            "name": "Gluten-Free Snickerdoodle Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Campus Bakery -": [
-          {
-            "id": 622,
-            "name": "Bakery Fresh Lemon Bars",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 623,
-            "name": "Banana Cream Pie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          }
-        ],
         "- Hot Bars -": [
           {
             "id": 67,
@@ -751,20 +745,6 @@
             "dietary_restrictions": [
               "VG",
               "SOY",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Sweet Treats -": [
-          {
-            "id": 453,
-            "name": "Gluten-Free Snickerdoodle Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
               "GF"
             ],
             "price": null
@@ -1036,19 +1016,6 @@
         ],
         "- Pizza -": [
           {
-            "id": 640,
-            "name": "Asian Spicy Chicken Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 19,
             "name": "Cheese Pizza",
             "avg_rating": 0.0,
@@ -1059,6 +1026,21 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 727,
+            "name": "Combo Meat Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
