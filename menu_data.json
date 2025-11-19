@@ -93,27 +93,31 @@
             "price": null
           }
         ],
-        "- Campus Bakery -": [
+        "- Sweet Treats -": [
           {
-            "id": 615,
-            "name": "Carrot Raisin Muffin",
-            "avg_rating": 4.0,
+            "id": 689,
+            "name": "Banana Nut Muffin",
+            "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
               "SOY",
               "EGG",
               "DAIRY",
-              "WHEAT",
-              "ALC"
+              "TREENUT",
+              "WHEAT"
             ],
             "price": null
           },
           {
-            "id": 616,
-            "name": "Vegan Chocolate Granola Bars",
+            "id": 447,
+            "name": "Blueberry Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "TREENUT",
               "WHEAT"
             ],
             "price": null
