@@ -3373,22 +3373,6 @@
             "price": null
           }
         ],
-        "- Campus Bakery -": [
-          {
-            "id": 620,
-            "name": "Cream Cheese Swirled Brownie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
         "- Cold Bars -": [
           {
             "id": 33,
@@ -3407,18 +3391,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 428,
-            "name": "Baja Sandbar Bass Piccata",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
             "id": 637,
             "name": "Garlic Linguinie",
             "avg_rating": 0.0,
@@ -3434,6 +3406,16 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 725,
+            "name": "Rosemary Roasted Pork Loin",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
               "GF"
             ],
             "price": null
@@ -3631,34 +3613,6 @@
               "SOY",
               "EGG",
               "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Campus Bakery -": [
-          {
-            "id": 622,
-            "name": "Bakery Fresh Lemon Bars",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 623,
-            "name": "Banana Cream Pie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "DAIRY",
-              "WHEAT"
             ],
             "price": null
           }
