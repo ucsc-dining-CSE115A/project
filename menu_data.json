@@ -2867,6 +2867,17 @@
         ],
         "- Entrees -": [
           {
+            "id": 734,
+            "name": "Chicken Teriyaki",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
             "id": 37,
             "name": "Grilled Balsamic Tofu",
             "avg_rating": 0.0,
@@ -2884,6 +2895,17 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 401,
+            "name": "Teriyaki Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
               "GF"
             ],
             "price": null
