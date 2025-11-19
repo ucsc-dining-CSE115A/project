@@ -2867,27 +2867,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 449,
-            "name": "BBQ Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "HALAL",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 723,
-            "name": "Baked Beans",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 37,
             "name": "Grilled Balsamic Tofu",
             "avg_rating": 0.0,
