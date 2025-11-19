@@ -155,22 +155,23 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 499,
-            "name": "Chicken Tortilla Soup",
-            "avg_rating": 0.0,
+            "id": 97,
+            "name": "Chicken Noodle Soup",
+            "avg_rating": 3.0,
             "dietary_restrictions": [
               "SOY",
-              "GF"
+              "EGG",
+              "WHEAT"
             ],
             "price": null
           },
           {
-            "id": 120,
-            "name": "Mushroom & Barley Soup",
+            "id": 383,
+            "name": "Organic Black Bean Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "WHEAT"
+              "GF"
             ],
             "price": null
           }
