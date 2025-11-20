@@ -426,13 +426,12 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 97,
-            "name": "Chicken Noodle Soup",
-            "avg_rating": 3.0,
+            "id": 499,
+            "name": "Chicken Tortilla Soup",
+            "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
-              "EGG",
-              "WHEAT"
+              "GF"
             ],
             "price": null
           },
@@ -504,16 +503,6 @@
               "EGG",
               "DAIRY",
               "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 633,
-            "name": "Cilantro Flatbread with Red Onions and Mushrooms",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "WHEAT"
             ],
             "price": null
@@ -659,31 +648,6 @@
         ]
       },
       "Late Night": {
-        "- Grill -": [
-          {
-            "id": 634,
-            "name": "Barcelona Steak Sandwich",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "BEEF"
-            ],
-            "price": null
-          },
-          {
-            "id": 498,
-            "name": "Tater Tots",
-            "avg_rating": 4.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          }
-        ],
         "- Pizza -": [
           {
             "id": 19,
@@ -700,12 +664,17 @@
             "price": null
           },
           {
-            "id": 633,
-            "name": "Cilantro Flatbread with Red Onions and Mushrooms",
+            "id": 117,
+            "name": "Pepperoni Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "WHEAT"
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
@@ -2878,18 +2847,6 @@
             "price": null
           },
           {
-            "id": 37,
-            "name": "Grilled Balsamic Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
             "id": 30,
             "name": "Steamed Broccoli",
             "avg_rating": 0.0,
@@ -3023,17 +2980,6 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 42,
-            "name": "6\" Flour Tortilla",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 45,
             "name": "Black Bean Corn Salsa",
             "avg_rating": 0.0,
@@ -3062,60 +3008,10 @@
             "price": null
           },
           {
-            "id": 48,
-            "name": "Cilantro Lime Riced Cauliflower",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 49,
             "name": "Condiments",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 50,
-            "name": "Mexican Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 579,
-            "name": "Shredded Taqueria Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 580,
-            "name": "Vegan Refried Beans",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 51,
-            "name": "Yellow Corn Tortillas",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
             "price": null
           }
         ],
