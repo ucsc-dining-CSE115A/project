@@ -3961,17 +3961,75 @@
         ]
       },
       "Late Night": {
-        "- Grill -": [
+        "- Miscellaneous -": [
           {
-            "id": 52,
-            "name": "Beef and Lamb Gyro",
+            "id": 776,
+            "name": "Pita Bread",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 777,
+            "name": "Tzatziki Sauce",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "DAIRY",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          }
+        ],
+        "- Entrees -": [
+          {
+            "id": 778,
+            "name": "Beef and Lamb Gyro with Peppers & Onion",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
-              "DAIRY",
               "WHEAT",
               "BEEF",
               "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 115,
+            "name": "French Fries",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY"
+            ],
+            "price": null
+          },
+          {
+            "id": 95,
+            "name": "Texas French Toast",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 96,
+            "name": "Triangle Hash Brown Patty",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY"
             ],
             "price": null
           }
@@ -4110,30 +4168,6 @@
             "dietary_restrictions": [
               "PORK",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 95,
-            "name": "Texas French Toast",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 96,
-            "name": "Triangle Hash Brown Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
             ],
             "price": null
           }
