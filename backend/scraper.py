@@ -10,7 +10,8 @@ import os
 import json
 import re
 from urllib.parse import urlparse, parse_qsl, urlencode, urlunparse
-from datetime import datetime  # NEW
+from datetime import datetime  # existing
+from zoneinfo import ZoneInfo   # NEW: for PST / America/Los_Angeles
 
 # === Supabase client ===
 from supabase import create_client, Client
@@ -466,11 +467,13 @@ def main():
 
     # Decide the main scrape date:
     # - If TEST_DATE set, normalize it
-    # - Else, use today's date in MM/DD/YYYY
+    # - Else, use today's date in PST (America/Los_Angeles) in MM/DD/YYYY
     if TEST_DATE:
         resolved_date = normalize_date(TEST_DATE)
     else:
-        today_str = datetime.now().strftime("%m/%d/%Y")
+        # --- THIS IS THE PST CHANGE ---
+        today_pst = datetime.now(ZoneInfo("America/Los_Angeles"))
+        today_str = today_pst.strftime("%m/%d/%Y")
         resolved_date = normalize_date(today_str)
 
     # This will hold only the "main" date result for writing to JSON file
