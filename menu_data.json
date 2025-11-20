@@ -2119,6 +2119,17 @@
         ],
         "- Entrees -": [
           {
+            "id": 425,
+            "name": "Malaysian Pork Rendang",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
             "id": 143,
             "name": "Red Curry Tofu",
             "avg_rating": 0.0,
@@ -2148,19 +2159,6 @@
               "GF"
             ],
             "price": null
-          },
-          {
-            "id": 664,
-            "name": "Thai Red Curry Beef",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "FISH",
-              "GF",
-              "BEEF",
-              "HALAL"
-            ],
-            "price": null
           }
         ],
         "- Pizza -": [
@@ -2179,11 +2177,16 @@
             "price": null
           },
           {
-            "id": 73,
-            "name": "Vegan Pepperoni Pizza",
+            "id": 619,
+            "name": "Veggie Supreme Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG"
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT"
             ],
             "price": null
           }
