@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -46,6 +45,7 @@ SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://jbvsfjuufpoohaimookq.supa
 SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpidnNmanV1ZnBvb2hhaW1vb2txIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MjM3OTUyNiwiZXhwIjoyMDc3OTU1NTI2fQ.Llz8ROtP2ohe7rdO2sYtIlaufPNrvHLAJa43r2yPL2U")  # service_role key (server-side only)
 
 TABLE_NAME = os.environ.get("SUPABASE_TABLE", "macros")
+SCHEDULE_TABLE_NAME = "schedule"
 
 BASE_LOCATIONS_URL = "https://nutrition.sa.ucsc.edu/location.aspx"
 
@@ -141,6 +141,16 @@ def make_driver():
 
 def wait_for_links(driver, timeout=15):
     WebDriverWait(driver, timeout).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "a")))
+
+def load_scrape_date_from_json(json_path: str) -> str | None:
+    """Return the scrape_date from menu_data.json, or None if missing."""
+    try:
+        with open(json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data.get("scrape_date")
+    except Exception as e:
+        print(f"[warn] Could not read scrape_date from {json_path}: {e}")
+        return None
 
 def get_hall_link(driver, hall_name: str) -> str | None:
     wait_for_links(driver, 15)
@@ -263,7 +273,7 @@ def extract_serving_size(soup: BeautifulSoup) -> str | None:
                 if txt: parts.append(norm(txt))
             return norm(" ".join(parts))
         if isinstance(node, NavigableString) and isinstance(node.parent, Tag):
-            v = collect_after(node.parent); 
+            v = collect_after(node.parent)
             if v and not re.search(r"amount\s*/\s*serving", v, re.I): return v
         par = node.parent
         if par and par.parent and isinstance(par.parent, Tag):
@@ -472,7 +482,6 @@ def supabase_client() -> Client | None:
 
 def insert_with_explicit_id_or_skip(sb: Client, desired_id: int, record: dict, dry_run=False, debug=False):
     """Insert the row with the explicit id. If that id exists already, skip (no update)."""
-    # Guard: ensure id isn't in payload unless we're inserting
     payload = dict(record)
     payload["id"] = desired_id
 
@@ -617,7 +626,6 @@ def run(hall_filter: str | None, date_override: str | None, limit: int | None, d
                     continue  # next meal
 
                 # Build indices for tolerant matching on this meal page
-                # Map normalized title -> href
                 norm_index = {normalize_item_title(t): h for t, h in item_links.items()}
 
                 count = 0
@@ -682,16 +690,90 @@ def run(hall_filter: str | None, date_override: str | None, limit: int | None, d
     finally:
         driver.quit()
 
+# -----------------------------
+# NEW: Process schedule table instead of local file
+# -----------------------------
+def process_schedule_rows(args):
+    """
+    Fetch rows from Supabase `schedule` table where data_fetched == false,
+    and for each row:
+      - write its menu_data to a temp JSON file
+      - use that as DEFAULT_JSON_PATH
+      - derive date_override from menu_data['scrape_date'] or row['date']
+      - run the existing scraper
+      - mark data_fetched = true (unless --dry-run)
+    """
+    sb = supabase_client()
+    if sb is None:
+        print("[error] Supabase credentials not set; cannot read schedule table.")
+        return
+
+    try:
+        resp = sb.table(SCHEDULE_TABLE_NAME).select("date, menu_data, data_fetched").eq("data_fetched", False).execute()
+        rows = resp.data or []
+    except Exception as e:
+        print(f"[error] fetching schedule rows: {e}")
+        return
+
+    if not rows:
+        print("[INFO] No schedule rows with data_fetched = false; nothing to do.")
+        return
+
+    global DEFAULT_JSON_PATH
+
+    for row in rows:
+        row_date = row.get("date")
+        menu_data = row.get("menu_data")
+
+        if not menu_data:
+            print(f"[warn] schedule row date={row_date} has no menu_data; skipping.")
+            continue
+
+        # menu_data might already be a dict or a JSON string
+        if isinstance(menu_data, str):
+            try:
+                menu_data = json.loads(menu_data)
+            except Exception as e:
+                print(f"[warn] Could not parse menu_data JSON for date {row_date}: {e}")
+                continue
+
+        scrape_date = menu_data.get("scrape_date")
+        date_override = scrape_date or row_date
+
+        # Write this menu_data to a temp file and point DEFAULT_JSON_PATH at it
+        safe_date = (date_override or "unknown").replace("/", "-")
+        tmp_path = f"/tmp/menu_data_{safe_date}.json"
+        try:
+            with open(tmp_path, "w", encoding="utf-8") as f:
+                json.dump(menu_data, f, ensure_ascii=False)
+        except Exception as e:
+            print(f"[error] writing temp menu_data file for date {row_date}: {e}")
+            continue
+
+        DEFAULT_JSON_PATH = tmp_path
+
+        print(f"\n[INFO] Processing schedule date={row_date} using scrape_date={date_override} and JSON={tmp_path}")
+        run(args.hall, date_override, args.limit, args.dry_run, args.debug, args.harvest_all)
+
+        # Mark this schedule row as fetched (unless dry-run)
+        if not args.dry_run:
+            try:
+                sb.table(SCHEDULE_TABLE_NAME).update({"data_fetched": True}).eq("date", row_date).execute()
+                print(f"[INFO] Marked schedule row date={row_date} as data_fetched=true")
+            except Exception as e:
+                print(f"[warn] Failed to mark date {row_date} as data_fetched: {e}")
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--hall", type=str, default=None, help="Only scrape this hall name")
-    ap.add_argument("--date", type=str, default=None, help="Override dtdate (e.g., 11/09/2025)")
-    ap.add_argument("--limit", type=int, default=None, help="Limit items per meal (or harvest count in --harvest-all)")
-    ap.add_argument("--dry-run", action="store_true", help="Parse but do not write to DB")
-    ap.add_argument("--debug", action="store_true", help="Print parsed records to stdout")
-    ap.add_argument("--harvest-all", action="store_true", help="Scrape ALL found items for each meal (ignore JSON filter)")
+    ap.add_argument("--limit", type=int, default=None)
+    ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--debug", action="store_true")
+    ap.add_argument("--harvest-all", action="store_true")
     args = ap.parse_args()
-    run(args.hall, args.date, args.limit, args.dry_run, args.debug, args.harvest_all)
+
+    # New behavior: always drive off Supabase `schedule` table.
+    process_schedule_rows(args)
 
 if __name__ == "__main__":
     main()
