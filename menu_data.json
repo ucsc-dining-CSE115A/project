@@ -1193,23 +1193,22 @@
             "price": null
           },
           {
+            "id": 127,
+            "name": "Hot 'N Spicy Wings",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
             "id": 31,
             "name": "Sticky Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 32,
-            "name": "Szechuan Chicken Wings",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "ALC"
             ],
             "price": null
           },
@@ -1238,6 +1237,54 @@
             "name": "Salad Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
+            "price": null
+          }
+        ],
+        "- Available 2pm-5pm -": [
+          {
+            "id": 736,
+            "name": "BBQ Ginger Soy Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 567,
+            "name": "BBQ Ginger Soy Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 774,
+            "name": "Gluten-Friendly Spicy Stir Fry Sauce",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 122,
+            "name": "Jasmine Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
             "price": null
           }
         ]
