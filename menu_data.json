@@ -151,12 +151,12 @@
             "price": null
           },
           {
-            "id": 98,
-            "name": "Vegan Garbanzo Sesame Soup",
+            "id": 636,
+            "name": "Sweet & Sour Mushroom Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SESAME",
+              "SOY",
               "GF"
             ],
             "price": null
