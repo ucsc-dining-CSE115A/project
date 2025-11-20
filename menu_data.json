@@ -419,6 +419,17 @@
         ],
         "- Entrees -": [
           {
+            "id": 775,
+            "name": "Filipino Chicken Adobo",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
             "id": 103,
             "name": "General Tso's Gardein",
             "avg_rating": 0.0,
@@ -427,19 +438,6 @@
               "SOY",
               "SESAME",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 104,
-            "name": "General Tso's Pork",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "SESAME",
-              "WHEAT",
-              "PORK"
             ],
             "price": null
           },
@@ -594,16 +592,6 @@
             "price": null
           },
           {
-            "id": 47,
-            "name": "Charro Beans",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 49,
             "name": "Condiments",
             "avg_rating": 0.0,
@@ -646,6 +634,16 @@
             "dietary_restrictions": [
               "VG",
               "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 392,
+            "name": "White Beans",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
               "GF"
             ],
             "price": null
