@@ -291,8 +291,8 @@
         ],
         "- Sweet Treats -": [
           {
-            "id": 119,
-            "name": "Vegan Chocolate Chip Cookie",
+            "id": 23,
+            "name": "Pacific Cookie Co. Vegan Dr. Midnight Cookies",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -305,27 +305,27 @@
         ],
         "- Campus Bakery -": [
           {
-            "id": 489,
-            "name": "German Chocolate Cake With Nuts",
+            "id": 40,
+            "name": "Black Forest Cake",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
               "SOY",
               "EGG",
               "DAIRY",
-              "TREENUT",
               "WHEAT",
               "ALC"
             ],
             "price": null
           },
           {
-            "id": 386,
-            "name": "Rice Krispy Treats",
+            "id": 24,
+            "name": "Vegan Brownie",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "GF",
-              "PORK"
+              "VG",
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           }
