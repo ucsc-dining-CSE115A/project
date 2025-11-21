@@ -418,17 +418,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 775,
-            "name": "Filipino Chicken Adobo",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
             "id": 103,
             "name": "General Tso's Gardein",
             "avg_rating": 0.0,
