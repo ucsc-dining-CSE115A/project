@@ -3138,6 +3138,17 @@
             "price": null
           },
           {
+            "id": 466,
+            "name": "French Toast Sticks",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 376,
             "name": "Roasted Red Potatoes",
             "avg_rating": 0.0,
@@ -3154,20 +3165,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 95,
-            "name": "Texas French Toast",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
             ],
             "price": null
           }
@@ -3426,16 +3423,6 @@
               "DAIRY",
               "FISH",
               "SHELLFISH",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 77,
-            "name": "Portobello Mushroom Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "GF"
             ],
             "price": null
