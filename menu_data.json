@@ -602,6 +602,26 @@
         ],
         "- Hot Bars -": [
           {
+            "id": 56,
+            "name": "Cauliflower Lentil Dal",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 58,
+            "name": "Chana Masala",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 432,
             "name": "Cilantro Chutney",
             "avg_rating": 0.0,
@@ -644,29 +664,8 @@
             "price": null
           },
           {
-            "id": 435,
-            "name": "Pao Bhaji",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 436,
             "name": "Steamed Basmati Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 437,
-            "name": "Tarka Dal",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -2842,8 +2841,8 @@
             "price": null
           },
           {
-            "id": 413,
-            "name": "Rice Pilaf",
+            "id": 414,
+            "name": "Roasted Balsamic Vegetables",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -2852,8 +2851,8 @@
             "price": null
           },
           {
-            "id": 414,
-            "name": "Roasted Balsamic Vegetables",
+            "id": 18,
+            "name": "Steamed Brown Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
