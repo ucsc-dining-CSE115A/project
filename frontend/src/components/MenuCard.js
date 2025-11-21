@@ -3,7 +3,7 @@ import Rating from './Rating';
 import MacroModal from './MacroModal';
 import '../styles/MenuCard.css';
 
-const MenuCard = ({ itemName, dietaryRestrictions, price, diningHall, averageRating }) => {
+const MenuCard = ({ itemName, dietaryRestrictions, price, diningHall, averageRating, isSelected, onToggleSelect }) => {
   const [showPopup, setShowPopup] = useState(false);
 
   // Add background blur
@@ -23,6 +23,14 @@ const MenuCard = ({ itemName, dietaryRestrictions, price, diningHall, averageRat
   return (
     <>
       <div className="menu-card">
+        <div className="menu-card-checkbox">
+          <input
+            type="checkbox"
+            checked={isSelected}
+            onChange={() => onToggleSelect(itemName)}
+            className="menu-card-checkbox-input"
+          />
+        </div>
         <div className="menu-card-text">
           {/* Display the menu item name */}
           <button onClick={() => setShowPopup(true)} className="menu-card-title-button">

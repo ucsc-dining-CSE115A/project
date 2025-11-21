@@ -11,6 +11,23 @@
   min-height: 200px; /* Set a minimum height for consistent card size */
   box-sizing: border-box;
   overflow: hidden; /* Prevent content from bleeding out */
+  position: relative; /* For absolute positioning of checkbox */
+}
+
+/* Checkbox container */
+.menu-card-checkbox {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 10;
+}
+
+/* Checkbox input styling */
+.menu-card-checkbox-input {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #003c6c; /* UCSC blue color */
 }
 
 /* Text container for title and body */

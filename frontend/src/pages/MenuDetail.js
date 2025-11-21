@@ -12,6 +12,7 @@ function MenuDetail() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [selectedFilters, setSelectedFilters] = useState([]);
+  const [selectedItems, setSelectedItems] = useState([]);
 
   const decodedName = decodeURIComponent(diningHallName);
   
@@ -95,6 +96,21 @@ function MenuDetail() {
         restrictionsArray.includes(filter.toUpperCase())
       );
     });
+  };
+
+  const toggleItemSelection = (itemName) => {
+    setSelectedItems(prev => {
+      if (prev.includes(itemName)) {
+        return prev.filter(item => item !== itemName);
+      } else {
+        return [...prev, itemName];
+      }
+    });
+  };
+
+  const handleCalculate = () => {
+    console.log('Calculate button clicked with items:', selectedItems);
+    // TODO: Implement macro calculator functionality
   };
 
   if (loading) {
@@ -186,6 +202,8 @@ function MenuDetail() {
                           price={price}
                           averageRating={averageRating}
                           diningHall={decodedName}
+                          isSelected={selectedItems.includes(itemName)}
+                          onToggleSelect={toggleItemSelection}
                         />
                       );
                     })}
@@ -225,6 +243,8 @@ function MenuDetail() {
                               price={price}
                               averageRating={averageRating}
                               diningHall={decodedName}
+                              isSelected={selectedItems.includes(itemName)}
+                              onToggleSelect={toggleItemSelection}
                             />
                           );
                         })}
@@ -245,6 +265,16 @@ function MenuDetail() {
           <TodayHours diningHallName={decodedName} />
         </div>
       </div>
+
+      {/* Sticky Calculate Button */}
+      {selectedItems.length > 0 && (
+        <button 
+          className="calculate-button"
+          onClick={handleCalculate}
+        >
+          Calculate ({selectedItems.length})
+        </button>
+      )}
     </div>
   );
 }
