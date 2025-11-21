@@ -420,25 +420,21 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 382,
-            "name": "New England Clam Chowder",
+            "id": 606,
+            "name": "Creamy Broccoli Cheddar Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
+              "V",
               "DAIRY",
-              "FISH",
-              "SHELLFISH",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 422,
-            "name": "Organic Vegan Chili",
+            "id": 741,
+            "name": "Soup of the Day",
             "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
+            "dietary_restrictions": [],
             "price": null
           }
         ],
@@ -1211,6 +1207,16 @@
             "price": null
           },
           {
+            "id": 388,
+            "name": "Chicken Tenders",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 49,
             "name": "Condiments",
             "avg_rating": 0.0,
@@ -1226,16 +1232,6 @@
               "SOY",
               "SESAME",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 738,
-            "name": "Italian Roasted Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "HALAL"
             ],
             "price": null
           },
@@ -1265,16 +1261,6 @@
               "WHEAT"
             ],
             "price": null
-          },
-          {
-            "id": 739,
-            "name": "Pesto Cream Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY"
-            ],
-            "price": null
           }
         ],
         "- Cold Bars -": [
@@ -1290,28 +1276,6 @@
             "name": "Salad Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          }
-        ],
-        "- Available 2pm-5pm -": [
-          {
-            "id": 388,
-            "name": "Chicken Tenders",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 608,
-            "name": "Regular Cut Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
             "price": null
           }
         ]
