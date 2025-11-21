@@ -165,25 +165,21 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 382,
-            "name": "New England Clam Chowder",
+            "id": 606,
+            "name": "Creamy Broccoli Cheddar Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
+              "V",
               "DAIRY",
-              "FISH",
-              "SHELLFISH",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 422,
-            "name": "Organic Vegan Chili",
+            "id": 741,
+            "name": "Soup of the Day",
             "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
+            "dietary_restrictions": [],
             "price": null
           }
         ],
