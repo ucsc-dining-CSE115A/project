@@ -29,13 +29,12 @@ function CurrentMealBanner({ hallName }) {
             {nextStartLabel && (
             <div className="meal-status-secondary">
                 Closes at {nextStartLabel}
-                {isPerk && " *"}
             </div>
             )}
     
             {isPerk && (
             <div className="meal-status-fineprint">
-                * Earth &amp; Marine Sciences and Baskin Engineering locations close at
+                Note: Earth &amp; Marine Sciences and Baskin Engineering locations close at
                 6 PM Mon – Thurs.
             </div>
             )}
@@ -71,7 +70,7 @@ function CurrentMealBanner({ hallName }) {
             {currentMeal
             ? currentMeal
             : isContinuous
-            ? "Limited service period — select entree options available"
+            ? "Limited service period — reduced entree availability"
             : "Closed"}
         </div>
 

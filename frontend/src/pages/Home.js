@@ -10,7 +10,7 @@ function Home() {
       key: "Crown & Merrill Dining Hall and Banana Joe's",
     },
     { display: "Porter & Kresge", key: "Porter & Kresge Dining Hall" },
-    { display: "RC & Oakes", key: "Rachel Carson & Oakes Dining Hall" },
+    { display: "RCC & Oakes", key: "Rachel Carson & Oakes Dining Hall" },
   ];
 
   const cafes = [

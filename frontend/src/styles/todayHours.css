@@ -35,8 +35,7 @@
   border-radius: 12px;
   background: #ffffff;
   box-shadow: 0 4px 12px rgba(0, 60, 108, 0.15);
-  max-width: 280px;
-  min-width: 200px;
+  min-width: 187px;
   margin-top: 60px;
   align-self: flex-start;
 }
@@ -53,7 +52,7 @@
   font-weight: 600; /* Make it bold like the meal times */
   color: #3070c3;
   margin-top: -5px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .today-hours-time {
