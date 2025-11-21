@@ -1445,6 +1445,17 @@
         ],
         "- Hot Bars -": [
           {
+            "id": 690,
+            "name": "Grilled Huli Huli Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
             "id": 397,
             "name": "Hawaiian Bar",
             "avg_rating": 0.0,
