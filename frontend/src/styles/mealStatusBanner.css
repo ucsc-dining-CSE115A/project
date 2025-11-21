@@ -1,7 +1,8 @@
 .meal-status-banner {
-    max-width: 1200px;
+    max-width: 1065px;
     min-height: 77px;
     margin: 24px auto 12px;
+    margin-bottom: 25px;
     padding: 14px 28px;
     border-radius: 999px;
     background: #f4f7ef;
