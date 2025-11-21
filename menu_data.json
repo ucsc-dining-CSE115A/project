@@ -305,6 +305,21 @@
         ],
         "- Campus Bakery -": [
           {
+            "id": 489,
+            "name": "German Chocolate Cake With Nuts",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "TREENUT",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
             "id": 386,
             "name": "Rice Krispy Treats",
             "avg_rating": 0.0,
