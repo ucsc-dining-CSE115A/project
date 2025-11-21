@@ -16,6 +16,10 @@
   margin-left: auto; /* Center the module horizontally */
   margin-right: auto;
   box-shadow: 0 4px 12px rgba(0, 60, 108, 0.15); /* Slightly stronger shadow */
+  
+  position: sticky;
+  top: 90px;
+  z-index: 10;
 }
 
 /* Keep a fixed column width when placed next to menu content */
