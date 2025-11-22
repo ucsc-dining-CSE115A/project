@@ -508,8 +508,8 @@
             "price": null
           },
           {
-            "id": 440,
-            "name": "Pizza with Gochujang Chicken",
+            "id": 117,
+            "name": "Pepperoni Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
@@ -517,7 +517,8 @@
               "DAIRY",
               "SESAME",
               "WHEAT",
-              "ALC"
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
@@ -708,31 +709,6 @@
         ]
       },
       "Late Night": {
-        "- Grill -": [
-          {
-            "id": 737,
-            "name": "Curry Tomato Tempeh Stir Fry",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 8,
-            "name": "Steamed Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
         "- Pizza -": [
           {
             "id": 19,
@@ -749,8 +725,8 @@
             "price": null
           },
           {
-            "id": 440,
-            "name": "Pizza with Gochujang Chicken",
+            "id": 117,
+            "name": "Pepperoni Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
@@ -758,7 +734,8 @@
               "DAIRY",
               "SESAME",
               "WHEAT",
-              "ALC"
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
@@ -3445,20 +3422,6 @@
             "price": null
           }
         ],
-        "- Sweet Treats -": [
-          {
-            "id": 119,
-            "name": "Vegan Chocolate Chip Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
         "- Campus Bakery -": [
           {
             "id": 395,
@@ -3584,16 +3547,6 @@
               "PORK",
               "GF",
               "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 94,
-            "name": "Sweet Potato, Black Bean, and Kale Hash",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           },
