@@ -1431,10 +1431,24 @@
     },
     "Rachel Carson & Oakes Dining Hall": {
       "Breakfast": {
-        "- Sweet Treats -": [
+        "- Campus Bakery -": [
           {
-            "id": 451,
-            "name": "Old Fashioned Cake Donuts",
+            "id": 379,
+            "name": "Chocolate Muffin",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 380,
+            "name": "Orange Cranberry Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
