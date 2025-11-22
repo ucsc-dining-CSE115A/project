@@ -353,13 +353,12 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 606,
-            "name": "Creamy Broccoli Cheddar Soup",
-            "avg_rating": 0.0,
+            "id": 35,
+            "name": "Chicken Spaetzle Soup",
+            "avg_rating": 1.0,
             "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF"
+              "EGG",
+              "WHEAT"
             ],
             "price": null
           },
