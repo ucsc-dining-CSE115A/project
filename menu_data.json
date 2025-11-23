@@ -667,20 +667,6 @@
             "price": null
           },
           {
-            "id": 478,
-            "name": "Cinnamon Raisin French Toast",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
             "id": 3,
             "name": "Hard-boiled Cage Free Egg (1)",
             "avg_rating": 0.0,
@@ -697,6 +683,17 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 145,
+            "name": "Natural Bridges Tofu Scramble",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
               "GF"
             ],
             "price": null
@@ -722,12 +719,16 @@
             "price": null
           },
           {
-            "id": 480,
-            "name": "Vegan Happy Scramble",
+            "id": 95,
+            "name": "Texas French Toast",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           }
@@ -764,25 +765,22 @@
       "Lunch": {
         "- Breakfast -": [
           {
-            "id": 478,
-            "name": "Cinnamon Raisin French Toast",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
             "id": 479,
             "name": "Harissa Potatoes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 145,
+            "name": "Natural Bridges Tofu Scramble",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
               "GF"
             ],
             "price": null
@@ -798,12 +796,16 @@
             "price": null
           },
           {
-            "id": 480,
-            "name": "Vegan Happy Scramble",
+            "id": 95,
+            "name": "Texas French Toast",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           }
