@@ -618,29 +618,6 @@
         ]
       },
       "Late Night": {
-        "- Grill -": [
-          {
-            "id": 106,
-            "name": "Cajun Coleslaw",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 731,
-            "name": "Memphis Chicken Wrap",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "WHEAT"
-            ],
-            "price": null
-          }
-        ],
         "- Pizza -": [
           {
             "id": 19,
@@ -738,6 +715,17 @@
             "price": null
           },
           {
+            "id": 46,
+            "name": "Caramelized Chipotle Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 475,
             "name": "Carne Picada",
             "avg_rating": 0.0,
@@ -752,16 +740,6 @@
           {
             "id": 47,
             "name": "Charro Beans",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 476,
-            "name": "Happy Plant Vegan Chorizo Crumbles and Potatoes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
