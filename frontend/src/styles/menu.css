@@ -18,6 +18,8 @@
 .menu-detail-content {
   display: flex;
   gap: 30px;
+  width: 100%;
+  justify-content: center;
   align-items: flex-start;
 }
 
@@ -30,6 +32,7 @@
   background: #f9fafb;
   border-radius: 8px;
   border: 1px solid #e5e7eb;
+  width: 66.45rem;
 }
 
 .back-button {
@@ -61,7 +64,7 @@
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-left: 4px solid #003C6C;
+  border: 4px solid #003C6C;
 }
 
 .menu-section h2 {
@@ -131,43 +134,4 @@
   background: #fff;
   box-shadow: 0 2px 8px rgba(0, 60, 108, 0.2);
   transform: translateY(-1px);
-}
-
-/* Sticky Calculate Button */
-.calculate-button {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  background: #003C6C;
-  color: white;
-  border: none;
-  border-radius: 50px;
-  padding: 16px 32px;
-  font-size: 18px;
-  font-weight: 600;
-  cursor: pointer;
-  box-shadow: 0 4px 12px rgba(0, 60, 108, 0.3);
-  transition: all 0.3s ease;
-  z-index: 1000;
-}
-
-.calculate-button:hover {
-  background: #004080;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0, 60, 108, 0.4);
-}
-
-.calculate-button:active {
-  transform: translateY(0);
-  box-shadow: 0 2px 8px rgba(0, 60, 108, 0.3);
-}
-
-/* Mobile responsiveness for calculate button */
-@media (max-width: 768px) {
-  .calculate-button {
-    bottom: 20px;
-    right: 20px;
-    padding: 14px 24px;
-    font-size: 16px;
-  }
 }

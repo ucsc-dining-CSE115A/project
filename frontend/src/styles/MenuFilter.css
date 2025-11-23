@@ -11,12 +11,12 @@
   margin-top: 65px;
   margin-bottom: 24px;
   /* Content-driven width: follow widest child (Clear All button) */
-  width: max-content; /* Container width equals content width */
-  max-width: max-content; /* Match button width incl. padding */
-  margin-left: auto; /* Center the module horizontally */
-  margin-right: auto;
+  width: 122px; /* Container width equals content width */
+  max-width: 122px; /* Match button width incl. padding */
+  margin-left: 4.1rem; /* Center the module horizontally */
+  margin-right: 0rem;
   box-shadow: 0 4px 12px rgba(0, 60, 108, 0.15); /* Slightly stronger shadow */
-  
+  flex-shrink: 0;
   position: sticky;
   top: 90px;
   z-index: 10;
@@ -72,23 +72,23 @@
   /* Stack options vertically: one item per line for a long strip */
   display: flex; /* Vertical list layout */
   flex-direction: column; /* One option per row */
-  gap: 8px;
-  margin-bottom: 12px;
+  gap: 4px;
+  margin-bottom: 5px;
 }
 
 /* Individual filter checkbox styling */
 .filter-checkbox {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* Left-align text in full-width rows */
+  justify-content: center; /* Left-align text in full-width rows */
   width: 100%; /* Each option fills the row */
-  padding: 8px 12px; /* Fixed padding to keep consistent size */
-  border: 2px solid #ddd; /* Neutral border by default */
-  border-radius: 8px;
+  padding: 5.8px 12px; /* Fixed padding to keep consistent size */
+  border: 2.5px solid #ddd; /* Neutral border by default */
+  border-radius: 2rem;
   cursor: pointer;
   transition: all 0.2s ease;
   background: #ffffff;
-  min-height: 40px; /* Fixed height to maintain visual consistency */
+  min-height: 30px; /* Fixed height to maintain visual consistency */
   position: relative;
   user-select: none;
 }
@@ -124,7 +124,7 @@
 
 /* Filter label text */
 .filter-label {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 500;
   text-align: center;
   pointer-events: none;
