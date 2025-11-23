@@ -248,7 +248,7 @@
           {
             "id": 341,
             "name": "Truffle Mousse Cake",
-            "avg_rating": 0.0,
+            "avg_rating": 3.0,
             "dietary_restrictions": [
               "V",
               "SOY",
@@ -422,8 +422,8 @@
             "price": null
           },
           {
-            "id": 31,
-            "name": "Sticky Rice",
+            "id": 30,
+            "name": "Steamed Broccoli",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -432,13 +432,11 @@
             "price": null
           },
           {
-            "id": 88,
-            "name": "Stir Fry Vegetables",
+            "id": 31,
+            "name": "Sticky Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SOY",
-              "SESAME",
               "GF"
             ],
             "price": null
@@ -586,12 +584,11 @@
             "price": null
           },
           {
-            "id": 72,
-            "name": "Sauteed Bok Choy and Carrots with Sesame",
+            "id": 785,
+            "name": "Steamed Bok Choy",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SESAME",
               "GF"
             ],
             "price": null
@@ -926,7 +923,7 @@
           {
             "id": 341,
             "name": "Truffle Mousse Cake",
-            "avg_rating": 0.0,
+            "avg_rating": 3.0,
             "dietary_restrictions": [
               "V",
               "SOY",
