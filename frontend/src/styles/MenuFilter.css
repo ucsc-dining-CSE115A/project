@@ -7,7 +7,7 @@
   border: 2px solid #003C6C; /* Dark blue frame for clear module look */
   border-top: 6px solid #003C6C; /* Accent bar at top for emphasis */
   border-radius: 12px;
-  padding: 12px 8px; /* Tighter horizontal padding to keep module narrow */
+  padding: 10px 6px; /* Reduced padding */
   margin-top: 65px;
   margin-bottom: 24px;
   /* Content-driven width: follow widest child (Clear All button) */
@@ -33,15 +33,15 @@
   /* Vertical header: title on first line, button on second */
   flex-direction: column; /* Stack header elements vertically */
   align-items: flex-start; /* Left align to allow narrower width */
-  gap: 8px; /* Slightly tighter to save space */
-  margin-bottom: 16px;
+  gap: 6px; /* Reduced gap */
+  margin-bottom: 12px; /* Reduced margin */
 }
 
 /* Header title color aligned with theme */
 .filter-header h3 {
   margin: 0;
   color: #003C6C; /* Dark blue title to match theme */
-  font-size: 1.2rem;
+  font-size: 1.05rem; /* Smaller font */
   font-weight: 600;
   /* Allow title to wrap instead of forcing container to grow */
   min-width: 0;
@@ -53,8 +53,8 @@
   color: #ffffff;
   border: none;
   border-radius: 20px;
-  padding: 6px 12px;
-  font-size: 0.85rem;
+  padding: 5px 10px; /* Reduced padding */
+  font-size: 0.8rem; /* Smaller font */
   cursor: pointer;
   transition: all 0.2s ease;
   font-weight: 500;
@@ -72,8 +72,8 @@
   /* Stack options vertically: one item per line for a long strip */
   display: flex; /* Vertical list layout */
   flex-direction: column; /* One option per row */
-  gap: 8px;
-  margin-bottom: 12px;
+  gap: 6px; /* Reduced gap */
+  margin-bottom: 10px; /* Reduced margin */
 }
 
 /* Individual filter checkbox styling */
@@ -82,13 +82,13 @@
   align-items: center;
   justify-content: flex-start; /* Left-align text in full-width rows */
   width: 100%; /* Each option fills the row */
-  padding: 8px 12px; /* Fixed padding to keep consistent size */
+  padding: 6px 10px; /* Reduced padding */
   border: 2px solid #ddd; /* Neutral border by default */
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.2s ease;
   background: #ffffff;
-  min-height: 40px; /* Fixed height to maintain visual consistency */
+  min-height: 34px; /* Reduced height */
   position: relative;
   user-select: none;
 }
@@ -124,7 +124,7 @@
 
 /* Filter label text */
 .filter-label {
-  font-size: 0.85rem;
+  font-size: 0.8rem; /* Smaller font */
   font-weight: 500;
   text-align: center;
   pointer-events: none;
@@ -134,9 +134,9 @@
 .active-filters-info {
   text-align: center;
   color: #003C6C; /* Themed info text */
-  font-size: 0.9rem;
+  font-size: 0.85rem; /* Smaller font */
   font-style: italic;
-  margin-top: 8px;
+  margin-top: 6px; /* Reduced margin */
 }
 
 /* Responsive design for smaller screens */

@@ -17,7 +17,7 @@
 /* Checkbox container */
 .menu-card-checkbox {
   position: absolute;
-  top: 16px;
+  bottom: 16px;
   right: 16px;
   z-index: 10;
 }
@@ -63,7 +63,8 @@
     SimHei, Arial, Helvetica, sans-serif;
   font-size: 16px;
   margin: 0;
-  margin-top: 12px;
+  margin-top: auto; /* Push to bottom */
+  padding-bottom: 8px; /* Space before the dividing line */
   text-align: center;
 }
 

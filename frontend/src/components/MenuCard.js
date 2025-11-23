@@ -36,16 +36,16 @@ const MenuCard = ({ itemName, dietaryRestrictions, price, diningHall, averageRat
           <button onClick={() => setShowPopup(true)} className="menu-card-title-button">
             <p className="menu-card-title">{itemName}</p>
           </button>
-          {/* Display dietary restrictions if available */}
-          <p className="menu-card-body">
-            {dietaryRestrictions && dietaryRestrictions.length > 0 
-              ? dietaryRestrictions.join(', ') 
-              : 'XXX'
-            }
-          </p>
           
           {/* Display price if available */}
           {price && <p className="menu-card-price">{price}</p>}
+
+          {/* Display dietary restrictions at bottom, just above ratings */}
+          {dietaryRestrictions && dietaryRestrictions.length > 0 && (
+            <p className="menu-card-body">
+              {dietaryRestrictions.join(', ')}
+            </p>
+          )}
 
           {/* Display average rating only if it's greater than 0 */}
           {averageRating > 0 && <p className="menu-card-rating">Average Rating: {averageRating}</p>}
