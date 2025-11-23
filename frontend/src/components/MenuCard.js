@@ -47,7 +47,8 @@ const MenuCard = ({ itemName, dietaryRestrictions, price, diningHall, averageRat
           {/* Display price if available */}
           {price && <p className="menu-card-price">{price}</p>}
 
-          {<p className="menu-card-rating">Average Rating: {averageRating}</p>}
+          {/* Display average rating only if it's greater than 0 */}
+          {averageRating > 0 && <p className="menu-card-rating">Average Rating: {averageRating}</p>}
           
           {/* Rating component - manages its own state internally */}
           <Rating itemName={itemName} diningHall={diningHall} />
