@@ -1549,21 +1549,12 @@
             "price": null
           },
           {
-            "id": 498,
-            "name": "Tater Tots",
-            "avg_rating": 4.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 480,
-            "name": "Vegan Happy Scramble",
+            "id": 7,
+            "name": "Tempeh, Black Bean, and Potato Hash",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "SOY",
               "GF"
             ],
             "price": null
@@ -1705,11 +1696,12 @@
             "price": null
           },
           {
-            "id": 480,
-            "name": "Vegan Happy Scramble",
+            "id": 7,
+            "name": "Tempeh, Black Bean, and Potato Hash",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "SOY",
               "GF"
             ],
             "price": null
@@ -1822,19 +1814,6 @@
         ],
         "- Pizza, Flatbreads & Pasta -": [
           {
-            "id": 483,
-            "name": "Bombay Chicken Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 19,
             "name": "Cheese Pizza",
             "avg_rating": 0.0,
@@ -1845,6 +1824,21 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 117,
+            "name": "Pepperoni Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
@@ -2102,19 +2096,6 @@
         ],
         "- Pizza, Flatbreads & Pasta -": [
           {
-            "id": 483,
-            "name": "Bombay Chicken Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 19,
             "name": "Cheese Pizza",
             "avg_rating": 0.0,
@@ -2125,6 +2106,21 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 117,
+            "name": "Pepperoni Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
@@ -2320,19 +2316,6 @@
         ],
         "- Pizza, Flatbreads & Pasta -": [
           {
-            "id": 483,
-            "name": "Bombay Chicken Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 19,
             "name": "Cheese Pizza",
             "avg_rating": 0.0,
@@ -2343,6 +2326,21 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 117,
+            "name": "Pepperoni Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
