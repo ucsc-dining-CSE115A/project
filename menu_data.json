@@ -423,6 +423,20 @@
             "price": null
           },
           {
+            "id": 674,
+            "name": "Focaccia Pizza with Basil Pesto",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 117,
             "name": "Pepperoni Pizza",
             "avg_rating": 0.0,
