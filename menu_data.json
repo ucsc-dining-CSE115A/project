@@ -165,16 +165,6 @@
               "ALC"
             ],
             "price": null
-          },
-          {
-            "id": 383,
-            "name": "Organic Black Bean Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
           }
         ],
         "- Pizza -": [
@@ -822,6 +812,28 @@
             "price": null
           }
         ],
+        "- Entrees -": [
+          {
+            "id": 625,
+            "name": "Beyond Meat Smash Burger",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 783,
+            "name": "Kimchi Aioli",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Pizza -": [
           {
             "id": 483,
@@ -927,6 +939,17 @@
             "price": null
           },
           {
+            "id": 99,
+            "name": "BBQ Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 716,
             "name": "Beef Filling",
             "avg_rating": 0.0,
@@ -960,6 +983,17 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 16,
+            "name": "Harissa Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
               "GF"
             ],
             "price": null
@@ -1678,22 +1712,27 @@
             "price": null
           },
           {
+            "id": 117,
+            "name": "Pepperoni Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF",
+              "PORK"
+            ],
+            "price": null
+          },
+          {
             "id": 467,
             "name": "Sausage Links",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "PORK",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 498,
-            "name": "Tater Tots",
-            "avg_rating": 4.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
             ],
             "price": null
           },
@@ -1751,8 +1790,8 @@
             "price": null
           },
           {
-            "id": 476,
-            "name": "Happy Plant Vegan Chorizo Crumbles and Potatoes",
+            "id": 479,
+            "name": "Harissa Potatoes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -1777,6 +1816,17 @@
             "dietary_restrictions": [
               "V",
               "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 110,
+            "name": "Tempeh Roasted with Chorizo Spice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
               "GF"
             ],
             "price": null
@@ -1826,21 +1876,6 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 117,
-            "name": "Pepperoni Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "BEEF",
-              "PORK"
             ],
             "price": null
           }
