@@ -159,7 +159,7 @@
           {
             "id": 680,
             "name": "Chicken & Rice Soup",
-            "avg_rating": 0.0,
+            "avg_rating": 4.0,
             "dietary_restrictions": [
               "GF",
               "ALC"
@@ -377,7 +377,7 @@
           {
             "id": 680,
             "name": "Chicken & Rice Soup",
-            "avg_rating": 0.0,
+            "avg_rating": 4.0,
             "dietary_restrictions": [
               "GF",
               "ALC"
@@ -411,7 +411,7 @@
           {
             "id": 682,
             "name": "Spicy Gardein with Garlic & Basil",
-            "avg_rating": 0.0,
+            "avg_rating": 2.0,
             "dietary_restrictions": [
               "VG",
               "SOY",
