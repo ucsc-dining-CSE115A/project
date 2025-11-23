@@ -9,7 +9,7 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 def sign_up():
 
-    username = input("Enter username: ").strip()
+    username = input("Enter unique username: ").strip()
     password = getpass.getpass("Get password: ").strip()
 
     ## checking to see if username is unique
@@ -24,3 +24,22 @@ def sign_up():
         "username": username,
         "password": password 
     }).execute()
+
+
+def sign_in():
+
+    username = input("Enter username: ").strip()
+    password = getpass.getpass("Get password: ").strip()
+
+    user = supabase.table("login").select("*").eq("username", username).execute()
+
+    if not user.data:
+        print("Username not found.")
+        return
+    
+    stored_pass = user.data[0]["password"]
+
+    if password == stored_pass:
+        print("Logging in")
+    else:
+        print("Incorrect Password")
