@@ -646,6 +646,21 @@
               "WHEAT"
             ],
             "price": null
+          },
+          {
+            "id": 117,
+            "name": "Pepperoni Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF",
+              "PORK"
+            ],
+            "price": null
           }
         ],
         "- Clean Plate -": [
@@ -726,14 +741,11 @@
             "price": null
           },
           {
-            "id": 475,
-            "name": "Carne Picada",
+            "id": 678,
+            "name": "Carne Beef",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "BEEF",
-              "SOY",
-              "GF",
-              "HALAL"
+              "BEEF"
             ],
             "price": null
           },
@@ -745,6 +757,13 @@
               "VG",
               "GF"
             ],
+            "price": null
+          },
+          {
+            "id": 49,
+            "name": "Condiments",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
             "price": null
           },
           {
