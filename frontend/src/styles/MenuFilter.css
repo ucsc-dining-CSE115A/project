@@ -7,7 +7,7 @@
   border: 2px solid #003C6C; /* Dark blue frame for clear module look */
   border-top: 6px solid #003C6C; /* Accent bar at top for emphasis */
   border-radius: 12px;
-  padding: 12px 8px; /* Tighter horizontal padding to keep module narrow */
+  padding: 10px 6px; /* Reduced padding */
   margin-top: 65px;
   margin-bottom: 24px;
   /* Content-driven width: follow widest child (Clear All button) */
@@ -33,15 +33,15 @@
   /* Vertical header: title on first line, button on second */
   flex-direction: column; /* Stack header elements vertically */
   align-items: flex-start; /* Left align to allow narrower width */
-  gap: 8px; /* Slightly tighter to save space */
-  margin-bottom: 16px;
+  gap: 6px; /* Reduced gap */
+  margin-bottom: 12px; /* Reduced margin */
 }
 
 /* Header title color aligned with theme */
 .filter-header h3 {
   margin: 0;
   color: #003C6C; /* Dark blue title to match theme */
-  font-size: 1.2rem;
+  font-size: 1.05rem; /* Smaller font */
   font-weight: 600;
   /* Allow title to wrap instead of forcing container to grow */
   min-width: 0;
@@ -53,8 +53,8 @@
   color: #ffffff;
   border: none;
   border-radius: 20px;
-  padding: 6px 12px;
-  font-size: 0.85rem;
+  padding: 5px 10px; /* Reduced padding */
+  font-size: 0.8rem; /* Smaller font */
   cursor: pointer;
   transition: all 0.2s ease;
   font-weight: 500;
@@ -134,9 +134,9 @@
 .active-filters-info {
   text-align: center;
   color: #003C6C; /* Themed info text */
-  font-size: 0.9rem;
+  font-size: 0.85rem; /* Smaller font */
   font-style: italic;
-  margin-top: 8px;
+  margin-top: 6px; /* Reduced margin */
 }
 
 /* Responsive design for smaller screens */

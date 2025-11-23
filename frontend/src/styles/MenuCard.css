@@ -17,7 +17,7 @@
 /* Checkbox container */
 .menu-card-checkbox {
   position: absolute;
-  top: 16px;
+  bottom: 16px;
   right: 16px;
   z-index: 10;
 }
@@ -63,6 +63,9 @@
     SimHei, Arial, Helvetica, sans-serif;
   font-size: 16px;
   margin: 0;
+  margin-top: auto; /* Push to bottom */
+  padding-bottom: 8px; /* Space before the dividing line */
+  text-align: center;
 }
 
 /* Price styling */
@@ -75,9 +78,17 @@
 
 /* Rating container styling - fixed at bottom */
 .menu-card-text > div {
-  margin-top: flex-end; /* Push rating to bottom */
+  margin-top: auto; /* Push rating to bottom */
   padding-top: 12px;
   border-top: 1px solid #f0f0f0; /* Optional: add separator line */
+}
+
+/* Center the rating stars */
+.rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
 }
 
 .menu-card-rating {
@@ -89,7 +100,8 @@
     SimHei, Arial, Helvetica, sans-serif;
   font-size: 16px;
   margin: 0;
-  margin-top: auto;
+  margin-top: auto; /* Push to bottom */
+  padding-top: 8px;
 }
 
 /* Centered overlay for MacroModal */

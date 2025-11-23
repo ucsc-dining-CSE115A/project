@@ -4,6 +4,7 @@ import { supabase } from '../supabaseClient';
 function Rating({ itemName, diningHall }) {
   const [rating, setRating] = useState(0);
   const [loading, setLoading] = useState(false);
+  const [hoverRating, setHoverRating] = useState(0);
 
   // Safety check - don't crash if props are missing
   if (!itemName || !diningHall) {
@@ -113,7 +114,10 @@ function Rating({ itemName, diningHall }) {
   };
 
   return (
-    <div>
+    <div 
+      className="rating-container"
+      onMouseLeave={() => setHoverRating(0)}
+    >
       {[1, 2, 3, 4, 5].map((star) => {
         return (  
           <span
@@ -121,10 +125,12 @@ function Rating({ itemName, diningHall }) {
             className='star'
             style={{
               cursor: loading ? 'not-allowed' : 'pointer',
-              color: rating >= star ? 'gold' : 'gray',
-              fontSize: `35px`,
+              color: (hoverRating >= star || (!hoverRating && rating >= star)) ? 'gold' : 'gray',
+              fontSize: `28px`,
               opacity: loading ? 0.5 : 1,
+              transition: 'color 0.2s ease',
             }}
+            onMouseEnter={() => setHoverRating(star)}
             onClick={() => {
               if (!loading) {
                 submitRating(star);
@@ -137,7 +143,7 @@ function Rating({ itemName, diningHall }) {
         )
       })}
       {loading && (
-        <span style={{ fontSize: '14px', color: '#666', marginLeft: '8px' }}>
+        <span style={{ fontSize: '12px', color: '#666', marginLeft: '4px' }}>
           Saving...
         </span>
       )}
