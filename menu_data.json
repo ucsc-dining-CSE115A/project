@@ -859,19 +859,6 @@
         ]
       },
       "Lunch": {
-        "- Miscellaneous -": [
-          {
-            "id": 492,
-            "name": "Coconut Curry Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
         "- Soups -": [
           {
             "id": 518,
@@ -1053,6 +1040,27 @@
         ],
         "- Hot Bars -": [
           {
+            "id": 58,
+            "name": "Chana Masala",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 492,
+            "name": "Coconut Curry Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 445,
             "name": "Madras Chicken",
             "avg_rating": 0.0,
@@ -1104,16 +1112,6 @@
           {
             "id": 438,
             "name": "Tomato Chutney",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 439,
-            "name": "Vegetable Tikkis",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3217,6 +3215,26 @@
             "price": null
           },
           {
+            "id": 479,
+            "name": "Harissa Potatoes",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 467,
+            "name": "Sausage Links",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 7,
             "name": "Tempeh, Black Bean, and Potato Hash",
             "avg_rating": 0.0,
@@ -3224,30 +3242,6 @@
               "VG",
               "SOY",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 95,
-            "name": "Texas French Toast",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 96,
-            "name": "Triangle Hash Brown Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
             ],
             "price": null
           }
