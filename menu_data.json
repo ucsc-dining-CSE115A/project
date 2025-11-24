@@ -162,26 +162,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 67,
-            "name": "Available Upon Request: Gluten Free Rotini Pasta",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 709,
-            "name": "Cajun Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 544,
             "name": "Creamy Cajun Chicken Pasta",
             "avg_rating": 0.0,
@@ -201,6 +181,17 @@
               "GF"
             ],
             "price": null
+          },
+          {
+            "id": 643,
+            "name": "Spicy Red Beans and Vegetables",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF",
+              "ALC"
+            ],
+            "price": null
           }
         ],
         "- Pizza -": [
@@ -215,6 +206,21 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 117,
+            "name": "Pepperoni Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
