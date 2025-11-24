@@ -859,21 +859,24 @@
         ]
       },
       "Lunch": {
-        "- Soups -": [
+        "- Miscellaneous -": [
           {
-            "id": 518,
-            "name": "Fire Roasted Corn Soup",
+            "id": 382,
+            "name": "New England Clam Chowder",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
               "DAIRY",
-              "WHEAT"
+              "FISH",
+              "SHELLFISH",
+              "GF"
             ],
             "price": null
-          },
+          }
+        ],
+        "- Soups -": [
           {
-            "id": 422,
-            "name": "Organic Vegan Chili",
+            "id": 58,
+            "name": "Chana Masala",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -1039,16 +1042,6 @@
           }
         ],
         "- Hot Bars -": [
-          {
-            "id": 58,
-            "name": "Chana Masala",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
           {
             "id": 492,
             "name": "Coconut Curry Tofu",
