@@ -751,22 +751,22 @@
             "price": null
           },
           {
-            "id": 93,
-            "name": "Crispy Bacon",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "PORK",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 3,
             "name": "Hard-boiled Cage Free Egg (1)",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
               "EGG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 4,
+            "name": "Mexican Chorizo Sausage",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
               "GF"
             ],
             "price": null
