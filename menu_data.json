@@ -809,6 +809,30 @@
         ]
       },
       "Lunch": {
+        "- Soups -": [
+          {
+            "id": 499,
+            "name": "Chicken Tortilla Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 382,
+            "name": "New England Clam Chowder",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "FISH",
+              "SHELLFISH",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Entrees -": [
           {
             "id": 754,
@@ -1005,18 +1029,6 @@
             "price": null
           },
           {
-            "id": 382,
-            "name": "New England Clam Chowder",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "SHELLFISH",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 434,
             "name": "Palak Spinach Paneer",
             "avg_rating": 0.0,
@@ -1077,29 +1089,6 @@
         ]
       },
       "Dinner": {
-        "- Soups -": [
-          {
-            "id": 518,
-            "name": "Fire Roasted Corn Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 422,
-            "name": "Organic Vegan Chili",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
         "- Entrees -": [
           {
             "id": 756,
