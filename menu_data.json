@@ -3444,13 +3444,12 @@
         ],
         "- Grill and Soups -": [
           {
-            "id": 518,
-            "name": "Fire Roasted Corn Soup",
+            "id": 499,
+            "name": "Chicken Tortilla Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
+              "SOY",
+              "GF"
             ],
             "price": null
           },
