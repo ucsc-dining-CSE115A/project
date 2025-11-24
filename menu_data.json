@@ -936,16 +936,6 @@
             "price": null
           },
           {
-            "id": 522,
-            "name": "Vegan Collard Greens",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 513,
             "name": "Vegan Mushroom Gravy",
             "avg_rating": 0.0,
