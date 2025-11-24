@@ -1280,16 +1280,6 @@
             "price": null
           },
           {
-            "id": 487,
-            "name": "Italian Roasted Mushrooms and Veggies",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 527,
             "name": "Lasagna Bolognese",
             "avg_rating": 0.0,
