@@ -482,15 +482,6 @@
               "WHEAT"
             ],
             "price": null
-          },
-          {
-            "id": 549,
-            "name": "Vegan Vegetable Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG"
-            ],
-            "price": null
           }
         ],
         "- Clean Plate -": [
@@ -595,13 +586,12 @@
             "price": null
           },
           {
-            "id": 539,
-            "name": "Green Chili and Cheese Potato Salad",
+            "id": 115,
+            "name": "French Fries",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
-              "DAIRY",
-              "GF"
+              "SOY"
             ],
             "price": null
           },
@@ -630,16 +620,6 @@
             "name": "Smoke & Spice Wing Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 498,
-            "name": "Tater Tots",
-            "avg_rating": 4.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
             "price": null
           },
           {
@@ -1084,6 +1064,42 @@
             "name": "Salad Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
+            "price": null
+          }
+        ],
+        "- Available 2pm-5pm -": [
+          {
+            "id": 567,
+            "name": "BBQ Ginger Soy Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 15,
+            "name": "Chicken Adobo",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 502,
+            "name": "Porcini Crusted Roasted Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "GF",
+              "HALAL"
+            ],
             "price": null
           }
         ]
