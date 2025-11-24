@@ -203,53 +203,6 @@
             "price": null
           }
         ],
-        "- Grill -": [
-          {
-            "id": 76,
-            "name": "Hamburger Bun",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 550,
-            "name": "Opah Burger Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "FISH",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 77,
-            "name": "Portobello Mushroom Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 78,
-            "name": "Sweet Potato Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          }
-        ],
         "- Pizza -": [
           {
             "id": 19,
@@ -262,15 +215,6 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 549,
-            "name": "Vegan Vegetable Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG"
             ],
             "price": null
           }
@@ -859,32 +803,6 @@
         ]
       },
       "Lunch": {
-        "- Miscellaneous -": [
-          {
-            "id": 382,
-            "name": "New England Clam Chowder",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "SHELLFISH",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Soups -": [
-          {
-            "id": 58,
-            "name": "Chana Masala",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
         "- Entrees -": [
           {
             "id": 754,
@@ -1043,6 +961,16 @@
         ],
         "- Hot Bars -": [
           {
+            "id": 58,
+            "name": "Chana Masala",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 492,
             "name": "Coconut Curry Tofu",
             "avg_rating": 0.0,
@@ -1068,6 +996,18 @@
             "name": "Mumbai Street Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 382,
+            "name": "New England Clam Chowder",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "FISH",
+              "SHELLFISH",
+              "GF"
+            ],
             "price": null
           },
           {
