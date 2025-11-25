@@ -3220,21 +3220,21 @@
             "price": null
           },
           {
-            "id": 375,
-            "name": "Chicken Apple Sausage",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 421,
             "name": "Coconut Syrup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 93,
+            "name": "Crispy Bacon",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
               "GF"
             ],
             "price": null
@@ -3553,15 +3553,17 @@
             "price": null
           },
           {
-            "id": 562,
-            "name": "Thai Chicken Pizza",
+            "id": 117,
+            "name": "Pepperoni Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
               "EGG",
               "DAIRY",
               "SESAME",
-              "WHEAT"
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
@@ -3824,15 +3826,17 @@
             "price": null
           },
           {
-            "id": 562,
-            "name": "Thai Chicken Pizza",
+            "id": 117,
+            "name": "Pepperoni Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
               "EGG",
               "DAIRY",
               "SESAME",
-              "WHEAT"
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
@@ -4020,15 +4024,17 @@
             "price": null
           },
           {
-            "id": 562,
-            "name": "Thai Chicken Pizza",
+            "id": 117,
+            "name": "Pepperoni Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
               "EGG",
               "DAIRY",
               "SESAME",
-              "WHEAT"
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
