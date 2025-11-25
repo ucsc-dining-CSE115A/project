@@ -808,6 +808,17 @@
       "Breakfast": {
         "- Breakfast -": [
           {
+            "id": 789,
+            "name": "Avocado Toast with Spicy Fried Egg",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "EGG",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 420,
             "name": "Banana and Coconut Pancakes",
             "avg_rating": 0.0,
@@ -967,19 +978,6 @@
         ]
       },
       "Lunch": {
-        "- Miscellaneous -": [
-          {
-            "id": 643,
-            "name": "Spicy Red Beans and Vegetables",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
         "- Soups -": [
           {
             "id": 97,
@@ -1001,18 +999,6 @@
             "dietary_restrictions": [
               "V",
               "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 37,
-            "name": "Grilled Balsamic Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF",
-              "ALC"
             ],
             "price": null
           },
@@ -1163,6 +1149,17 @@
             "dietary_restrictions": [
               "GF",
               "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 643,
+            "name": "Spicy Red Beans and Vegetables",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF",
+              "ALC"
             ],
             "price": null
           }
