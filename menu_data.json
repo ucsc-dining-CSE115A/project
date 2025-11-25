@@ -1,657 +1,12 @@
 {
-  "scrape_date": "11/24/2025",
+  "scrape_date": "11/25/2025",
   "halls": {
     "John R. Lewis & College Nine Dining Hall": {
       "Breakfast": {
         "- Breakfast -": [
           {
-            "id": 2,
-            "name": "Cage-Free Scrambled Eggs",
-            "avg_rating": 3.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 3,
-            "name": "Hard-boiled Cage Free Egg (1)",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 145,
-            "name": "Natural Bridges Tofu Scramble",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 542,
-            "name": "Orange French Toast",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 5,
-            "name": "Organic Gluten-Free Oatmeal",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 467,
-            "name": "Sausage Links",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "PORK",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 498,
-            "name": "Tater Tots",
-            "avg_rating": 4.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          }
-        ],
-        "- Clean Plate -": [
-          {
-            "id": 8,
-            "name": "Steamed Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Campus Bakery -": [
-          {
-            "id": 515,
-            "name": "Bakery Fresh Blueberry Muffin",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 516,
-            "name": "Mocha Chip Muffin",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 517,
-            "name": "Orange Cranberry Scone",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          }
-        ]
-      },
-      "Lunch": {
-        "- Soups -": [
-          {
-            "id": 543,
-            "name": "Chicken Pozole",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 446,
-            "name": "Three Sisters Crave Soup",
-            "avg_rating": 4.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Entrees -": [
-          {
-            "id": 544,
-            "name": "Creamy Cajun Chicken Pasta",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "WHEAT",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 134,
-            "name": "Roasted Sweet Potatoes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 643,
-            "name": "Spicy Red Beans and Vegetables",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
-        "- Pizza -": [
-          {
-            "id": 19,
-            "name": "Cheese Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 117,
-            "name": "Pepperoni Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "BEEF",
-              "PORK"
-            ],
-            "price": null
-          }
-        ],
-        "- Clean Plate -": [
-          {
-            "id": 21,
-            "name": "Allergen Free Halal Chicken Thigh",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 8,
-            "name": "Steamed Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 22,
-            "name": "Tofu with Kosher Salt",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Sweet Treats -": [
-          {
-            "id": 524,
-            "name": "Mint Condition",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
-        "- Campus Bakery -": [
-          {
-            "id": 525,
-            "name": "Brownies",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 526,
-            "name": "Dutch Apple Pie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          }
-        ],
-        "- Hot Bars -": [
-          {
-            "id": 545,
-            "name": "BBQ Beef",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 106,
-            "name": "Cajun Coleslaw",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 47,
-            "name": "Charro Beans",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 49,
-            "name": "Condiments",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 107,
-            "name": "Corn Cobbettes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 546,
-            "name": "Cornbread",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 547,
-            "name": "Smokehouse BBQ Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 110,
-            "name": "Tempeh Roasted with Chorizo Spice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Cold Bars -": [
-          {
-            "id": 33,
-            "name": "Deli Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 34,
-            "name": "Salad Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          }
-        ]
-      },
-      "Dinner": {
-        "- Soups -": [
-          {
-            "id": 543,
-            "name": "Chicken Pozole",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 446,
-            "name": "Three Sisters Crave Soup",
-            "avg_rating": 4.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Entrees -": [
-          {
-            "id": 29,
-            "name": "Orange Glazed Gardein",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 30,
-            "name": "Steamed Broccoli",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 590,
-            "name": "Veggie Fried Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "SESAME",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Pizza -": [
-          {
-            "id": 19,
-            "name": "Cheese Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          }
-        ],
-        "- Clean Plate -": [
-          {
-            "id": 21,
-            "name": "Allergen Free Halal Chicken Thigh",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 8,
-            "name": "Steamed Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 22,
-            "name": "Tofu with Kosher Salt",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Campus Bakery -": [
-          {
-            "id": 529,
-            "name": "Chocolate Mocha Cake",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 526,
-            "name": "Dutch Apple Pie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 530,
-            "name": "Red Velvet Cake",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
-        "- Hot Bars -": [
-          {
-            "id": 126,
-            "name": "BBQ Wings",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 599,
-            "name": "Battered Popcorn Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 115,
-            "name": "French Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 27,
-            "name": "Green Onion Slaw",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 127,
-            "name": "Hot 'N Spicy Wings",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 593,
-            "name": "Sauteed Cauliflower Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 128,
-            "name": "Smoke & Spice Wing Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 129,
-            "name": "Vegan Tenders",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          }
-        ],
-        "- Cold Bars -": [
-          {
-            "id": 33,
-            "name": "Deli Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 34,
-            "name": "Salad Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          }
-        ]
-      },
-      "Late Night": {}
-    },
-    "Cowell & Stevenson Dining Hall": {
-      "Breakfast": {
-        "- Breakfast -": [
-          {
-            "id": 514,
-            "name": "Buttermilk Pancake with Cinnamon Apples",
+            "id": 61,
+            "name": "Belgian Waffle Squares",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -705,12 +60,11 @@
             "price": null
           },
           {
-            "id": 7,
-            "name": "Tempeh, Black Bean, and Potato Hash",
+            "id": 94,
+            "name": "Sweet Potato, Black Bean, and Kale Hash",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SOY",
               "GF"
             ],
             "price": null
@@ -740,8 +94,8 @@
         ],
         "- Campus Bakery -": [
           {
-            "id": 515,
-            "name": "Bakery Fresh Blueberry Muffin",
+            "id": 557,
+            "name": "Bakery Fresh Apple Cinnamon Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -754,8 +108,8 @@
             "price": null
           },
           {
-            "id": 516,
-            "name": "Mocha Chip Muffin",
+            "id": 558,
+            "name": "Lemon Poppyseed Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -768,14 +122,30 @@
             "price": null
           },
           {
-            "id": 517,
-            "name": "Orange Cranberry Scone",
+            "id": 381,
+            "name": "Vegan Fruit and Nut Granola",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "PEANUT",
+              "TREENUT",
+              "SESAME",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 559,
+            "name": "Zucchini Bread",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
+              "SOY",
               "EGG",
               "DAIRY",
-              "WHEAT"
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           }
@@ -784,95 +154,74 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 499,
-            "name": "Chicken Tortilla Soup",
+            "id": 64,
+            "name": "Organic Kale and Sweet Potato Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "SOY",
+              "VG",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 382,
-            "name": "New England Clam Chowder",
+            "id": 591,
+            "name": "Portuguese Sausage and Bean Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "DAIRY",
-              "FISH",
-              "SHELLFISH",
-              "GF"
+              "WHEAT",
+              "PORK",
+              "ALC"
             ],
             "price": null
           }
         ],
         "- Entrees -": [
           {
-            "id": 754,
-            "name": "Memphis Meatloaf",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "FISH",
-              "BEEF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 755,
-            "name": "Red Skin Mashed Potatoes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 521,
-            "name": "Tempeh Roasted in Sesame Oil",
+            "id": 621,
+            "name": "General Tso's Tofu",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "SOY",
               "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 122,
+            "name": "Jasmine Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 513,
-            "name": "Vegan Mushroom Gravy",
+            "id": 30,
+            "name": "Steamed Broccoli",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "WHEAT",
-              "ALC"
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 537,
+            "name": "Teriyaki Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "GF"
             ],
             "price": null
           }
         ],
         "- Pizza -": [
-          {
-            "id": 523,
-            "name": "Bacon and Ranch Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "PORK"
-            ],
-            "price": null
-          },
           {
             "id": 19,
             "name": "Cheese Pizza",
@@ -884,6 +233,21 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 117,
+            "name": "Pepperoni Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
@@ -921,15 +285,13 @@
             "price": null
           }
         ],
-        "- Sweets Treats -": [
+        "- Sweet Treats -": [
           {
-            "id": 524,
-            "name": "Mint Condition",
+            "id": 563,
+            "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
+              "VG",
               "WHEAT",
               "ALC"
             ],
@@ -938,25 +300,11 @@
         ],
         "- Campus Bakery -": [
           {
-            "id": 525,
-            "name": "Brownies",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 526,
-            "name": "Dutch Apple Pie",
+            "id": 564,
+            "name": "Vegan Raspberry Granola Bars",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SOY",
               "WHEAT"
             ],
             "price": null
@@ -964,18 +312,8 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 58,
-            "name": "Chana Masala",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 492,
-            "name": "Coconut Curry Tofu",
+            "id": 46,
+            "name": "Caramelized Chipotle Tofu",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -985,47 +323,37 @@
             "price": null
           },
           {
-            "id": 445,
-            "name": "Madras Chicken",
+            "id": 577,
+            "name": "Cheese Sauce",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "GF",
-              "HALAL"
+              "V",
+              "SOY",
+              "DAIRY",
+              "GF"
             ],
             "price": null
           },
           {
-            "id": 433,
-            "name": "Mumbai Street Bar",
+            "id": 49,
+            "name": "Condiments",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
             "price": null
           },
           {
-            "id": 434,
-            "name": "Palak Spinach Paneer",
+            "id": 710,
+            "name": "Pork Carnitas",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "DAIRY",
+              "PORK",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 435,
-            "name": "Pao Bhaji",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 436,
-            "name": "Steamed Basmati Rice",
+            "id": 92,
+            "name": "Tortilla Chips",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -1034,8 +362,8 @@
             "price": null
           },
           {
-            "id": 438,
-            "name": "Tomato Chutney",
+            "id": 580,
+            "name": "Vegan Refried Beans",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -1059,60 +387,45 @@
             "dietary_restrictions": [],
             "price": null
           }
-        ],
-        "- Available 2pm-5pm -": [
-          {
-            "id": 567,
-            "name": "BBQ Ginger Soy Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 15,
-            "name": "Chicken Adobo",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 502,
-            "name": "Porcini Crusted Roasted Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          }
         ]
       },
       "Dinner": {
-        "- Entrees -": [
+        "- Soups -": [
           {
-            "id": 756,
-            "name": "Island BBQ Chicken",
-            "avg_rating": 0.0,
+            "id": 680,
+            "name": "Chicken & Rice Soup",
+            "avg_rating": 4.0,
             "dietary_restrictions": [
-              "SOY",
               "GF",
-              "HALAL"
+              "ALC"
             ],
             "price": null
           },
           {
-            "id": 31,
-            "name": "Sticky Rice",
+            "id": 64,
+            "name": "Organic Kale and Sweet Potato Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Entrees -": [
+          {
+            "id": 138,
+            "name": "Peruvian Beef Saltado",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "BEEF"
+            ],
+            "price": null
+          },
+          {
+            "id": 488,
+            "name": "Sauteed Garlic Kale",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -1121,34 +434,28 @@
             "price": null
           },
           {
-            "id": 757,
-            "name": "Szechuan Vegetable Tofu Stir Fry",
+            "id": 436,
+            "name": "Steamed Basmati Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 418,
+            "name": "Vegan Chipotle Gardein",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
               "SOY",
-              "SESAME",
-              "SHELLFISH",
-              "GF",
-              "ALC"
+              "WHEAT"
             ],
             "price": null
           }
         ],
         "- Pizza -": [
-          {
-            "id": 523,
-            "name": "Bacon and Ranch Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "PORK"
-            ],
-            "price": null
-          },
           {
             "id": 19,
             "name": "Cheese Pizza",
@@ -1160,6 +467,21 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 117,
+            "name": "Pepperoni Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
@@ -1197,15 +519,13 @@
             "price": null
           }
         ],
-        "- Sweets Treats -": [
+        "- Sweet Treats -": [
           {
-            "id": 524,
-            "name": "Mint Condition",
+            "id": 563,
+            "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
+              "VG",
               "WHEAT",
               "ALC"
             ],
@@ -1214,8 +534,8 @@
         ],
         "- Campus Bakery -": [
           {
-            "id": 529,
-            "name": "Chocolate Mocha Cake",
+            "id": 575,
+            "name": "Cappuccino Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -1228,39 +548,26 @@
             "price": null
           },
           {
-            "id": 526,
-            "name": "Dutch Apple Pie",
+            "id": 576,
+            "name": "Chocolate Cream Pie",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
+              "V",
               "SOY",
+              "DAIRY",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 530,
-            "name": "Red Velvet Cake",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
             ],
             "price": null
           }
         ],
         "- Hot Bars -": [
           {
-            "id": 67,
-            "name": "Available Upon Request: Gluten Free Rotini Pasta",
+            "id": 599,
+            "name": "Battered Popcorn Chicken",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
+              "SOY",
+              "WHEAT"
             ],
             "price": null
           },
@@ -1272,52 +579,51 @@
             "price": null
           },
           {
-            "id": 527,
-            "name": "Lasagna Bolognese",
+            "id": 600,
+            "name": "Creamy Mashed Yukon Golds",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "EGG",
+              "V",
               "DAIRY",
-              "WHEAT",
-              "BEEF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 132,
-            "name": "Marinara Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 390,
-            "name": "Pasta Bar",
+            "id": 601,
+            "name": "Mashed Potato Bowl Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
             "price": null
           },
           {
-            "id": 391,
-            "name": "Penne",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 528,
-            "name": "Vegan Meatballs",
+            "id": 585,
+            "name": "Roasted Kale and Butternut Squash",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 598,
+            "name": "Vegan Garlic Mashed Potatoes",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 513,
+            "name": "Vegan Mushroom Gravy",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           }
@@ -1340,44 +646,7 @@
         ]
       },
       "Late Night": {
-        "- Grill -": [
-          {
-            "id": 758,
-            "name": "Pesto Chicken Sandwich",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "WHEAT",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 628,
-            "name": "Steak Cut Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          }
-        ],
         "- Pizza -": [
-          {
-            "id": 523,
-            "name": "Bacon and Ranch Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "PORK"
-            ],
-            "price": null
-          },
           {
             "id": 19,
             "name": "Cheese Pizza",
@@ -1389,6 +658,21 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 117,
+            "name": "Pepperoni Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
@@ -1426,15 +710,13 @@
             "price": null
           }
         ],
-        "- Sweets Treats -": [
+        "- Sweet Treats -": [
           {
-            "id": 524,
-            "name": "Mint Condition",
+            "id": 563,
+            "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
+              "VG",
               "WHEAT",
               "ALC"
             ],
@@ -1443,79 +725,63 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 604,
-            "name": "BBQ Tempeh",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 599,
-            "name": "Battered Popcorn Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 66,
-            "name": "Broccoli Slaw Salad",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 49,
-            "name": "Condiments",
+            "id": 25,
+            "name": "Chengdu Wing Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
             "price": null
           },
           {
-            "id": 759,
-            "name": "Country Gravy",
+            "id": 28,
+            "name": "Hoisin Chicken Wings",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
+              "SOY",
+              "SESAME",
+              "GF",
+              "ALC"
             ],
             "price": null
           },
           {
-            "id": 600,
-            "name": "Creamy Mashed Yukon Golds",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 601,
-            "name": "Mashed Potato Bowl Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 598,
-            "name": "Vegan Garlic Mashed Potatoes",
+            "id": 122,
+            "name": "Jasmine Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 785,
+            "name": "Steamed Bok Choy",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 32,
+            "name": "Szechuan Chicken Wings",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 129,
+            "name": "Vegan Tenders",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "WHEAT"
             ],
             "price": null
           }
@@ -1538,9 +804,23 @@
         ]
       }
     },
-    "Crown & Merrill Dining Hall and Banana Joe's": {
+    "Cowell & Stevenson Dining Hall": {
       "Breakfast": {
         "- Breakfast -": [
+          {
+            "id": 420,
+            "name": "Banana and Coconut Pancakes",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
           {
             "id": 2,
             "name": "Cage-Free Scrambled Eggs",
@@ -1563,16 +843,12 @@
             "price": null
           },
           {
-            "id": 450,
-            "name": "Chocolate Chip Pancakes",
+            "id": 421,
+            "name": "Coconut Syrup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
+              "VG",
+              "GF"
             ],
             "price": null
           },
@@ -1609,8 +885,8 @@
             "price": null
           },
           {
-            "id": 376,
-            "name": "Roasted Red Potatoes",
+            "id": 430,
+            "name": "Oven Roasted Herbed Potatoes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -1633,8 +909,8 @@
         ],
         "- Campus Bakery -": [
           {
-            "id": 515,
-            "name": "Bakery Fresh Blueberry Muffin",
+            "id": 557,
+            "name": "Bakery Fresh Apple Cinnamon Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -1647,8 +923,8 @@
             "price": null
           },
           {
-            "id": 516,
-            "name": "Mocha Chip Muffin",
+            "id": 558,
+            "name": "Lemon Poppyseed Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -1661,81 +937,112 @@
             "price": null
           },
           {
-            "id": 517,
-            "name": "Orange Cranberry Scone",
+            "id": 381,
+            "name": "Vegan Fruit and Nut Granola",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "PEANUT",
+              "TREENUT",
+              "SESAME",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 559,
+            "name": "Zucchini Bread",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
+              "SOY",
               "EGG",
               "DAIRY",
-              "WHEAT"
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           }
         ]
       },
       "Lunch": {
-        "- Soups -": [
+        "- Miscellaneous -": [
           {
-            "id": 499,
-            "name": "Chicken Tortilla Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 536,
-            "name": "House Made Vegan Tomato Soup",
+            "id": 643,
+            "name": "Spicy Red Beans and Vegetables",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          }
+        ],
+        "- Soups -": [
+          {
+            "id": 97,
+            "name": "Chicken Noodle Soup",
+            "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "WHEAT"
             ],
             "price": null
           }
         ],
         "- Entrees -": [
           {
-            "id": 83,
-            "name": "Steamed Carrots and Broccoli",
+            "id": 786,
+            "name": "Chimichurri Fries",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
+              "V",
+              "SOY"
             ],
             "price": null
           },
           {
-            "id": 31,
-            "name": "Sticky Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 537,
-            "name": "Teriyaki Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 401,
-            "name": "Teriyaki Tofu",
+            "id": 37,
+            "name": "Grilled Balsamic Tofu",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "SOY",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 81,
+            "name": "Grilled Lime Cumin Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 17,
+            "name": "Roasted Brussels Sprouts",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 725,
+            "name": "Rosemary Roasted Pork Loin",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
               "GF"
             ],
             "price": null
@@ -1757,17 +1064,15 @@
             "price": null
           },
           {
-            "id": 117,
-            "name": "Pepperoni Pizza",
+            "id": 562,
+            "name": "Thai Chicken Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
               "EGG",
               "DAIRY",
               "SESAME",
-              "WHEAT",
-              "BEEF",
-              "PORK"
+              "WHEAT"
             ],
             "price": null
           }
@@ -1805,15 +1110,13 @@
             "price": null
           }
         ],
-        "- Sweet Treats -": [
+        "- Sweets Treats -": [
           {
-            "id": 524,
-            "name": "Mint Condition",
+            "id": 563,
+            "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
+              "VG",
               "WHEAT",
               "ALC"
             ],
@@ -1822,25 +1125,11 @@
         ],
         "- Campus Bakery -": [
           {
-            "id": 525,
-            "name": "Brownies",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 526,
-            "name": "Dutch Apple Pie",
+            "id": 564,
+            "name": "Vegan Raspberry Granola Bars",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SOY",
               "WHEAT"
             ],
             "price": null
@@ -1848,45 +1137,8 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 126,
-            "name": "BBQ Wings",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 538,
-            "name": "Buffalo Cauliflower",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V"
-            ],
-            "price": null
-          },
-          {
-            "id": 49,
-            "name": "Condiments",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 539,
-            "name": "Green Chili and Cheese Potato Salad",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 27,
-            "name": "Green Onion Slaw",
+            "id": 745,
+            "name": "Caribbean Yellow Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -1895,40 +1147,22 @@
             "price": null
           },
           {
-            "id": 127,
-            "name": "Hot 'N Spicy Wings",
+            "id": 26,
+            "name": "Chickpea Harira",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 787,
+            "name": "Jamaican Mojo Chicken",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "GF",
               "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 128,
-            "name": "Smoke & Spice Wing Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 498,
-            "name": "Tater Tots",
-            "avg_rating": 4.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 129,
-            "name": "Vegan Tenders",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
             ],
             "price": null
           }
@@ -1953,67 +1187,57 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 499,
-            "name": "Chicken Tortilla Soup",
-            "avg_rating": 0.0,
+            "id": 97,
+            "name": "Chicken Noodle Soup",
+            "avg_rating": 3.0,
             "dietary_restrictions": [
               "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 536,
-            "name": "House Made Vegan Tomato Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
+              "EGG",
+              "WHEAT"
             ],
             "price": null
           }
         ],
         "- Entrees -": [
           {
-            "id": 540,
-            "name": "Harissa BBQ Beef",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "BEEF",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 16,
-            "name": "Harissa Tofu",
+            "id": 573,
+            "name": "Green Beans with Mushrooms and Carmelized Onions",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SOY",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 541,
-            "name": "Scalloped Potatoes",
+            "id": 764,
+            "name": "Middle East Apple Roasted Chicken",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
+              "SOY",
+              "SESAME",
+              "GF",
+              "ALC"
             ],
             "price": null
           },
           {
-            "id": 83,
-            "name": "Steamed Carrots and Broccoli",
+            "id": 18,
+            "name": "Steamed Brown Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 110,
+            "name": "Tempeh Roasted with Chorizo Spice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
               "GF"
             ],
             "price": null
@@ -2035,17 +1259,599 @@
             "price": null
           },
           {
-            "id": 117,
-            "name": "Pepperoni Pizza",
+            "id": 562,
+            "name": "Thai Chicken Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
               "EGG",
               "DAIRY",
               "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          }
+        ],
+        "- Clean Plate -": [
+          {
+            "id": 21,
+            "name": "Allergen Free Halal Chicken Thigh",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 8,
+            "name": "Steamed Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 22,
+            "name": "Tofu with Kosher Salt",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Sweets Treats -": [
+          {
+            "id": 563,
+            "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
               "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          }
+        ],
+        "- Campus Bakery -": [
+          {
+            "id": 575,
+            "name": "Cappuccino Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 576,
+            "name": "Chocolate Cream Pie",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "DAIRY",
+              "WHEAT"
+            ],
+            "price": null
+          }
+        ],
+        "- Hot Bars -": [
+          {
+            "id": 624,
+            "name": "Balsamic Caramelized Onions",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 625,
+            "name": "Beyond Meat Smash Burger",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 506,
+            "name": "Halal Beef Patty",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
               "BEEF",
-              "PORK"
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 76,
+            "name": "Hamburger Bun",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 626,
+            "name": "Roasted Garlic Dijon Mayonnaise",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 627,
+            "name": "Stack Haus Burger Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 628,
+            "name": "Steak Cut Fries",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY"
+            ],
+            "price": null
+          },
+          {
+            "id": 629,
+            "name": "Vegan Thousand Island Dressing",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Cold Bars -": [
+          {
+            "id": 33,
+            "name": "Deli Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 34,
+            "name": "Salad Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          }
+        ]
+      },
+      "Late Night": {
+        "- Grill -": [
+          {
+            "id": 659,
+            "name": "Chef Special",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 78,
+            "name": "Sweet Potato Fries",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY"
+            ],
+            "price": null
+          }
+        ],
+        "- Pizza -": [
+          {
+            "id": 19,
+            "name": "Cheese Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 562,
+            "name": "Thai Chicken Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          }
+        ],
+        "- Clean Plate -": [
+          {
+            "id": 21,
+            "name": "Allergen Free Halal Chicken Thigh",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 8,
+            "name": "Steamed Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 22,
+            "name": "Tofu with Kosher Salt",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Sweets Treats -": [
+          {
+            "id": 563,
+            "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          }
+        ],
+        "- Hot Bars -": [
+          {
+            "id": 652,
+            "name": "Breakfast At Night Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 1,
+            "name": "Buttermilk Pancakes",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 2,
+            "name": "Cage-Free Scrambled Eggs",
+            "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "V",
+              "EGG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 145,
+            "name": "Natural Bridges Tofu Scramble",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 467,
+            "name": "Sausage Links",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 96,
+            "name": "Triangle Hash Brown Patty",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY"
+            ],
+            "price": null
+          }
+        ],
+        "- Cold Bars -": [
+          {
+            "id": 33,
+            "name": "Deli Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 34,
+            "name": "Salad Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          }
+        ]
+      }
+    },
+    "Crown & Merrill Dining Hall and Banana Joe's": {
+      "Breakfast": {
+        "- Breakfast -": [
+          {
+            "id": 788,
+            "name": "Banana Pancakes",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 2,
+            "name": "Cage-Free Scrambled Eggs",
+            "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "V",
+              "EGG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 3,
+            "name": "Hard-boiled Cage Free Egg (1)",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "EGG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 5,
+            "name": "Organic Gluten-Free Oatmeal",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 467,
+            "name": "Sausage Links",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 498,
+            "name": "Tater Tots",
+            "avg_rating": 4.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY"
+            ],
+            "price": null
+          },
+          {
+            "id": 7,
+            "name": "Tempeh, Black Bean, and Potato Hash",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Clean Plate -": [
+          {
+            "id": 8,
+            "name": "Steamed Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Campus Bakery -": [
+          {
+            "id": 557,
+            "name": "Bakery Fresh Apple Cinnamon Muffin",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 558,
+            "name": "Lemon Poppyseed Muffin",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 381,
+            "name": "Vegan Fruit and Nut Granola",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "PEANUT",
+              "TREENUT",
+              "SESAME",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 559,
+            "name": "Zucchini Bread",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          }
+        ]
+      },
+      "Lunch": {
+        "- Soups -": [
+          {
+            "id": 606,
+            "name": "Creamy Broccoli Cheddar Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 121,
+            "name": "Xochitl Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Entrees -": [
+          {
+            "id": 604,
+            "name": "BBQ Tempeh",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 678,
+            "name": "Carne Beef",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF"
+            ],
+            "price": null
+          },
+          {
+            "id": 413,
+            "name": "Rice Pilaf",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 488,
+            "name": "Sauteed Garlic Kale",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Pizza -": [
+          {
+            "id": 19,
+            "name": "Cheese Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT"
             ],
             "price": null
           }
@@ -2085,13 +1891,11 @@
         ],
         "- Sweet Treats -": [
           {
-            "id": 524,
-            "name": "Mint Condition",
+            "id": 563,
+            "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
+              "VG",
               "WHEAT",
               "ALC"
             ],
@@ -2100,110 +1904,42 @@
         ],
         "- Campus Bakery -": [
           {
-            "id": 529,
-            "name": "Chocolate Mocha Cake",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 526,
-            "name": "Dutch Apple Pie",
+            "id": 564,
+            "name": "Vegan Raspberry Granola Bars",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SOY",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 530,
-            "name": "Red Velvet Cake",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
             ],
             "price": null
           }
         ],
         "- Hot Bars -": [
           {
-            "id": 54,
-            "name": "Basmati Rice Pullao",
+            "id": 490,
+            "name": "Chicken Vindaloo",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 58,
-            "name": "Chana Masala",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 455,
-            "name": "Chicken Tikka Masala",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
               "GF",
               "HALAL"
             ],
             "price": null
           },
           {
-            "id": 49,
-            "name": "Condiments",
+            "id": 491,
+            "name": "Coastal Indian Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
             "price": null
           },
           {
-            "id": 456,
-            "name": "Dal Saag",
+            "id": 493,
+            "name": "Makhni Dal",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
             ],
-            "price": null
-          },
-          {
-            "id": 457,
-            "name": "Masala Baked Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 458,
-            "name": "North Indian Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
             "price": null
           },
           {
@@ -2216,6 +1952,301 @@
               "EGG",
               "DAIRY",
               "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 436,
+            "name": "Steamed Basmati Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 494,
+            "name": "Tamarind Chutney",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 495,
+            "name": "Tofu Vindaloo",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 438,
+            "name": "Tomato Chutney",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 439,
+            "name": "Vegetable Tikkis",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Cold Bars -": [
+          {
+            "id": 33,
+            "name": "Deli Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 34,
+            "name": "Salad Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          }
+        ]
+      },
+      "Dinner": {
+        "- Soups -": [
+          {
+            "id": 606,
+            "name": "Creamy Broccoli Cheddar Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 121,
+            "name": "Xochitl Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Entrees -": [
+          {
+            "id": 520,
+            "name": "Roast Pork Loin with Parsley and Shallot Sauce",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 585,
+            "name": "Roasted Kale and Butternut Squash",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 587,
+            "name": "Tempeh Roasted with Salt",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Pizza -": [
+          {
+            "id": 19,
+            "name": "Cheese Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          }
+        ],
+        "- Clean Plate -": [
+          {
+            "id": 21,
+            "name": "Allergen Free Halal Chicken Thigh",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 8,
+            "name": "Steamed Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 22,
+            "name": "Tofu with Kosher Salt",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Sweet Treats -": [
+          {
+            "id": 563,
+            "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          }
+        ],
+        "- Campus Bakery -": [
+          {
+            "id": 575,
+            "name": "Cappuccino Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 576,
+            "name": "Chocolate Cream Pie",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "DAIRY",
+              "WHEAT"
+            ],
+            "price": null
+          }
+        ],
+        "- Hot Bars -": [
+          {
+            "id": 538,
+            "name": "Buffalo Cauliflower",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V"
+            ],
+            "price": null
+          },
+          {
+            "id": 25,
+            "name": "Chengdu Wing Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 49,
+            "name": "Condiments",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 27,
+            "name": "Green Onion Slaw",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 28,
+            "name": "Hoisin Chicken Wings",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 31,
+            "name": "Sticky Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 32,
+            "name": "Szechuan Chicken Wings",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 129,
+            "name": "Vegan Tenders",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
               "WHEAT"
             ],
             "price": null
@@ -2370,6 +2401,29 @@
       "Breakfast": {
         "- Breakfast -": [
           {
+            "id": 582,
+            "name": "Bob's Red Mill Gluten-Free Pancakes",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 514,
+            "name": "Buttermilk Pancake with Cinnamon Apples",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 2,
             "name": "Cage-Free Scrambled Eggs",
             "avg_rating": 3.0,
@@ -2381,26 +2435,12 @@
             "price": null
           },
           {
-            "id": 375,
-            "name": "Chicken Apple Sausage",
+            "id": 448,
+            "name": "Ham Steaks",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "DAIRY",
+              "PORK",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 450,
-            "name": "Chocolate Chip Pancakes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
             ],
             "price": null
           },
@@ -2416,12 +2456,11 @@
             "price": null
           },
           {
-            "id": 145,
-            "name": "Natural Bridges Tofu Scramble",
+            "id": 479,
+            "name": "Harissa Potatoes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SOY",
               "GF"
             ],
             "price": null
@@ -2437,11 +2476,12 @@
             "price": null
           },
           {
-            "id": 376,
-            "name": "Roasted Red Potatoes",
+            "id": 7,
+            "name": "Tempeh, Black Bean, and Potato Hash",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "SOY",
               "GF"
             ],
             "price": null
@@ -2461,8 +2501,8 @@
         ],
         "- Campus Bakery -": [
           {
-            "id": 515,
-            "name": "Bakery Fresh Blueberry Muffin",
+            "id": 557,
+            "name": "Bakery Fresh Apple Cinnamon Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -2475,8 +2515,8 @@
             "price": null
           },
           {
-            "id": 516,
-            "name": "Mocha Chip Muffin",
+            "id": 558,
+            "name": "Lemon Poppyseed Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -2489,14 +2529,30 @@
             "price": null
           },
           {
-            "id": 517,
-            "name": "Orange Cranberry Scone",
+            "id": 381,
+            "name": "Vegan Fruit and Nut Granola",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "PEANUT",
+              "TREENUT",
+              "SESAME",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 559,
+            "name": "Zucchini Bread",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
+              "SOY",
               "EGG",
               "DAIRY",
-              "WHEAT"
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           }
@@ -2505,18 +2561,19 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 536,
-            "name": "House Made Vegan Tomato Soup",
+            "id": 606,
+            "name": "Creamy Broccoli Cheddar Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
+              "V",
+              "DAIRY",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 482,
-            "name": "Vegan Tortilla Soup",
+            "id": 121,
+            "name": "Xochitl Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -2527,43 +2584,43 @@
         ],
         "- Entrees -": [
           {
-            "id": 83,
-            "name": "Steamed Carrots and Broccoli",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 31,
-            "name": "Sticky Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 537,
-            "name": "Teriyaki Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 401,
-            "name": "Teriyaki Tofu",
+            "id": 604,
+            "name": "BBQ Tempeh",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 605,
+            "name": "Garlic Roast Beef",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 430,
+            "name": "Oven Roasted Herbed Potatoes",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 394,
+            "name": "Sauteed Rainbow Chard with Garlic Oil",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
               "GF"
             ],
             "price": null
@@ -2571,18 +2628,19 @@
         ],
         "- Grill -": [
           {
-            "id": 442,
-            "name": "Beef Frank",
+            "id": 506,
+            "name": "Halal Beef Patty",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "BEEF",
-              "GF"
+              "GF",
+              "HALAL"
             ],
             "price": null
           },
           {
-            "id": 443,
-            "name": "Hot Dog Bun",
+            "id": 76,
+            "name": "Hamburger Bun",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -2593,12 +2651,22 @@
             "price": null
           },
           {
-            "id": 444,
-            "name": "Vegan Hot Dog",
+            "id": 77,
+            "name": "Portobello Mushroom Patty",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 508,
+            "name": "Sidewinder Fry",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY"
             ],
             "price": null
           }
@@ -2619,17 +2687,11 @@
             "price": null
           },
           {
-            "id": 117,
-            "name": "Pepperoni Pizza",
+            "id": 584,
+            "name": "Vegan Spinach and Roasted Garlic Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "BEEF",
-              "PORK"
+              "VG"
             ],
             "price": null
           }
@@ -2669,13 +2731,11 @@
         ],
         "- Sweet Treats -": [
           {
-            "id": 524,
-            "name": "Mint Condition",
+            "id": 563,
+            "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
+              "VG",
               "WHEAT",
               "ALC"
             ],
@@ -2684,21 +2744,214 @@
         ],
         "- Campus Bakery -": [
           {
-            "id": 525,
-            "name": "Brownies",
+            "id": 564,
+            "name": "Vegan Raspberry Granola Bars",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT"
+            ],
+            "price": null
+          }
+        ],
+        "- Hot Bars -": [
+          {
+            "id": 765,
+            "name": "Garlic Green Beans",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 766,
+            "name": "Pad See Ew",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 767,
+            "name": "Pok Pok Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 436,
+            "name": "Steamed Basmati Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 18,
+            "name": "Steamed Brown Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 768,
+            "name": "Thai Basil Eggplant",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "ALC",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 769,
+            "name": "Thai Coconut Yam Fritters",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SESAME",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 770,
+            "name": "Thai Lemongrass Salad",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 771,
+            "name": "Thai Market Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          }
+        ],
+        "- Cold Bars -": [
+          {
+            "id": 33,
+            "name": "Deli Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 34,
+            "name": "Salad Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          }
+        ]
+      },
+      "Dinner": {
+        "- Soups -": [
+          {
+            "id": 606,
+            "name": "Creamy Broccoli Cheddar Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 121,
+            "name": "Xochitl Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Entrees -": [
+          {
+            "id": 520,
+            "name": "Roast Pork Loin with Parsley and Shallot Sauce",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 585,
+            "name": "Roasted Kale and Butternut Squash",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 586,
+            "name": "Soft Polenta",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 587,
+            "name": "Tempeh Roasted with Salt",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Grill -": [
+          {
+            "id": 638,
+            "name": "Cheese Quesadilla",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
               "SOY",
-              "EGG",
               "DAIRY",
               "WHEAT"
             ],
             "price": null
           },
           {
-            "id": 526,
-            "name": "Dutch Apple Pie",
+            "id": 639,
+            "name": "Vegan Mushroom Spinach Quesadilla",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -2708,10 +2961,10 @@
             "price": null
           }
         ],
-        "- Hot Bars -": [
+        "- Clean Plate -": [
           {
-            "id": 126,
-            "name": "BBQ Wings",
+            "id": 21,
+            "name": "Allergen Free Halal Chicken Thigh",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "GF",
@@ -2719,6 +2972,70 @@
             ],
             "price": null
           },
+          {
+            "id": 8,
+            "name": "Steamed Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 22,
+            "name": "Tofu with Kosher Salt",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Sweet Treats -": [
+          {
+            "id": 563,
+            "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          }
+        ],
+        "- Campus Bakery -": [
+          {
+            "id": 575,
+            "name": "Cappuccino Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 576,
+            "name": "Chocolate Cream Pie",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "DAIRY",
+              "WHEAT"
+            ],
+            "price": null
+          }
+        ],
+        "- Hot Bars -": [
           {
             "id": 538,
             "name": "Buffalo Cauliflower",
@@ -2729,21 +3046,17 @@
             "price": null
           },
           {
-            "id": 49,
-            "name": "Condiments",
+            "id": 25,
+            "name": "Chengdu Wing Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
             "price": null
           },
           {
-            "id": 539,
-            "name": "Green Chili and Cheese Potato Salad",
+            "id": 49,
+            "name": "Condiments",
             "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF"
-            ],
+            "dietary_restrictions": [],
             "price": null
           },
           {
@@ -2757,29 +3070,35 @@
             "price": null
           },
           {
-            "id": 127,
-            "name": "Hot 'N Spicy Wings",
+            "id": 28,
+            "name": "Hoisin Chicken Wings",
             "avg_rating": 0.0,
             "dietary_restrictions": [
+              "SOY",
+              "SESAME",
               "GF",
-              "HALAL"
+              "ALC"
             ],
             "price": null
           },
           {
-            "id": 128,
-            "name": "Smoke & Spice Wing Bar",
+            "id": 31,
+            "name": "Sticky Rice",
             "avg_rating": 0.0,
-            "dietary_restrictions": [],
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
             "price": null
           },
           {
-            "id": 498,
-            "name": "Tater Tots",
-            "avg_rating": 4.0,
+            "id": 32,
+            "name": "Szechuan Chicken Wings",
+            "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "SOY"
+              "SOY",
+              "SESAME",
+              "ALC"
             ],
             "price": null
           },
@@ -2812,314 +3131,83 @@
           }
         ]
       },
-      "Dinner": {
-        "- Soups -": [
-          {
-            "id": 536,
-            "name": "House Made Vegan Tomato Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 482,
-            "name": "Vegan Tortilla Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Entrees -": [
-          {
-            "id": 540,
-            "name": "Harissa BBQ Beef",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "BEEF",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 16,
-            "name": "Harissa Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 134,
-            "name": "Roasted Sweet Potatoes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 83,
-            "name": "Steamed Carrots and Broccoli",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Grill -": [
-          {
-            "id": 76,
-            "name": "Hamburger Bun",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 550,
-            "name": "Opah Burger Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "FISH",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 508,
-            "name": "Sidewinder Fry",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 724,
-            "name": "Vegan Actual Veggies Black Bean Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Clean Plate -": [
-          {
-            "id": 21,
-            "name": "Allergen Free Halal Chicken Thigh",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 8,
-            "name": "Steamed Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 22,
-            "name": "Tofu with Kosher Salt",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Sweet Treats -": [
-          {
-            "id": 524,
-            "name": "Mint Condition",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
-        "- Campus Bakery -": [
-          {
-            "id": 529,
-            "name": "Chocolate Mocha Cake",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 526,
-            "name": "Dutch Apple Pie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 530,
-            "name": "Red Velvet Cake",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
-        "- Hot Bars -": [
-          {
-            "id": 54,
-            "name": "Basmati Rice Pullao",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 58,
-            "name": "Chana Masala",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 455,
-            "name": "Chicken Tikka Masala",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 49,
-            "name": "Condiments",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 456,
-            "name": "Dal Saag",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 457,
-            "name": "Masala Baked Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 458,
-            "name": "North Indian Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 60,
-            "name": "Original Naan",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          }
-        ],
-        "- Cold Bars -": [
-          {
-            "id": 33,
-            "name": "Deli Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 34,
-            "name": "Salad Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          }
-        ]
-      },
       "Late Night": {}
     },
     "Rachel Carson & Oakes Dining Hall": {
       "Breakfast": {
+        "- Campus Bakery -": [
+          {
+            "id": 557,
+            "name": "Bakery Fresh Apple Cinnamon Muffin",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 558,
+            "name": "Lemon Poppyseed Muffin",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 381,
+            "name": "Vegan Fruit and Nut Granola",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "PEANUT",
+              "TREENUT",
+              "SESAME",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 559,
+            "name": "Zucchini Bread",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          }
+        ],
         "- Entrees -": [
+          {
+            "id": 420,
+            "name": "Banana and Coconut Pancakes",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
           {
             "id": 2,
             "name": "Cage-Free Scrambled Eggs",
@@ -3132,18 +3220,18 @@
             "price": null
           },
           {
-            "id": 93,
-            "name": "Crispy Bacon",
+            "id": 375,
+            "name": "Chicken Apple Sausage",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "PORK",
+              "DAIRY",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 479,
-            "name": "Harissa Potatoes",
+            "id": 421,
+            "name": "Coconut Syrup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3152,18 +3240,8 @@
             "price": null
           },
           {
-            "id": 467,
-            "name": "Sausage Links",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "PORK",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 7,
-            "name": "Tempeh, Black Bean, and Potato Hash",
+            "id": 145,
+            "name": "Natural Bridges Tofu Scramble",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3171,9 +3249,30 @@
               "GF"
             ],
             "price": null
+          },
+          {
+            "id": 430,
+            "name": "Oven Roasted Herbed Potatoes",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
           }
         ],
         "- Bars & Clean Plate -": [
+          {
+            "id": 3,
+            "name": "Hard-boiled Cage Free Egg (1)",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "EGG",
+              "GF"
+            ],
+            "price": null
+          },
           {
             "id": 8,
             "name": "Steamed Rice",
@@ -3187,65 +3286,12 @@
         ],
         "- Grill and Soups -": [
           {
-            "id": 3,
-            "name": "Hard-boiled Cage Free Egg (1)",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 5,
             "name": "Organic Gluten-Free Oatmeal",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Desserts -": [
-          {
-            "id": 515,
-            "name": "Bakery Fresh Blueberry Muffin",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 516,
-            "name": "Mocha Chip Muffin",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 517,
-            "name": "Orange Cranberry Scone",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "WHEAT"
             ],
             "price": null
           }
@@ -3285,6 +3331,31 @@
             "price": null
           }
         ],
+        "- Sweet Treats -": [
+          {
+            "id": 563,
+            "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          }
+        ],
+        "- Campus Bakery -": [
+          {
+            "id": 564,
+            "name": "Vegan Raspberry Granola Bars",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT"
+            ],
+            "price": null
+          }
+        ],
         "- Cold Bars -": [
           {
             "id": 33,
@@ -3303,8 +3374,8 @@
         ],
         "- Entrees -": [
           {
-            "id": 519,
-            "name": "Braised Toscano Potatoes",
+            "id": 471,
+            "name": "Black Beans with Cumin Spice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3313,31 +3384,28 @@
             "price": null
           },
           {
-            "id": 520,
-            "name": "Roast Pork Loin with Parsley and Shallot Sauce",
+            "id": 561,
+            "name": "Cornmeal Crusted Sand Bass",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "PORK",
-              "GF",
-              "ALC"
+              "FISH"
             ],
             "price": null
           },
           {
-            "id": 521,
-            "name": "Tempeh Roasted in Sesame Oil",
+            "id": 81,
+            "name": "Grilled Lime Cumin Tofu",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "SOY",
-              "SESAME",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 522,
-            "name": "Vegan Collard Greens",
+            "id": 17,
+            "name": "Roasted Brussels Sprouts",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3348,8 +3416,56 @@
         ],
         "- Bars & Clean Plate -": [
           {
-            "id": 432,
-            "name": "Cilantro Chutney",
+            "id": 565,
+            "name": "BBQ Chili Garlic Kogi Sauce",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 566,
+            "name": "BBQ Ginger Soy Beef",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "BEEF",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 567,
+            "name": "BBQ Ginger Soy Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 568,
+            "name": "Chili Soy Slaw",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 569,
+            "name": "Kimchi Fried Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3358,84 +3474,41 @@
             "price": null
           },
           {
-            "id": 433,
-            "name": "Mumbai Street Bar",
+            "id": 570,
+            "name": "Kogi BBQ Bowl Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
             "price": null
           },
           {
-            "id": 60,
-            "name": "Original Naan",
+            "id": 571,
+            "name": "Pickled Red Onions and Peppers",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 572,
+            "name": "Salsa Roja Kogi-Style",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
               "SOY",
-              "EGG",
-              "DAIRY",
               "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 434,
-            "name": "Palak Spinach Paneer",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 435,
-            "name": "Pao Bhaji",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 436,
-            "name": "Steamed Basmati Rice",
+            "id": 72,
+            "name": "Sauteed Bok Choy and Carrots with Sesame",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 437,
-            "name": "Tarka Dal",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 438,
-            "name": "Tomato Chutney",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 439,
-            "name": "Vegetable Tikkis",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
+              "SESAME",
               "GF"
             ],
             "price": null
@@ -3443,18 +3516,19 @@
         ],
         "- Grill and Soups -": [
           {
-            "id": 499,
-            "name": "Chicken Tortilla Soup",
-            "avg_rating": 0.0,
+            "id": 97,
+            "name": "Chicken Noodle Soup",
+            "avg_rating": 3.0,
             "dietary_restrictions": [
               "SOY",
-              "GF"
+              "EGG",
+              "WHEAT"
             ],
             "price": null
           },
           {
-            "id": 422,
-            "name": "Organic Vegan Chili",
+            "id": 560,
+            "name": "Lentil & Lemon Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3464,20 +3538,6 @@
           }
         ],
         "- Pizza, Flatbreads & Pasta -": [
-          {
-            "id": 523,
-            "name": "Bacon and Ranch Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "PORK"
-            ],
-            "price": null
-          },
           {
             "id": 19,
             "name": "Cheese Pizza",
@@ -3491,43 +3551,17 @@
               "WHEAT"
             ],
             "price": null
-          }
-        ],
-        "- Desserts -": [
+          },
           {
-            "id": 525,
-            "name": "Brownies",
+            "id": 562,
+            "name": "Thai Chicken Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
               "SOY",
               "EGG",
               "DAIRY",
+              "SESAME",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 526,
-            "name": "Dutch Apple Pie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 524,
-            "name": "Mint Condition",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
             ],
             "price": null
           }
@@ -3569,13 +3603,11 @@
         ],
         "- Sweet Treats -": [
           {
-            "id": 524,
-            "name": "Mint Condition",
+            "id": 563,
+            "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
+              "VG",
               "WHEAT",
               "ALC"
             ],
@@ -3584,8 +3616,8 @@
         ],
         "- Campus Bakery -": [
           {
-            "id": 529,
-            "name": "Chocolate Mocha Cake",
+            "id": 575,
+            "name": "Cappuccino Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -3598,27 +3630,14 @@
             "price": null
           },
           {
-            "id": 526,
-            "name": "Dutch Apple Pie",
+            "id": 576,
+            "name": "Chocolate Cream Pie",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
+              "V",
               "SOY",
+              "DAIRY",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 530,
-            "name": "Red Velvet Cake",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
             ],
             "price": null
           }
@@ -3641,31 +3660,19 @@
         ],
         "- Entrees -": [
           {
-            "id": 67,
-            "name": "Available Upon Request: Gluten Free Rotini Pasta",
+            "id": 772,
+            "name": "Baked Salmon with Garlic Butter",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 527,
-            "name": "Lasagna Bolognese",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "EGG",
               "DAIRY",
-              "WHEAT",
-              "BEEF",
-              "HALAL"
+              "FISH",
+              "GF"
             ],
             "price": null
           },
           {
-            "id": 132,
-            "name": "Marinara Sauce",
+            "id": 573,
+            "name": "Green Beans with Mushrooms and Carmelized Onions",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3674,18 +3681,8 @@
             "price": null
           },
           {
-            "id": 391,
-            "name": "Penne",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 394,
-            "name": "Sauteed Rainbow Chard with Garlic Oil",
+            "id": 18,
+            "name": "Steamed Brown Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3694,11 +3691,12 @@
             "price": null
           },
           {
-            "id": 528,
-            "name": "Vegan Meatballs",
+            "id": 110,
+            "name": "Tempeh Roasted with Chorizo Spice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "SOY",
               "GF"
             ],
             "price": null
@@ -3706,8 +3704,8 @@
         ],
         "- Bars & Clean Plate -": [
           {
-            "id": 26,
-            "name": "Chickpea Harira",
+            "id": 624,
+            "name": "Balsamic Caramelized Onions",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3716,57 +3714,41 @@
             "price": null
           },
           {
-            "id": 531,
-            "name": "Couscous, Red Grain, And Vegetable Salad",
+            "id": 625,
+            "name": "Beyond Meat Smash Burger",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 506,
+            "name": "Halal Beef Patty",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 76,
+            "name": "Hamburger Bun",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "SOY",
+              "SESAME",
               "WHEAT"
             ],
             "price": null
           },
           {
-            "id": 16,
-            "name": "Harissa Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 533,
-            "name": "Marrakech Spice Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 534,
-            "name": "Roasted Cauliflower and Vegetable Medley",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 409,
-            "name": "Roasted Eggplant",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 643,
-            "name": "Spicy Red Beans and Vegetables",
+            "id": 626,
+            "name": "Roasted Garlic Dijon Mayonnaise",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3776,43 +3758,48 @@
             "price": null
           },
           {
-            "id": 535,
-            "name": "Tahini Sauce",
+            "id": 627,
+            "name": "Stack Haus Burger Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 628,
+            "name": "Steak Cut Fries",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "SESAME",
-              "GF"
+              "V",
+              "SOY"
             ],
             "price": null
           },
           {
-            "id": 661,
-            "name": "Za'atar Chicken",
+            "id": 629,
+            "name": "Vegan Thousand Island Dressing",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "SESAME",
-              "GF",
-              "HALAL"
+              "VG",
+              "GF"
             ],
             "price": null
           }
         ],
         "- Grill and Soups -": [
           {
-            "id": 518,
-            "name": "Fire Roasted Corn Soup",
-            "avg_rating": 0.0,
+            "id": 97,
+            "name": "Chicken Noodle Soup",
+            "avg_rating": 3.0,
             "dietary_restrictions": [
-              "V",
-              "DAIRY",
+              "SOY",
+              "EGG",
               "WHEAT"
             ],
             "price": null
           },
           {
-            "id": 422,
-            "name": "Organic Vegan Chili",
+            "id": 560,
+            "name": "Lentil & Lemon Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3823,25 +3810,24 @@
         ],
         "- Pizza, Flatbreads & Pasta -": [
           {
-            "id": 523,
-            "name": "Bacon and Ranch Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "PORK"
-            ],
-            "price": null
-          },
-          {
             "id": 19,
             "name": "Cheese Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 562,
+            "name": "Thai Chicken Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
               "SOY",
               "EGG",
               "DAIRY",
@@ -3888,15 +3874,92 @@
         ],
         "- Sweet Treats -": [
           {
-            "id": 524,
-            "name": "Mint Condition",
+            "id": 563,
+            "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
+              "VG",
               "WHEAT",
               "ALC"
+            ],
+            "price": null
+          }
+        ],
+        "- Hot Bars -": [
+          {
+            "id": 538,
+            "name": "Buffalo Cauliflower",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V"
+            ],
+            "price": null
+          },
+          {
+            "id": 25,
+            "name": "Chengdu Wing Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 49,
+            "name": "Condiments",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 27,
+            "name": "Green Onion Slaw",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 28,
+            "name": "Hoisin Chicken Wings",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 31,
+            "name": "Sticky Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 32,
+            "name": "Szechuan Chicken Wings",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 129,
+            "name": "Vegan Tenders",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "WHEAT"
             ],
             "price": null
           }
@@ -3917,106 +3980,22 @@
             "price": null
           }
         ],
-        "- Bars & Clean Plate -": [
-          {
-            "id": 66,
-            "name": "Broccoli Slaw Salad",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 760,
-            "name": "Chili Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 49,
-            "name": "Condiments",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 546,
-            "name": "Cornbread",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 761,
-            "name": "Jalapeno Cornbread",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 422,
-            "name": "Organic Vegan Chili",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 762,
-            "name": "Texas Beef Chili",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 598,
-            "name": "Vegan Garlic Mashed Potatoes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
         "- Grill and Soups -": [
           {
-            "id": 763,
-            "name": "Italian Meatball Sandwich",
+            "id": 581,
+            "name": "Falafel  Wrap",
             "avg_rating": 0.0,
             "dietary_restrictions": [
+              "V",
               "SOY",
-              "EGG",
               "DAIRY",
-              "WHEAT",
-              "BEEF"
+              "WHEAT"
             ],
             "price": null
           },
           {
-            "id": 628,
-            "name": "Steak Cut Fries",
+            "id": 78,
+            "name": "Sweet Potato Fries",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -4027,25 +4006,24 @@
         ],
         "- Pizza, Flatbreads & Pasta -": [
           {
-            "id": 523,
-            "name": "Bacon and Ranch Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "PORK"
-            ],
-            "price": null
-          },
-          {
             "id": 19,
             "name": "Cheese Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 562,
+            "name": "Thai Chicken Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
               "SOY",
               "EGG",
               "DAIRY",
@@ -4149,8 +4127,8 @@
         ],
         "- Bakery -": [
           {
-            "id": 447,
-            "name": "Blueberry Muffin",
+            "id": 712,
+            "name": "Banana Chocolate Chip Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -4161,17 +4139,6 @@
               "ALC"
             ],
             "price": "$4.75"
-          },
-          {
-            "id": 552,
-            "name": "Cheddar Garlic Croizel",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": "$5.25"
           },
           {
             "id": 155,
@@ -4200,8 +4167,19 @@
             "price": "$4.25"
           },
           {
-            "id": 516,
-            "name": "Mocha Chip Muffin",
+            "id": 713,
+            "name": "Ham & Cheddar Croissant",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "WHEAT",
+              "PORK"
+            ],
+            "price": "$6.25"
+          },
+          {
+            "id": 558,
+            "name": "Lemon Poppyseed Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -4214,20 +4192,21 @@
             "price": "$4.75"
           },
           {
-            "id": 160,
-            "name": "Vegan Chocolate Chip Cookies",
+            "id": 714,
+            "name": "Mint and Chocolate Chip Cookie",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "SOY",
+              "V",
+              "EGG",
+              "DAIRY",
               "WHEAT",
               "ALC"
             ],
             "price": "$2.95"
           },
           {
-            "id": 553,
-            "name": "Vegan Dr. Midnight Cookies",
+            "id": 160,
+            "name": "Vegan Chocolate Chip Cookies",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -4746,8 +4725,8 @@
         ],
         "- Bakery -": [
           {
-            "id": 447,
-            "name": "Blueberry Muffin",
+            "id": 712,
+            "name": "Banana Chocolate Chip Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -4758,17 +4737,6 @@
               "ALC"
             ],
             "price": "$4.75"
-          },
-          {
-            "id": 552,
-            "name": "Cheddar Garlic Croizel",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": "$5.25"
           },
           {
             "id": 155,
@@ -4797,8 +4765,19 @@
             "price": "$4.25"
           },
           {
-            "id": 516,
-            "name": "Mocha Chip Muffin",
+            "id": 713,
+            "name": "Ham & Cheddar Croissant",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "WHEAT",
+              "PORK"
+            ],
+            "price": "$6.25"
+          },
+          {
+            "id": 558,
+            "name": "Lemon Poppyseed Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -4811,20 +4790,21 @@
             "price": "$4.75"
           },
           {
-            "id": 160,
-            "name": "Vegan Chocolate Chip Cookies",
+            "id": 714,
+            "name": "Mint and Chocolate Chip Cookie",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "SOY",
+              "V",
+              "EGG",
+              "DAIRY",
               "WHEAT",
               "ALC"
             ],
             "price": "$2.95"
           },
           {
-            "id": 553,
-            "name": "Vegan Dr. Midnight Cookies",
+            "id": 160,
+            "name": "Vegan Chocolate Chip Cookies",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -5871,6 +5851,20 @@
             "price": "$6.75"
           },
           {
+            "id": 359,
+            "name": "Spinach & Artichoke Quiche",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": "$6.95"
+          },
+          {
             "id": 261,
             "name": "The Gobbler",
             "avg_rating": 0.0,
@@ -5910,8 +5904,8 @@
         ],
         "- BAKERY -": [
           {
-            "id": 447,
-            "name": "Blueberry Muffin",
+            "id": 712,
+            "name": "Banana Chocolate Chip Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -5922,17 +5916,6 @@
               "ALC"
             ],
             "price": "$4.75"
-          },
-          {
-            "id": 552,
-            "name": "Cheddar Garlic Croizel",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": "$5.25"
           },
           {
             "id": 155,
@@ -5961,8 +5944,19 @@
             "price": "$4.25"
           },
           {
-            "id": 516,
-            "name": "Mocha Chip Muffin",
+            "id": 713,
+            "name": "Ham & Cheddar Croissant",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "WHEAT",
+              "PORK"
+            ],
+            "price": "$6.75"
+          },
+          {
+            "id": 558,
+            "name": "Lemon Poppyseed Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -5975,20 +5969,21 @@
             "price": "$4.75"
           },
           {
-            "id": 119,
-            "name": "Vegan Chocolate Chip Cookie",
+            "id": 714,
+            "name": "Mint and Chocolate Chip Cookie",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "SOY",
+              "V",
+              "EGG",
+              "DAIRY",
               "WHEAT",
               "ALC"
             ],
             "price": "$2.95"
           },
           {
-            "id": 553,
-            "name": "Vegan Dr. Midnight Cookies",
+            "id": 119,
+            "name": "Vegan Chocolate Chip Cookie",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -7090,8 +7085,8 @@
         ],
         "- Campus Bakery -": [
           {
-            "id": 447,
-            "name": "Blueberry Muffin",
+            "id": 712,
+            "name": "Banana Chocolate Chip Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -7102,17 +7097,6 @@
               "ALC"
             ],
             "price": "$4.75"
-          },
-          {
-            "id": 552,
-            "name": "Cheddar Garlic Croizel",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": "$5.25"
           },
           {
             "id": 155,
@@ -7141,8 +7125,19 @@
             "price": "$4.25"
           },
           {
-            "id": 516,
-            "name": "Mocha Chip Muffin",
+            "id": 715,
+            "name": "Ham & Provolone Croissant",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "WHEAT",
+              "PORK"
+            ],
+            "price": "$6.25"
+          },
+          {
+            "id": 558,
+            "name": "Lemon Poppyseed Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -7155,20 +7150,21 @@
             "price": "$4.75"
           },
           {
-            "id": 119,
-            "name": "Vegan Chocolate Chip Cookie",
+            "id": 714,
+            "name": "Mint and Chocolate Chip Cookie",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "SOY",
+              "V",
+              "EGG",
+              "DAIRY",
               "WHEAT",
               "ALC"
             ],
             "price": "$2.95"
           },
           {
-            "id": 553,
-            "name": "Vegan Dr. Midnight Cookies",
+            "id": 119,
+            "name": "Vegan Chocolate Chip Cookie",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -8273,8 +8269,8 @@
       "Menu": {
         "- Campus Bakery -": [
           {
-            "id": 447,
-            "name": "Blueberry Muffin",
+            "id": 773,
+            "name": "Apple Cinnamon Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -8285,17 +8281,6 @@
               "ALC"
             ],
             "price": "$4.75"
-          },
-          {
-            "id": 552,
-            "name": "Cheddar Garlic Croizel",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": "$5.25"
           },
           {
             "id": 155,
@@ -8324,8 +8309,19 @@
             "price": "$4.25"
           },
           {
-            "id": 516,
-            "name": "Mocha Chip Muffin",
+            "id": 715,
+            "name": "Ham & Provolone Croissant",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "WHEAT",
+              "PORK"
+            ],
+            "price": "$6.75"
+          },
+          {
+            "id": 558,
+            "name": "Lemon Poppyseed Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -8340,18 +8336,6 @@
           {
             "id": 160,
             "name": "Vegan Chocolate Chip Cookies",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": "$2.95"
-          },
-          {
-            "id": 553,
-            "name": "Vegan Dr. Midnight Cookies",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -8736,8 +8720,8 @@
         ],
         "- Campus Bakery -": [
           {
-            "id": 447,
-            "name": "Blueberry Muffin",
+            "id": 712,
+            "name": "Banana Chocolate Chip Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -8748,17 +8732,6 @@
               "ALC"
             ],
             "price": "$4.75"
-          },
-          {
-            "id": 552,
-            "name": "Cheddar Garlic Croizel",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": "$5.25"
           },
           {
             "id": 155,
@@ -8787,8 +8760,19 @@
             "price": "$4.25"
           },
           {
-            "id": 516,
-            "name": "Mocha Chip Muffin",
+            "id": 715,
+            "name": "Ham & Provolone Croissant",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "WHEAT",
+              "PORK"
+            ],
+            "price": "$6.25"
+          },
+          {
+            "id": 558,
+            "name": "Lemon Poppyseed Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -8801,20 +8785,21 @@
             "price": "$4.75"
           },
           {
-            "id": 119,
-            "name": "Vegan Chocolate Chip Cookie",
+            "id": 714,
+            "name": "Mint and Chocolate Chip Cookie",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "SOY",
+              "V",
+              "EGG",
+              "DAIRY",
               "WHEAT",
               "ALC"
             ],
             "price": "$2.95"
           },
           {
-            "id": 553,
-            "name": "Vegan Dr. Midnight Cookies",
+            "id": 119,
+            "name": "Vegan Chocolate Chip Cookie",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -9890,8 +9875,8 @@
         ],
         "- Campus Bakery -": [
           {
-            "id": 447,
-            "name": "Blueberry Muffin",
+            "id": 712,
+            "name": "Banana Chocolate Chip Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -9902,17 +9887,6 @@
               "ALC"
             ],
             "price": "$4.75"
-          },
-          {
-            "id": 552,
-            "name": "Cheddar Garlic Croizel",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": "$5.25"
           },
           {
             "id": 155,
@@ -9941,8 +9915,19 @@
             "price": "$4.25"
           },
           {
-            "id": 516,
-            "name": "Mocha Chip Muffin",
+            "id": 715,
+            "name": "Ham & Provolone Croissant",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "WHEAT",
+              "PORK"
+            ],
+            "price": "$6.25"
+          },
+          {
+            "id": 558,
+            "name": "Lemon Poppyseed Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -9955,6 +9940,19 @@
             "price": "$4.75"
           },
           {
+            "id": 714,
+            "name": "Mint and Chocolate Chip Cookie",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": "$2.95"
+          },
+          {
             "id": 160,
             "name": "Vegan Chocolate Chip Cookies",
             "avg_rating": 0.0,
@@ -9964,19 +9962,7 @@
               "WHEAT",
               "ALC"
             ],
-            "price": "$2.95"
-          },
-          {
-            "id": 553,
-            "name": "Vegan Dr. Midnight Cookies",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": "$2.95"
+            "price": "$2.75"
           }
         ],
         "- Grab & Go -": [
@@ -10016,17 +10002,6 @@
             "price": "$5.25"
           },
           {
-            "id": 258,
-            "name": "Roma Sandwich",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": "$8.95"
-          },
-          {
             "id": 259,
             "name": "Rotisserie Chicken Caesar Salad",
             "avg_rating": 0.0,
@@ -10041,20 +10016,6 @@
             "price": "$8.95"
           },
           {
-            "id": 359,
-            "name": "Spinach & Artichoke Quiche",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": "$6.95"
-          },
-          {
             "id": 261,
             "name": "The Gobbler",
             "avg_rating": 0.0,
@@ -10066,17 +10027,6 @@
               "ALC"
             ],
             "price": "$9.25"
-          },
-          {
-            "id": 263,
-            "name": "Turkey Cheddar Croissant Sandwich",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": "$7.95"
           }
         ],
         "- Coffee & Tea -- New City of Santa Cruz Cup Fee of $.025 BYO and save up to $0.50 when ordering a togo drink -": [
@@ -10592,7 +10542,7 @@
               "DAIRY",
               "WHEAT"
             ],
-            "price": "$4.95"
+            "price": "$5.25"
           },
           {
             "id": 251,
@@ -10603,7 +10553,7 @@
               "DAIRY",
               "WHEAT"
             ],
-            "price": "$9.95"
+            "price": "$7.50"
           },
           {
             "id": 252,
@@ -10614,7 +10564,7 @@
               "WHEAT",
               "ALC"
             ],
-            "price": "$6.95"
+            "price": "$5.25"
           },
           {
             "id": 253,
@@ -10626,7 +10576,7 @@
               "WHEAT",
               "ALC"
             ],
-            "price": "$6.95"
+            "price": "$6.75"
           },
           {
             "id": 254,
@@ -10639,7 +10589,7 @@
               "WHEAT",
               "PORK"
             ],
-            "price": "$6.95"
+            "price": "$6.50"
           },
           {
             "id": 255,
@@ -10652,7 +10602,7 @@
               "WHEAT",
               "PORK"
             ],
-            "price": "$7.95"
+            "price": "$8.25"
           },
           {
             "id": 256,
@@ -10673,7 +10623,7 @@
               "DAIRY",
               "WHEAT"
             ],
-            "price": "$6.95"
+            "price": "$5.25"
           },
           {
             "id": 258,
@@ -10711,7 +10661,7 @@
               "BEEF",
               "PORK"
             ],
-            "price": "$6.95"
+            "price": "$6.75"
           },
           {
             "id": 359,
@@ -10738,7 +10688,7 @@
               "WHEAT",
               "ALC"
             ],
-            "price": "$8.50"
+            "price": "$9.25"
           },
           {
             "id": 262,
@@ -10751,7 +10701,7 @@
               "WHEAT",
               "PORK"
             ],
-            "price": "$6.95"
+            "price": "$8.25"
           },
           {
             "id": 263,
@@ -10767,8 +10717,8 @@
         ],
         "- Campus Bakery -": [
           {
-            "id": 447,
-            "name": "Blueberry Muffin",
+            "id": 712,
+            "name": "Banana Chocolate Chip Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -10779,17 +10729,6 @@
               "ALC"
             ],
             "price": "$4.75"
-          },
-          {
-            "id": 552,
-            "name": "Cheddar Garlic Croizel",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": "$5.25"
           },
           {
             "id": 155,
@@ -10818,8 +10757,19 @@
             "price": "$4.25"
           },
           {
-            "id": 516,
-            "name": "Mocha Chip Muffin",
+            "id": 715,
+            "name": "Ham & Provolone Croissant",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "WHEAT",
+              "PORK"
+            ],
+            "price": "$6.25"
+          },
+          {
+            "id": 558,
+            "name": "Lemon Poppyseed Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -10832,20 +10782,21 @@
             "price": "$4.75"
           },
           {
-            "id": 160,
-            "name": "Vegan Chocolate Chip Cookies",
+            "id": 714,
+            "name": "Mint and Chocolate Chip Cookie",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "SOY",
+              "V",
+              "EGG",
+              "DAIRY",
               "WHEAT",
               "ALC"
             ],
             "price": "$2.95"
           },
           {
-            "id": 553,
-            "name": "Vegan Dr. Midnight Cookies",
+            "id": 160,
+            "name": "Vegan Chocolate Chip Cookies",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -11579,8 +11530,8 @@
         ],
         "- Campus Bakery -": [
           {
-            "id": 447,
-            "name": "Blueberry Muffin",
+            "id": 712,
+            "name": "Banana Chocolate Chip Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -11591,17 +11542,6 @@
               "ALC"
             ],
             "price": "$4.75"
-          },
-          {
-            "id": 552,
-            "name": "Cheddar Garlic Croizel",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": "$5.25"
           },
           {
             "id": 155,
@@ -11630,8 +11570,19 @@
             "price": "$4.25"
           },
           {
-            "id": 516,
-            "name": "Mocha Chip Muffin",
+            "id": 715,
+            "name": "Ham & Provolone Croissant",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "WHEAT",
+              "PORK"
+            ],
+            "price": "$6.75"
+          },
+          {
+            "id": 558,
+            "name": "Lemon Poppyseed Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -11644,20 +11595,21 @@
             "price": "$4.75"
           },
           {
-            "id": 160,
-            "name": "Vegan Chocolate Chip Cookies",
+            "id": 714,
+            "name": "Mint and Chocolate Chip Cookie",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "SOY",
+              "V",
+              "EGG",
+              "DAIRY",
               "WHEAT",
               "ALC"
             ],
             "price": "$2.95"
           },
           {
-            "id": 553,
-            "name": "Vegan Dr. Midnight Cookies",
+            "id": 160,
+            "name": "Vegan Chocolate Chip Cookies",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -12437,8 +12389,8 @@
         ],
         "- Campus Bakery -": [
           {
-            "id": 447,
-            "name": "Blueberry Muffin",
+            "id": 712,
+            "name": "Banana Chocolate Chip Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -12449,17 +12401,6 @@
               "ALC"
             ],
             "price": "$4.75"
-          },
-          {
-            "id": 552,
-            "name": "Cheddar Garlic Croizel",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": "$5.25"
           },
           {
             "id": 155,
@@ -12473,7 +12414,7 @@
               "TREENUT",
               "WHEAT"
             ],
-            "price": "$4.95"
+            "price": "$5.25"
           },
           {
             "id": 157,
@@ -12488,8 +12429,19 @@
             "price": "$4.25"
           },
           {
-            "id": 516,
-            "name": "Mocha Chip Muffin",
+            "id": 715,
+            "name": "Ham & Provolone Croissant",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "WHEAT",
+              "PORK"
+            ],
+            "price": "$6.75"
+          },
+          {
+            "id": 558,
+            "name": "Lemon Poppyseed Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -12499,23 +12451,24 @@
               "WHEAT",
               "ALC"
             ],
-            "price": "$3.85"
+            "price": "$4.75"
           },
           {
-            "id": 160,
-            "name": "Vegan Chocolate Chip Cookies",
+            "id": 714,
+            "name": "Mint and Chocolate Chip Cookie",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "SOY",
+              "V",
+              "EGG",
+              "DAIRY",
               "WHEAT",
               "ALC"
             ],
             "price": "$2.95"
           },
           {
-            "id": 553,
-            "name": "Vegan Dr. Midnight Cookies",
+            "id": 160,
+            "name": "Vegan Chocolate Chip Cookies",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
