@@ -422,17 +422,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 548,
-            "name": "Orange Glazed Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 29,
             "name": "Orange Glazed Gardein",
             "avg_rating": 0.0,
@@ -570,10 +559,13 @@
             "price": null
           },
           {
-            "id": 49,
-            "name": "Condiments",
+            "id": 599,
+            "name": "Battered Popcorn Chicken",
             "avg_rating": 0.0,
-            "dietary_restrictions": [],
+            "dietary_restrictions": [
+              "SOY",
+              "WHEAT"
+            ],
             "price": null
           },
           {
