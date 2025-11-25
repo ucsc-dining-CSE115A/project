@@ -1045,11 +1045,10 @@
         ],
         "- Pizza -": [
           {
-            "id": 19,
-            "name": "Cheese Pizza",
+            "id": 791,
+            "name": "Buffalo Chicken Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
               "SOY",
               "EGG",
               "DAIRY",
@@ -1059,10 +1058,11 @@
             "price": null
           },
           {
-            "id": 562,
-            "name": "Thai Chicken Pizza",
+            "id": 19,
+            "name": "Cheese Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
+              "V",
               "SOY",
               "EGG",
               "DAIRY",
@@ -1226,6 +1226,16 @@
         ],
         "- Entrees -": [
           {
+            "id": 455,
+            "name": "Chicken Tikka Masala",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 573,
             "name": "Green Beans with Mushrooms and Carmelized Onions",
             "avg_rating": 0.0,
@@ -1236,14 +1246,12 @@
             "price": null
           },
           {
-            "id": 764,
-            "name": "Middle East Apple Roasted Chicken",
+            "id": 445,
+            "name": "Madras Chicken",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "SOY",
-              "SESAME",
               "GF",
-              "ALC"
+              "HALAL"
             ],
             "price": null
           },
@@ -1270,6 +1278,19 @@
           }
         ],
         "- Pizza -": [
+          {
+            "id": 791,
+            "name": "Buffalo Chicken Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
           {
             "id": 19,
             "name": "Cheese Pizza",
@@ -1473,14 +1494,21 @@
         ]
       },
       "Late Night": {
-        "- Grill -": [
+        "- Entrees -": [
           {
-            "id": 659,
-            "name": "Chef Special",
+            "id": 540,
+            "name": "Harissa BBQ Beef",
             "avg_rating": 0.0,
-            "dietary_restrictions": [],
+            "dietary_restrictions": [
+              "SOY",
+              "BEEF",
+              "GF",
+              "HALAL"
+            ],
             "price": null
-          },
+          }
+        ],
+        "- Grill -": [
           {
             "id": 78,
             "name": "Sweet Potato Fries",
