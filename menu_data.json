@@ -550,8 +550,8 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 599,
-            "name": "Battered Popcorn Chicken",
+            "id": 388,
+            "name": "Chicken Tenders",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
@@ -585,8 +585,8 @@
             "price": null
           },
           {
-            "id": 585,
-            "name": "Roasted Kale and Butternut Squash",
+            "id": 405,
+            "name": "Roasted Green Beans in Garlic Oil",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
