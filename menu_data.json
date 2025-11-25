@@ -966,6 +966,18 @@
         ]
       },
       "Lunch": {
+        "- Miscellaneous -": [
+          {
+            "id": 442,
+            "name": "Beef Frank",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Soups -": [
           {
             "id": 97,
@@ -1194,6 +1206,30 @@
             "name": "Salad Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
+            "price": null
+          }
+        ],
+        "- Available 2pm-5pm -": [
+          {
+            "id": 443,
+            "name": "Hot Dog Bun",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 444,
+            "name": "Vegan Hot Dog",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
             "price": null
           }
         ]
@@ -1487,11 +1523,10 @@
         ],
         "- Pizza -": [
           {
-            "id": 19,
-            "name": "Cheese Pizza",
+            "id": 791,
+            "name": "Buffalo Chicken Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
               "SOY",
               "EGG",
               "DAIRY",
@@ -1501,10 +1536,11 @@
             "price": null
           },
           {
-            "id": 562,
-            "name": "Thai Chicken Pizza",
+            "id": 19,
+            "name": "Cheese Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
+              "V",
               "SOY",
               "EGG",
               "DAIRY",
@@ -1965,20 +2001,6 @@
             "price": null
           },
           {
-            "id": 60,
-            "name": "Original Naan",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 436,
             "name": "Steamed Basmati Rice",
             "avg_rating": 0.0,
@@ -2086,6 +2108,16 @@
           {
             "id": 585,
             "name": "Roasted Kale and Butternut Squash",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 123,
+            "name": "Roasted Zucchini and Peppers",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -2242,12 +2274,24 @@
             "price": null
           },
           {
-            "id": 31,
-            "name": "Sticky Rice",
+            "id": 127,
+            "name": "Hot 'N Spicy Wings",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 417,
+            "name": "Macaroni & Cheese",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "DAIRY",
+              "FISH",
+              "WHEAT"
             ],
             "price": null
           },
