@@ -989,6 +989,16 @@
               "WHEAT"
             ],
             "price": null
+          },
+          {
+            "id": 481,
+            "name": "Pork Pozole",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
+              "GF"
+            ],
+            "price": null
           }
         ],
         "- Entrees -": [
@@ -1003,19 +1013,8 @@
             "price": null
           },
           {
-            "id": 81,
-            "name": "Grilled Lime Cumin Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 17,
-            "name": "Roasted Brussels Sprouts",
+            "id": 746,
+            "name": "Cuban Black Beans",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -1029,6 +1028,16 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "PORK",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 30,
+            "name": "Steamed Broccoli",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
               "GF"
             ],
             "price": null
@@ -1133,6 +1142,16 @@
             "price": null
           },
           {
+            "id": 790,
+            "name": "Cauliflower",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 26,
             "name": "Chickpea Harira",
             "avg_rating": 0.0,
@@ -1145,6 +1164,16 @@
           {
             "id": 787,
             "name": "Jamaican Mojo Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 747,
+            "name": "Spicy Havana Chicken",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "GF",
