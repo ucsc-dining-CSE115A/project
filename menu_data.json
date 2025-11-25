@@ -1260,22 +1260,22 @@
             "price": null
           },
           {
-            "id": 573,
-            "name": "Green Beans with Mushrooms and Carmelized Onions",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 445,
             "name": "Madras Chicken",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "GF",
               "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 123,
+            "name": "Roasted Zucchini and Peppers",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           },
