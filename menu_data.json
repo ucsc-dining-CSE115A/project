@@ -123,22 +123,21 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 142,
-            "name": "Garden Vegetable Soup",
+            "id": 499,
+            "name": "Chicken Tortilla Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "WHEAT"
+              "SOY",
+              "GF"
             ],
             "price": null
           },
           {
-            "id": 636,
-            "name": "Sweet & Sour Mushroom Soup",
-            "avg_rating": 0.0,
+            "id": 383,
+            "name": "Organic Black Bean Soup",
+            "avg_rating": 3.0,
             "dietary_restrictions": [
               "VG",
-              "SOY",
               "GF"
             ],
             "price": null
@@ -146,30 +145,56 @@
         ],
         "- Entrees -": [
           {
-            "id": 428,
-            "name": "Baja Sandbar Bass Piccata",
+            "id": 46,
+            "name": "Caramelized Chipotle Tofu",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "GF",
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 85,
+            "name": "Char Siu Gardein",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "WHEAT",
               "ALC"
             ],
             "price": null
           },
           {
-            "id": 637,
-            "name": "Garlic Linguinie",
+            "id": 531,
+            "name": "Couscous, Red Grain, And Vegetable Salad",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "SOY",
               "WHEAT"
             ],
             "price": null
           },
           {
-            "id": 39,
-            "name": "Roasted Asparagus",
+            "id": 722,
+            "name": "Nasi Goreng Fried Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "SESAME",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 30,
+            "name": "Steamed Broccoli",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -178,12 +203,13 @@
             "price": null
           },
           {
-            "id": 392,
-            "name": "White Beans",
+            "id": 661,
+            "name": "Za'atar Chicken",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
+              "SESAME",
+              "GF",
+              "HALAL"
             ],
             "price": null
           }
@@ -252,24 +278,24 @@
             "price": null
           }
         ],
-        "- Sweet Treats -": [
+        "- Campus Bakery -": [
           {
-            "id": 453,
-            "name": "Gluten-Free Snickerdoodle Cookie",
+            "id": 529,
+            "name": "Chocolate Mocha Cake",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
               "SOY",
               "EGG",
-              "GF"
+              "DAIRY",
+              "WHEAT",
+              "ALC"
             ],
             "price": null
-          }
-        ],
-        "- Campus Bakery -": [
+          },
           {
-            "id": 620,
-            "name": "Cream Cheese Swirled Brownie",
+            "id": 530,
+            "name": "Red Velvet Cake",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
