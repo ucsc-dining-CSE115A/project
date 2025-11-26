@@ -2960,6 +2960,18 @@
         ],
         "- Entrees -": [
           {
+            "id": 417,
+            "name": "Macaroni & Cheese",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "DAIRY",
+              "FISH",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 520,
             "name": "Roast Pork Loin with Parsley and Shallot Sauce",
             "avg_rating": 0.0,
@@ -2981,16 +2993,6 @@
             "price": null
           },
           {
-            "id": 586,
-            "name": "Soft Polenta",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 587,
             "name": "Tempeh Roasted with Salt",
             "avg_rating": 0.0,
@@ -3000,28 +3002,13 @@
               "GF"
             ],
             "price": null
-          }
-        ],
-        "- Grill -": [
-          {
-            "id": 638,
-            "name": "Cheese Quesadilla",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
           },
           {
-            "id": 639,
-            "name": "Vegan Mushroom Spinach Quesadilla",
+            "id": 419,
+            "name": "Vegan Macaroni & Cheese",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SOY",
               "WHEAT"
             ],
             "price": null
@@ -3920,6 +3907,76 @@
         ]
       },
       "Late Night": {
+        "- Miscellaneous -": [
+          {
+            "id": 16,
+            "name": "Harissa Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 127,
+            "name": "Hot 'N Spicy Wings",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 50,
+            "name": "Mexican Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Entrees -": [
+          {
+            "id": 126,
+            "name": "BBQ Wings",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 117,
+            "name": "Pepperoni Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF",
+              "PORK"
+            ],
+            "price": null
+          },
+          {
+            "id": 710,
+            "name": "Pork Carnitas",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Clean Plate -": [
           {
             "id": 21,
@@ -3968,68 +4025,12 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 538,
-            "name": "Buffalo Cauliflower",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V"
-            ],
-            "price": null
-          },
-          {
-            "id": 25,
-            "name": "Chengdu Wing Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 49,
-            "name": "Condiments",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 27,
-            "name": "Green Onion Slaw",
+            "id": 580,
+            "name": "Vegan Refried Beans",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 28,
-            "name": "Hoisin Chicken Wings",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 31,
-            "name": "Sticky Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 32,
-            "name": "Szechuan Chicken Wings",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "ALC"
             ],
             "price": null
           },
@@ -4063,18 +4064,6 @@
         ],
         "- Grill and Soups -": [
           {
-            "id": 581,
-            "name": "Falafel  Wrap",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 78,
             "name": "Sweet Potato Fries",
             "avg_rating": 0.0,
@@ -4097,21 +4086,6 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 117,
-            "name": "Pepperoni Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "BEEF",
-              "PORK"
             ],
             "price": null
           }
