@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import MenuCard from '../components/MenuCard';
 import MenuFilter from '../components/MenuFilter';
 import TodayHours from '../components/TodayHours';
 import CurrentMealBanner from '../components/CurrentMealBanner';
 import { useCurrentMeal } from '../components/useCurrentMeal';
+import { supabase } from '../supabaseClient';
 
 function MenuDetail() {
   const { diningHallName } = useParams();
@@ -13,6 +14,13 @@ function MenuDetail() {
   const [error, setError] = useState(null);
   const [selectedFilters, setSelectedFilters] = useState([]);
   const [selectedItems, setSelectedItems] = useState([]);
+  const [showCalcModal, setShowCalcModal] = useState(false); // add calculator
+  const [calcLoading, setCalcLoading] = useState(false); // calculator loadding
+  const [calcError, setCalcError] = useState(null); // calculator error
+  const [calcTotals, setCalcTotals] = useState(null); // 10 nutritional information items
+  const [calcStats, setCalcStats] = useState({ selected: 0, aggregated: 0, missing: 0 }); //summary of selected items
+  const [calcSelectedNames, setCalcSelectedNames] = useState([]); // Store the name of the selected items when calculate
+  const macroCacheRef = useRef(new Map()); //cache for per-item macros
 
   const decodedName = decodeURIComponent(diningHallName);
   
@@ -44,6 +52,16 @@ function MenuDetail() {
     fetchMenuData();
   }, []);
 
+  //The background is blurred when the calculation pop-up window is opened
+  useEffect(() => {
+    if (showCalcModal) {
+      document.body.classList.add('modal-open');
+    } else {
+      document.body.classList.remove('modal-open');
+    }
+    return () => document.body.classList.remove('modal-open');
+  }, [showCalcModal]);
+
   const organizeMenuByMealType = (menuDataForHall) => {
     // New JSON format: already an object keyed by meal (Breakfast, Lunch, etc.)
     if (
@@ -72,6 +90,112 @@ function MenuDetail() {
     });
 
     return organizedMenu;
+  };
+
+  //extract numeric value from strings like "1.4g", "160mg"
+  //Take only the numerical part ignore the %
+  const extractNumber = (val) => {
+    if (val == null) return 0;
+    if (typeof val === 'number') return val;
+    const str = String(val).trim();
+    const m = str.match(/-?\d+(?:\.\d+)?/);
+    return m ? parseFloat(m[0]) : 0;
+  };
+
+  // Fields involved in summation, exclude %only field, intotal 10 fields
+  const SUM_FIELDS = [
+    { key: 'calories', label: 'Calories', type: 'text' },
+    { key: 'total_fat', label: 'Total Fat', type: 'json' },
+    { key: 'sat_fat', label: 'Sat Fat', type: 'json' },
+    { key: 'trans_fat', label: 'Trans Fat', type: 'json' },
+    { key: 'cholesterol', label: 'Cholesterol', type: 'json' },
+    { key: 'sodium', label: 'Sodium', type: 'json' },
+    { key: 'total_carb', label: 'Total Carb', type: 'json' },
+    { key: 'dietary_fiber', label: 'Dietary Fiber', type: 'json' },
+    { key: 'sugars', label: 'Sugars', type: 'json' },
+    { key: 'protein', label: 'Protein', type: 'json' },
+  ];
+
+  //unit for summed fields
+  const SUM_UNITS = {
+    total_fat: 'g',
+    sat_fat: 'g',
+    trans_fat: 'g',
+    cholesterol: 'mg',
+    sodium: 'mg',
+    total_carb: 'g',
+    dietary_fiber: 'g',
+    sugars: 'g',
+    protein: 'g',
+  };
+
+  //header for calculation summary, like "Two items are selected: A, B"
+  const numberToWords = (n) => {
+    const words = [
+      'Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten',
+      'Eleven','Twelve','Thirteen','Fourteen','Fifteen','Sixteen','Seventeen','Eighteen','Nineteen','Twenty'
+    ];
+    return n >= 0 && n <= 20 ? words[n] : String(n);
+  };
+
+  const formatSelectionHeader = (names, count) => {
+    const countWord = numberToWords(count);
+    const itemLabel = count === 1 ? 'item' : 'items';
+    const verb = count === 1 ? 'is' : 'are';
+    return `${countWord} ${itemLabel} ${verb} selected: ${names.join(', ')}`;
+  };
+
+  // Retrieve the nutritional data for selected items from the macros table in Supabase for later use——summation
+  const fetchMacrosForItem = async (itemName) => {
+    if (!itemName) return null;
+    const cache = macroCacheRef.current;
+    if (cache.has(itemName)) return cache.get(itemName);
+    try {
+      // try exact match first
+      const { data: exactData, error: exactErr } = await supabase
+        .from('macros')
+        .select('*')
+        .eq('name', itemName)
+        .single();
+
+      if (!exactErr && exactData) {
+        cache.set(itemName, exactData);
+        return exactData;
+      }
+
+      //return exactData
+      const { data: likeData, error: likeErr } = await supabase
+        .from('macros')
+        .select('*')
+        .ilike('name', `%${itemName}%`)
+        .limit(1);
+
+      if (!likeErr && Array.isArray(likeData) && likeData.length > 0) {
+        cache.set(itemName, likeData[0]);
+        return likeData[0];
+      }
+    } catch (e) {
+      //If match is not found, return null
+    }
+    return null;
+  };
+
+  //Sum 10 fields over a list of macro information
+  const sumFields = (records) => {
+    const totals = {};
+    SUM_FIELDS.forEach(({ key }) => (totals[key] = 0));
+    records.forEach((rec) => {
+      if (!rec) return;
+      SUM_FIELDS.forEach(({ key, type }) => {
+        const raw = rec[key];
+        if (type === 'json' && raw && typeof raw === 'object') {
+          totals[key] += extractNumber(raw.amount);
+        } else {
+          totals[key] += extractNumber(raw);
+        }
+      });
+    });
+    return totals;
   };
 
   const filterItems = (items) => {
@@ -108,9 +232,25 @@ function MenuDetail() {
     });
   };
 
-  const handleCalculate = () => {
-    console.log('Calculate button clicked with items:', selectedItems);
-    // TODO: Implement macro calculator functionality
+  const handleCalculate = async () => {
+    //calculate totals and open calculator module
+    setCalcError(null);
+    setCalcLoading(true);
+    try {
+      const names = selectedItems.slice();
+      const results = await Promise.all(names.map((n) => fetchMacrosForItem(n)));
+      const aggregated = results.filter((r) => !!r);
+      const totals = sumFields(aggregated);
+      setCalcTotals(totals);
+      setCalcStats({ selected: names.length, aggregated: aggregated.length, missing: names.length - aggregated.length });
+      //show the names in modal header line
+      setCalcSelectedNames(names); 
+      setShowCalcModal(true);
+    } catch (e) {
+      setCalcError('Failed to calculate totals');
+    } finally {
+      setCalcLoading(false);
+    }
   };
 
   if (loading) {
@@ -274,6 +414,35 @@ function MenuDetail() {
         >
           Calculate ({selectedItems.length})
         </button>
+      )}
+
+      {/*Macro Calculator module to show*/}
+      {showCalcModal && (
+        <div className="popup-overlay" onClick={() => setShowCalcModal(false)}>
+          <div className="popup-content" onClick={(e) => e.stopPropagation()}>
+            <button className="popup-close" onClick={() => setShowCalcModal(false)}>×</button>
+            <div>
+              <h2>Total Nutrition</h2>
+              {calcLoading && <p>Calculating...</p>}
+              {calcError && <p style={{ color: 'red' }}>{calcError}</p>}
+              {!calcLoading && calcTotals && (
+                <>
+                  {/*show selected item names*/}
+                  <p>{formatSelectionHeader(calcSelectedNames, calcStats.selected)}</p>
+                  {SUM_FIELDS.map(({ key, label }) => {
+                    const val = Number.isFinite(calcTotals[key]) ? calcTotals[key] : 0;
+                    const unit = SUM_UNITS[key] || '';
+                    return (
+                      <p key={key}>
+                        {label}: {val}{unit ? ` ${unit}` : ''}
+                      </p>
+                    );
+                  })}
+                </>
+              )}
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );

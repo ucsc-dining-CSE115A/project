@@ -51,3 +51,30 @@
   transform: translateY(0);
   box-shadow: 0 2px 8px rgba(0, 60, 108, 0.3);
 }
+
+/* Calculate Button*/
+.calculate-button {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1000;
+
+  /* theme styling */
+  background: #003C6C;
+  color: #fff;
+  border: 1px solid #002a4d;
+  border-radius: 12px;
+  padding: 12px 18px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 6px 16px rgba(0, 60, 108, 0.35);
+  cursor: pointer;
+}
+
+.calculate-button:hover {
+  background: #004080;
+}
+
+.calculate-button:active {
+  transform: translateY(1px);
+}
