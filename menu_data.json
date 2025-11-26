@@ -501,18 +501,6 @@
         ]
       },
       "Lunch": {
-        "- Miscellaneous -": [
-          {
-            "id": 792,
-            "name": "Guacamole",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
         "- Breakfast -": [
           {
             "id": 497,
@@ -614,6 +602,16 @@
           {
             "id": 746,
             "name": "Cuban Black Beans",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 792,
+            "name": "Guacamole",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -1682,6 +1680,16 @@
               "ALC"
             ],
             "price": null
+          },
+          {
+            "id": 738,
+            "name": "Italian Roasted Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
           }
         ],
         "- Entrees -": [
@@ -1698,6 +1706,17 @@
           {
             "id": 16,
             "name": "Harissa Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 408,
+            "name": "Italian Roasted Tofu",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -1727,12 +1746,12 @@
             "price": null
           },
           {
-            "id": 718,
-            "name": "Italian Fennel Chicken",
+            "id": 17,
+            "name": "Roasted Brussels Sprouts",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "GF",
-              "ALC"
+              "VG",
+              "GF"
             ],
             "price": null
           },
