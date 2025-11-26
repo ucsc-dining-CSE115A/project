@@ -1552,16 +1552,6 @@
               "ALC"
             ],
             "price": null
-          },
-          {
-            "id": 616,
-            "name": "Vegan Chocolate Granola Bars",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT"
-            ],
-            "price": null
           }
         ],
         "- Entrees -": [
@@ -1589,8 +1579,8 @@
             "price": null
           },
           {
-            "id": 94,
-            "name": "Sweet Potato, Black Bean, and Kale Hash",
+            "id": 376,
+            "name": "Roasted Red Potatoes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -1599,12 +1589,13 @@
             "price": null
           },
           {
-            "id": 498,
-            "name": "Tater Tots",
-            "avg_rating": 4.0,
+            "id": 7,
+            "name": "Tempeh, Black Bean, and Potato Hash",
+            "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "SOY"
+              "VG",
+              "SOY",
+              "GF"
             ],
             "price": null
           },
