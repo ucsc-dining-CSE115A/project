@@ -40,16 +40,6 @@
             "price": null
           },
           {
-            "id": 4,
-            "name": "Mexican Chorizo Sausage",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "PORK",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 5,
             "name": "Organic Gluten-Free Oatmeal",
             "avg_rating": 0.0,
@@ -742,11 +732,12 @@
             "price": null
           },
           {
-            "id": 785,
-            "name": "Steamed Bok Choy",
+            "id": 72,
+            "name": "Sauteed Bok Choy and Carrots with Sesame",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "SESAME",
               "GF"
             ],
             "price": null
