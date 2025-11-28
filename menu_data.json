@@ -67,13 +67,16 @@
             "price": null
           },
           {
-            "id": 377,
-            "name": "Whole Wheat Vegan Blueberry Pancakes",
+            "id": 95,
+            "name": "Texas French Toast",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "ALC",
-              "WHEAT"
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           }
