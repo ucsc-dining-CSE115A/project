@@ -442,73 +442,19 @@
         ],
         "- Entrees -": [
           {
-            "id": 393,
-            "name": "Chimichurri Roasted Chicken",
+            "id": 794,
+            "name": "Baked Honey Glazed Ham",
             "avg_rating": 0.0,
             "dietary_restrictions": [
+              "PORK",
               "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 136,
-            "name": "Grilled Chimichurri Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
+              "ALC"
             ],
             "price": null
           },
           {
             "id": 394,
             "name": "Sauteed Rainbow Chard with Garlic Oil",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 18,
-            "name": "Steamed Brown Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Grill -": [
-          {
-            "id": 442,
-            "name": "Beef Frank",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 443,
-            "name": "Hot Dog Bun",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 444,
-            "name": "Vegan Hot Dog",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
