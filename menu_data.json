@@ -407,16 +407,6 @@
             "price": null
           },
           {
-            "id": 486,
-            "name": "Honey Mustard Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
             "id": 487,
             "name": "Italian Roasted Mushrooms and Veggies",
             "avg_rating": 0.0,
