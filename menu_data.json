@@ -633,12 +633,12 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 511,
-            "name": "Potato Leek Soup",
+            "id": 64,
+            "name": "Organic Kale and Sweet Potato Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "WHEAT"
+              "GF"
             ],
             "price": null
           }
@@ -890,6 +890,18 @@
         ]
       },
       "Late Night": {
+        "- Soups -": [
+          {
+            "id": 64,
+            "name": "Organic Kale and Sweet Potato Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Entrees -": [
           {
             "id": 544,
@@ -1000,6 +1012,17 @@
             "dietary_restrictions": [
               "SOY",
               "SESAME",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 694,
+            "name": "Carne Asada",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF",
               "GF",
               "HALAL"
             ],
@@ -1392,17 +1415,6 @@
             "price": null
           },
           {
-            "id": 501,
-            "name": "Housemade Creamy Alfredo Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 132,
             "name": "Marinara Sauce",
             "avg_rating": 0.0,
@@ -1434,20 +1446,28 @@
             "price": null
           },
           {
-            "id": 415,
-            "name": "Vegan Italian White Beans",
+            "id": 17,
+            "name": "Roasted Brussels Sprouts",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
             ],
             "price": null
-          }
-        ],
-        "- Grill and Soups -": [
+          },
           {
-            "id": 464,
-            "name": "Italian Roasted Squash and Carrots",
+            "id": 374,
+            "name": "Roasted Cauliflower",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 415,
+            "name": "Vegan Italian White Beans",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
