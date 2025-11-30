@@ -396,17 +396,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 485,
-            "name": "Garlic Mashed Yukon Golds",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 487,
             "name": "Italian Roasted Mushrooms and Veggies",
             "avg_rating": 0.0,
@@ -417,8 +406,19 @@
             "price": null
           },
           {
-            "id": 488,
-            "name": "Sauteed Garlic Kale",
+            "id": 755,
+            "name": "Red Skin Mashed Potatoes",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 785,
+            "name": "Steamed Bok Choy",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -508,6 +508,16 @@
         ],
         "- Hot Bars -": [
           {
+            "id": 56,
+            "name": "Cauliflower Lentil Dal",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 490,
             "name": "Chicken Vindaloo",
             "avg_rating": 0.0,
@@ -575,17 +585,6 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 495,
-            "name": "Tofu Vindaloo",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
               "GF"
             ],
             "price": null
