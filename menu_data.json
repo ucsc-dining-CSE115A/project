@@ -1182,36 +1182,6 @@
             "price": null
           }
         ],
-        "- Sweet Treats -": [
-          {
-            "id": 489,
-            "name": "German Chocolate Cake With Nuts",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "TREENUT",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 484,
-            "name": "Sugar Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
         "- Cold Bars -": [
           {
             "id": 33,
@@ -1426,21 +1396,6 @@
               "VG",
               "SOY",
               "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Sweet Treats -": [
-          {
-            "id": 484,
-            "name": "Sugar Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
             ],
             "price": null
           }
