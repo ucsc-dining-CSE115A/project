@@ -1149,6 +1149,18 @@
         ],
         "- Available 2pm-5pm -": [
           {
+            "id": 567,
+            "name": "BBQ Ginger Soy Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 442,
             "name": "Beef Frank",
             "avg_rating": 0.0,
@@ -1167,6 +1179,16 @@
               "SOY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 413,
+            "name": "Rice Pilaf",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           },
@@ -2047,12 +2069,13 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 543,
-            "name": "Chicken Pozole",
-            "avg_rating": 0.0,
+            "id": 97,
+            "name": "Chicken Noodle Soup",
+            "avg_rating": 3.0,
             "dietary_restrictions": [
-              "GF",
-              "ALC"
+              "SOY",
+              "EGG",
+              "WHEAT"
             ],
             "price": null
           },
