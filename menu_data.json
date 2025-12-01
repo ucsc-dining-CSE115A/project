@@ -1803,12 +1803,13 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 543,
-            "name": "Chicken Pozole",
-            "avg_rating": 0.0,
+            "id": 97,
+            "name": "Chicken Noodle Soup",
+            "avg_rating": 3.0,
             "dietary_restrictions": [
-              "GF",
-              "ALC"
+              "SOY",
+              "EGG",
+              "WHEAT"
             ],
             "price": null
           },
@@ -1825,8 +1826,8 @@
         ],
         "- Entrees -": [
           {
-            "id": 67,
-            "name": "Available Upon Request: Gluten Free Rotini Pasta",
+            "id": 625,
+            "name": "Beyond Meat Smash Burger",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -1835,20 +1836,12 @@
             "price": null
           },
           {
-            "id": 709,
-            "name": "Cajun Rice",
+            "id": 603,
+            "name": "Halal Chicken Patty",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 544,
-            "name": "Creamy Cajun Chicken Pasta",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
+              "SOY",
+              "EGG",
               "DAIRY",
               "WHEAT",
               "HALAL"
@@ -1856,12 +1849,24 @@
             "price": null
           },
           {
-            "id": 134,
-            "name": "Roasted Sweet Potatoes",
+            "id": 76,
+            "name": "Hamburger Bun",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
+              "SOY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 78,
+            "name": "Sweet Potato Fries",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY"
             ],
             "price": null
           }
@@ -1958,80 +1963,65 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 545,
-            "name": "BBQ Beef",
+            "id": 442,
+            "name": "Beef Frank",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "BEEF",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 106,
-            "name": "Cajun Coleslaw",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 47,
-            "name": "Charro Beans",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 49,
-            "name": "Condiments",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 107,
-            "name": "Corn Cobbettes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 546,
-            "name": "Cornbread",
+            "id": 577,
+            "name": "Cheese Sauce",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
               "SOY",
-              "EGG",
               "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 825,
+            "name": "Crumbled Bacon",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 443,
+            "name": "Hot Dog Bun",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
               "WHEAT"
             ],
             "price": null
           },
           {
-            "id": 547,
-            "name": "Smokehouse BBQ Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 110,
-            "name": "Tempeh Roasted with Chorizo Spice",
+            "id": 141,
+            "name": "Sauteed Onions and Peppers",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 444,
+            "name": "Vegan Hot Dog",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
               "GF"
             ],
             "price": null
