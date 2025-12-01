@@ -358,6 +358,16 @@
         ],
         "- Hot Bars -": [
           {
+            "id": 54,
+            "name": "Basmati Rice Pullao",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 432,
             "name": "Cilantro Chutney",
             "avg_rating": 0.0,
