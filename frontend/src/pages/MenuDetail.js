@@ -4,6 +4,7 @@ import MenuCard from '../components/MenuCard';
 import MenuFilter from '../components/MenuFilter';
 import TodayHours from '../components/TodayHours';
 import CurrentMealBanner from '../components/CurrentMealBanner';
+import MacroModal from '../components/MacroModal'; // Render per-item macro panels
 import { useCurrentMeal } from '../components/useCurrentMeal';
 import { supabase } from '../supabaseClient';
 
@@ -20,7 +21,7 @@ function MenuDetail() {
   const [calcTotals, setCalcTotals] = useState(null); // 10 nutritional information items
   const [calcStats, setCalcStats] = useState({ selected: 0, aggregated: 0, missing: 0 }); //summary of selected items
   const [calcSelectedNames, setCalcSelectedNames] = useState([]); // Store the name of the selected items when calculate
-  const macroCacheRef = useRef(new Map()); //cache for per-item macros
+  const macroCacheRef = useRef(new Map()); //cache for per item macros
 
   const decodedName = decodeURIComponent(diningHallName);
   
@@ -143,6 +144,19 @@ function MenuDetail() {
     const itemLabel = count === 1 ? 'item' : 'items';
     const verb = count === 1 ? 'is' : 'are';
     return `${countWord} ${itemLabel} ${verb} selected: ${names.join(', ')}`;
+  };
+
+  // Round to 1 decimal place
+  const roundToOne = (v) => {
+    return Math.round(v * 10) / 10;
+  };
+
+  // Format totals: integer for calories, 1-decimal for others
+  const formatTotal = (key, val) => {
+    if (key === 'calories') {
+      return Math.round(val);
+    }
+    return roundToOne(val).toFixed(1);
   };
 
   // Retrieve the nutritional data for selected items from the macros table in Supabase for later use——summation
@@ -421,25 +435,36 @@ function MenuDetail() {
         <div className="popup-overlay" onClick={() => setShowCalcModal(false)}>
           <div className="popup-content" onClick={(e) => e.stopPropagation()}>
             <button className="popup-close" onClick={() => setShowCalcModal(false)}>×</button>
-            <div>
-              <h2>Total Nutrition</h2>
-              {calcLoading && <p>Calculating...</p>}
-              {calcError && <p style={{ color: 'red' }}>{calcError}</p>}
-              {!calcLoading && calcTotals && (
-                <>
-                  {/*show selected item names*/}
-                  <p>{formatSelectionHeader(calcSelectedNames, calcStats.selected)}</p>
-                  {SUM_FIELDS.map(({ key, label }) => {
-                    const val = Number.isFinite(calcTotals[key]) ? calcTotals[key] : 0;
-                    const unit = SUM_UNITS[key] || '';
-                    return (
-                      <p key={key}>
-                        {label}: {val}{unit ? ` ${unit}` : ''}
-                      </p>
-                    );
-                  })}
-                </>
-              )}
+            {/* Layout: left panels for item macros, right column for totals */}
+            <div className="calc-modal-layout">
+              {/* Render MacroModal for each selected item */}
+              <div className="calc-items">
+                {calcSelectedNames.map((name) => (
+                  <div key={name} className="calc-item-panel">
+                    <MacroModal itemName={name} />
+                  </div>
+                ))}
+              </div>
+              <div className="calc-summary">
+                <h2>Total Nutrition</h2>
+                {calcLoading && <p>Calculating...</p>}
+                {calcError && <p style={{ color: 'red' }}>{calcError}</p>}
+                {!calcLoading && calcTotals && (
+                  <>
+                    {/* Remove selected items header from summary */}
+                    {SUM_FIELDS.map(({ key, label }) => {
+                      const raw = Number.isFinite(calcTotals[key]) ? calcTotals[key] : 0;
+                      const display = formatTotal(key, raw);
+                      const unit = SUM_UNITS[key] || '';
+                      return (
+                        <p key={key}>
+                          {label}: {display}{unit ? ` ${unit}` : ''}
+                        </p>
+                      );
+                    })}
+                  </>
+                )}
+              </div>
             </div>
           </div>
         </div>
