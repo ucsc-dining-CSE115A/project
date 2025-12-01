@@ -152,6 +152,17 @@
       "Lunch": {
         "- Soups -": [
           {
+            "id": 97,
+            "name": "Chicken Noodle Soup",
+            "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 518,
             "name": "Fire Roasted Corn Soup",
             "avg_rating": 0.0,
@@ -161,26 +172,18 @@
               "WHEAT"
             ],
             "price": null
-          },
-          {
-            "id": 422,
-            "name": "Organic Vegan Chili",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
           }
         ],
         "- Entrees -": [
           {
-            "id": 519,
-            "name": "Braised Toscano Potatoes",
+            "id": 417,
+            "name": "Macaroni & Cheese",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
+              "SOY",
+              "DAIRY",
+              "FISH",
+              "WHEAT"
             ],
             "price": null
           },
@@ -218,40 +221,6 @@
             "price": null
           }
         ],
-        "- Grill -": [
-          {
-            "id": 442,
-            "name": "Beef Frank",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 443,
-            "name": "Hot Dog Bun",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 444,
-            "name": "Vegan Hot Dog",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
         "- Pizza -": [
           {
             "id": 523,
@@ -278,6 +247,21 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 117,
+            "name": "Pepperoni Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
@@ -368,11 +352,52 @@
             "price": null
           },
           {
+            "id": 58,
+            "name": "Chana Masala",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 455,
+            "name": "Chicken Tikka Masala",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 432,
             "name": "Cilantro Chutney",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 456,
+            "name": "Dal Saag",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 457,
+            "name": "Masala Baked Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
               "GF"
             ],
             "price": null
