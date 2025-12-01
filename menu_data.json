@@ -550,8 +550,8 @@
             "price": null
           },
           {
-            "id": 534,
-            "name": "Roasted Cauliflower and Vegetable Medley",
+            "id": 30,
+            "name": "Steamed Broccoli",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -710,6 +710,17 @@
             "price": null
           },
           {
+            "id": 408,
+            "name": "Italian Roasted Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 132,
             "name": "Marinara Sauce",
             "avg_rating": 0.0,
@@ -730,8 +741,8 @@
             "price": null
           },
           {
-            "id": 30,
-            "name": "Steamed Broccoli",
+            "id": 17,
+            "name": "Roasted Brussels Sprouts",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
