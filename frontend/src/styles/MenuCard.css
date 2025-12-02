@@ -34,8 +34,9 @@
 .menu-card-text {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   flex-grow: 1; /* Takes up remaining space, pushing rating down */
-  row-gap: 8px;
+  row-gap: 6px;
   width: 100%;
 }
 
@@ -61,9 +62,8 @@
   color: #666666;
   font-family: Inter, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
     SimHei, Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   margin: 0;
-  margin-top: auto; /* Push to bottom */
   padding-bottom: 8px; /* Space before the dividing line */
   text-align: center;
 }

@@ -3,6 +3,26 @@ import Rating from './Rating';
 import MacroModal from './MacroModal';
 import '../styles/MenuCard.css';
 
+// Map dietary restriction codes to more readable labels
+const filterLabelMap = {
+  VG: "Vegan",
+  V: "Vegetarian",
+  GF: "Gluten-Free",
+  EGG: "Egg",
+  SOY: "Soy",
+  DAIRY: "Milk",
+  WHEAT: "Wheat",
+  ALC: "Alcohol",
+  PORK: "Pork",
+  SHELLFISH: "Shellfish",
+  SESAME: "Sesame",
+  BEEF: "Beef",
+  FISH: "Fish",
+  HALAL: "Halal",
+  PEANUT: "Peanut",
+  TREENUT: "Tree Nut"
+};
+
 const MenuCard = ({ itemName, dietaryRestrictions, price, diningHall, averageRating, isSelected, onToggleSelect }) => {
   const [showPopup, setShowPopup] = useState(false);
 
@@ -43,7 +63,10 @@ const MenuCard = ({ itemName, dietaryRestrictions, price, diningHall, averageRat
           {/* Display dietary restrictions at bottom, just above ratings */}
           {dietaryRestrictions && dietaryRestrictions.length > 0 && (
             <p className="menu-card-body">
-              {dietaryRestrictions.join(', ')}
+              {dietaryRestrictions
+                .map((r) => filterLabelMap[r] || r)  // convert to readable label
+                .join(', ')
+              }
             </p>
           )}
 
