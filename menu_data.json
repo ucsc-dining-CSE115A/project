@@ -3593,17 +3593,6 @@
             "price": null
           },
           {
-            "id": 605,
-            "name": "Garlic Roast Beef",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
             "id": 430,
             "name": "Oven Roasted Herbed Potatoes",
             "avg_rating": 0.0,
