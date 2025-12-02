@@ -516,8 +516,8 @@
         ],
         "- Entrees -": [
           {
-            "id": 573,
-            "name": "Green Beans with Mushrooms and Carmelized Onions",
+            "id": 374,
+            "name": "Roasted Cauliflower",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -681,6 +681,16 @@
               "SOY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 608,
+            "name": "Regular Cut Fries",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY"
             ],
             "price": null
           },
@@ -1539,13 +1549,6 @@
             "price": null
           },
           {
-            "id": 25,
-            "name": "Chengdu Wing Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
             "id": 49,
             "name": "Condiments",
             "avg_rating": 0.0,
@@ -1559,6 +1562,27 @@
             "dietary_restrictions": [
               "VG",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 610,
+            "name": "Jerk Chicken Wings",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 611,
+            "name": "Lemon Pepper Chicken Wings",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "GF",
+              "HALAL"
             ],
             "price": null
           },
@@ -1593,6 +1617,13 @@
               "WHEAT"
             ],
             "price": null
+          },
+          {
+            "id": 828,
+            "name": "Wing Central",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
           }
         ],
         "- Cold Bars -": [
@@ -1614,6 +1645,17 @@
       },
       "Late Night": {
         "- Grill -": [
+          {
+            "id": 758,
+            "name": "Pesto Chicken Sandwich",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "WHEAT",
+              "HALAL"
+            ],
+            "price": null
+          },
           {
             "id": 78,
             "name": "Sweet Potato Fries",
@@ -1702,17 +1744,6 @@
             "name": "Hawaiian Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 758,
-            "name": "Pesto Chicken Sandwich",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "WHEAT",
-              "HALAL"
-            ],
             "price": null
           },
           {
