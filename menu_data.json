@@ -1592,19 +1592,6 @@
               "SOY"
             ],
             "price": null
-          },
-          {
-            "id": 588,
-            "name": "Vietnamese Pork Banh Mi Sandwich",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "WHEAT",
-              "PORK",
-              "ALC"
-            ],
-            "price": null
           }
         ],
         "- Pizza -": [
@@ -1684,6 +1671,17 @@
             "name": "Hawaiian Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 758,
+            "name": "Pesto Chicken Sandwich",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "WHEAT",
+              "HALAL"
+            ],
             "price": null
           },
           {
@@ -3768,11 +3766,16 @@
             "price": null
           },
           {
-            "id": 584,
-            "name": "Vegan Spinach and Roasted Garlic Pizza",
+            "id": 619,
+            "name": "Veggie Supreme Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG"
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT"
             ],
             "price": null
           }
@@ -4031,11 +4034,16 @@
             "price": null
           },
           {
-            "id": 584,
-            "name": "Vegan Spinach and Roasted Garlic Pizza",
+            "id": 619,
+            "name": "Veggie Supreme Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG"
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT"
             ],
             "price": null
           }
@@ -4188,19 +4196,6 @@
               "SOY"
             ],
             "price": null
-          },
-          {
-            "id": 588,
-            "name": "Vietnamese Pork Banh Mi Sandwich",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "WHEAT",
-              "PORK",
-              "ALC"
-            ],
-            "price": null
           }
         ],
         "- Pizza, Flatbreads & Pasta -": [
@@ -4219,11 +4214,16 @@
             "price": null
           },
           {
-            "id": 584,
-            "name": "Vegan Spinach and Roasted Garlic Pizza",
+            "id": 619,
+            "name": "Veggie Supreme Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG"
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT"
             ],
             "price": null
           }
