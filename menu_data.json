@@ -1376,6 +1376,17 @@
         ],
         "- Entrees -": [
           {
+            "id": 609,
+            "name": "Creamy Polenta",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 136,
             "name": "Grilled Chimichurri Tofu",
             "avg_rating": 0.0,
@@ -3777,6 +3788,50 @@
         ]
       },
       "Dinner": {
+        "- Entrees -": [
+          {
+            "id": 604,
+            "name": "BBQ Tempeh",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 520,
+            "name": "Roast Pork Loin with Parsley and Shallot Sauce",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 585,
+            "name": "Roasted Kale and Butternut Squash",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 586,
+            "name": "Soft Polenta",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Clean Plate -": [
           {
             "id": 21,
@@ -3864,50 +3919,6 @@
             "name": "Salad Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          }
-        ],
-        "- Entrees -": [
-          {
-            "id": 520,
-            "name": "Roast Pork Loin with Parsley and Shallot Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "PORK",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 585,
-            "name": "Roasted Kale and Butternut Squash",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 586,
-            "name": "Soft Polenta",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 587,
-            "name": "Tempeh Roasted with Salt",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
             "price": null
           }
         ],
