@@ -3582,6 +3582,17 @@
         ],
         "- Entrees -": [
           {
+            "id": 545,
+            "name": "BBQ Beef",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
             "id": 604,
             "name": "BBQ Tempeh",
             "avg_rating": 0.0,
