@@ -493,19 +493,28 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 97,
-            "name": "Chicken Noodle Soup",
-            "avg_rating": 3.0,
+            "id": 499,
+            "name": "Chicken Tortilla Soup",
+            "avg_rating": 0.0,
             "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "WHEAT"
+              "DAIRY",
+              "ALC"
             ],
             "price": null
           },
           {
             "id": 560,
             "name": "Lentil & Lemon Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 482,
+            "name": "Vegan Tortilla Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
