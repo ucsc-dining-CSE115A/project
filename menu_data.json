@@ -2196,6 +2196,16 @@
       "Dinner": {
         "- Soups -": [
           {
+            "id": 499,
+            "name": "Chicken Tortilla Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 64,
             "name": "Organic Kale and Sweet Potato Soup",
             "avg_rating": 0.0,
@@ -2204,38 +2214,26 @@
               "GF"
             ],
             "price": null
-          },
-          {
-            "id": 591,
-            "name": "Portuguese Sausage and Bean Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "WHEAT",
-              "PORK",
-              "ALC"
-            ],
-            "price": null
           }
         ],
         "- Entrees -": [
           {
-            "id": 596,
-            "name": "Garlic Thyme Mushrooms",
+            "id": 738,
+            "name": "Italian Roasted Chicken",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
+              "GF",
+              "HALAL"
             ],
             "price": null
           },
           {
-            "id": 597,
-            "name": "Roasted Turkey Breast with Honey Dijon Sauce",
+            "id": 134,
+            "name": "Roasted Sweet Potatoes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "GF",
-              "ALC"
+              "VG",
+              "GF"
             ],
             "price": null
           },
@@ -2250,23 +2248,13 @@
             "price": null
           },
           {
-            "id": 598,
-            "name": "Vegan Garlic Mashed Potatoes",
+            "id": 541,
+            "name": "Scalloped Potatoes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 513,
-            "name": "Vegan Mushroom Gravy",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT",
-              "ALC"
+              "V",
+              "DAIRY",
+              "WHEAT"
             ],
             "price": null
           }
