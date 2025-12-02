@@ -157,9 +157,7 @@
       {
         "days": "Monday-Thursday",
         "time": "8 AM - 8 PM"
-      }
-    ],
-    "AllDay": [
+      },
       {
         "days": "Friday",
         "time": "8 AM - 5 PM"
@@ -171,9 +169,7 @@
       {
         "days": "Monday-Friday",
         "time": "8 AM - 5 PM"
-      }
-    ],
-    "AllDay": [
+      },
       {
         "days": "Friday",
         "time": "8 AM - 4 PM"
@@ -196,7 +192,7 @@
       }
     ]
   },
-  "University Center Cafe": {
+  "UCen Coffee Bar": {
     "AllDay": [
       {
         "days": "Monday-Friday",
