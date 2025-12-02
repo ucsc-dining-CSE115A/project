@@ -1260,6 +1260,26 @@
             "price": null
           },
           {
+            "id": 699,
+            "name": "Limes",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 707,
+            "name": "Mung Bean Sprouts",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 766,
             "name": "Pad See Ew",
             "avg_rating": 0.0,
@@ -1922,24 +1942,22 @@
       "Lunch": {
         "- Soups -": [
           {
+            "id": 499,
+            "name": "Chicken Tortilla Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 64,
             "name": "Organic Kale and Sweet Potato Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 591,
-            "name": "Portuguese Sausage and Bean Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "WHEAT",
-              "PORK",
-              "ALC"
             ],
             "price": null
           }
