@@ -1,0 +1,21 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fffde9;
+}
+
+/* Modal: disable background scroll while open */
+body.modal-open {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,186 @@
+/* MenuCard styles based on Figma design */
+/* Card container with border, padding and fixed dimensions */
+.menu-card {
+  display: flex;
+  flex-direction: column; /* Changed to column layout */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 23px;
+  width: 325px;
+  min-height: 200px; /* Set a minimum height for consistent card size */
+  box-sizing: border-box;
+  overflow: hidden; /* Prevent content from bleeding out */
+  position: relative; /* For absolute positioning of checkbox */
+}
+
+/* Checkbox container */
+.menu-card-checkbox {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  z-index: 10;
+}
+
+/* Checkbox input styling */
+.menu-card-checkbox-input {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #003c6c; /* UCSC blue color */
+}
+
+/* Text container for title and body */
+.menu-card-text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Takes up remaining space, pushing rating down */
+  row-gap: 8px;
+  width: 100%;
+}
+
+/* Menu item title styling */
+.menu-card-title {
+  flex-shrink: 0;
+  width: 100%;
+  line-height: 29px;
+  letter-spacing: -0.48px;
+  color: #333333;
+  font-family: Inter, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    SimHei, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Body text styling for dietary restrictions */
+.menu-card-body {
+  flex-shrink: 0;
+  line-height: 22px;
+  letter-spacing: 0;
+  color: #666666;
+  font-family: Inter, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    SimHei, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  margin-top: auto; /* Push to bottom */
+  padding-bottom: 8px; /* Space before the dividing line */
+  text-align: center;
+}
+
+/* Price styling */
+.menu-card-price {
+  font-size: 18px;
+  font-weight: 600;
+  color: #003c6c;
+  margin: 4px 0;
+}
+
+/* Rating container styling - fixed at bottom */
+.menu-card-text > div {
+  margin-top: auto; /* Push rating to bottom */
+  padding-top: 12px;
+  border-top: 1px solid #f0f0f0; /* Optional: add separator line */
+}
+
+/* Center the rating stars */
+.rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.menu-card-rating {
+  flex-shrink: 0;
+  line-height: 22px;
+  letter-spacing: 0;
+  color: #666666;
+  font-family: Inter, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    SimHei, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  margin-top: auto; /* Push to bottom */
+  padding-top: 8px;
+}
+
+/* Centered overlay for MacroModal */
+.popup-overlay {
+  position: fixed; /* cover entire viewport */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4); /* dim background */
+  display: flex; /* center content */
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* above page content */
+  /* Blur the background */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* Modal content panel */
+.popup-content {
+  background: #ffffff;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 1100px; /* widen for two-column layout */
+  max-height: 80vh; /* long content scrolls inside */
+  overflow: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+}
+
+/* Close button inside modal */
+.popup-close {
+  position: sticky; /* keep accessible at top while scrolling */
+  top: 0;
+  font-size: 24px;
+  line-height: 1;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  float: right;
+}
+
+/* Calc modal two-column layout */
+.calc-modal-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+
+.calc-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.calc-item-panel {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+}
+
+.calc-summary {
+  align-self: start;
+  position: sticky;
+  top: 0;
+  /* Make right summary panel rounded */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+}
+
+@media (max-width: 900px) {
+  .calc-modal-layout {
+    grid-template-columns: 1fr;
+  }
+  .calc-items {
+    grid-template-columns: 1fr;
+  }
+}

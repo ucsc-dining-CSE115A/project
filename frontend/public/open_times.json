@@ -1,0 +1,208 @@
+{
+"halls": {
+  "John R. Lewis & College Nine Dining Hall": {
+    "Breakfast": [
+      {
+        "days": "Sunday-Saturday",
+        "time": "7-11 AM"
+      }
+    ],
+    "Lunch": [
+      {
+        "days": "Sunday-Saturday",
+        "time": "11:30-2 PM"
+      }
+    ],
+    "Dinner": [
+      {
+        "days": "Sunday-Saturday",
+        "time": "5-8 PM"
+      }
+    ],
+    "Late Night": [
+      {
+        "days": "Tuesday-Saturday",
+        "time": "8-11 PM"
+      }
+    ]
+  },
+  "Cowell & Stevenson Dining Hall": {
+    "Breakfast": [
+      {
+        "days": "Monday-Friday",
+        "time": "7-11 AM"
+      },
+      {
+        "days": "Saturday-Sunday",
+        "time": "7-10 AM"
+      }
+    ],
+    "Lunch": [
+      {
+        "days": "Monday-Friday",
+        "time": "11:30-2 PM"
+      }
+    ],
+    "Brunch": [
+      {
+        "days": "Saturday-Sunday",
+        "time": "10-2 PM"
+      }
+    ],
+    "Dinner": [
+      {
+        "days": "Sunday-Saturday",
+        "time": "5-8 PM"
+      }
+    ],
+    "Late Night": [
+      {
+        "days": "Monday-Thursday",
+        "time": "8-11 PM"
+      }
+    ]
+  },
+  "Crown & Merrill Dining Hall and Banana Joe's": {
+    "Breakfast": [
+      {
+        "days": "Monday-Friday",
+        "time": "7-11 AM"
+      }
+    ],
+    "Lunch": [
+      {
+        "days": "Monday-Friday",
+        "time": "11:30-2 PM"
+      }
+    ],
+    "Dinner": [
+      {
+        "days": "Monday-Friday",
+        "time": "5-8 PM"
+      }
+    ],
+    "Late Night": [
+      {
+        "days": "Monday-Friday",
+        "time": "8-11 PM"
+      }
+    ]
+  },
+  "Porter & Kresge Dining Hall": {
+    "Breakfast": [
+      {
+        "days": "Monday-Friday",
+        "time": "7-11 AM"
+      }
+    ],
+    "Lunch": [
+      {
+        "days": "Monday-Friday",
+        "time": "11:30-2 PM"
+      }
+    ],
+    "Dinner": [
+      {
+        "days": "Monday-Friday",
+        "time": "5-7 PM"
+      }
+    ]
+  },
+  "Rachel Carson & Oakes Dining Hall": {
+    "Breakfast": [
+      {
+        "days": "Monday-Friday",
+        "time": "7-11 AM"
+      },
+      {
+        "days": "Saturday-Sunday",
+        "time": "7-10 AM"
+      }
+    ],
+    "Lunch": [
+      {
+        "days": "Monday-Friday",
+        "time": "11:30-2 PM"
+      }
+    ],
+    "Brunch": [
+      {
+        "days": "Saturday-Sunday",
+        "time": "10-2 PM"
+      }
+    ],
+    "Dinner": [
+      {
+        "days": "Sunday-Saturday",
+        "time": "5-8 PM"
+      }
+    ],
+    "Late Night": [
+      {
+        "days": "Sunday-Thursday",
+        "time": "8-11 PM"
+      }
+    ]
+  },
+  "Oakes Cafe": {
+    "AllDay": [
+      {
+        "days": "Monday-Friday",
+        "time": "8 AM - 8 PM"
+      }
+    ]
+  },
+  "Global Village Cafe": {
+    "AllDay": [
+      {
+        "days": "Monday-Thursday",
+        "time": "8 AM - 8 PM"
+      }
+    ],
+    "AllDay": [
+      {
+        "days": "Friday",
+        "time": "8 AM - 5 PM"
+      }
+    ]
+  },
+  "Owl's Nest Cafe": {
+    "AllDay": [
+      {
+        "days": "Monday-Friday",
+        "time": "8 AM - 5 PM"
+      }
+    ],
+    "AllDay": [
+      {
+        "days": "Friday",
+        "time": "8 AM - 4 PM"
+      }
+    ]
+  },
+  "Stevenson Coffee House": {
+    "AllDay": [
+      {
+        "days": "Monday-Friday",
+        "time": "8 AM - 8 PM"
+      }
+    ]
+  },
+  "Perk Coffee Bar": {
+    "AllDay": [
+      {
+        "days": "Monday-Friday",
+        "time": "8 AM - 5 PM"
+      }
+    ]
+  },
+  "University Center Cafe": {
+    "AllDay": [
+      {
+        "days": "Monday-Friday",
+        "time": "8 AM - 4 PM"
+      }
+    ]
+  }
+}
+}

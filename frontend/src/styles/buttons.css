@@ -1,0 +1,80 @@
+/* Menu Button */
+/* Updated theme colors to dark blue #003C6C */
+.menu-button {
+  width: 100%;
+  padding: 14px 18px;
+  border: 1px solid #002a4d;
+  border-radius: 10px;
+  background: #003C6C;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+.menu-button:hover {
+  background: #004080;
+  border-color: #001a33;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  transform: translateY(-1px);
+}
+
+.menu-button:active {
+  transform: translateY(0);
+}
+
+/* Choose Dining Hall Button - Updated to dark blue theme #003C6C */
+.choose-dining-hall-button {
+  padding: 10px 20px;
+  background: #003C6C;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  font-size: 48px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 60, 108, 0.3);
+  transition: all 0.3s ease;
+  margin-top: 75px;
+  margin-left: 300px;
+  display: block;
+}
+
+.choose-dining-hall-button:hover {
+  background: #004080;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 64, 128, 0.4);
+}
+
+.choose-dining-hall-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(0, 60, 108, 0.3);
+}
+
+/* Calculate Button*/
+.calculate-button {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1000;
+
+  /* theme styling */
+  background: #003C6C;
+  color: #fff;
+  border: 1px solid #002a4d;
+  border-radius: 12px;
+  padding: 12px 18px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 6px 16px rgba(0, 60, 108, 0.35);
+  cursor: pointer;
+}
+
+.calculate-button:hover {
+  background: #004080;
+}
+
+.calculate-button:active {
+  transform: translateY(1px);
+}

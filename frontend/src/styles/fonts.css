@@ -1,0 +1,84 @@
+/* ---------------------------------------------------
+   Global Typography for SlugGrub
+   --------------------------------------------------- */
+
+/* Import Fonts (Inter = main UI font, Playfair = homepage hero only) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap');
+
+/* Apply Inter as the default font globally */
+* {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ------------------------------------------
+   Global Heading Scale
+   ------------------------------------------ */
+
+h1, .h1 {
+  font-weight: 800;
+  font-size: 2.6rem;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+}
+
+h2, .h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+h3, .h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+h4, .h4 {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+/* ------------------------------------------
+   Body Text
+   ------------------------------------------ */
+
+p, .body-text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #1c2a3a;
+}
+
+.small-text {
+  font-size: 0.85rem;
+  opacity: 0.75;
+}
+
+/* ------------------------------------------
+   Buttons & UI Labels
+   ------------------------------------------ */
+
+.button-text,
+.btn,
+.badge,
+.filter-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* ------------------------------------------
+   Homepage Hero Font Override
+   ------------------------------------------ */
+
+.hero-title {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 5rem;
+  font-weight: 1000;
+  letter-spacing: 5px;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: white;
+}

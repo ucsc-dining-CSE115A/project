@@ -1,0 +1,42 @@
+/* Navbar - Updated to dark blue theme #003C6C */
+.navbar {
+  margin: 0;
+  padding: 0; /* Changed from padding: 15px 0 */
+  background: linear-gradient(135deg, #003C6C 0%, #004080 100%);
+  box-shadow: 0 4px 20px rgba(0, 60, 108, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between; /* Changed from center */
+  align-items: center;
+  gap: 20px; /* Changed from 40px */
+  margin: 0 auto;
+  padding: 20px 100px; /* Changed from 0 20px */
+  max-width: 1400px; /* Added */
+}
+
+.logo-link {
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  display: block;
+  height: 35px;
+  width: auto;
+  object-fit: contain;
+}
+
+.nav-link {
+  color: #ffffff; /* Changed from #fff */
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 15px; /* Changed from 12px 24px */
+  border-radius: 8px; /* Changed from 25px */
+  /* Removed background, backdrop-filter, and transition */
+}

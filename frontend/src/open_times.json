@@ -1,0 +1,162 @@
+{
+  "halls": {
+    "John R. Lewis & College Nine Dining Hall": {
+      "Breakfast": {
+        "Sunday": "7-11 AM",
+        "Monday": "7-11 AM",
+        "Tuesday": "7-11 AM",
+        "Wednesday": "7-11 AM",
+        "Thursday": "7-11 AM",
+        "Friday": "7-11 AM",
+        "Saturday": "7-11 AM"
+      },
+      "Lunch": {
+        "Sunday": "11:30-2 PM",
+        "Monday": "11:30-2 PM",
+        "Tuesday": "11:30-2 PM",
+        "Wednesday": "11:30-2 PM",
+        "Thursday": "11:30-2 PM",
+        "Friday": "11:30-2 PM",
+        "Saturday": "11:30-2 PM"
+      },
+      "Dinner": {
+        "Sunday": "5-8 PM",
+        "Monday": "5-8 PM",
+        "Tuesday": "5-8 PM",
+        "Wednesday": "5-8 PM",
+        "Thursday": "5-8 PM",
+        "Friday": "5-8 PM",
+        "Saturday": "5-8 PM"
+      },
+      "Late Night": {
+        "Tuesday": "8-11 PM",
+        "Wednesday": "8-11 PM",
+        "Thursday": "8-11 PM",
+        "Friday": "8-11 PM",
+        "Saturday": "8-11 PM"
+      }
+    },
+    "Cowell & Stevenson Dining Hall": {
+      "Breakfast": {
+        "Sunday": "7-10 AM",
+        "Monday": "7-11 AM",
+        "Tuesday": "7-11 AM",
+        "Wednesday": "7-11 AM",
+        "Thursday": "7-11 AM",
+        "Friday": "7-11 AM",
+        "Saturday": "7-10 AM"
+      },
+      "Lunch": {
+        "Monday": "11:30-2 PM",
+        "Tuesday": "11:30-2 PM",
+        "Wednesday": "11:30-2 PM",
+        "Thursday": "11:30-2 PM",
+        "Friday": "11:30-2 PM"
+      },
+      "Brunch": {
+        "Saturday": "10-2 PM",
+        "Sunday": "10-2 PM"
+      },
+      "Dinner": {
+        "Sunday": "5-8 PM",
+        "Monday": "5-8 PM",
+        "Tuesday": "5-8 PM",
+        "Wednesday": "5-8 PM",
+        "Thursday": "5-8 PM",
+        "Friday": "5-8 PM",
+        "Saturday": "5-8 PM"
+      },
+      "Late Night": {
+        "Sunday": "8-11 PM",
+        "Monday": "8-11 PM",
+        "Tuesday": "8-11 PM",
+        "Wednesday": "8-11 PM",
+        "Thursday": "8-11 PM"
+      }
+    },
+    "Crown & Merrill Dining Hall": {
+      "Breakfast": {
+        "Monday": "7-11 AM",
+        "Tuesday": "7-11 AM",
+        "Wednesday": "7-11 AM",
+        "Thursday": "7-11 AM",
+        "Friday": "7-11 AM"
+      },
+      "Lunch": {
+        "Monday": "11:30-2 PM",
+        "Tuesday": "11:30-2 PM",
+        "Wednesday": "11:30-2 PM",
+        "Thursday": "11:30-2 PM",
+        "Friday": "11:30-2 PM"
+      },
+      "Dinner": {
+        "Monday": "5-8 PM",
+        "Tuesday": "5-8 PM",
+        "Wednesday": "5-8 PM",
+        "Thursday": "5-8 PM",
+        "Friday": "5-8 PM"
+      }
+    },
+    "Porter & Kresge Dining Hall": {
+      "Breakfast": {
+        "Monday": "7-11 AM",
+        "Tuesday": "7-11 AM",
+        "Wednesday": "7-11 AM",
+        "Thursday": "7-11 AM",
+        "Friday": "7-11 AM"
+      },
+      "Lunch": {
+        "Monday": "11:30-2 PM",
+        "Tuesday": "11:30-2 PM",
+        "Wednesday": "11:30-2 PM",
+        "Thursday": "11:30-2 PM",
+        "Friday": "11:30-2 PM"
+      },
+      "Dinner": {
+        "Monday": "5-7 PM",
+        "Tuesday": "5-7 PM",
+        "Wednesday": "5-7 PM",
+        "Thursday": "5-7 PM",
+        "Friday": "5-7 PM"
+      }
+    },
+    "Rachel Carson & Oakes Dining Hall": {
+      "Breakfast": {
+        "Sunday": "7-10 AM",
+        "Monday": "7-11 AM",
+        "Tuesday": "7-11 AM",
+        "Wednesday": "7-11 AM",
+        "Thursday": "7-11 AM",
+        "Friday": "7-11 AM",
+        "Saturday": "7-10 AM"
+      },
+      "Lunch": {
+        "Monday": "11:30-2 PM",
+        "Tuesday": "11:30-2 PM",
+        "Wednesday": "11:30-2 PM",
+        "Thursday": "11:30-2 PM",
+        "Friday": "11:30-2 PM"
+      },
+      "Brunch": {
+        "Saturday": "10-2 PM",
+        "Sunday": "10-2 PM"
+      },
+      "Dinner": {
+        "Sunday": "5-8 PM",
+        "Monday": "5-8 PM",
+        "Tuesday": "5-8 PM",
+        "Wednesday": "5-8 PM",
+        "Thursday": "5-8 PM",
+        "Friday": "5-8 PM",
+        "Saturday": "5-8 PM"
+      },
+      "Late Night": {
+        "Sunday": "8-11 PM",
+        "Monday": "8-11 PM",
+        "Tuesday": "8-11 PM",
+        "Wednesday": "8-11 PM",
+        "Thursday": "8-11 PM"
+      }
+    }
+  }
+}
