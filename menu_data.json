@@ -698,18 +698,6 @@
             "price": null
           },
           {
-            "id": 389,
-            "name": "Focaccia Breadsticks",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 408,
             "name": "Italian Roasted Tofu",
             "avg_rating": 0.0,
@@ -2947,29 +2935,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 548,
-            "name": "Orange Glazed Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 29,
-            "name": "Orange Glazed Gardein",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 427,
             "name": "Pineapple Fried Rice",
             "avg_rating": 0.0,
@@ -2996,35 +2961,12 @@
         ],
         "- Grill -": [
           {
-            "id": 115,
-            "name": "French Fries",
-            "avg_rating": 0.0,
+            "id": 498,
+            "name": "Tater Tots",
+            "avg_rating": 4.0,
             "dietary_restrictions": [
               "V",
               "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 130,
-            "name": "Halal Chicken Nuggets",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "WHEAT",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 129,
-            "name": "Vegan Tenders",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
             ],
             "price": null
           }
@@ -3130,15 +3072,6 @@
             "price": null
           },
           {
-            "id": 538,
-            "name": "Buffalo Cauliflower",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V"
-            ],
-            "price": null
-          },
-          {
             "id": 49,
             "name": "Condiments",
             "avg_rating": 0.0,
@@ -3167,6 +3100,18 @@
             "price": null
           },
           {
+            "id": 28,
+            "name": "Hoisin Chicken Wings",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
             "id": 127,
             "name": "Hot 'N Spicy Wings",
             "avg_rating": 0.0,
@@ -3181,6 +3126,17 @@
             "name": "Smoke & Spice Wing Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 32,
+            "name": "Szechuan Chicken Wings",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "ALC"
+            ],
             "price": null
           },
           {
@@ -3925,6 +3881,29 @@
         ]
       },
       "Late Night": {
+        "- Entrees -": [
+          {
+            "id": 826,
+            "name": "Alfredo Sauce",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 391,
+            "name": "Penne",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT"
+            ],
+            "price": null
+          }
+        ],
         "- Clean Plate -": [
           {
             "id": 21,
@@ -4066,28 +4045,6 @@
               "DAIRY",
               "GF",
               "HALAL"
-            ],
-            "price": null
-          }
-        ],
-        "- Grill and Soups -": [
-          {
-            "id": 508,
-            "name": "Sidewinder Fry",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 818,
-            "name": "Torta Ahogada",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "WHEAT",
-              "BEEF"
             ],
             "price": null
           }
