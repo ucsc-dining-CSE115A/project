@@ -127,7 +127,7 @@ function dayMatches(daysStr, todayName) {
 
 // ---------- Main Component ----------
 
-function TodayHours({ diningHallName }) {
+function TodayHours({ diningHallName, dateOverride }) {
   const [todayLabel, setTodayLabel] = useState("");
   const [overallRange, setOverallRange] = useState(null); // Full open-close for today
   const [todayMeals, setTodayMeals] = useState([]); // List of meal blocks
@@ -146,7 +146,7 @@ function TodayHours({ diningHallName }) {
         const data = await res.json();
 
         const hallTimes = data.halls?.[diningHallName];
-        const today = new Date();
+        const today = dateOverride ? new Date(dateOverride) : new Date();
         const todayName = DAY_NAMES[today.getDay()];
 
         setTodayLabel(todayName);
@@ -245,10 +245,12 @@ function TodayHours({ diningHallName }) {
 
   // --------------------- Render Section ----------------------
 
+  const titleText = dateOverride ? `Hours for ${dateOverride}` : "Today's Hours";
+
   if (loading) {
     return (
       <div className="today-hours-card">
-        <h2 className="today-hours-title">Today's Hours</h2>
+        <h2 className="today-hours-title">{titleText}</h2>
         <div className="today-hours-loading">Loading…</div>
       </div>
     );
@@ -257,7 +259,7 @@ function TodayHours({ diningHallName }) {
   if (error) {
     return (
       <div className="today-hours-card">
-        <h2 className="today-hours-title">Today's Hours</h2>
+        <h2 className="today-hours-title">{titleText}</h2>
         <div className="today-hours-error">{error}</div>
       </div>
     );
@@ -267,7 +269,7 @@ function TodayHours({ diningHallName }) {
 
   return (
     <div className="today-hours-card">
-      <h2 className="today-hours-title">Today's Hours</h2>
+      <h2 className="today-hours-title">{titleText}</h2>
       <div className="today-hours-day">{todayLabel}</div>
 
       {hasAny ? (
