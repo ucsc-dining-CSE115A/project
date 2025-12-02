@@ -526,6 +526,17 @@
             "price": null
           },
           {
+            "id": 829,
+            "name": "Spicy Shrimp Fra Diavolo",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SHELLFISH",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
             "id": 18,
             "name": "Steamed Brown Rice",
             "avg_rating": 0.0,
@@ -1108,6 +1119,19 @@
         ]
       },
       "Lunch": {
+        "- Breakfast -": [
+          {
+            "id": 544,
+            "name": "Creamy Cajun Chicken Pasta",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "WHEAT",
+              "HALAL"
+            ],
+            "price": null
+          }
+        ],
         "- Soups -": [
           {
             "id": 121,
@@ -1367,6 +1391,20 @@
             "name": "Salad Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
+            "price": null
+          }
+        ],
+        "- Available 2pm-5pm -": [
+          {
+            "id": 736,
+            "name": "BBQ Ginger Soy Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "GF",
+              "HALAL"
+            ],
             "price": null
           }
         ]
