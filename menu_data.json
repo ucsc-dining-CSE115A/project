@@ -130,18 +130,28 @@
             "price": null
           },
           {
-            "id": 617,
-            "name": "Turkey Noodle Soup",
+            "id": 481,
+            "name": "Pork Pozole",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "EGG",
-              "WHEAT",
-              "ALC"
+              "PORK",
+              "GF"
             ],
             "price": null
           }
         ],
         "- Entrees -": [
+          {
+            "id": 502,
+            "name": "Porcini Crusted Roasted Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
           {
             "id": 17,
             "name": "Roasted Brussels Sprouts",
@@ -3606,6 +3616,32 @@
         ]
       },
       "Dinner": {
+        "- Salads -": [
+          {
+            "id": 839,
+            "name": "Sesame Rice Noodle Salad",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 840,
+            "name": "Sunomono Cucumber Salad",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Clean Plate -": [
           {
             "id": 21,
@@ -3652,17 +3688,6 @@
             "price": null
           },
           {
-            "id": 836,
-            "name": "Chocolate Ice Cream",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 803,
             "name": "Pecan Pie",
             "avg_rating": 0.0,
@@ -3672,6 +3697,31 @@
               "EGG",
               "TREENUT",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 657,
+            "name": "Pumpkin Pie",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 119,
+            "name": "Vegan Chocolate Chip Cookie",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           }
@@ -3689,21 +3739,6 @@
             "name": "Salad Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          }
-        ],
-        "- Entrees -": [
-          {
-            "id": 657,
-            "name": "Pumpkin Pie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT"
-            ],
             "price": null
           }
         ],
