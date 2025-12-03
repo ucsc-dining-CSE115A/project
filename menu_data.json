@@ -2966,31 +2966,6 @@
             "price": null
           }
         ],
-        "- Grill -": [
-          {
-            "id": 638,
-            "name": "Cheese Quesadilla",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 639,
-            "name": "Vegan Mushroom Spinach Quesadilla",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          }
-        ],
         "- Clean Plate -": [
           {
             "id": 21,
