@@ -143,39 +143,18 @@
         ],
         "- Entrees -": [
           {
-            "id": 718,
-            "name": "Italian Fennel Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 408,
-            "name": "Italian Roasted Tofu",
+            "id": 17,
+            "name": "Roasted Brussels Sprouts",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SOY",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 719,
-            "name": "Lemon Herbed Orzo",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 17,
-            "name": "Roasted Brussels Sprouts",
+            "id": 837,
+            "name": "Vegan Cacciatore Vedura",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
