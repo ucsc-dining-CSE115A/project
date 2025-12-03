@@ -3561,12 +3561,14 @@
             "price": null
           },
           {
-            "id": 120,
-            "name": "Mushroom & Barley Soup",
+            "id": 838,
+            "name": "Tuscan Bean & Mushroom",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "WHEAT"
+              "SOY",
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           }
