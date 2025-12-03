@@ -1,0 +1,175 @@
+/* example in src/styles/todayHours.css or a new file */
+
+.current-meal-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  background: rgba(0, 60, 108, 0.08);
+  border: 1px solid rgba(0, 60, 108, 0.18);
+  color: #003c6c;
+  font-size: 0.9rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.current-meal-main {
+  font-weight: 600;
+}
+
+.current-meal-next {
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+
+/* TodayHours Component Styles */
+.today-hours-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px 20px;
+  /* Match Filter module framing: deep navy outline + top accent */
+  border: 2px solid #003C6C;
+  border-top: 6px solid #003C6C;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 60, 108, 0.15);
+  min-width: 187px;
+  width: max-content;
+  box-sizing: border-box;
+  margin-top: 60px;
+  align-self: flex-start;
+  max-width: 100%;
+}
+
+.today-hours-actions {
+  align-self: flex-start;
+  margin-top: 12px;
+  position: relative;
+}
+
+.future-menu-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+  background: #ffffff;
+  border: 1px solid #003C6C;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0, 60, 108, 0.2);
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  z-index: 10;
+  min-width: 180px;
+}
+
+.future-menu-item {
+  padding: 8px 12px;
+  background: #003C6C;
+  color: #fff;
+  border: 1px solid #002a4d;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  width: 100%;
+  text-align: center;
+}
+
+.future-menu-item:hover {
+  background: #004080;
+}
+
+.today-hours-title {
+  font-weight: 700;
+  color: #003C6C;
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 4px;
+  white-space: nowrap;
+}
+
+.menu-date-badge {
+  display: inline-block;
+  margin: 10px auto 14px;
+  padding: 8px 14px;
+  border: 2px solid #003C6C;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 60, 108, 0.15);
+  color: #003C6C;
+  font-weight: 700;
+}
+
+.today-hours-range {
+  font-weight: 600; /* Make it bold like the meal times */
+  color: #3070c3;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.today-hours-time {
+  font-weight: 600;
+  color: #3070c3;
+  font-size: 16px;
+  padding: 4px 0;
+}
+
+.today-hours-closed {
+  color: #e53e3e;
+  font-weight: 600;
+}
+
+/* Updated menu layout to accommodate hours on the right */
+.menu-main-content {
+  display: flex;
+  gap: 30px;
+  flex: 1;
+}
+
+.menu-content {
+  flex: 1;
+}
+
+.hours-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  position: sticky;
+  top: 90px;
+  max-height: calc(100vh - 140px);
+  overflow-y: auto;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 1024px) {
+  .menu-main-content {
+    flex-direction: column;
+  }
+  
+  .today-hours-card {
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-detail-content {
+    flex-direction: column;
+  }
+  
+  .menu-main-content {
+    flex-direction: column;
+  }
+  
+  .today-hours-card {
+    order: -1;
+    margin-bottom: 20px;
+  }
+}

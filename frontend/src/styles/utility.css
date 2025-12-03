@@ -1,0 +1,17 @@
+/* Loading & Error States */
+.loading {
+  text-align: center;
+  padding: 50px;
+  font-size: 18px;
+  color: #003C6C;
+}
+
+.error {
+  text-align: center;
+  padding: 50px;
+  font-size: 18px;
+  color: #e74c3c;
+  background: #ffeaea;
+  border-radius: 8px;
+  margin: 20px 0;
+}

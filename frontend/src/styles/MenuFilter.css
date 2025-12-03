@@ -1,0 +1,195 @@
+/* MenuFilter component styles - Themed to UCSC dark blue */
+/* Consolidated and optimized version with clear module framing */
+
+/* Top-level container theme and framing */
+.menu-filter {
+  background: #ffffff; /* Clean white background to match cards */
+  border: 2px solid #003C6C; /* Dark blue frame for clear module look */
+  border-top: 6px solid #003C6C; /* Accent bar at top for emphasis */
+  border-radius: 12px;
+  padding: 10px 6px; /* Reduced padding */
+  margin-top: 65px;
+  margin-bottom: 24px;
+  /* Content-driven width: follow widest child (Clear All button) */
+  width: 122px; /* Container width equals content width */
+  max-width: 122px; /* Match button width incl. padding */
+  margin-left: 4.1rem; /* Center the module horizontally */
+  margin-right: 0rem;
+  box-shadow: 0 4px 12px rgba(0, 60, 108, 0.15); /* Slightly stronger shadow */
+  flex-shrink: 0;
+  position: sticky;
+  top: 90px;
+  z-index: 10;
+}
+
+/* Keep a fixed column width when placed next to menu content */
+.menu-detail-content .menu-filter {
+  flex: 0 0 auto; /* Content-based column width in desktop two-column layout */
+}
+
+/* Filter header with title and clear button */
+.filter-header {
+  display: flex;
+  /* Vertical header: title on first line, button on second */
+  flex-direction: column; /* Stack header elements vertically */
+  align-items: flex-start; /* Left align to allow narrower width */
+  gap: 6px; /* Reduced gap */
+  margin-bottom: 12px; /* Reduced margin */
+}
+
+/* Header title color aligned with theme */
+.filter-header h3 {
+  margin: 0;
+  color: #003C6C; /* Dark blue title to match theme */
+  font-size: 1.05rem; /* Smaller font */
+  font-weight: 600;
+  /* Allow title to wrap instead of forcing container to grow */
+  min-width: 0;
+}
+
+/* Clear all filters button - themed to dark blue */
+.clear-filters-btn {
+  background: #003C6C; /* Match theme color for consistency */
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px; /* Reduced padding */
+  font-size: 0.8rem; /* Smaller font */
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  /* Button width equals its text + padding for accurate module sizing */
+  width: max-content;
+}
+
+.clear-filters-btn:hover {
+  background: #004080; /* Darker blue on hover */
+  transform: translateY(-1px);
+}
+
+/* Filter options container - responsive grid */
+.filter-options {
+  /* Stack options vertically: one item per line for a long strip */
+  display: flex; /* Vertical list layout */
+  flex-direction: column; /* One option per row */
+  gap: 4px;
+  margin-bottom: 5px;
+}
+
+/* Individual filter checkbox styling */
+.filter-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Left-align text in full-width rows */
+  width: 100%; /* Each option fills the row */
+  padding: 5.8px 12px; /* Fixed padding to keep consistent size */
+  border: 2.5px solid #ddd; /* Neutral border by default */
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #ffffff;
+  min-height: 30px; /* Fixed height to maintain visual consistency */
+  position: relative;
+  user-select: none;
+}
+
+/* Checkbox hover and selected states themed */
+.filter-checkbox:hover {
+  border-color: #003C6C; /* Themed border on hover */
+  background: #f0f6ff; /* Light blue tint on hover */
+  transform: translateY(-1px);
+}
+
+.filter-checkbox.selected {
+  background: #003C6C; /* Selected matches theme */
+  border-color: #004080; /* Slightly darker border for depth */
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.filter-checkbox.selected:hover {
+  background: #004080; /* Darker hover for selected */
+  border-color: #003060; /* Deeper blue on hover */
+}
+
+/* Hide the actual checkbox input */
+.filter-checkbox input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+/* Filter label text */
+.filter-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-align: center;
+  pointer-events: none;
+}
+
+/* Active filters info - themed */
+.active-filters-info {
+  text-align: center;
+  color: #003C6C; /* Themed info text */
+  font-size: 0.85rem; /* Smaller font */
+  font-style: italic;
+  margin-top: 6px; /* Reduced margin */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  /* Keep vertical single-column list on mobile as well */
+  .filter-options {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  /* On mobile, let filter take full width when stacked */
+  .menu-detail-content .menu-filter {
+    flex: 1 1 100%; /* Full width in stacked layout */
+    max-width: 100%;
+  }
+  /* Remove grid override; maintain vertical layout */
+  /* .filter-options grid override removed */
+  
+  .filter-checkbox {
+    padding: 6px 8px;
+    min-height: 36px;
+  }
+  
+  .filter-label {
+    font-size: 0.8rem;
+  }
+  
+  .filter-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .clear-filters-btn {
+    align-self: flex-end;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  /* Keep vertical single-column list on extra small screens */
+  .filter-options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter-checkbox {
+    padding: 4px 6px;
+    min-height: 32px;
+  }
+  
+  .filter-label {
+    font-size: 0.75rem;
+  }
+}

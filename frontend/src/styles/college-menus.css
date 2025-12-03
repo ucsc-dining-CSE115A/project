@@ -1,0 +1,13 @@
+.college-menus h1 {
+  margin-bottom: 24px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.menu-grid a {
+  text-decoration: none;
+}

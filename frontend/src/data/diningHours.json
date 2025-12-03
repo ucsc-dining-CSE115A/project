@@ -1,0 +1,67 @@
+{
+  "John R. Lewis & College Nine Dining Hall": {
+    "name": "John R. Lewis & College Nine Dining Hall",
+    "timeZone": "America/Los_Angeles",
+    "hours": {
+      "Monday": "7 AM - 8 PM",
+      "Tuesday": "7 AM - 11 PM",
+      "Wednesday": "7 AM - 11 PM",
+      "Thursday": "7 AM - 11 PM",
+      "Friday": "7 AM - 11 PM",
+      "Saturday": "7 AM - 11 PM",
+      "Sunday": "7 AM - 8 PM"
+    }
+  },
+  "Cowell & Stevenson Dining Hall": {
+    "name": "Cowell & Stevenson Dining Hall",
+    "timeZone": "America/Los_Angeles",
+    "hours": {
+      "Monday": "7 AM - 11 PM",
+      "Tuesday": "7 AM - 11 PM",
+      "Wednesday": "7 AM - 11 PM",
+      "Thursday": "7 AM - 11 PM",
+      "Friday": "7 AM - 8 PM",
+      "Saturday": "7 AM - 8 PM",
+      "Sunday": "7 AM - 11 PM"
+    }
+  },
+  "Crown & Merrill Dining Hall and Banana Joe's": {
+    "name": "Crown & Merrill Dining Hall and Banana Joe's",
+    "timeZone": "America/Los_Angeles",
+    "hours": {
+      "Monday": "7 AM - 8 PM",
+      "Tuesday": "7 AM - 8 PM",
+      "Wednesday": "7 AM - 8 PM",
+      "Thursday": "7 AM - 8 PM",
+      "Friday": "7 AM - 8 PM",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    }
+  },
+  "Porter & Kresge Dining Hall": {
+    "name": "Porter & Kresge Dining Hall",
+    "timeZone": "America/Los_Angeles",
+    "hours": {
+      "Monday": "7 AM - 7 PM",
+      "Tuesday": "7 AM - 7 PM",
+      "Wednesday": "7 AM - 7 PM",
+      "Thursday": "7 AM - 7 PM",
+      "Friday": "7 AM - 7 PM",
+      "Saturday": "Closed",
+      "Sunday": "Closed"
+    }
+  },
+  "Rachel Carson & Oakes Dining Hall": {
+    "name": "Rachel Carson & Oakes Dining Hall",
+    "timeZone": "America/Los_Angeles",
+    "hours": {
+      "Monday": "7 AM - 11 PM",
+      "Tuesday": "7 AM - 11 PM",
+      "Wednesday": "7 AM - 11 PM",
+      "Thursday": "7 AM - 11 PM",
+      "Friday": "7 AM - 8 PM",
+      "Saturday": "7 AM - 8 PM",
+      "Sunday": "7 AM - 11 PM"
+    }
+  }
+}

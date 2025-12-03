@@ -1,0 +1,113 @@
+/* Search suggestions dropdown styles */
+
+.search-suggestions-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-height: 400px;
+  overflow-y: auto;
+  z-index: 1000;
+  margin-top: 4px;
+}
+
+.search-suggestions-header {
+  padding: 12px 16px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+}
+
+.search-suggestions-list {
+  padding: 0;
+}
+
+.search-suggestion-item {
+  padding: 12px 16px;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.search-suggestion-item:hover {
+  background-color: #f8f9fa;
+}
+
+.search-suggestion-item:last-child {
+  border-bottom: none;
+}
+
+.suggestion-item-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.suggestion-item-details {
+  display: flex;
+  gap: 12px;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+.suggestion-dining-hall {
+  font-weight: 500;
+  color: #003C6C;
+}
+
+.suggestion-meal-type {
+  color: #666;
+}
+
+.suggestion-category {
+  color: #888;
+  font-style: italic;
+}
+
+.suggestion-dietary-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+}
+
+.dietary-tag {
+  background-color: #e3f2fd;
+  color: #1976d2;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.highlight-text {
+  background-color: #fff3cd;
+  color: #856404;
+  font-weight: 700;
+  padding: 1px 2px;
+  border-radius: 2px;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .search-suggestions-container {
+    max-height: 300px;
+  }
+  
+  .suggestion-item-name {
+    font-size: 14px;
+  }
+  
+  .suggestion-item-details {
+    font-size: 12px;
+  }
+}
