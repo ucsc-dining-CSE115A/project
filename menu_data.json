@@ -525,16 +525,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 374,
-            "name": "Roasted Cauliflower",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 829,
             "name": "Spicy Shrimp Fra Diavolo",
             "avg_rating": 0.0,
@@ -722,15 +712,6 @@
               "VG",
               "GF",
               "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 810,
-            "name": "Sauteed Onions",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG"
             ],
             "price": null
           },
@@ -2826,18 +2807,6 @@
               "GF"
             ],
             "price": null
-          },
-          {
-            "id": 591,
-            "name": "Portuguese Sausage and Bean Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "WHEAT",
-              "PORK",
-              "ALC"
-            ],
-            "price": null
           }
         ],
         "- Entrees -": [
@@ -3395,19 +3364,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 133,
-            "name": "Meatballs",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "BEEF"
             ],
             "price": null
           },
