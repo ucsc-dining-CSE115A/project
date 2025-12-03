@@ -344,15 +344,21 @@ function MenuDetail() {
     return true;
   });
 
-  const orderedMealEntries = Object.entries(organizedMenu).sort(
-    ([mealTypeA], [mealTypeB]) => {
-      const idxA = sortedMeals.indexOf(mealTypeA);
-      const idxB = sortedMeals.indexOf(mealTypeB);
-      const safeA = idxA === -1 ? 999 : idxA;
-      const safeB = idxB === -1 ? 999 : idxB;
-      return safeA - safeB;
+  const staticOrder = ['Breakfast','Brunch','Lunch','Dinner','Late Night','All Day'];
+  const orderedMealEntries = Object.entries(organizedMenu).sort(([a],[b]) => {
+    if (activeDate) {
+      const ia = staticOrder.indexOf(a);
+      const ib = staticOrder.indexOf(b);
+      const sa = ia === -1 ? 999 : ia;
+      const sb = ib === -1 ? 999 : ib;
+      return sa - sb;
     }
-  );
+    const ia = sortedMeals.indexOf(a);
+    const ib = sortedMeals.indexOf(b);
+    const sa = ia === -1 ? 999 : ia;
+    const sb = ib === -1 ? 999 : ib;
+    return sa - sb;
+  });
 
   return (
     <div className="menu-detail-container">
@@ -362,7 +368,7 @@ function MenuDetail() {
         <div className="menu-date-badge">Showing menu for {activeDate}</div>
       )}
 
-      <CurrentMealBanner hallName={decodedName} />
+      {!activeDate && <CurrentMealBanner hallName={decodedName} />}
 
       <div className="menu-detail-content">
         <MenuFilter 

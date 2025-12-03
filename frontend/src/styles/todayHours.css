@@ -94,9 +94,15 @@
 }
 
 .menu-date-badge {
+  display: inline-block;
+  margin: 10px auto 14px;
+  padding: 8px 14px;
+  border: 2px solid #003C6C;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 60, 108, 0.15);
   color: #003C6C;
-  font-weight: 600;
-  margin-top: 6px;
+  font-weight: 700;
 }
 
 .today-hours-range {
