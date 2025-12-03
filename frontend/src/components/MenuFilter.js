@@ -22,6 +22,26 @@ const DIETARY_FILTERS = [
   'TREENUT'    // Contains Tree Nuts
 ];
 
+// Map dietary codes to user-friendly labels
+const FILTER_LABELS = {
+  VG: "Vegan",
+  V: "Vegetarian",
+  GF: "Gluten-Free",
+  EGG: "Egg",
+  SOY: "Soy",
+  DAIRY: "Dairy",
+  WHEAT: "Wheat",
+  ALC: "Alcohol",
+  PORK: "Pork",
+  SHELLFISH: "Shellfish",
+  SESAME: "Sesame",
+  BEEF: "Beef",
+  FISH: "Fish",
+  HALAL: "Halal",
+  PEANUT: "Peanut",
+  TREENUT: "Tree Nut"
+};
+
 // MenuFilter component for filtering menu items by dietary restrictions
 function MenuFilter({ selectedFilters, onFilterChange }) {
   
@@ -70,7 +90,7 @@ function MenuFilter({ selectedFilters, onFilterChange }) {
               onChange={() => handleFilterToggle(filter)}
               aria-label={`Filter by ${filter}`}
             />
-            <span className="filter-label">{filter}</span>
+            <span className="filter-label">{FILTER_LABELS[filter] || filter}</span>
           </label>
         ))}
       </div>

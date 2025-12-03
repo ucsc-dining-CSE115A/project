@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import MenuCard from '../components/MenuCard';
 import MenuFilter from '../components/MenuFilter';
 import TodayHours from '../components/TodayHours';
@@ -22,6 +22,10 @@ function MenuDetail() {
   const [calcStats, setCalcStats] = useState({ selected: 0, aggregated: 0, missing: 0 }); //summary of selected items
   const [calcSelectedNames, setCalcSelectedNames] = useState([]); // Store the name of the selected items when calculate
   const macroCacheRef = useRef(new Map()); //cache for per item macros
+  const [activeDate, setActiveDate] = useState(null);
+  const [showFutureDates, setShowFutureDates] = useState(false);
+  const [futureDates, setFutureDates] = useState([]);
+  const originalMenuRef = useRef(null);
 
   const decodedName = decodeURIComponent(diningHallName);
   
@@ -42,7 +46,9 @@ function MenuDetail() {
           throw new Error('Failed to fetch menu data');
         }
         const data = await response.json();
-        setMenuData(data.halls || data);
+        const payload = data.halls || data;
+        setMenuData(payload);
+        originalMenuRef.current = payload;
       } catch (err) {
         setError(err.message);
       } finally {
@@ -52,6 +58,35 @@ function MenuDetail() {
 
     fetchMenuData();
   }, []);
+
+  const loadFutureMenu = async (dateStr) => {
+    try {
+      setLoading(true);
+      setError(null);
+      const { data, error } = await supabase
+        .from('schedule')
+        .select('menu_data')
+        .eq('date', dateStr)
+        .maybeSingle();
+      if (error) throw error;
+      const payload = data && (data.menu_data || data);
+      if (!payload) throw new Error('No data');
+      setMenuData(payload.halls || payload);
+      setActiveDate(dateStr);
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const loadTodayMenu = () => {
+    if (originalMenuRef.current) {
+      setMenuData(originalMenuRef.current);
+      setActiveDate(null);
+      setError(null);
+    }
+  };
 
   //The background is blurred when the calculation pop-up window is opened
   useEffect(() => {
@@ -309,22 +344,31 @@ function MenuDetail() {
     return true;
   });
 
-  const orderedMealEntries = Object.entries(organizedMenu).sort(
-    ([mealTypeA], [mealTypeB]) => {
-      const idxA = sortedMeals.indexOf(mealTypeA);
-      const idxB = sortedMeals.indexOf(mealTypeB);
-      const safeA = idxA === -1 ? 999 : idxA;
-      const safeB = idxB === -1 ? 999 : idxB;
-      return safeA - safeB;
+  const staticOrder = ['Breakfast','Brunch','Lunch','Dinner','Late Night','All Day'];
+  const orderedMealEntries = Object.entries(organizedMenu).sort(([a],[b]) => {
+    if (activeDate) {
+      const ia = staticOrder.indexOf(a);
+      const ib = staticOrder.indexOf(b);
+      const sa = ia === -1 ? 999 : ia;
+      const sb = ib === -1 ? 999 : ib;
+      return sa - sb;
     }
-  );
+    const ia = sortedMeals.indexOf(a);
+    const ib = sortedMeals.indexOf(b);
+    const sa = ia === -1 ? 999 : ia;
+    const sb = ib === -1 ? 999 : ib;
+    return sa - sb;
+  });
 
   return (
     <div className="menu-detail-container">
       <Link to="/" className="back-button">← Back to Dining Halls</Link>
       <h1>{decodedName}</h1>
+      {activeDate && (
+        <div className="menu-date-badge">Showing menu for {activeDate}</div>
+      )}
 
-      <CurrentMealBanner hallName={decodedName} />
+      {!activeDate && <CurrentMealBanner hallName={decodedName} />}
 
       <div className="menu-detail-content">
         <MenuFilter 
@@ -356,6 +400,7 @@ function MenuDetail() {
                           price={price}
                           averageRating={averageRating}
                           diningHall={decodedName}
+                          mealType={mealType}
                           isSelected={selectedItems.includes(itemName)}
                           onToggleSelect={toggleItemSelection}
                         />
@@ -397,6 +442,7 @@ function MenuDetail() {
                               price={price}
                               averageRating={averageRating}
                               diningHall={decodedName}
+                              mealType={mealType}
                               isSelected={selectedItems.includes(itemName)}
                               onToggleSelect={toggleItemSelection}
                             />
@@ -416,8 +462,38 @@ function MenuDetail() {
             </div>
           )}
           </div>
-          <TodayHours diningHallName={decodedName} />
+          <div className="hours-column">
+          <TodayHours diningHallName={decodedName} dateOverride={activeDate} />
+          <div className="today-hours-actions">
+            <button className="future-menu-button" onClick={() => {
+              if (!showFutureDates) {
+                const base = new Date();
+                const out = [];
+                for (let i = 1; i <= 3; i++) {
+                  const d = new Date(base);
+                  d.setDate(base.getDate() + i);
+                  const y = d.getFullYear();
+                  const m = String(d.getMonth() + 1).padStart(2, '0');
+                  const day = String(d.getDate()).padStart(2, '0');
+                  out.push(`${y}-${m}-${day}`);
+                }
+                setFutureDates(out);
+              }
+              setShowFutureDates(!showFutureDates);
+            }}>Future Menu</button>
+            {showFutureDates && (
+              <div className="future-menu-dropdown">
+                {futureDates.map((d) => (
+                  <button key={d} className="future-menu-item" onClick={() => loadFutureMenu(d)}>{d}</button>
+                ))}
+              </div>
+            )}
+            {activeDate && (
+              <button className="return-today-button" onClick={loadTodayMenu}>Back to Today's Menu</button>
+            )}
+          </div>
         </div>
+      </div>
       </div>
 
       {/* Sticky Calculate Button */}
