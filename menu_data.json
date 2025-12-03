@@ -973,28 +973,6 @@
         ]
       },
       "Lunch": {
-        "- Soups -": [
-          {
-            "id": 499,
-            "name": "Chicken Tortilla Soup",
-            "avg_rating": 3.0,
-            "dietary_restrictions": [
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 120,
-            "name": "Mushroom & Barley Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT"
-            ],
-            "price": null
-          }
-        ],
         "- Entrees -": [
           {
             "id": 122,
@@ -1040,16 +1018,6 @@
               "EGG",
               "DAIRY",
               "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 633,
-            "name": "Cilantro Flatbread with Red Onions and Mushrooms",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "WHEAT"
             ],
             "price": null
@@ -1559,16 +1527,6 @@
               "EGG",
               "DAIRY",
               "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 633,
-            "name": "Cilantro Flatbread with Red Onions and Mushrooms",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "WHEAT"
             ],
             "price": null
