@@ -2945,18 +2945,6 @@
             "price": null
           },
           {
-            "id": 108,
-            "name": "Jalapeno Corn Cakes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 643,
             "name": "Spicy Red Beans and Vegetables",
             "avg_rating": 0.0,
@@ -3576,6 +3564,20 @@
         ]
       },
       "Dinner": {
+        "- Miscellaneous -": [
+          {
+            "id": 568,
+            "name": "Chili Soy Slaw",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Salads -": [
           {
             "id": 839,
@@ -3859,6 +3861,21 @@
         ]
       },
       "Late Night": {
+        "- Entrees -": [
+          {
+            "id": 588,
+            "name": "Vietnamese Pork Banh Mi Sandwich",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "WHEAT",
+              "PORK",
+              "ALC"
+            ],
+            "price": null
+          }
+        ],
         "- Clean Plate -": [
           {
             "id": 21,
