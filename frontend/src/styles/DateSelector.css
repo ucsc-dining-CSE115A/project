@@ -1,0 +1,118 @@
+/* Date Selector Component Styles */
+.date-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: #ffffff;
+  border: 2px solid #003C6C;
+  border-radius: 12px;
+  padding: 16px 24px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 2px 8px rgba(0, 60, 108, 0.15);
+}
+
+/* Arrow buttons */
+.date-arrow {
+  background: #003C6C;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.date-arrow:hover:not(.disabled) {
+  background: #004080;
+  transform: scale(1.1);
+}
+
+.date-arrow:active:not(.disabled) {
+  transform: scale(0.95);
+}
+
+.date-arrow.disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* Date display section */
+.date-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+  min-width: 0; /* Allow text to wrap */
+}
+
+.date-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #003C6C;
+  text-align: center;
+  font-family: Inter, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    SimHei, Arial, Helvetica, sans-serif;
+}
+
+/* Today badge */
+.today-badge {
+  background: #FDB515; /* UCSC gold */
+  color: #003C6C;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .date-selector {
+    gap: 12px;
+    padding: 12px 16px;
+    margin: 15px auto;
+  }
+
+  .date-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .date-text {
+    font-size: 1rem;
+  }
+
+  .today-badge {
+    font-size: 0.75rem;
+    padding: 3px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .date-selector {
+    gap: 8px;
+    padding: 10px 12px;
+  }
+
+  .date-arrow {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+  }
+
+  .date-text {
+    font-size: 0.9rem;
+  }
+}

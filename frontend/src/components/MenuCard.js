@@ -23,8 +23,41 @@ const filterLabelMap = {
   TREENUT: "Tree Nut"
 };
 
-const MenuCard = ({ itemName, dietaryRestrictions, price, diningHall, averageRating, isSelected, onToggleSelect }) => {
+const MenuCard = ({ itemName, dietaryRestrictions, price, diningHall, averageRating, isSelected, onToggleSelect, mealType }) => {
   const [showPopup, setShowPopup] = useState(false);
+  const [isFavorite, setIsFavorite] = useState(false);
+
+  // Check if item is in favorites
+  useEffect(() => {
+    const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+    setIsFavorite(favorites.some(fav => fav.itemName === itemName));
+  }, [itemName]);
+
+  const toggleFavorite = (e) => {
+    e.stopPropagation();
+    const favorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+    
+    if (isFavorite) {
+      // Remove from favorites
+      const updated = favorites.filter(fav => fav.itemName !== itemName);
+      localStorage.setItem('favorites', JSON.stringify(updated));
+      setIsFavorite(false);
+    } else {
+      // Add to favorites
+      const newFavorite = {
+        itemName,
+        dietaryRestrictions,
+        price,
+        diningHall,
+        averageRating,
+        mealType,
+        savedAt: new Date().toISOString()
+      };
+      favorites.push(newFavorite);
+      localStorage.setItem('favorites', JSON.stringify(favorites));
+      setIsFavorite(true);
+    }
+  };
 
   // Add background blur
   useEffect(() => {
@@ -43,6 +76,13 @@ const MenuCard = ({ itemName, dietaryRestrictions, price, diningHall, averageRat
   return (
     <>
       <div className="menu-card">
+        <button
+          className={`favorite-heart ${isFavorite ? 'favorited' : ''}`}
+          onClick={toggleFavorite}
+          aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
+        >
+          {isFavorite ? '❤️' : '🤍'}
+        </button>
         <div className="menu-card-checkbox">
           <input
             type="checkbox"

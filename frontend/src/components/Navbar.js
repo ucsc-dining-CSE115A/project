@@ -12,7 +12,7 @@ function Navbar() {
         
         <SearchBar />
         
-        <Link to="/Favorites" className="nav-link" style={{ fontFamily: 'monospace' }}>
+        <Link to="/favorites" className="nav-link" style={{ fontFamily: 'monospace' }}>
           Favorites
         </Link>
       </div>

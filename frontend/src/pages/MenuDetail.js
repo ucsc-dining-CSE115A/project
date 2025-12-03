@@ -400,6 +400,7 @@ function MenuDetail() {
                           price={price}
                           averageRating={averageRating}
                           diningHall={decodedName}
+                          mealType={mealType}
                           isSelected={selectedItems.includes(itemName)}
                           onToggleSelect={toggleItemSelection}
                         />
@@ -441,6 +442,7 @@ function MenuDetail() {
                               price={price}
                               averageRating={averageRating}
                               diningHall={decodedName}
+                              mealType={mealType}
                               isSelected={selectedItems.includes(itemName)}
                               onToggleSelect={toggleItemSelection}
                             />

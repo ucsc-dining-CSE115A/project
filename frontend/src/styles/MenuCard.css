@@ -11,7 +11,35 @@
   min-height: 200px; /* Set a minimum height for consistent card size */
   box-sizing: border-box;
   overflow: hidden; /* Prevent content from bleeding out */
-  position: relative; /* For absolute positioning of checkbox */
+  position: relative; /* For absolute positioning of checkbox and heart */
+}
+
+/* Favorite heart button */
+.favorite-heart {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 4px;
+  line-height: 1;
+  transition: transform 0.2s ease;
+  z-index: 10;
+}
+
+.favorite-heart:hover {
+  transform: scale(1.2);
+}
+
+.favorite-heart.favorited {
+  animation: heartbeat 0.3s ease;
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.3); }
 }
 
 /* Checkbox container */
