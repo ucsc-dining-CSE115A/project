@@ -153,6 +153,16 @@
             "price": null
           },
           {
+            "id": 586,
+            "name": "Soft Polenta",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 837,
             "name": "Vegan Cacciatore Vedura",
             "avg_rating": 0.0,
