@@ -471,13 +471,27 @@
         ],
         "- Entrees -": [
           {
-            "id": 143,
-            "name": "Red Curry Tofu",
+            "id": 104,
+            "name": "General Tso's Pork",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
               "SOY",
-              "GF"
+              "EGG",
+              "SESAME",
+              "WHEAT",
+              "PORK"
+            ],
+            "price": null
+          },
+          {
+            "id": 779,
+            "name": "Orange Glazed Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "SESAME",
+              "WHEAT"
             ],
             "price": null
           },
@@ -498,54 +512,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 664,
-            "name": "Thai Red Curry Beef",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "FISH",
-              "GF",
-              "BEEF",
-              "HALAL"
-            ],
-            "price": null
-          }
-        ],
-        "- Grill -": [
-          {
-            "id": 115,
-            "name": "French Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 130,
-            "name": "Halal Chicken Nuggets",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "WHEAT",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 129,
-            "name": "Vegan Tenders",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
             ],
             "price": null
           }
