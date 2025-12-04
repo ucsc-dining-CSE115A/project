@@ -1121,8 +1121,8 @@
             "price": null
           },
           {
-            "id": 125,
-            "name": "Street Corn Pizza with Bacon",
+            "id": 844,
+            "name": "Spicy Double Sausage Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
@@ -1374,8 +1374,8 @@
             "price": null
           },
           {
-            "id": 125,
-            "name": "Street Corn Pizza with Bacon",
+            "id": 844,
+            "name": "Spicy Double Sausage Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
@@ -1622,20 +1622,6 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 125,
-            "name": "Street Corn Pizza with Bacon",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "PORK"
             ],
             "price": null
           }
