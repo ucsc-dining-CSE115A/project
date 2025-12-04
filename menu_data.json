@@ -2745,16 +2745,6 @@
             "price": null
           },
           {
-            "id": 12,
-            "name": "Chipotle Cuban Black Bean Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 142,
             "name": "Garden Vegetable Soup",
             "avg_rating": 0.0,
@@ -2989,18 +2979,6 @@
             "price": null
           },
           {
-            "id": 28,
-            "name": "Hoisin Chicken Wings",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
             "id": 127,
             "name": "Hot 'N Spicy Wings",
             "avg_rating": 0.0,
@@ -3017,17 +2995,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 32,
-            "name": "Szechuan Chicken Wings",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "ALC"
             ],
             "price": null
           },
