@@ -449,12 +449,12 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 80,
-            "name": "Chicken Soup Tlalpan",
-            "avg_rating": 0.0,
+            "id": 499,
+            "name": "Chicken Tortilla Soup",
+            "avg_rating": 3.0,
             "dietary_restrictions": [
-              "GF",
-              "ALC"
+              "SOY",
+              "GF"
             ],
             "price": null
           },
