@@ -141,12 +141,12 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 80,
-            "name": "Chicken Soup Tlalpan",
-            "avg_rating": 0.0,
+            "id": 35,
+            "name": "Chicken Spaetzle Soup",
+            "avg_rating": 1.0,
             "dietary_restrictions": [
-              "GF",
-              "ALC"
+              "EGG",
+              "WHEAT"
             ],
             "price": null
           },
@@ -206,6 +206,16 @@
             "price": null
           },
           {
+            "id": 405,
+            "name": "Roasted Green Beans in Garlic Oil",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 650,
             "name": "Spaghetti Noodles",
             "avg_rating": 0.0,
@@ -228,6 +238,21 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 117,
+            "name": "Pepperoni Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           },
@@ -274,21 +299,47 @@
             "price": null
           }
         ],
-        "- Sweet Treats -": [
+        "- Campus Bakery -": [
           {
-            "id": 23,
-            "name": "Pacific Cookie Co. Vegan Dr. Midnight Cookies",
+            "id": 622,
+            "name": "Bakery Fresh Lemon Bars",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
+              "V",
               "SOY",
+              "EGG",
+              "DAIRY",
               "WHEAT",
               "ALC"
             ],
             "price": null
-          }
-        ],
-        "- Campus Bakery -": [
+          },
+          {
+            "id": 623,
+            "name": "Banana Cream Pie",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "DAIRY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 620,
+            "name": "Cream Cheese Swirled Brownie",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
           {
             "id": 24,
             "name": "Vegan Brownie",
@@ -297,6 +348,16 @@
               "VG",
               "WHEAT",
               "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 564,
+            "name": "Vegan Raspberry Granola Bars",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT"
             ],
             "price": null
           }
@@ -360,16 +421,6 @@
           {
             "id": 140,
             "name": "Roasted Corn",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 141,
-            "name": "Sauteed Onions and Peppers",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
