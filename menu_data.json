@@ -2946,15 +2946,6 @@
             "price": null
           },
           {
-            "id": 538,
-            "name": "Buffalo Cauliflower",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V"
-            ],
-            "price": null
-          },
-          {
             "id": 25,
             "name": "Chengdu Wing Bar",
             "avg_rating": 0.0,
