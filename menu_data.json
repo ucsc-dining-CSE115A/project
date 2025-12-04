@@ -2103,13 +2103,11 @@
             "price": null
           },
           {
-            "id": 108,
-            "name": "Jalapeno Corn Cakes",
+            "id": 123,
+            "name": "Roasted Zucchini and Peppers",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
+              "VG",
               "GF"
             ],
             "price": null
@@ -2122,16 +2120,6 @@
               "VG",
               "GF",
               "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 522,
-            "name": "Vegan Collard Greens",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           }
@@ -2291,27 +2279,6 @@
               "VG",
               "SOY",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 424,
-            "name": "Lime Cilantro Basmati Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 425,
-            "name": "Malaysian Pork Rendang",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "PORK",
-              "GF",
-              "ALC"
             ],
             "price": null
           },
@@ -3539,20 +3506,6 @@
         ]
       },
       "Dinner": {
-        "- Miscellaneous -": [
-          {
-            "id": 568,
-            "name": "Chili Soy Slaw",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
         "- Salads -": [
           {
             "id": 839,
@@ -3679,6 +3632,29 @@
             "price": null
           }
         ],
+        "- Grill and Soups -": [
+          {
+            "id": 636,
+            "name": "Sweet & Sour Mushroom Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 841,
+            "name": "Thai Lentil and Coconut Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Pizza, Flatbreads & Pasta -": [
           {
             "id": 640,
@@ -3780,6 +3756,18 @@
             "dietary_restrictions": [
               "SOY",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 568,
+            "name": "Chili Soy Slaw",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "GF"
             ],
             "price": null
           },
