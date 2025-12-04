@@ -3705,23 +3705,22 @@
         ],
         "- Grill and Soups -": [
           {
-            "id": 97,
-            "name": "Chicken Noodle Soup",
-            "avg_rating": 3.0,
+            "id": 636,
+            "name": "Sweet & Sour Mushroom Soup",
+            "avg_rating": 0.0,
             "dietary_restrictions": [
+              "VG",
               "SOY",
-              "EGG",
-              "WHEAT"
+              "GF"
             ],
             "price": null
           },
           {
-            "id": 98,
-            "name": "Vegan Garbanzo Sesame Soup",
+            "id": 841,
+            "name": "Thai Lentil and Coconut Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SESAME",
               "GF"
             ],
             "price": null
@@ -3743,8 +3742,8 @@
             "price": null
           },
           {
-            "id": 125,
-            "name": "Street Corn Pizza with Bacon",
+            "id": 117,
+            "name": "Pepperoni Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
@@ -3752,6 +3751,7 @@
               "DAIRY",
               "SESAME",
               "WHEAT",
+              "BEEF",
               "PORK"
             ],
             "price": null
