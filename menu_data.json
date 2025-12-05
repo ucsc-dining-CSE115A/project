@@ -467,18 +467,6 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 382,
-            "name": "New England Clam Chowder",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "SHELLFISH",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 446,
             "name": "Three Sisters Crave Soup",
             "avg_rating": 4.0,
