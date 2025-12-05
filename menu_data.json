@@ -1355,6 +1355,17 @@
             "price": null
           },
           {
+            "id": 756,
+            "name": "Island BBQ Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
             "id": 30,
             "name": "Steamed Broccoli",
             "avg_rating": 0.0,
@@ -1387,20 +1398,6 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 844,
-            "name": "Spicy Double Sausage Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "PORK"
             ],
             "price": null
           }
@@ -1485,16 +1482,6 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 105,
-            "name": "BBQ Shredded Pork",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "PORK",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 106,
             "name": "Cajun Coleslaw",
             "avg_rating": 0.0,
@@ -1532,22 +1519,24 @@
             "price": null
           },
           {
-            "id": 108,
-            "name": "Jalapeno Corn Cakes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 109,
             "name": "Smokehouse BBQ Ribs Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 844,
+            "name": "Spicy Double Sausage Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "PORK"
+            ],
             "price": null
           },
           {
@@ -3765,6 +3754,21 @@
             "price": null
           }
         ],
+        "- Hot Bars -": [
+          {
+            "id": 546,
+            "name": "Cornbread",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT"
+            ],
+            "price": null
+          }
+        ],
         "- Cold Bars -": [
           {
             "id": 33,
@@ -3877,33 +3881,10 @@
             "price": null
           },
           {
-            "id": 108,
-            "name": "Jalapeno Corn Cakes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 109,
             "name": "Smokehouse BBQ Ribs Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 110,
-            "name": "Tempeh Roasted with Chorizo Spice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
             "price": null
           }
         ],
@@ -3963,6 +3944,71 @@
         ]
       },
       "Late Night": {
+        "- Miscellaneous -": [
+          {
+            "id": 710,
+            "name": "Pork Carnitas",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 845,
+            "name": "Tostada Shell",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Entrees -": [
+          {
+            "id": 375,
+            "name": "Chicken Apple Sausage",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 147,
+            "name": "Potatoes O'Brien",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 110,
+            "name": "Tempeh Roasted with Chorizo Spice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 580,
+            "name": "Vegan Refried Beans",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Clean Plate -": [
           {
             "id": 21,
@@ -4052,16 +4098,6 @@
             "price": null
           },
           {
-            "id": 375,
-            "name": "Chicken Apple Sausage",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 3,
             "name": "Hard-boiled Cage Free Egg (1)",
             "avg_rating": 0.0,
@@ -4080,50 +4116,6 @@
               "VG",
               "SOY",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 147,
-            "name": "Potatoes O'Brien",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Grill and Soups -": [
-          {
-            "id": 16,
-            "name": "Harissa Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 660,
-            "name": "Malfouf (Middle Eastern Cole Slaw)",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 661,
-            "name": "Za'atar Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SESAME",
-              "GF",
-              "HALAL"
             ],
             "price": null
           }
