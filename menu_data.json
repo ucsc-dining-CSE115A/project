@@ -3220,16 +3220,15 @@
         ],
         "- Entrees -": [
           {
-            "id": 420,
-            "name": "Banana and Coconut Pancakes",
+            "id": 514,
+            "name": "Buttermilk Pancake with Cinnamon Apples",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
               "SOY",
               "EGG",
               "DAIRY",
-              "WHEAT",
-              "ALC"
+              "WHEAT"
             ],
             "price": null
           },
@@ -3245,21 +3244,11 @@
             "price": null
           },
           {
-            "id": 421,
-            "name": "Coconut Syrup",
+            "id": 375,
+            "name": "Chicken Apple Sausage",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 146,
-            "name": "Pork Sausage Patties",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "PORK",
+              "DAIRY",
               "GF"
             ],
             "price": null
