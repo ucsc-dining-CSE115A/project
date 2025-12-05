@@ -168,14 +168,13 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 382,
-            "name": "New England Clam Chowder",
-            "avg_rating": 0.0,
+            "id": 97,
+            "name": "Chicken Noodle Soup",
+            "avg_rating": 3.0,
             "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "SHELLFISH",
-              "GF"
+              "SOY",
+              "EGG",
+              "WHEAT"
             ],
             "price": null
           },
@@ -322,6 +321,41 @@
               "DAIRY",
               "WHEAT",
               "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 40,
+            "name": "Black Forest Cake",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 24,
+            "name": "Vegan Brownie",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 564,
+            "name": "Vegan Raspberry Granola Bars",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT"
             ],
             "price": null
           }
