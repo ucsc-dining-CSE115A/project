@@ -108,6 +108,20 @@
             "price": null
           },
           {
+            "id": 622,
+            "name": "Bakery Fresh Lemon Bars",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
             "id": 379,
             "name": "Chocolate Muffin",
             "avg_rating": 0.0,
@@ -3457,19 +3471,6 @@
             "price": null
           },
           {
-            "id": 86,
-            "name": "Char Siu Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
             "id": 49,
             "name": "Condiments",
             "avg_rating": 0.0,
@@ -3502,18 +3503,6 @@
             "name": "Pacific Rim Fusion Bowl Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 427,
-            "name": "Pineapple Fried Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "GF"
-            ],
             "price": null
           },
           {
