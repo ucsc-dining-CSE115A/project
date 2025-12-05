@@ -312,12 +312,16 @@
         ],
         "- Campus Bakery -": [
           {
-            "id": 386,
-            "name": "Rice Krispy Treats",
+            "id": 622,
+            "name": "Bakery Fresh Lemon Bars",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "GF",
-              "PORK"
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           }
