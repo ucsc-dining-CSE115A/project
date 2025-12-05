@@ -295,20 +295,6 @@
             "price": null
           }
         ],
-        "- Sweet Treats -": [
-          {
-            "id": 119,
-            "name": "Vegan Chocolate Chip Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
         "- Campus Bakery -": [
           {
             "id": 622,
@@ -1966,16 +1952,6 @@
               "BEEF",
               "GF",
               "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 388,
-            "name": "Chicken Tenders",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "WHEAT"
             ],
             "price": null
           },
