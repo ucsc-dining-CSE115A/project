@@ -727,28 +727,6 @@
         ]
       },
       "Late Night": {
-        "- Grill -": [
-          {
-            "id": 91,
-            "name": "Crispy Vegan Tostada",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 92,
-            "name": "Tortilla Chips",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
         "- Pizza -": [
           {
             "id": 19,
@@ -883,16 +861,6 @@
             "price": null
           },
           {
-            "id": 48,
-            "name": "Cilantro Lime Riced Cauliflower",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 49,
             "name": "Condiments",
             "avg_rating": 0.0,
@@ -902,6 +870,16 @@
           {
             "id": 50,
             "name": "Mexican Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 374,
+            "name": "Roasted Cauliflower",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3839,16 +3817,6 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "PORK",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 106,
-            "name": "Cajun Coleslaw",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "GF"
             ],
             "price": null
