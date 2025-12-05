@@ -1337,6 +1337,53 @@
             "dietary_restrictions": [],
             "price": null
           }
+        ],
+        "- Available 2pm-5pm -": [
+          {
+            "id": 115,
+            "name": "French Fries",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY"
+            ],
+            "price": null
+          },
+          {
+            "id": 603,
+            "name": "Halal Chicken Patty",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 76,
+            "name": "Hamburger Bun",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 823,
+            "name": "Vegan Mushroom Quinoa Burger Patty",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
         ]
       },
       "Dinner": {
