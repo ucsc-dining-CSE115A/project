@@ -3412,6 +3412,19 @@
             "price": null
           },
           {
+            "id": 847,
+            "name": "Island Beef Steak",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "BEEF",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
             "id": 101,
             "name": "Quinoa with Butternut Squash and Kale",
             "avg_rating": 0.0,
@@ -3440,18 +3453,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 84,
-            "name": "Char Siu Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "GF",
-              "ALC"
             ],
             "price": null
           },
@@ -3493,17 +3494,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 425,
-            "name": "Malaysian Pork Rendang",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "PORK",
-              "GF",
-              "ALC"
             ],
             "price": null
           },
