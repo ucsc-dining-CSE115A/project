@@ -509,17 +509,6 @@
             "price": null
           },
           {
-            "id": 846,
-            "name": "Sustainable Lemon Pepper Pacific Rockfish",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 415,
             "name": "Vegan Italian White Beans",
             "avg_rating": 0.0,
