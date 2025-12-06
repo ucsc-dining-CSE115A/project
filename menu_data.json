@@ -3034,6 +3034,28 @@
             "price": null
           },
           {
+            "id": 577,
+            "name": "Cheese Sauce",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 749,
+            "name": "Chili con Carne",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "BEEF"
+            ],
+            "price": null
+          },
+          {
             "id": 443,
             "name": "Hot Dog Bun",
             "avg_rating": 0.0,
@@ -3179,6 +3201,16 @@
               "PORK",
               "GF",
               "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 31,
+            "name": "Sticky Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           },
