@@ -1577,16 +1577,6 @@
             "price": null
           },
           {
-            "id": 93,
-            "name": "Crispy Bacon",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "PORK",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 94,
             "name": "Sweet Potato, Black Bean, and Kale Hash",
             "avg_rating": 0.0,
