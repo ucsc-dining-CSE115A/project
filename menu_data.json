@@ -197,12 +197,12 @@
         ],
         "- Soups -": [
           {
-            "id": 383,
-            "name": "Organic Black Bean Soup",
-            "avg_rating": 3.0,
+            "id": 142,
+            "name": "Garden Vegetable Soup",
+            "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
+              "WHEAT"
             ],
             "price": null
           },
@@ -213,6 +213,16 @@
             "dietary_restrictions": [
               "WHEAT",
               "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 446,
+            "name": "Three Sisters Crave Soup",
+            "avg_rating": 4.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           }
@@ -281,18 +291,6 @@
           }
         ],
         "- Sweet Treats -": [
-          {
-            "id": 453,
-            "name": "Gluten-Free Snickerdoodle Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "GF"
-            ],
-            "price": null
-          },
           {
             "id": 454,
             "name": "Pound Cake",
