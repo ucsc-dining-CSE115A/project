@@ -1507,18 +1507,8 @@
             "price": null
           },
           {
-            "id": 448,
-            "name": "Ham Steaks",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "PORK",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 480,
-            "name": "Vegan Happy Scramble",
+            "id": 94,
+            "name": "Sweet Potato, Black Bean, and Kale Hash",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
