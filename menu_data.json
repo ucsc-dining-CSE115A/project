@@ -1577,6 +1577,16 @@
             "price": null
           },
           {
+            "id": 448,
+            "name": "Ham Steaks",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 94,
             "name": "Sweet Potato, Black Bean, and Kale Hash",
             "avg_rating": 0.0,
@@ -1756,6 +1766,16 @@
             "price": null
           },
           {
+            "id": 47,
+            "name": "Charro Beans",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 577,
             "name": "Cheese Sauce",
             "avg_rating": 0.0,
@@ -1777,16 +1797,6 @@
           {
             "id": 27,
             "name": "Green Onion Slaw",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 670,
-            "name": "Ranch Chili Beans",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
