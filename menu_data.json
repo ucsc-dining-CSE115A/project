@@ -330,6 +330,18 @@
               "ALC"
             ],
             "price": null
+          },
+          {
+            "id": 119,
+            "name": "Vegan Chocolate Chip Cookie",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
           }
         ],
         "- Hot Bars -": [
@@ -585,6 +597,18 @@
               "GF"
             ],
             "price": null
+          },
+          {
+            "id": 119,
+            "name": "Vegan Chocolate Chip Cookie",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
           }
         ],
         "- Hot Bars -": [
@@ -698,16 +722,6 @@
               "BEEF"
             ],
             "price": null
-          },
-          {
-            "id": 608,
-            "name": "Regular Cut Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
           }
         ],
         "- Pizza -": [
@@ -799,6 +813,29 @@
             "price": null
           },
           {
+            "id": 85,
+            "name": "Char Siu Gardein",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 47,
+            "name": "Charro Beans",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 577,
             "name": "Cheese Sauce",
             "avg_rating": 0.0,
@@ -828,16 +865,6 @@
             "price": null
           },
           {
-            "id": 670,
-            "name": "Ranch Chili Beans",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 671,
             "name": "Sidewinder Fry Bar",
             "avg_rating": 0.0,
@@ -851,17 +878,6 @@
             "dietary_restrictions": [
               "V",
               "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 110,
-            "name": "Tempeh Roasted with Chorizo Spice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
             ],
             "price": null
           }
