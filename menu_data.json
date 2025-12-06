@@ -105,6 +105,50 @@
             ],
             "price": null
           }
+        ],
+        "- Campus Bakery -": [
+          {
+            "id": 379,
+            "name": "Chocolate Muffin",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 380,
+            "name": "Orange Cranberry Muffin",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 11,
+            "name": "Three Berry Muffin",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          }
         ]
       },
       "Lunch": {
@@ -1473,8 +1517,8 @@
         ],
         "- Entrees -": [
           {
-            "id": 61,
-            "name": "Belgian Waffle Squares",
+            "id": 1,
+            "name": "Buttermilk Pancakes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -1502,6 +1546,16 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 93,
+            "name": "Crispy Bacon",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
               "GF"
             ],
             "price": null
@@ -1664,8 +1718,8 @@
             "price": null
           },
           {
-            "id": 480,
-            "name": "Vegan Happy Scramble",
+            "id": 94,
+            "name": "Sweet Potato, Black Bean, and Kale Hash",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
