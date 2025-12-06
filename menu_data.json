@@ -292,14 +292,42 @@
         ],
         "- Sweet Treats -": [
           {
-            "id": 454,
-            "name": "Pound Cake",
+            "id": 395,
+            "name": "Brownie M&M",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
+              "SOY",
               "EGG",
               "DAIRY",
+              "PEANUT",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 850,
+            "name": "Lemon Cream Cake",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "PEANUT",
+              "TREENUT",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 24,
+            "name": "Vegan Brownie",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           }
