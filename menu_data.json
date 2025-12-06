@@ -1809,22 +1809,22 @@
         ],
         "- Grill and Soups -": [
           {
+            "id": 35,
+            "name": "Chicken Spaetzle Soup",
+            "avg_rating": 1.0,
+            "dietary_restrictions": [
+              "EGG",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 606,
             "name": "Creamy Broccoli Cheddar Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
               "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 673,
-            "name": "Vegan Split Pea Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "GF"
             ],
             "price": null
