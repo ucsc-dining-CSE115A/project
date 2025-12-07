@@ -1902,6 +1902,40 @@
         ]
       },
       "Dinner": {
+        "- Entrees -": [
+          {
+            "id": 738,
+            "name": "Italian Roasted Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 675,
+            "name": "Cajun Lightning Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "FISH",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 504,
+            "name": "Roasted Broccoli and Carrots",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Clean Plate -": [
           {
             "id": 21,
@@ -1974,30 +2008,6 @@
             "name": "Salad Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          }
-        ],
-        "- Entrees -": [
-          {
-            "id": 675,
-            "name": "Cajun Lightning Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "FISH",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 504,
-            "name": "Roasted Broccoli and Carrots",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
             "price": null
           }
         ],
