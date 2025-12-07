@@ -1770,6 +1770,16 @@
             "price": null
           },
           {
+            "id": 374,
+            "name": "Roasted Cauliflower",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 534,
             "name": "Roasted Cauliflower and Vegetable Medley",
             "avg_rating": 0.0,
@@ -1838,6 +1848,16 @@
             "id": 383,
             "name": "Organic Black Bean Soup",
             "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 852,
+            "name": "Organic Lentil and Chickpea Soup",
+            "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
