@@ -1424,6 +1424,18 @@
             "price": null
           },
           {
+            "id": 428,
+            "name": "Baja Sandbar Bass Piccata",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "FISH",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
             "id": 49,
             "name": "Condiments",
             "avg_rating": 0.0,
@@ -1975,16 +1987,6 @@
               "FISH",
               "GF",
               "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 139,
-            "name": "Quinoa with Lemon and Thyme",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           },
