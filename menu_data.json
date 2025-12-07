@@ -1699,8 +1699,18 @@
             "price": null
           },
           {
-            "id": 147,
-            "name": "Potatoes O'Brien",
+            "id": 4,
+            "name": "Mexican Chorizo Sausage",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 430,
+            "name": "Oven Roasted Herbed Potatoes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -1715,15 +1725,6 @@
             "dietary_restrictions": [
               "VG",
               "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 679,
-            "name": "Turkey Sausage Patties",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
               "GF"
             ],
             "price": null
@@ -1841,16 +1842,6 @@
             "dietary_restrictions": [
               "GF",
               "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 383,
-            "name": "Organic Black Bean Soup",
-            "avg_rating": 3.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           },
