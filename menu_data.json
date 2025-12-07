@@ -446,22 +446,22 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 383,
-            "name": "Organic Black Bean Soup",
-            "avg_rating": 3.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 469,
             "name": "Spicy North African Chicken Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "WHEAT",
               "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 446,
+            "name": "Three Sisters Crave Soup",
+            "avg_rating": 4.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           }
@@ -709,21 +709,6 @@
         ]
       },
       "Late Night": {
-        "- Grill -": [
-          {
-            "id": 668,
-            "name": "Grilled Reuben Sandwich",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "BEEF"
-            ],
-            "price": null
-          }
-        ],
         "- Pizza -": [
           {
             "id": 19,
