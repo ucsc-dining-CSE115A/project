@@ -456,19 +456,18 @@
             "price": null
           },
           {
-            "id": 503,
-            "name": "Papas Bravas",
+            "id": 504,
+            "name": "Roasted Broccoli and Carrots",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF",
-              "ALC"
+              "GF"
             ],
             "price": null
           },
           {
-            "id": 504,
-            "name": "Roasted Broccoli and Carrots",
+            "id": 376,
+            "name": "Roasted Red Potatoes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -625,22 +624,22 @@
             "price": null
           },
           {
+            "id": 608,
+            "name": "Regular Cut Fries",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY"
+            ],
+            "price": null
+          },
+          {
             "id": 141,
             "name": "Sauteed Onions and Peppers",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 508,
-            "name": "Sidewinder Fry",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
             ],
             "price": null
           },
