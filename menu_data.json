@@ -1524,6 +1524,19 @@
         ],
         "- Entrees -": [
           {
+            "id": 61,
+            "name": "Belgian Waffle Squares",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 2,
             "name": "Cage-Free Scrambled Eggs",
             "avg_rating": 3.0,
@@ -1531,17 +1544,6 @@
               "V",
               "EGG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 466,
-            "name": "French Toast Sticks",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
             ],
             "price": null
           },
@@ -1679,12 +1681,14 @@
         ],
         "- Entrees -": [
           {
-            "id": 466,
-            "name": "French Toast Sticks",
+            "id": 61,
+            "name": "Belgian Waffle Squares",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
+              "V",
               "SOY",
+              "EGG",
+              "DAIRY",
               "WHEAT"
             ],
             "price": null
