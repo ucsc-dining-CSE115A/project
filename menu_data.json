@@ -441,30 +441,28 @@
             "price": null
           },
           {
-            "id": 16,
-            "name": "Harissa Tofu",
+            "id": 464,
+            "name": "Italian Roasted Squash and Carrots",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SOY",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 541,
-            "name": "Scalloped Potatoes",
+            "id": 139,
+            "name": "Quinoa with Lemon and Thyme",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
+              "VG",
+              "GF"
             ],
             "price": null
           },
           {
-            "id": 83,
-            "name": "Steamed Carrots and Broccoli",
+            "id": 392,
+            "name": "White Beans",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -580,8 +578,8 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 54,
-            "name": "Basmati Rice Pullao",
+            "id": 56,
+            "name": "Cauliflower Lentil Dal",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -618,27 +616,6 @@
             "price": null
           },
           {
-            "id": 456,
-            "name": "Dal Saag",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 457,
-            "name": "Masala Baked Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 458,
             "name": "North Indian Bar",
             "avg_rating": 0.0,
@@ -656,6 +633,16 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 436,
+            "name": "Steamed Basmati Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           }
