@@ -1109,18 +1109,6 @@
             "price": null
           },
           {
-            "id": 427,
-            "name": "Pineapple Fried Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 87,
             "name": "Sesame Yakisoba Noodles",
             "avg_rating": 0.0,
