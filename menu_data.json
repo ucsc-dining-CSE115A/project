@@ -268,21 +268,6 @@
             "price": null
           }
         ],
-        "- Sweet Treats -": [
-          {
-            "id": 524,
-            "name": "Mint Condition",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
         "- Campus Bakery -": [
           {
             "id": 525,
@@ -2849,17 +2834,6 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 518,
-            "name": "Fire Roasted Corn Soup",
-            "avg_rating": 3.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 422,
             "name": "Organic Vegan Chili",
             "avg_rating": 0.0,
@@ -3115,17 +3089,6 @@
               "VG",
               "GF",
               "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 535,
-            "name": "Tahini Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SESAME",
-              "GF"
             ],
             "price": null
           },
