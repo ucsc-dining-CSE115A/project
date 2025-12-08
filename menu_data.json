@@ -1077,8 +1077,8 @@
             "price": null
           },
           {
-            "id": 31,
-            "name": "Sticky Rice",
+            "id": 30,
+            "name": "Steamed Broccoli",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -1087,13 +1087,11 @@
             "price": null
           },
           {
-            "id": 88,
-            "name": "Stir Fry Vegetables",
+            "id": 31,
+            "name": "Sticky Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SOY",
-              "SESAME",
               "GF"
             ],
             "price": null
