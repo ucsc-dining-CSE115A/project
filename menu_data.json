@@ -140,6 +140,16 @@
       "Lunch": {
         "- Soups -": [
           {
+            "id": 35,
+            "name": "Chicken Spaetzle Soup",
+            "avg_rating": 1.0,
+            "dietary_restrictions": [
+              "EGG",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 482,
             "name": "Vegan Tortilla Soup",
             "avg_rating": 0.0,
@@ -152,8 +162,8 @@
         ],
         "- Entrees -": [
           {
-            "id": 83,
-            "name": "Steamed Carrots and Broccoli",
+            "id": 30,
+            "name": "Steamed Broccoli",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
