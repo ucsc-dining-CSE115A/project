@@ -1709,9 +1709,9 @@
             "price": null
           },
           {
-            "id": 422,
-            "name": "Organic Vegan Chili",
-            "avg_rating": 0.0,
+            "id": 446,
+            "name": "Three Sisters Crave Soup",
+            "avg_rating": 4.0,
             "dietary_restrictions": [
               "VG",
               "GF"
@@ -1758,6 +1758,20 @@
           {
             "id": 19,
             "name": "Cheese Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 619,
+            "name": "Veggie Supreme Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -1992,14 +2006,12 @@
             "price": null
           },
           {
-            "id": 527,
-            "name": "Lasagna Bolognese",
+            "id": 387,
+            "name": "Bolognese Sauce",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "EGG",
-              "DAIRY",
-              "WHEAT",
               "BEEF",
+              "GF",
               "HALAL"
             ],
             "price": null
@@ -2025,16 +2037,6 @@
             "price": null
           },
           {
-            "id": 394,
-            "name": "Sauteed Rainbow Chard with Garlic Oil",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 528,
             "name": "Vegan Meatballs",
             "avg_rating": 0.0,
@@ -2049,6 +2051,20 @@
           {
             "id": 19,
             "name": "Cheese Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 619,
+            "name": "Veggie Supreme Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
