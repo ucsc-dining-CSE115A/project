@@ -140,16 +140,6 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 536,
-            "name": "House Made Vegan Tomato Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 482,
             "name": "Vegan Tortilla Soup",
             "avg_rating": 0.0,
@@ -321,15 +311,6 @@
             "price": null
           },
           {
-            "id": 538,
-            "name": "Buffalo Cauliflower",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V"
-            ],
-            "price": null
-          },
-          {
             "id": 49,
             "name": "Condiments",
             "avg_rating": 0.0,
@@ -364,6 +345,16 @@
             "dietary_restrictions": [
               "GF",
               "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 374,
+            "name": "Roasted Cauliflower",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           },
@@ -415,16 +406,6 @@
       },
       "Dinner": {
         "- Soups -": [
-          {
-            "id": 536,
-            "name": "House Made Vegan Tomato Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
           {
             "id": 482,
             "name": "Vegan Tortilla Soup",
