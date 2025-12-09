@@ -304,6 +304,16 @@
         ],
         "- Hot Bars -": [
           {
+            "id": 58,
+            "name": "Chana Masala",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 490,
             "name": "Chicken Vindaloo",
             "avg_rating": 0.0,
@@ -318,16 +328,6 @@
             "name": "Coastal Indian Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 493,
-            "name": "Makhni Dal",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
             "price": null
           },
           {
