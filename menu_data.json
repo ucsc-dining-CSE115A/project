@@ -3145,6 +3145,16 @@
         ],
         "- Hot Bars -": [
           {
+            "id": 858,
+            "name": "Bacon",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 624,
             "name": "Balsamic Caramelized Onions",
             "avg_rating": 0.0,
