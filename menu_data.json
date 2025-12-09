@@ -277,19 +277,6 @@
             "price": null
           }
         ],
-        "- Sweet Treats -": [
-          {
-            "id": 563,
-            "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
         "- Campus Bakery -": [
           {
             "id": 564,
