@@ -3306,8 +3306,8 @@
             "price": null
           },
           {
-            "id": 145,
-            "name": "Natural Bridges Tofu Scramble",
+            "id": 7,
+            "name": "Tempeh, Black Bean, and Potato Hash",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3461,22 +3461,22 @@
             "price": null
           },
           {
+            "id": 50,
+            "name": "Mexican Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 592,
             "name": "Pork, Green Chile, and Cheese Tamales",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "DAIRY",
               "PORK",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 593,
-            "name": "Sauteed Cauliflower Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "GF"
             ],
             "price": null
