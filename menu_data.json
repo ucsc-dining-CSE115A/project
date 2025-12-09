@@ -563,6 +563,17 @@
         ],
         "- Hot Bars -": [
           {
+            "id": 545,
+            "name": "BBQ Beef",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
             "id": 56,
             "name": "Cauliflower Lentil Dal",
             "avg_rating": 0.0,
@@ -579,17 +590,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 455,
-            "name": "Chicken Tikka Masala",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "GF",
-              "HALAL"
             ],
             "price": null
           },
