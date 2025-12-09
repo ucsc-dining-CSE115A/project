@@ -2910,16 +2910,6 @@
         ],
         "- Grill -": [
           {
-            "id": 442,
-            "name": "Beef Frank",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 131,
             "name": "Gnocchi in Brown Butter Sage Sauce",
             "avg_rating": 0.0,
@@ -2927,18 +2917,6 @@
               "V",
               "EGG",
               "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 443,
-            "name": "Hot Dog Bun",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
               "WHEAT"
             ],
             "price": null
@@ -2963,16 +2941,6 @@
               "SESAME",
               "WHEAT",
               "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 444,
-            "name": "Vegan Hot Dog",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           }
