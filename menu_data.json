@@ -2705,13 +2705,22 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 97,
-            "name": "Chicken Noodle Soup",
+            "id": 499,
+            "name": "Chicken Tortilla Soup",
             "avg_rating": 3.0,
             "dietary_restrictions": [
               "SOY",
-              "EGG",
-              "WHEAT"
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 64,
+            "name": "Organic Kale and Sweet Potato Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           }
@@ -2724,15 +2733,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 561,
-            "name": "Cornmeal Crusted Sand Bass",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "FISH"
             ],
             "price": null
           },
@@ -2754,6 +2754,28 @@
             "dietary_restrictions": [
               "VG",
               "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Grill -": [
+          {
+            "id": 455,
+            "name": "Chicken Tikka Masala",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 115,
+            "name": "French Fries",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY"
             ],
             "price": null
           }
@@ -2858,19 +2880,6 @@
             "price": null
           },
           {
-            "id": 566,
-            "name": "BBQ Ginger Soy Beef",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "BEEF",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
             "id": 567,
             "name": "BBQ Ginger Soy Tofu",
             "avg_rating": 0.0,
@@ -2895,12 +2904,24 @@
             "price": null
           },
           {
-            "id": 569,
-            "name": "Kimchi Fried Rice",
+            "id": 393,
+            "name": "Chimichurri Roasted Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 76,
+            "name": "Hamburger Bun",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
+              "SOY",
+              "SESAME",
+              "WHEAT"
             ],
             "price": null
           },
@@ -2934,12 +2955,21 @@
             "price": null
           },
           {
-            "id": 72,
-            "name": "Sauteed Bok Choy and Carrots with Sesame",
+            "id": 30,
+            "name": "Steamed Broccoli",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SESAME",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 8,
+            "name": "Steamed Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
               "GF"
             ],
             "price": null
@@ -2965,13 +2995,22 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 97,
-            "name": "Chicken Noodle Soup",
+            "id": 499,
+            "name": "Chicken Tortilla Soup",
             "avg_rating": 3.0,
             "dietary_restrictions": [
               "SOY",
-              "EGG",
-              "WHEAT"
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 64,
+            "name": "Organic Kale and Sweet Potato Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           }
@@ -2991,6 +3030,16 @@
           {
             "id": 573,
             "name": "Green Beans with Mushrooms and Carmelized Onions",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 405,
+            "name": "Roasted Green Beans in Garlic Oil",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
