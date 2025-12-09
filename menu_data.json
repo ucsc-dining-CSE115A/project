@@ -577,10 +577,15 @@
             "price": null
           },
           {
-            "id": 49,
-            "name": "Condiments",
+            "id": 568,
+            "name": "Chili Soy Slaw",
             "avg_rating": 0.0,
-            "dietary_restrictions": [],
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "GF"
+            ],
             "price": null
           },
           {
