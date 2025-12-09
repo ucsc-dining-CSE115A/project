@@ -1314,21 +1314,13 @@
             "price": null
           },
           {
-            "id": 801,
-            "name": "Turkey Gravy",
+            "id": 851,
+            "name": "Spicy Cajun Gravy",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 598,
-            "name": "Vegan Garlic Mashed Potatoes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
+              "SOY",
+              "WHEAT",
+              "FISH"
             ],
             "price": null
           }
@@ -3418,63 +3410,20 @@
             "price": null
           }
         ],
-        "- Entrees -": [
-          {
-            "id": 471,
-            "name": "Black Beans with Cumin Spice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 50,
-            "name": "Mexican Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 592,
-            "name": "Pork, Green Chile, and Cheese Tamales",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "PORK",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 594,
-            "name": "Vegan Corn and Veggie Tamale",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
         "- Bars & Clean Plate -": [
-          {
-            "id": 624,
-            "name": "Balsamic Caramelized Onions",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
           {
             "id": 625,
             "name": "Beyond Meat Smash Burger",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 471,
+            "name": "Black Beans with Cumin Spice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3502,6 +3451,16 @@
               "SOY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 50,
+            "name": "Mexican Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           },
