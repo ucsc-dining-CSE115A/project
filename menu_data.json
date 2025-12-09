@@ -5,18 +5,8 @@
       "Breakfast": {
         "- Breakfast -": [
           {
-            "id": 582,
-            "name": "Bob's Red Mill Gluten-Free Pancakes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 514,
-            "name": "Buttermilk Pancake with Cinnamon Apples",
+            "id": 61,
+            "name": "Belgian Waffle Squares",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -187,28 +177,6 @@
           }
         ],
         "- Entrees -": [
-          {
-            "id": 604,
-            "name": "BBQ Tempeh",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 605,
-            "name": "Garlic Roast Beef",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
           {
             "id": 430,
             "name": "Oven Roasted Herbed Potatoes",
