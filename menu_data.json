@@ -1267,6 +1267,28 @@
             "dietary_restrictions": [],
             "price": null
           }
+        ],
+        "- Available 2pm-5pm -": [
+          {
+            "id": 442,
+            "name": "Beef Frank",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 444,
+            "name": "Vegan Hot Dog",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
         ]
       },
       "Dinner": {
