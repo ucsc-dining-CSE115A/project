@@ -458,8 +458,8 @@
             "price": null
           },
           {
-            "id": 587,
-            "name": "Tempeh Roasted with Salt",
+            "id": 110,
+            "name": "Tempeh Roasted with Chorizo Spice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -584,16 +584,6 @@
               "VG",
               "SOY",
               "SESAME",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 27,
-            "name": "Green Onion Slaw",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "GF"
             ],
             "price": null
