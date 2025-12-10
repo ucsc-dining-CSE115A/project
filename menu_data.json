@@ -834,6 +834,18 @@
     },
     "Cowell & Stevenson Dining Hall": {
       "Breakfast": {
+        "- Miscellaneous -": [
+          {
+            "id": 468,
+            "name": "Huevos Rancheros Verdes",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "EGG"
+            ],
+            "price": null
+          }
+        ],
         "- Breakfast -": [
           {
             "id": 2,
@@ -999,6 +1011,16 @@
           }
         ],
         "- Soups -": [
+          {
+            "id": 543,
+            "name": "Chicken Pozole",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
           {
             "id": 142,
             "name": "Garden Vegetable Soup",
