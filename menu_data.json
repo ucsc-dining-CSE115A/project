@@ -403,20 +403,19 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 606,
-            "name": "Creamy Broccoli Cheddar Soup",
-            "avg_rating": 0.0,
+            "id": 499,
+            "name": "Chicken Tortilla Soup",
+            "avg_rating": 3.0,
             "dietary_restrictions": [
-              "V",
-              "DAIRY",
+              "SOY",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 121,
-            "name": "Xochitl Soup",
-            "avg_rating": 4.0,
+            "id": 383,
+            "name": "Organic Black Bean Soup",
+            "avg_rating": 3.0,
             "dietary_restrictions": [
               "VG",
               "GF"
@@ -574,18 +573,6 @@
             "name": "Chengdu Wing Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 568,
-            "name": "Chili Soy Slaw",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "GF"
-            ],
             "price": null
           },
           {
@@ -3831,6 +3818,64 @@
         ]
       },
       "Late Night": {
+        "- Miscellaneous -": [
+          {
+            "id": 749,
+            "name": "Chili con Carne",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "BEEF"
+            ],
+            "price": null
+          },
+          {
+            "id": 443,
+            "name": "Hot Dog Bun",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          }
+        ],
+        "- Entrees -": [
+          {
+            "id": 442,
+            "name": "Beef Frank",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 577,
+            "name": "Cheese Sauce",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 444,
+            "name": "Vegan Hot Dog",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Grill -": [
           {
             "id": 78,
@@ -3839,19 +3884,6 @@
             "dietary_restrictions": [
               "V",
               "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 588,
-            "name": "Vietnamese Pork Banh Mi Sandwich",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "WHEAT",
-              "PORK",
-              "ALC"
             ],
             "price": null
           }
