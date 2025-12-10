@@ -123,6 +123,16 @@
       "Lunch": {
         "- Soups -": [
           {
+            "id": 35,
+            "name": "Chicken Spaetzle Soup",
+            "avg_rating": 1.0,
+            "dietary_restrictions": [
+              "EGG",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 499,
             "name": "Chicken Tortilla Soup",
             "avg_rating": 3.0,
@@ -131,14 +141,17 @@
               "GF"
             ],
             "price": null
-          },
+          }
+        ],
+        "- Salads -": [
           {
-            "id": 120,
-            "name": "Mushroom & Barley Soup",
+            "id": 606,
+            "name": "Creamy Broccoli Cheddar Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "WHEAT"
+              "V",
+              "DAIRY",
+              "GF"
             ],
             "price": null
           }
@@ -189,6 +202,21 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 117,
+            "name": "Pepperoni Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
@@ -283,16 +311,6 @@
               "SOY",
               "FISH",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 45,
-            "name": "Black Bean Corn Salsa",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           },
