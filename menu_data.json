@@ -1005,6 +1005,16 @@
             "price": null
           },
           {
+            "id": 468,
+            "name": "Huevos Rancheros Verdes",
+            "avg_rating": 4.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "EGG"
+            ],
+            "price": null
+          },
+          {
             "id": 95,
             "name": "Texas French Toast",
             "avg_rating": 0.0,
@@ -3363,8 +3373,8 @@
             "price": null
           },
           {
-            "id": 738,
-            "name": "Italian Roasted Chicken",
+            "id": 861,
+            "name": "Pan Handle Rotisserie Chicken",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "GF",
