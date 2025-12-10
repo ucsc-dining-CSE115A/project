@@ -415,12 +415,11 @@
             "price": null
           },
           {
-            "id": 860,
-            "name": "Roasted Corn and Edamame",
+            "id": 785,
+            "name": "Steamed Bok Choy",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SOY",
               "GF"
             ],
             "price": null
@@ -466,12 +465,17 @@
             "price": null
           },
           {
-            "id": 633,
-            "name": "Cilantro Flatbread with Red Onions and Mushrooms",
+            "id": 117,
+            "name": "Pepperoni Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "WHEAT"
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
