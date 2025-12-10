@@ -838,7 +838,7 @@
           {
             "id": 468,
             "name": "Huevos Rancheros Verdes",
-            "avg_rating": 0.0,
+            "avg_rating": 4.0,
             "dietary_restrictions": [
               "DAIRY",
               "EGG"
@@ -3398,6 +3398,16 @@
             "price": null
           },
           {
+            "id": 47,
+            "name": "Charro Beans",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 595,
             "name": "Chicken Taqueria Bar",
             "avg_rating": 0.0,
@@ -3454,23 +3464,22 @@
         ],
         "- Grill and Soups -": [
           {
+            "id": 35,
+            "name": "Chicken Spaetzle Soup",
+            "avg_rating": 1.0,
+            "dietary_restrictions": [
+              "EGG",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 142,
             "name": "Garden Vegetable Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 636,
-            "name": "Sweet & Sour Mushroom Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
             ],
             "price": null
           }
