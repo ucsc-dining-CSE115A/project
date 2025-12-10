@@ -415,11 +415,12 @@
             "price": null
           },
           {
-            "id": 405,
-            "name": "Roasted Green Beans in Garlic Oil",
+            "id": 860,
+            "name": "Roasted Corn and Edamame",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "SOY",
               "GF"
             ],
             "price": null
