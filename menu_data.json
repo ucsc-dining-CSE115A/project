@@ -650,25 +650,13 @@
       "Late Night": {
         "- Grill -": [
           {
-            "id": 78,
-            "name": "Sweet Potato Fries",
+            "id": 539,
+            "name": "Green Chili and Cheese Potato Salad",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 588,
-            "name": "Vietnamese Pork Banh Mi Sandwich",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "WHEAT",
-              "PORK",
-              "ALC"
+              "DAIRY",
+              "GF"
             ],
             "price": null
           }
@@ -763,6 +751,16 @@
             "price": null
           },
           {
+            "id": 374,
+            "name": "Roasted Cauliflower",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 399,
             "name": "Roasted Corn Salad",
             "avg_rating": 0.0,
@@ -783,16 +781,6 @@
               "PORK",
               "GF",
               "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 94,
-            "name": "Sweet Potato, Black Bean, and Kale Hash",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           },
@@ -3004,17 +2992,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 772,
-            "name": "Baked Salmon with Garlic Butter",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 573,
             "name": "Green Beans with Mushrooms and Carmelized Onions",
             "avg_rating": 0.0,
@@ -3173,6 +3150,19 @@
             "price": null
           },
           {
+            "id": 603,
+            "name": "Halal Chicken Patty",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
             "id": 76,
             "name": "Hamburger Bun",
             "avg_rating": 0.0,
@@ -3200,16 +3190,6 @@
             "name": "Stack Haus Burger Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 628,
-            "name": "Steak Cut Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
             "price": null
           },
           {
