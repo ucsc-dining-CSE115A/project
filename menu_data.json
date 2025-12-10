@@ -3306,14 +3306,13 @@
         ],
         "- Sweet Treats -": [
           {
-            "id": 453,
-            "name": "Gluten-Free Snickerdoodle Cookie",
+            "id": 804,
+            "name": "Vegan Oatmeal Raisin Cookie",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "GF"
+              "VG",
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           }
@@ -3581,14 +3580,13 @@
         ],
         "- Sweet Treats -": [
           {
-            "id": 453,
-            "name": "Gluten-Free Snickerdoodle Cookie",
+            "id": 804,
+            "name": "Vegan Oatmeal Raisin Cookie",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "GF"
+              "VG",
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           }
@@ -3878,20 +3876,6 @@
             "dietary_restrictions": [
               "VG",
               "SOY",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Sweet Treats -": [
-          {
-            "id": 453,
-            "name": "Gluten-Free Snickerdoodle Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
               "GF"
             ],
             "price": null
