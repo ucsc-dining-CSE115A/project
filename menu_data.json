@@ -2096,24 +2096,20 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 64,
-            "name": "Organic Kale and Sweet Potato Soup",
+            "id": 543,
+            "name": "Chicken Pozole",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
+              "GF",
+              "ALC"
             ],
             "price": null
           },
           {
-            "id": 617,
-            "name": "Turkey Noodle Soup",
+            "id": 741,
+            "name": "Soup of the Day",
             "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "EGG",
-              "WHEAT",
-              "ALC"
-            ],
+            "dietary_restrictions": [],
             "price": null
           }
         ],
@@ -2271,16 +2267,6 @@
             "price": null
           },
           {
-            "id": 45,
-            "name": "Black Bean Corn Salsa",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 46,
             "name": "Caramelized Chipotle Tofu",
             "avg_rating": 0.0,
@@ -2296,16 +2282,6 @@
             "name": "Chicken Taqueria Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 48,
-            "name": "Cilantro Lime Riced Cauliflower",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
             "price": null
           },
           {
