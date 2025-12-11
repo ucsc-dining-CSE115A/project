@@ -378,12 +378,21 @@
             "price": null
           },
           {
-            "id": 98,
-            "name": "Vegan Garbanzo Sesame Soup",
+            "id": 35,
+            "name": "Chicken Spaetzle Soup",
+            "avg_rating": 1.0,
+            "dietary_restrictions": [
+              "EGG",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 64,
+            "name": "Organic Kale and Sweet Potato Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SESAME",
               "GF"
             ],
             "price": null
@@ -1805,16 +1814,6 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 80,
-            "name": "Chicken Soup Tlalpan",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
             "id": 142,
             "name": "Garden Vegetable Soup",
             "avg_rating": 0.0,
@@ -1876,6 +1875,53 @@
             "dietary_restrictions": [
               "VG",
               "WHEAT"
+            ],
+            "price": null
+          }
+        ],
+        "- Grill -": [
+          {
+            "id": 76,
+            "name": "Hamburger Bun",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 550,
+            "name": "Opah Burger Patty",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "FISH",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 78,
+            "name": "Sweet Potato Fries",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY"
+            ],
+            "price": null
+          },
+          {
+            "id": 724,
+            "name": "Vegan Actual Veggies Black Bean Patty",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           }
@@ -2062,16 +2108,6 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 80,
-            "name": "Chicken Soup Tlalpan",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
             "id": 142,
             "name": "Garden Vegetable Soup",
             "avg_rating": 0.0,
@@ -2124,41 +2160,6 @@
               "GF",
               "BEEF",
               "HALAL"
-            ],
-            "price": null
-          }
-        ],
-        "- Grill -": [
-          {
-            "id": 115,
-            "name": "French Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 130,
-            "name": "Halal Chicken Nuggets",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "WHEAT",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 129,
-            "name": "Vegan Tenders",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
             ],
             "price": null
           }
