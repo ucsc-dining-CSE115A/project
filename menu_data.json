@@ -1018,20 +1018,29 @@
         ]
       },
       "Lunch": {
-        "- Brunch -": [
+        "- Miscellaneous -": [
           {
-            "id": 1,
-            "name": "Buttermilk Pancakes",
+            "id": 64,
+            "name": "Organic Kale and Sweet Potato Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT"
+              "VG",
+              "GF"
             ],
             "price": null
           },
+          {
+            "id": 422,
+            "name": "Organic Vegan Chili",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Brunch -": [
           {
             "id": 4,
             "name": "Mexican Chorizo Sausage",
@@ -1066,12 +1075,15 @@
         ],
         "- Soups -": [
           {
-            "id": 12,
-            "name": "Chipotle Cuban Black Bean Soup",
+            "id": 1,
+            "name": "Buttermilk Pancakes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT"
             ],
             "price": null
           }
