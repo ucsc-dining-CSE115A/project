@@ -662,31 +662,6 @@
         ]
       },
       "Late Night": {
-        "- Grill -": [
-          {
-            "id": 634,
-            "name": "Barcelona Steak Sandwich",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "BEEF"
-            ],
-            "price": null
-          },
-          {
-            "id": 498,
-            "name": "Tater Tots",
-            "avg_rating": 4.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          }
-        ],
         "- Pizza -": [
           {
             "id": 19,
@@ -703,12 +678,17 @@
             "price": null
           },
           {
-            "id": 633,
-            "name": "Cilantro Flatbread with Red Onions and Mushrooms",
+            "id": 117,
+            "name": "Pepperoni Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "WHEAT"
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
@@ -819,16 +799,6 @@
           {
             "id": 140,
             "name": "Roasted Corn",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 141,
-            "name": "Sauteed Onions and Peppers",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
