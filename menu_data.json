@@ -882,19 +882,6 @@
       "Breakfast": {
         "- Breakfast -": [
           {
-            "id": 1,
-            "name": "Buttermilk Pancakes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 3,
             "name": "Hard-boiled Cage Free Egg (1)",
             "avg_rating": 0.0,
@@ -911,6 +898,17 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "PORK",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 145,
+            "name": "Natural Bridges Tofu Scramble",
+            "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
               "GF"
             ],
             "price": null
@@ -936,13 +934,16 @@
             "price": null
           },
           {
-            "id": 7,
-            "name": "Tempeh, Black Bean, and Potato Hash",
+            "id": 95,
+            "name": "Texas French Toast",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
+              "V",
               "SOY",
-              "GF"
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           }
@@ -1042,22 +1043,22 @@
             "price": null
           },
           {
-            "id": 6,
-            "name": "Spicy Gold Potatoes",
-            "avg_rating": 0.0,
+            "id": 145,
+            "name": "Natural Bridges Tofu Scramble",
+            "avg_rating": 3.0,
             "dietary_restrictions": [
               "VG",
+              "SOY",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 7,
-            "name": "Tempeh, Black Bean, and Potato Hash",
+            "id": 6,
+            "name": "Spicy Gold Potatoes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SOY",
               "GF"
             ],
             "price": null
@@ -3193,27 +3194,6 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "PORK",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 6,
-            "name": "Spicy Gold Potatoes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 7,
-            "name": "Tempeh, Black Bean, and Potato Hash",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
               "GF"
             ],
             "price": null
