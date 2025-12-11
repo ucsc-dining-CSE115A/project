@@ -2585,6 +2585,16 @@
         ],
         "- Entrees -": [
           {
+            "id": 709,
+            "name": "Cajun Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 15,
             "name": "Chicken Adobo",
             "avg_rating": 0.0,
@@ -2592,17 +2602,6 @@
               "SOY",
               "GF",
               "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 765,
-            "name": "Garlic Green Beans",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
             ],
             "price": null
           },
@@ -2618,8 +2617,8 @@
             "price": null
           },
           {
-            "id": 18,
-            "name": "Steamed Brown Rice",
+            "id": 374,
+            "name": "Roasted Cauliflower",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -2709,43 +2708,12 @@
         ],
         "- Grill and Soups -": [
           {
-            "id": 441,
-            "name": "BBQ Pulled Shiitake",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 35,
             "name": "Chicken Spaetzle Soup",
             "avg_rating": 1.0,
             "dietary_restrictions": [
               "EGG",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 12,
-            "name": "Chipotle Cuban Black Bean Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 27,
-            "name": "Green Onion Slaw",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           },
@@ -2761,24 +2729,12 @@
             "price": null
           },
           {
-            "id": 76,
-            "name": "Hamburger Bun",
+            "id": 862,
+            "name": "Tomato Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SOY",
-              "SESAME",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 78,
-            "name": "Sweet Potato Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
             ],
             "price": null
           }
