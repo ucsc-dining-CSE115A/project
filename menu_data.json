@@ -149,6 +149,16 @@
               "WHEAT"
             ],
             "price": null
+          },
+          {
+            "id": 64,
+            "name": "Organic Kale and Sweet Potato Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
           }
         ],
         "- Entrees -": [
@@ -196,20 +206,6 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 125,
-            "name": "Street Corn Pizza with Bacon",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "PORK"
             ],
             "price": null
           }
@@ -283,19 +279,6 @@
               "SOY",
               "SESAME",
               "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 85,
-            "name": "Char Siu Gardein",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT",
               "ALC"
             ],
             "price": null
@@ -1007,28 +990,6 @@
         ]
       },
       "Lunch": {
-        "- Miscellaneous -": [
-          {
-            "id": 64,
-            "name": "Organic Kale and Sweet Potato Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 422,
-            "name": "Organic Vegan Chili",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
         "- Brunch -": [
           {
             "id": 4,
@@ -1073,6 +1034,26 @@
               "EGG",
               "DAIRY",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 64,
+            "name": "Organic Kale and Sweet Potato Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 422,
+            "name": "Organic Vegan Chili",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           }
