@@ -2754,30 +2754,6 @@
         ]
       },
       "Dinner": {
-        "- Miscellaneous -": [
-          {
-            "id": 37,
-            "name": "Grilled Balsamic Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 413,
-            "name": "Rice Pilaf",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
         "- Entrees -": [
           {
             "id": 765,
@@ -2787,6 +2763,18 @@
               "VG",
               "SOY",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 37,
+            "name": "Grilled Balsamic Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF",
+              "ALC"
             ],
             "price": null
           },
@@ -2801,17 +2789,12 @@
             "price": null
           },
           {
-            "id": 117,
-            "name": "Pepperoni Pizza",
+            "id": 637,
+            "name": "Garlic Linguinie",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "BEEF",
-              "PORK"
+              "VG",
+              "WHEAT"
             ],
             "price": null
           }
@@ -2941,16 +2924,6 @@
             "price": null
           },
           {
-            "id": 45,
-            "name": "Black Bean Corn Salsa",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 46,
             "name": "Caramelized Chipotle Tofu",
             "avg_rating": 0.0,
@@ -2964,16 +2937,6 @@
           {
             "id": 47,
             "name": "Charro Beans",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 48,
-            "name": "Cilantro Lime Riced Cauliflower",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3001,28 +2964,6 @@
           {
             "id": 51,
             "name": "Yellow Corn Tortillas",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Grill and Soups -": [
-          {
-            "id": 35,
-            "name": "Chicken Spaetzle Soup",
-            "avg_rating": 1.0,
-            "dietary_restrictions": [
-              "EGG",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 12,
-            "name": "Chipotle Cuban Black Bean Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
