@@ -149,17 +149,6 @@
               "WHEAT"
             ],
             "price": null
-          },
-          {
-            "id": 98,
-            "name": "Vegan Garbanzo Sesame Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SESAME",
-              "GF"
-            ],
-            "price": null
           }
         ],
         "- Entrees -": [
