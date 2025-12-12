@@ -1031,39 +1031,27 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 382,
-            "name": "New England Clam Chowder",
-            "avg_rating": 0.0,
+            "id": 35,
+            "name": "Chicken Spaetzle Soup",
+            "avg_rating": 1.0,
             "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "SHELLFISH",
-              "GF"
+              "EGG",
+              "WHEAT"
             ],
             "price": null
           },
           {
-            "id": 383,
-            "name": "Organic Black Bean Soup",
-            "avg_rating": 3.0,
+            "id": 142,
+            "name": "Garden Vegetable Soup",
+            "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
+              "WHEAT"
             ],
             "price": null
           }
         ],
         "- Entrees -": [
-          {
-            "id": 393,
-            "name": "Chimichurri Roasted Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
           {
             "id": 136,
             "name": "Grilled Chimichurri Tofu",
@@ -1072,6 +1060,16 @@
               "VG",
               "SOY",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 532,
+            "name": "Harissa Roasted Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
             ],
             "price": null
           },
@@ -1210,16 +1208,6 @@
             "price": null
           },
           {
-            "id": 398,
-            "name": "Kalua Pork",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "PORK",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 399,
             "name": "Roasted Corn Salad",
             "avg_rating": 0.0,
@@ -1240,16 +1228,6 @@
               "PORK",
               "GF",
               "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 94,
-            "name": "Sweet Potato, Black Bean, and Kale Hash",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           },
@@ -2518,6 +2496,20 @@
           }
         ],
         "- Bakery -": [
+          {
+            "id": 864,
+            "name": "Berry White Cookie by PCC",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": "$0.00"
+          },
           {
             "id": 447,
             "name": "Blueberry Muffin",
@@ -6003,6 +5995,20 @@
       "ALL": {
         "- Campus Bakery -": [
           {
+            "id": 864,
+            "name": "Berry White Cookie by PCC",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": "$0.00"
+          },
+          {
             "id": 447,
             "name": "Blueberry Muffin",
             "avg_rating": 0.0,
@@ -6771,6 +6777,20 @@
           }
         ],
         "- Campus Bakery -": [
+          {
+            "id": 864,
+            "name": "Berry White Cookie by PCC",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": "$0.00"
+          },
           {
             "id": 447,
             "name": "Blueberry Muffin",
