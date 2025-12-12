@@ -2002,20 +2002,6 @@
             "price": null
           }
         ],
-        "- Sweet Treats -": [
-          {
-            "id": 119,
-            "name": "Vegan Chocolate Chip Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
         "- Campus Bakery -": [
           {
             "id": 386,
@@ -2046,11 +2032,32 @@
         ],
         "- Entrees -": [
           {
+            "id": 76,
+            "name": "Hamburger Bun",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 30,
             "name": "Steamed Broccoli",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 79,
+            "name": "Turkey Burger",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
               "GF"
             ],
             "price": null
@@ -2064,17 +2071,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 387,
-            "name": "Bolognese Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "GF",
-              "HALAL"
             ],
             "price": null
           },
@@ -2094,6 +2090,17 @@
               "SOY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 501,
+            "name": "Housemade Creamy Alfredo Sauce",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "DAIRY",
+              "GF"
             ],
             "price": null
           },
@@ -2133,16 +2140,6 @@
               "GF"
             ],
             "price": null
-          },
-          {
-            "id": 392,
-            "name": "White Beans",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
           }
         ],
         "- Grill and Soups -": [
@@ -2150,6 +2147,16 @@
             "id": 383,
             "name": "Organic Black Bean Soup",
             "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 64,
+            "name": "Organic Kale and Sweet Potato Soup",
+            "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
