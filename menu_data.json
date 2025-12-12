@@ -410,6 +410,63 @@
             "price": null
           }
         ],
+        "- Entrees -": [
+          {
+            "id": 600,
+            "name": "Creamy Mashed Yukon Golds",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 136,
+            "name": "Grilled Chimichurri Tofu",
+            "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 722,
+            "name": "Nasi Goreng Fried Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "SESAME",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 138,
+            "name": "Peruvian Beef Saltado",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "BEEF"
+            ],
+            "price": null
+          },
+          {
+            "id": 30,
+            "name": "Steamed Broccoli",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Pizza -": [
           {
             "id": 19,
