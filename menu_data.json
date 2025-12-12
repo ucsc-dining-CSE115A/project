@@ -663,16 +663,6 @@
             "price": null
           },
           {
-            "id": 660,
-            "name": "Malfouf (Middle Eastern Cole Slaw)",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 661,
             "name": "Za'atar Chicken",
             "avg_rating": 0.0,
@@ -771,16 +761,6 @@
               "V",
               "SOY",
               "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 635,
-            "name": "Cilantro Slaw",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "GF"
             ],
             "price": null
