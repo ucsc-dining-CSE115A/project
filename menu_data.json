@@ -400,64 +400,8 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 382,
-            "name": "New England Clam Chowder",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "SHELLFISH",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 422,
-            "name": "Organic Vegan Chili",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Entrees -": [
-          {
-            "id": 428,
-            "name": "Baja Sandbar Bass Piccata",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 429,
-            "name": "Orzo Toscana",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 430,
-            "name": "Oven Roasted Herbed Potatoes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 431,
-            "name": "Roasted Tomatoes",
+            "id": 64,
+            "name": "Organic Kale and Sweet Potato Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -579,37 +523,6 @@
             "dietary_restrictions": [
               "GF",
               "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 433,
-            "name": "Mumbai Street Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 60,
-            "name": "Original Naan",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 436,
-            "name": "Steamed Basmati Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           },
@@ -1228,6 +1141,17 @@
               "PORK",
               "GF",
               "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 537,
+            "name": "Teriyaki Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "GF"
             ],
             "price": null
           },
