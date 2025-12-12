@@ -1891,43 +1891,44 @@
             "price": null
           },
           {
-            "id": 375,
-            "name": "Chicken Apple Sausage",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 376,
-            "name": "Roasted Red Potatoes",
+            "id": 466,
+            "name": "French Toast Sticks",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 94,
-            "name": "Sweet Potato, Black Bean, and Kale Hash",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 377,
-            "name": "Whole Wheat Vegan Blueberry Pancakes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "ALC",
+              "SOY",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 145,
+            "name": "Natural Bridges Tofu Scramble",
+            "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 614,
+            "name": "Sausage Patties",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 403,
+            "name": "Shredded Hash Browns",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           }
