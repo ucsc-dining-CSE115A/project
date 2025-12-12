@@ -2140,6 +2140,16 @@
               "GF"
             ],
             "price": null
+          },
+          {
+            "id": 392,
+            "name": "White Beans",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
           }
         ],
         "- Grill and Soups -": [
