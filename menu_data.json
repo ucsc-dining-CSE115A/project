@@ -1700,6 +1700,89 @@
             "price": null
           }
         ],
+        "- Entrees -": [
+          {
+            "id": 84,
+            "name": "Char Siu Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 722,
+            "name": "Nasi Goreng Fried Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "SESAME",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 143,
+            "name": "Red Curry Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 405,
+            "name": "Roasted Green Beans in Garlic Oil",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 87,
+            "name": "Sesame Yakisoba Noodles",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 31,
+            "name": "Sticky Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 664,
+            "name": "Thai Red Curry Beef",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "FISH",
+              "GF",
+              "BEEF",
+              "HALAL"
+            ],
+            "price": null
+          }
+        ],
         "- Clean Plate -": [
           {
             "id": 21,
