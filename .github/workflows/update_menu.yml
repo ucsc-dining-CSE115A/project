@@ -1,0 +1,89 @@
+name: Update UCSC Menus
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: update-menu
+      cancel-in-progress: true
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Debug repo structure
+        run: |
+          pwd
+          echo "GH_REPO=${{ github.repository }}"
+          git rev-parse --abbrev-ref HEAD
+          git remote -v
+          ls -la
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install selenium webdriver-manager beautifulsoup4 supabase
+
+      - name: Run scraper (headless) -> writes menu_data.json
+        env:
+          MENU_JSON: menu_data.json
+          IS_HEADLESS: "1"
+        run: |
+          set -e
+          python backend/scraper.py
+          echo "First lines of menu_data.json:"
+          head -n 20 menu_data.json || true
+
+      # NEW: run fetch_macros.py against the same menu_data.json that was just written
+      - name: Run fetch_macros on menu_data.json (writes to Supabase)
+        env:
+          MENU_JSON: menu_data.json
+          IS_HEADLESS: "1"
+          # Provide these via repository secrets:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          # Optional: override table name (defaults to 'macros')
+          # SUPABASE_TABLE: macros
+        run: |
+          set -e
+          # If your script supports flags like --date/--limit, add them here
+          python backend/fetch_macros.py
+
+      - name: Commit & push with PAT if changed
+        env:
+          GH_REPO: ${{ github.repository }}
+          GH_PAT:  ${{ secrets.PAT_TOKEN }}
+        run: |
+          set -e
+          git config user.name  "github-actions"
+          git config user.email "actions@github.com"
+          git add menu_data.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          TARGET_BRANCH="main"
+          echo "Pushing to branch: $TARGET_BRANCH"
+          git commit -m "Update menu_data.json [skip ci]"
+          git push "https://x-access-token:${GH_PAT}@github.com/${GH_REPO}.git" "HEAD:${TARGET_BRANCH}"

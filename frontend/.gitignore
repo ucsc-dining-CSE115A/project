@@ -1,0 +1,9 @@
+# macOS junk files
+.DS_Store
+
+# Node dependencies
+node_modules/
+
+# Build output (optional if you have one)
+dist/
+build/

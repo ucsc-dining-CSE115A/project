@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/YOUR_REPO_NAME/static/css/main.8e9e0b6f.css",
+    "main.js": "/YOUR_REPO_NAME/static/js/main.5cfaf25f.js",
+    "static/media/landing-wallpaper.jpg": "/YOUR_REPO_NAME/static/media/landing-wallpaper.0c745ff1ae7074772cf9.jpg",
+    "index.html": "/YOUR_REPO_NAME/index.html",
+    "main.8e9e0b6f.css.map": "/YOUR_REPO_NAME/static/css/main.8e9e0b6f.css.map",
+    "main.5cfaf25f.js.map": "/YOUR_REPO_NAME/static/js/main.5cfaf25f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e9e0b6f.css",
+    "static/js/main.5cfaf25f.js"
+  ]
+}
