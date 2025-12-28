@@ -45,6 +45,7 @@ colleges = [
     "John R. Lewis & College Nine Dining Hall",
     "Cowell & Stevenson Dining Hall",
     "Crown & Merrill Dining Hall and Banana Joe's",
+    "Crown & Merrill Dining Hall",
     "Porter & Kresge Dining Hall",
     "Rachel Carson & Oakes Dining Hall",
     "Oakes Cafe",
