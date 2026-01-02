@@ -5,14 +5,12 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 382,
-            "name": "New England Clam Chowder",
-            "avg_rating": 0.0,
+            "id": 35,
+            "name": "Chicken Spaetzle Soup",
+            "avg_rating": 1.0,
             "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "SHELLFISH",
-              "GF"
+              "EGG",
+              "WHEAT"
             ],
             "price": null
           },
@@ -22,54 +20,6 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Entrees -": [
-          {
-            "id": 425,
-            "name": "Malaysian Pork Rendang",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "PORK",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 682,
-            "name": "Spicy Gardein with Garlic & Basil",
-            "avg_rating": 2.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 31,
-            "name": "Sticky Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 88,
-            "name": "Stir Fry Vegetables",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
               "GF"
             ],
             "price": null
@@ -91,8 +41,8 @@
             "price": null
           },
           {
-            "id": 440,
-            "name": "Pizza with Gochujang Chicken",
+            "id": 117,
+            "name": "Pepperoni Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
@@ -100,7 +50,8 @@
               "DAIRY",
               "SESAME",
               "WHEAT",
-              "ALC"
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
