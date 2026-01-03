@@ -1532,26 +1532,16 @@
       "Dinner": {
         "- Sweet Treats -": [
           {
-            "id": 462,
-            "name": "Apple Pie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 453,
-            "name": "Gluten-Free Snickerdoodle Cookie",
+            "id": 512,
+            "name": "Carrot Cake With Nuts",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
               "SOY",
               "EGG",
-              "GF"
+              "DAIRY",
+              "TREENUT",
+              "WHEAT"
             ],
             "price": null
           }
