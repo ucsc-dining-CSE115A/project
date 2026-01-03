@@ -57,11 +57,12 @@
             "price": null
           },
           {
-            "id": 784,
-            "name": "Sourdough French Toast",
+            "id": 95,
+            "name": "Texas French Toast",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
+              "SOY",
               "EGG",
               "DAIRY",
               "WHEAT",
