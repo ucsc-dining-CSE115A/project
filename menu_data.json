@@ -1568,6 +1568,19 @@
       "Lunch": {
         "- Sweet Treats -": [
           {
+            "id": 803,
+            "name": "Pecan Pie",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "TREENUT",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 484,
             "name": "Sugar Cookie",
             "avg_rating": 0.0,
