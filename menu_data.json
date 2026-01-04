@@ -960,13 +960,12 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 452,
-            "name": "Hearty Beef Chili",
+            "id": 422,
+            "name": "Organic Vegan Chili",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "BEEF",
-              "GF",
-              "HALAL"
+              "VG",
+              "GF"
             ],
             "price": null
           }
