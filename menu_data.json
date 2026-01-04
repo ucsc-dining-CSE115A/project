@@ -1753,12 +1753,12 @@
         ],
         "- Grill and Soups -": [
           {
-            "id": 481,
-            "name": "Pork Pozole",
+            "id": 543,
+            "name": "Chicken Pozole",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "PORK",
-              "GF"
+              "GF",
+              "ALC"
             ],
             "price": null
           },
@@ -1807,21 +1807,6 @@
       },
       "Dinner": {
         "- Sweet Treats -": [
-          {
-            "id": 489,
-            "name": "German Chocolate Cake With Nuts",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "TREENUT",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
           {
             "id": 484,
             "name": "Sugar Cookie",
@@ -2009,6 +1994,16 @@
           }
         ],
         "- Grill and Soups -": [
+          {
+            "id": 543,
+            "name": "Chicken Pozole",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
           {
             "id": 481,
             "name": "Pork Pozole",
