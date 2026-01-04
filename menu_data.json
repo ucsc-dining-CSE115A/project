@@ -1612,6 +1612,16 @@
         ],
         "- Entrees -": [
           {
+            "id": 93,
+            "name": "Crispy Bacon",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 466,
             "name": "French Toast Sticks",
             "avg_rating": 0.0,
@@ -1623,22 +1633,12 @@
             "price": null
           },
           {
-            "id": 4,
-            "name": "Mexican Chorizo Sausage",
-            "avg_rating": 0.0,
+            "id": 498,
+            "name": "Tater Tots",
+            "avg_rating": 4.0,
             "dietary_restrictions": [
-              "PORK",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 857,
-            "name": "Roasted Yukon Gold Potatoes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
+              "V",
+              "SOY"
             ],
             "price": null
           },
