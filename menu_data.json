@@ -541,6 +541,16 @@
             "price": null
           },
           {
+            "id": 122,
+            "name": "Jasmine Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 766,
             "name": "Pad See Ew",
             "avg_rating": 0.0,
@@ -559,16 +569,6 @@
             "dietary_restrictions": [
               "SOY",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 436,
-            "name": "Steamed Basmati Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           },
