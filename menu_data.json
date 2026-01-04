@@ -667,6 +667,19 @@
       "Breakfast": {
         "- Breakfast -": [
           {
+            "id": 1,
+            "name": "Buttermilk Pancakes",
+            "avg_rating": 4.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 2,
             "name": "Cage-Free Scrambled Eggs",
             "avg_rating": 3.0,
@@ -705,6 +718,17 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "PORK",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 145,
+            "name": "Natural Bridges Tofu Scramble",
+            "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
               "GF"
             ],
             "price": null
