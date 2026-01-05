@@ -1173,6 +1173,17 @@
             "price": null
           },
           {
+            "id": 928,
+            "name": "Tamarind BBQ Sauce",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 513,
             "name": "Vegan Mushroom Gravy",
             "avg_rating": 0.0,
@@ -1315,6 +1326,17 @@
             "price": null
           },
           {
+            "id": 387,
+            "name": "Bolognese Sauce",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
             "id": 49,
             "name": "Condiments",
             "avg_rating": 0.0,
@@ -1354,22 +1376,21 @@
             "price": null
           },
           {
+            "id": 502,
+            "name": "Porcini Crusted Roasted Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
             "id": 410,
             "name": "Southern Italian Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 411,
-            "name": "Sustainable Scampi with Tomato and Spinach",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "SHELLFISH",
-              "GF",
-              "ALC"
-            ],
             "price": null
           }
         ],
@@ -3205,17 +3226,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 772,
-            "name": "Baked Salmon with Garlic Butter",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 863,
             "name": "Garlic Linguine",
             "avg_rating": 0.0,
@@ -3232,6 +3242,17 @@
             "dietary_restrictions": [
               "VG",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 929,
+            "name": "Tavern Battered Pollock",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "FISH",
+              "WHEAT"
             ],
             "price": null
           },
@@ -3264,15 +3285,6 @@
             "dietary_restrictions": [
               "GF",
               "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 538,
-            "name": "Buffalo Cauliflower",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V"
             ],
             "price": null
           },
