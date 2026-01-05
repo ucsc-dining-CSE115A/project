@@ -431,6 +431,18 @@
         ],
         "- Entrees -": [
           {
+            "id": 103,
+            "name": "General Tso's Gardein",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 847,
             "name": "Island Beef Steak",
             "avg_rating": 0.0,
@@ -444,21 +456,8 @@
             "price": null
           },
           {
-            "id": 682,
-            "name": "Spicy Gardein with Garlic & Basil",
-            "avg_rating": 2.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 30,
-            "name": "Steamed Broccoli",
+            "id": 409,
+            "name": "Roasted Eggplant",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -603,28 +602,6 @@
             "name": "Condiments",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 546,
-            "name": "Cornbread",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 13,
-            "name": "Hearty Turkey Chili",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF"
-            ],
             "price": null
           },
           {
