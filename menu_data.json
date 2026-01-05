@@ -3314,15 +3314,12 @@
             "price": null
           },
           {
-            "id": 890,
-            "name": "Sesame Soy Chicken Wings",
+            "id": 127,
+            "name": "Hot 'N Spicy Wings",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "SHELLFISH",
               "GF",
-              "ALC"
+              "HALAL"
             ],
             "price": null
           },
