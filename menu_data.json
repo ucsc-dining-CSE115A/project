@@ -3165,6 +3165,28 @@
         ]
       },
       "Lunch": {
+        "- Soups -": [
+          {
+            "id": 446,
+            "name": "Three Sisters Crave Soup",
+            "avg_rating": 4.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 482,
+            "name": "Vegan Tortilla Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Cold Bars -": [
           {
             "id": 33,
@@ -3341,29 +3363,6 @@
             "name": "Wing Central",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          }
-        ],
-        "- Grill and Soups -": [
-          {
-            "id": 518,
-            "name": "Fire Roasted Corn Soup",
-            "avg_rating": 3.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 422,
-            "name": "Organic Vegan Chili",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
             "price": null
           }
         ],
