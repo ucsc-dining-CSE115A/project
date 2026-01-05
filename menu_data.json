@@ -2552,16 +2552,6 @@
               "GF"
             ],
             "price": null
-          },
-          {
-            "id": 908,
-            "name": "Vegan Garlic Fettuccini",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT"
-            ],
-            "price": null
           }
         ],
         "- Pizza -": [
@@ -3008,17 +2998,6 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 910,
-            "name": "Baba Ganoush Eggplant Dip",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SESAME",
               "GF"
             ],
             "price": null
