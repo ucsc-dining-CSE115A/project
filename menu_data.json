@@ -695,6 +695,17 @@
       "Breakfast": {
         "- Breakfast -": [
           {
+            "id": 789,
+            "name": "Avocado Toast with Spicy Fried Egg",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "EGG",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 61,
             "name": "Belgian Waffle Squares",
             "avg_rating": 0.0,
@@ -3314,16 +3325,6 @@
         ],
         "- Grill and Soups -": [
           {
-            "id": 442,
-            "name": "Beef Frank",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 518,
             "name": "Fire Roasted Corn Soup",
             "avg_rating": 3.0,
@@ -3335,30 +3336,8 @@
             "price": null
           },
           {
-            "id": 443,
-            "name": "Hot Dog Bun",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 422,
             "name": "Organic Vegan Chili",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 444,
-            "name": "Vegan Hot Dog",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3451,73 +3430,6 @@
             "price": null
           }
         ],
-        "- Entrees -": [
-          {
-            "id": 387,
-            "name": "Bolognese Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 391,
-            "name": "Penne",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 545,
-            "name": "BBQ Beef",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 600,
-            "name": "Creamy Mashed Yukon Golds",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 136,
-            "name": "Grilled Chimichurri Tofu",
-            "avg_rating": 3.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 513,
-            "name": "Vegan Mushroom Gravy",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
         "- Sweet Treats -": [
           {
             "id": 524,
@@ -3590,12 +3502,69 @@
             "price": null
           }
         ],
+        "- Entrees -": [
+          {
+            "id": 545,
+            "name": "BBQ Beef",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 600,
+            "name": "Creamy Mashed Yukon Golds",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 136,
+            "name": "Grilled Chimichurri Tofu",
+            "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 513,
+            "name": "Vegan Mushroom Gravy",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          }
+        ],
         "- Bars & Clean Plate -": [
           {
             "id": 21,
             "name": "Allergen Free Halal Chicken Thigh",
             "avg_rating": 0.0,
             "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 387,
+            "name": "Bolognese Sauce",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF",
               "GF",
               "HALAL"
             ],
@@ -3621,6 +3590,16 @@
               "VG",
               "SOY",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 391,
+            "name": "Penne",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT"
             ],
             "price": null
           },
