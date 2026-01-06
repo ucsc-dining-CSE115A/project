@@ -443,19 +443,6 @@
             "price": null
           },
           {
-            "id": 847,
-            "name": "Island Beef Steak",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "BEEF",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
             "id": 409,
             "name": "Roasted Eggplant",
             "avg_rating": 0.0,
@@ -2068,16 +2055,6 @@
               "ALC"
             ],
             "price": null
-          },
-          {
-            "id": 862,
-            "name": "Tomato Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT"
-            ],
-            "price": null
           }
         ],
         "- Entrees -": [
@@ -2835,17 +2812,6 @@
           }
         ],
         "- Grill -": [
-          {
-            "id": 506,
-            "name": "Halal Beef Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
           {
             "id": 76,
             "name": "Hamburger Bun",
