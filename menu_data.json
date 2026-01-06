@@ -3180,9 +3180,9 @@
         ],
         "- Entrees -": [
           {
-            "id": 1,
-            "name": "Buttermilk Pancakes",
-            "avg_rating": 4.0,
+            "id": 61,
+            "name": "Belgian Waffle Squares",
+            "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
               "SOY",
@@ -3204,16 +3204,6 @@
             "price": null
           },
           {
-            "id": 479,
-            "name": "Harissa Potatoes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 145,
             "name": "Natural Bridges Tofu Scramble",
             "avg_rating": 3.0,
@@ -3225,11 +3215,22 @@
             "price": null
           },
           {
-            "id": 679,
-            "name": "Turkey Sausage Patties",
+            "id": 467,
+            "name": "Sausage Links",
             "avg_rating": 0.0,
             "dietary_restrictions": [
+              "PORK",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 96,
+            "name": "Triangle Hash Brown Patty",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY"
             ],
             "price": null
           }
