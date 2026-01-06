@@ -1067,22 +1067,22 @@
             "price": null
           },
           {
-            "id": 746,
-            "name": "Cuban Black Beans",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 918,
             "name": "Plantains",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 415,
+            "name": "Vegan Italian White Beans",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
               "GF"
             ],
             "price": null
@@ -1104,15 +1104,17 @@
             "price": null
           },
           {
-            "id": 562,
-            "name": "Thai Chicken Pizza",
+            "id": 681,
+            "name": "Combination Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
               "EGG",
               "DAIRY",
               "SESAME",
-              "WHEAT"
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
