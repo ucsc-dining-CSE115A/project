@@ -1961,12 +1961,14 @@
         ],
         "- Grill -": [
           {
-            "id": 602,
-            "name": "Garlic Fries",
+            "id": 130,
+            "name": "Halal Chicken Nuggets",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "SOY"
+              "SOY",
+              "EGG",
+              "WHEAT",
+              "HALAL"
             ],
             "price": null
           },
@@ -1994,26 +1996,6 @@
               "WHEAT"
             ],
             "price": null
-          },
-          {
-            "id": 608,
-            "name": "Regular Cut Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 724,
-            "name": "Vegan Actual Veggies Black Bean Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
           }
         ],
         "- Pizza -": [
@@ -2028,15 +2010,6 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 584,
-            "name": "Vegan Spinach and Roasted Garlic Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG"
             ],
             "price": null
           }
@@ -2101,11 +2074,11 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 67,
-            "name": "Available Upon Request: Gluten Free Rotini Pasta",
+            "id": 105,
+            "name": "BBQ Shredded Pork",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
+              "PORK",
               "GF"
             ],
             "price": null
@@ -2118,84 +2091,52 @@
             "price": null
           },
           {
-            "id": 389,
-            "name": "Focaccia Breadsticks",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 408,
-            "name": "Italian Roasted Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 132,
-            "name": "Marinara Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 391,
-            "name": "Penne",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 409,
-            "name": "Roasted Eggplant",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 410,
-            "name": "Southern Italian Bar",
+            "id": 416,
+            "name": "Mac and Cheese Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
             "price": null
           },
           {
-            "id": 411,
-            "name": "Sustainable Scampi with Tomato and Spinach",
+            "id": 417,
+            "name": "Macaroni & Cheese",
             "avg_rating": 0.0,
             "dietary_restrictions": [
+              "SOY",
               "DAIRY",
-              "SHELLFISH",
-              "GF",
-              "ALC"
+              "FISH",
+              "WHEAT"
             ],
             "price": null
           },
           {
-            "id": 415,
-            "name": "Vegan Italian White Beans",
+            "id": 30,
+            "name": "Steamed Broccoli",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 418,
+            "name": "Vegan Chipotle Gardein",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 419,
+            "name": "Vegan Macaroni & Cheese",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT"
             ],
             "price": null
           }
