@@ -3446,6 +3446,63 @@
         ]
       },
       "Dinner": {
+        "- Entrees -": [
+          {
+            "id": 502,
+            "name": "Porcini Crusted Roasted Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 545,
+            "name": "BBQ Beef",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 600,
+            "name": "Creamy Mashed Yukon Golds",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 136,
+            "name": "Grilled Chimichurri Tofu",
+            "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 513,
+            "name": "Vegan Mushroom Gravy",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          }
+        ],
         "- Sweet Treats -": [
           {
             "id": 524,
@@ -3515,52 +3572,6 @@
             "name": "Salad Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          }
-        ],
-        "- Entrees -": [
-          {
-            "id": 545,
-            "name": "BBQ Beef",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 600,
-            "name": "Creamy Mashed Yukon Golds",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 136,
-            "name": "Grilled Chimichurri Tofu",
-            "avg_rating": 3.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 513,
-            "name": "Vegan Mushroom Gravy",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT",
-              "ALC"
-            ],
             "price": null
           }
         ],
