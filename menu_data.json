@@ -1027,16 +1027,6 @@
         ],
         "- Entrees -": [
           {
-            "id": 916,
-            "name": "Caribbean Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
             "id": 745,
             "name": "Caribbean Yellow Rice",
             "avg_rating": 0.0,
@@ -1169,17 +1159,6 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 42,
-            "name": "6\" Flour Tortilla",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 565,
             "name": "BBQ Chili Garlic Kogi Sauce",
             "avg_rating": 0.0,
@@ -1187,19 +1166,6 @@
               "VG",
               "SOY",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 566,
-            "name": "BBQ Ginger Soy Beef",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "BEEF",
-              "GF",
-              "HALAL"
             ],
             "price": null
           },
