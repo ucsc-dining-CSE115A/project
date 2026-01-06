@@ -2059,42 +2059,18 @@
         ],
         "- Entrees -": [
           {
-            "id": 408,
-            "name": "Italian Roasted Tofu",
+            "id": 738,
+            "name": "Italian Roasted Chicken",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
+              "GF",
+              "HALAL"
             ],
             "price": null
           },
           {
             "id": 132,
             "name": "Marinara Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 904,
-            "name": "Polpette Italia",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "BEEF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 17,
-            "name": "Roasted Brussels Sprouts",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -2235,16 +2211,6 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 909,
-            "name": "Armenian Salad",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 910,
             "name": "Baba Ganoush Eggplant Dip",
             "avg_rating": 0.0,
@@ -2256,53 +2222,24 @@
             "price": null
           },
           {
-            "id": 911,
-            "name": "Chicken Shawarma",
+            "id": 130,
+            "name": "Halal Chicken Nuggets",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "DAIRY",
-              "SESAME",
-              "HALAL",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 815,
-            "name": "Falafels",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V"
-            ],
-            "price": null
-          },
-          {
-            "id": 912,
-            "name": "Middle Eastern Bar",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 776,
-            "name": "Pita Bread",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "SOY",
-              "WHEAT"
+              "EGG",
+              "WHEAT",
+              "HALAL"
             ],
             "price": null
           },
           {
-            "id": 777,
-            "name": "Tzatziki Sauce",
-            "avg_rating": 0.0,
+            "id": 498,
+            "name": "Tater Tots",
+            "avg_rating": 4.0,
             "dietary_restrictions": [
               "V",
-              "DAIRY",
-              "GF",
-              "HALAL"
+              "SOY"
             ],
             "price": null
           }
