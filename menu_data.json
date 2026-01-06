@@ -179,23 +179,23 @@
         ],
         "- Entrees -": [
           {
-            "id": 913,
-            "name": "Chicken Enchiladas Verdes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
             "id": 424,
             "name": "Lime Cilantro Basmati Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 82,
+            "name": "Pork Chile Verde",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
+              "GF",
+              "ALC"
             ],
             "price": null
           },
