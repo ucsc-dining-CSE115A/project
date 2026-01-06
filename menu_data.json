@@ -1894,12 +1894,11 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 606,
-            "name": "Creamy Broccoli Cheddar Soup",
-            "avg_rating": 0.0,
+            "id": 383,
+            "name": "Organic Black Bean Soup",
+            "avg_rating": 3.0,
             "dietary_restrictions": [
-              "V",
-              "DAIRY",
+              "VG",
               "GF"
             ],
             "price": null
@@ -2151,17 +2150,6 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 606,
-            "name": "Creamy Broccoli Cheddar Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 121,
             "name": "Xochitl Soup",
             "avg_rating": 4.0,
@@ -2348,16 +2336,6 @@
             "price": null
           },
           {
-            "id": 476,
-            "name": "Happy Plant Vegan Chorizo Crumbles and Potatoes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 50,
             "name": "Mexican Rice",
             "avg_rating": 0.0,
@@ -2374,6 +2352,17 @@
             "dietary_restrictions": [
               "V",
               "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 110,
+            "name": "Tempeh Roasted with Chorizo Spice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
               "GF"
             ],
             "price": null
