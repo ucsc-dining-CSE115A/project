@@ -120,6 +120,15 @@
         ]
       },
       "Lunch": {
+        "- Miscellaneous -": [
+          {
+            "id": 867,
+            "name": "Dumpling Bar Condiments",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [],
+            "price": null
+          }
+        ],
         "- Soups -": [
           {
             "id": 35,
