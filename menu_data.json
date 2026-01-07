@@ -406,8 +406,8 @@
         ],
         "- Entrees -": [
           {
-            "id": 374,
-            "name": "Roasted Cauliflower",
+            "id": 488,
+            "name": "Sauteed Garlic Kale",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -416,11 +416,11 @@
             "price": null
           },
           {
-            "id": 875,
-            "name": "Spicy Garbanzo and Vegetable Stir Fry",
+            "id": 934,
+            "name": "Shrimp Saute",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
+              "SHELLFISH",
               "GF"
             ],
             "price": null
@@ -436,67 +436,8 @@
             "price": null
           },
           {
-            "id": 411,
-            "name": "Sustainable Scampi with Tomato and Spinach",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "SHELLFISH",
-              "GF",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
-        "- Grill -": [
-          {
-            "id": 602,
-            "name": "Garlic Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 603,
-            "name": "Halal Chicken Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 76,
-            "name": "Hamburger Bun",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 608,
-            "name": "Regular Cut Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 724,
-            "name": "Vegan Actual Veggies Black Bean Patty",
+            "id": 392,
+            "name": "White Beans",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -2647,8 +2588,8 @@
             "price": null
           },
           {
-            "id": 120,
-            "name": "Mushroom & Barley Soup",
+            "id": 142,
+            "name": "Garden Vegetable Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -2933,8 +2874,8 @@
             "price": null
           },
           {
-            "id": 120,
-            "name": "Mushroom & Barley Soup",
+            "id": 142,
+            "name": "Garden Vegetable Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -2966,11 +2907,12 @@
             "price": null
           },
           {
-            "id": 38,
-            "name": "Red Parslied Potatoes and Olive Oil",
+            "id": 755,
+            "name": "Red Skin Mashed Potatoes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
+              "V",
+              "DAIRY",
               "GF"
             ],
             "price": null
@@ -2987,16 +2929,6 @@
           }
         ],
         "- Grill -": [
-          {
-            "id": 602,
-            "name": "Garlic Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
           {
             "id": 603,
             "name": "Halal Chicken Patty",
