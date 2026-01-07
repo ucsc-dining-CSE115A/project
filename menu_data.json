@@ -2826,17 +2826,6 @@
               "WHEAT"
             ],
             "price": null
-          },
-          {
-            "id": 639,
-            "name": "Vegan Mushroom Spinach Quesadilla",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
-            ],
-            "price": null
           }
         ],
         "- Clean Plate -": [
@@ -2930,18 +2919,6 @@
             "name": "Beef Taqueria Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 475,
-            "name": "Carne Picada",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "SOY",
-              "GF",
-              "HALAL"
-            ],
             "price": null
           },
           {
