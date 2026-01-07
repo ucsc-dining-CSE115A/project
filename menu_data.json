@@ -223,7 +223,7 @@
           {
             "id": 640,
             "name": "Asian Spicy Chicken Pizza",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "SOY",
               "EGG",
@@ -285,7 +285,7 @@
           {
             "id": 563,
             "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "VG",
               "WHEAT",
@@ -465,7 +465,7 @@
           {
             "id": 640,
             "name": "Asian Spicy Chicken Pizza",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "SOY",
               "EGG",
@@ -527,7 +527,7 @@
           {
             "id": 563,
             "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "VG",
               "WHEAT",
@@ -614,7 +614,7 @@
           {
             "id": 50,
             "name": "Mexican Rice",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "VG",
               "GF"
@@ -698,7 +698,7 @@
           {
             "id": 640,
             "name": "Asian Spicy Chicken Pizza",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "SOY",
               "EGG",
@@ -760,7 +760,7 @@
           {
             "id": 563,
             "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "VG",
               "WHEAT",
@@ -1136,7 +1136,7 @@
           {
             "id": 563,
             "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "VG",
               "WHEAT",
@@ -1362,7 +1362,7 @@
           {
             "id": 563,
             "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "VG",
               "WHEAT",
@@ -1594,7 +1594,7 @@
           {
             "id": 563,
             "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "VG",
               "WHEAT",
@@ -2006,7 +2006,7 @@
           {
             "id": 563,
             "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "VG",
               "WHEAT",
@@ -2233,7 +2233,7 @@
           {
             "id": 563,
             "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "VG",
               "WHEAT",
@@ -2314,7 +2314,7 @@
           {
             "id": 50,
             "name": "Mexican Rice",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "VG",
               "GF"
@@ -2646,7 +2646,7 @@
           {
             "id": 563,
             "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "VG",
               "WHEAT",
@@ -2876,7 +2876,7 @@
           {
             "id": 563,
             "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "VG",
               "WHEAT",
@@ -2967,7 +2967,7 @@
           {
             "id": 50,
             "name": "Mexican Rice",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "VG",
               "GF"
@@ -3206,7 +3206,7 @@
           {
             "id": 563,
             "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "VG",
               "WHEAT",
@@ -3534,7 +3534,7 @@
           {
             "id": 563,
             "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "VG",
               "WHEAT",
@@ -3808,7 +3808,7 @@
           {
             "id": 563,
             "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
-            "avg_rating": 0.0,
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "VG",
               "WHEAT",
