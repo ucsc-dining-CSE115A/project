@@ -1031,12 +1031,12 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 64,
-            "name": "Organic Kale and Sweet Potato Soup",
-            "avg_rating": 0.0,
+            "id": 680,
+            "name": "Chicken & Rice Soup",
+            "avg_rating": 4.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
+              "GF",
+              "ALC"
             ],
             "price": null
           }
@@ -1301,6 +1301,16 @@
       },
       "Dinner": {
         "- Soups -": [
+          {
+            "id": 680,
+            "name": "Chicken & Rice Soup",
+            "avg_rating": 4.0,
+            "dietary_restrictions": [
+              "GF",
+              "ALC"
+            ],
+            "price": null
+          },
           {
             "id": 64,
             "name": "Organic Kale and Sweet Potato Soup",
