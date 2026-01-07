@@ -3549,6 +3549,17 @@
             "price": null
           },
           {
+            "id": 97,
+            "name": "Chicken Noodle Soup",
+            "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 443,
             "name": "Hot Dog Bun",
             "avg_rating": 0.0,
@@ -3567,17 +3578,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 617,
-            "name": "Turkey Noodle Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "EGG",
-              "WHEAT",
-              "ALC"
             ],
             "price": null
           },
