@@ -2150,96 +2150,15 @@
         ],
         "- Entrees -": [
           {
-            "id": 933,
-            "name": "Baked Black Cod with Garlic Butter",
+            "id": 659,
+            "name": "Chef Special",
             "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 596,
-            "name": "Garlic Thyme Mushrooms",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
+            "dietary_restrictions": [],
             "price": null
           },
           {
             "id": 38,
             "name": "Red Parslied Potatoes and Olive Oil",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 522,
-            "name": "Vegan Collard Greens",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Grill -": [
-          {
-            "id": 602,
-            "name": "Garlic Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 603,
-            "name": "Halal Chicken Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 76,
-            "name": "Hamburger Bun",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 608,
-            "name": "Regular Cut Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 724,
-            "name": "Vegan Actual Veggies Black Bean Patty",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -2259,16 +2178,6 @@
               "EGG",
               "DAIRY",
               "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 633,
-            "name": "Cilantro Flatbread with Red Onions and Mushrooms",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "WHEAT"
             ],
             "price": null
