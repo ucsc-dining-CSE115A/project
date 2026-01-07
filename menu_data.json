@@ -309,19 +309,6 @@
             "price": null
           },
           {
-            "id": 871,
-            "name": "Hoisin Chili Crisp Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
             "id": 860,
             "name": "Roasted Corn and Edamame",
             "avg_rating": 0.0,
