@@ -2116,6 +2116,16 @@
       "Dinner": {
         "- Soups -": [
           {
+            "id": 383,
+            "name": "Organic Black Bean Soup",
+            "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 121,
             "name": "Xochitl Soup",
             "avg_rating": 4.0,
@@ -3749,6 +3759,18 @@
         ]
       },
       "Late Night": {
+        "- Miscellaneous -": [
+          {
+            "id": 635,
+            "name": "Cilantro Slaw",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Clean Plate -": [
           {
             "id": 21,
@@ -3812,6 +3834,17 @@
           }
         ],
         "- Bars & Clean Plate -": [
+          {
+            "id": 545,
+            "name": "BBQ Beef",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
           {
             "id": 538,
             "name": "Buffalo Cauliflower",
@@ -3900,18 +3933,6 @@
           }
         ],
         "- Grill and Soups -": [
-          {
-            "id": 581,
-            "name": "Falafel  Wrap",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          },
           {
             "id": 78,
             "name": "Sweet Potato Fries",
