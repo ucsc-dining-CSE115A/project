@@ -5,6 +5,19 @@
       "Breakfast": {
         "- Breakfast -": [
           {
+            "id": 1,
+            "name": "Buttermilk Pancakes",
+            "avg_rating": 4.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 2,
             "name": "Cage-Free Scrambled Eggs",
             "avg_rating": 3.0,
@@ -47,8 +60,8 @@
             "price": null
           },
           {
-            "id": 857,
-            "name": "Roasted Yukon Gold Potatoes",
+            "id": 376,
+            "name": "Roasted Red Potatoes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -63,17 +76,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 377,
-            "name": "Whole Wheat Vegan Blueberry Pancakes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT",
-              "ALC"
             ],
             "price": null
           }
@@ -3281,23 +3283,22 @@
             "price": null
           },
           {
+            "id": 94,
+            "name": "Sweet Potato, Black Bean, and Kale Hash",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 498,
             "name": "Tater Tots",
             "avg_rating": 4.0,
             "dietary_restrictions": [
               "V",
               "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 7,
-            "name": "Tempeh, Black Bean, and Potato Hash",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
             ],
             "price": null
           }
