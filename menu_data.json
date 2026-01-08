@@ -172,29 +172,30 @@
             "price": null
           },
           {
-            "id": 16,
-            "name": "Harissa Tofu",
+            "id": 779,
+            "name": "Orange Glazed Tofu",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
               "SOY",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 17,
-            "name": "Roasted Brussels Sprouts",
+            "id": 779,
+            "name": "Orange Glazed Tofu",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "GF"
+              "V",
+              "SOY",
+              "SESAME",
+              "WHEAT"
             ],
             "price": null
           },
           {
-            "id": 18,
-            "name": "Steamed Brown Rice",
+            "id": 17,
+            "name": "Roasted Brussels Sprouts",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -297,16 +298,6 @@
               "V",
               "SOY",
               "DAIRY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 635,
-            "name": "Cilantro Slaw",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "GF"
             ],
             "price": null
