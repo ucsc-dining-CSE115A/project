@@ -182,18 +182,6 @@
             "price": null
           },
           {
-            "id": 779,
-            "name": "Orange Glazed Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 17,
             "name": "Roasted Brussels Sprouts",
             "avg_rating": 0.0,
