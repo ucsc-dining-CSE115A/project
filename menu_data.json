@@ -291,6 +291,16 @@
         ],
         "- Hot Bars -": [
           {
+            "id": 471,
+            "name": "Black Beans with Cumin Spice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 577,
             "name": "Cheese Sauce",
             "avg_rating": 0.0,
@@ -340,16 +350,6 @@
           {
             "id": 92,
             "name": "Tortilla Chips",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 580,
-            "name": "Vegan Refried Beans",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -4065,6 +4065,20 @@
         ],
         "- Bakery -": [
           {
+            "id": 864,
+            "name": "Berry White Cookie by PCC",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": "$0.00"
+          },
+          {
             "id": 155,
             "name": "Chocolate Croissant",
             "avg_rating": 0.0,
@@ -4114,19 +4128,6 @@
               "ALC"
             ],
             "price": "$3.75"
-          },
-          {
-            "id": 159,
-            "name": "Snickerdoodle Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": "$2.95"
           },
           {
             "id": 11,
@@ -10491,6 +10492,20 @@
         ],
         "- Campus Bakery -": [
           {
+            "id": 864,
+            "name": "Berry White Cookie by PCC",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": "$0.00"
+          },
+          {
             "id": 155,
             "name": "Chocolate Croissant",
             "avg_rating": 0.0,
@@ -10540,19 +10555,6 @@
               "ALC"
             ],
             "price": "$4.75"
-          },
-          {
-            "id": 159,
-            "name": "Snickerdoodle Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": "$2.95"
           },
           {
             "id": 11,
