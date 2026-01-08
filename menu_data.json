@@ -5601,6 +5601,22 @@
             "price": "$4.50"
           }
         ],
+        "- Campus Bakery -": [
+          {
+            "id": 864,
+            "name": "Berry White Cookie by PCC",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": "$0.00"
+          }
+        ],
         "- Bagels -": [
           {
             "id": 245,
@@ -5891,19 +5907,6 @@
               "ALC"
             ],
             "price": "$4.75"
-          },
-          {
-            "id": 159,
-            "name": "Snickerdoodle Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": "$2.95"
           },
           {
             "id": 11,
@@ -7023,6 +7026,20 @@
         ],
         "- Campus Bakery -": [
           {
+            "id": 864,
+            "name": "Berry White Cookie by PCC",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": "$0.00"
+          },
+          {
             "id": 155,
             "name": "Chocolate Croissant",
             "avg_rating": 0.0,
@@ -7072,19 +7089,6 @@
               "ALC"
             ],
             "price": "$4.75"
-          },
-          {
-            "id": 159,
-            "name": "Snickerdoodle Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": "$2.95"
           },
           {
             "id": 11,
@@ -8544,19 +8548,6 @@
             "price": "$4.75"
           },
           {
-            "id": 159,
-            "name": "Snickerdoodle Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": "$2.95"
-          },
-          {
             "id": 11,
             "name": "Three Berry Muffin",
             "avg_rating": 0.0,
@@ -9648,6 +9639,20 @@
         ],
         "- Campus Bakery -": [
           {
+            "id": 864,
+            "name": "Berry White Cookie by PCC",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": "$0.00"
+          },
+          {
             "id": 155,
             "name": "Chocolate Croissant",
             "avg_rating": 0.0,
@@ -9697,19 +9702,6 @@
               "ALC"
             ],
             "price": "$4.75"
-          },
-          {
-            "id": 159,
-            "name": "Snickerdoodle Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": "$2.95"
           },
           {
             "id": 11,
@@ -11360,6 +11352,20 @@
         ],
         "- Campus Bakery -": [
           {
+            "id": 864,
+            "name": "Berry White Cookie by PCC",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": "$0.00"
+          },
+          {
             "id": 155,
             "name": "Chocolate Croissant",
             "avg_rating": 0.0,
@@ -11409,19 +11415,6 @@
               "ALC"
             ],
             "price": "$4.75"
-          },
-          {
-            "id": 159,
-            "name": "Snickerdoodle Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": "$2.95"
           },
           {
             "id": 11,
@@ -12219,6 +12212,20 @@
         ],
         "- Campus Bakery -": [
           {
+            "id": 864,
+            "name": "Berry White Cookie by PCC",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": "$0.00"
+          },
+          {
             "id": 155,
             "name": "Chocolate Croissant",
             "avg_rating": 0.0,
@@ -12268,19 +12275,6 @@
               "ALC"
             ],
             "price": "$4.75"
-          },
-          {
-            "id": 159,
-            "name": "Snickerdoodle Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": "$2.95"
           },
           {
             "id": 11,
