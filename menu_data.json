@@ -3084,6 +3084,19 @@
         ],
         "- Entrees -": [
           {
+            "id": 61,
+            "name": "Belgian Waffle Squares",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 582,
             "name": "Bob's Red Mill Gluten-Free Pancakes",
             "avg_rating": 0.0,
@@ -3105,8 +3118,8 @@
             "price": null
           },
           {
-            "id": 857,
-            "name": "Roasted Yukon Gold Potatoes",
+            "id": 479,
+            "name": "Harissa Potatoes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3125,11 +3138,12 @@
             "price": null
           },
           {
-            "id": 94,
-            "name": "Sweet Potato, Black Bean, and Kale Hash",
+            "id": 7,
+            "name": "Tempeh, Black Bean, and Potato Hash",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "SOY",
               "GF"
             ],
             "price": null
