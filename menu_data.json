@@ -3327,16 +3327,6 @@
             "price": null
           },
           {
-            "id": 48,
-            "name": "Cilantro Lime Riced Cauliflower",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 49,
             "name": "Condiments",
             "avg_rating": 0.0,
@@ -3364,22 +3354,22 @@
             "price": null
           },
           {
-            "id": 504,
-            "name": "Roasted Broccoli and Carrots",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 579,
             "name": "Shredded Taqueria Chicken",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "GF",
               "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 83,
+            "name": "Steamed Carrots and Broccoli",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           },
