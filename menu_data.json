@@ -388,13 +388,14 @@
         ],
         "- Entrees -": [
           {
-            "id": 605,
-            "name": "Garlic Roast Beef",
+            "id": 428,
+            "name": "Baja Sandbar Bass Piccata",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "BEEF",
+              "DAIRY",
+              "FISH",
               "GF",
-              "HALAL"
+              "ALC"
             ],
             "price": null
           },
@@ -544,8 +545,8 @@
             "price": null
           },
           {
-            "id": 898,
-            "name": "Chickpea Curry with Tomato and Kale",
+            "id": 58,
+            "name": "Chana Masala",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -599,17 +600,6 @@
             "name": "South Indian Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 900,
-            "name": "Vegan Madras Curry",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
-            ],
             "price": null
           }
         ],
