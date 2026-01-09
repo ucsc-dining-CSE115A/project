@@ -644,6 +644,19 @@
               "HALAL"
             ],
             "price": null
+          },
+          {
+            "id": 527,
+            "name": "Lasagna Bolognese",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "BEEF",
+              "HALAL"
+            ],
+            "price": null
           }
         ],
         "- Pizza -": [
