@@ -413,13 +413,11 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 382,
-            "name": "New England Clam Chowder",
-            "avg_rating": 0.0,
+            "id": 499,
+            "name": "Chicken Tortilla Soup",
+            "avg_rating": 3.0,
             "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "SHELLFISH",
+              "SOY",
               "GF"
             ],
             "price": null
