@@ -2382,44 +2382,12 @@
         ],
         "- Entrees -": [
           {
-            "id": 941,
-            "name": "Fish & Chips",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "WHEAT",
-              "FISH"
-            ],
-            "price": null
-          },
-          {
-            "id": 942,
-            "name": "Lemon Herb Gremolata",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 943,
             "name": "Peas & Onions",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 129,
-            "name": "Vegan Tenders",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
             ],
             "price": null
           }
@@ -2444,17 +2412,6 @@
               "EGG",
               "WHEAT",
               "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 129,
-            "name": "Vegan Tenders",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
             ],
             "price": null
           }
@@ -2560,27 +2517,6 @@
             "price": null
           },
           {
-            "id": 531,
-            "name": "Couscous, Red Grain, And Vegetable Salad",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 532,
-            "name": "Harissa Roasted Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
             "id": 16,
             "name": "Harissa Tofu",
             "avg_rating": 0.0,
@@ -2596,39 +2532,6 @@
             "name": "North African Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 534,
-            "name": "Roasted Cauliflower and Vegetable Medley",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 535,
-            "name": "Tahini Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SESAME",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 777,
-            "name": "Tzatziki Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF",
-              "HALAL"
-            ],
             "price": null
           }
         ],
