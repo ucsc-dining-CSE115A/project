@@ -1906,7 +1906,7 @@
             "price": null
           },
           {
-            "id": 777,
+            "id": null,
             "name": "Tzatziki Sauce",
             "avg_rating": 0.0,
             "dietary_restrictions": [
@@ -2622,7 +2622,7 @@
             "price": null
           },
           {
-            "id": 777,
+            "id": null,
             "name": "Tzatziki Sauce",
             "avg_rating": 0.0,
             "dietary_restrictions": [
