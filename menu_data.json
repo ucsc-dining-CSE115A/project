@@ -3015,16 +3015,6 @@
             "price": null
           },
           {
-            "id": 62,
-            "name": "Cajun Roasted Red Potatoes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 448,
             "name": "Ham Steaks",
             "avg_rating": 0.0,
@@ -3057,6 +3047,16 @@
               "SOY",
               "SESAME",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 96,
+            "name": "Triangle Hash Brown Patty",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY"
             ],
             "price": null
           }
