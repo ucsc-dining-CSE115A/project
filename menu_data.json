@@ -623,29 +623,6 @@
       "Late Night": {
         "- Grill -": [
           {
-            "id": 115,
-            "name": "French Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 711,
-            "name": "Kickin' Chicken Sandwich",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "DAIRY",
-              "WHEAT",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
             "id": 527,
             "name": "Lasagna Bolognese",
             "avg_rating": 0.0,
