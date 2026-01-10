@@ -597,17 +597,6 @@
             "price": null
           },
           {
-            "id": 506,
-            "name": "Halal Beef Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
             "id": 76,
             "name": "Hamburger Bun",
             "avg_rating": 0.0,
