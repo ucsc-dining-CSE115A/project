@@ -615,8 +615,8 @@
             "price": null
           },
           {
-            "id": 30,
-            "name": "Steamed Broccoli",
+            "id": 374,
+            "name": "Roasted Cauliflower",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -643,33 +643,6 @@
         ]
       },
       "Late Night": {
-        "- Grill -": [
-          {
-            "id": 683,
-            "name": "Curly Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 945,
-            "name": "Patty Melt",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "BEEF",
-              "HALAL"
-            ],
-            "price": null
-          }
-        ],
         "- Pizza -": [
           {
             "id": 19,
