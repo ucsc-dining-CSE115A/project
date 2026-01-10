@@ -1806,22 +1806,23 @@
         ],
         "- Grill and Soups -": [
           {
+            "id": 97,
+            "name": "Chicken Noodle Soup",
+            "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 383,
             "name": "Organic Black Bean Soup",
             "avg_rating": 3.0,
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 469,
-            "name": "Spicy North African Chicken Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "WHEAT",
-              "ALC"
             ],
             "price": null
           }
