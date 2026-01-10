@@ -1804,6 +1804,28 @@
             "price": null
           }
         ],
+        "- Grill and Soups -": [
+          {
+            "id": 383,
+            "name": "Organic Black Bean Soup",
+            "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 469,
+            "name": "Spicy North African Chicken Soup",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          }
+        ],
         "- Pizza, Flatbreads & Pasta -": [
           {
             "id": 19,
@@ -1864,32 +1886,6 @@
             "dietary_restrictions": [
               "VG",
               "SOY",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Sweet Treats -": [
-          {
-            "id": 462,
-            "name": "Apple Pie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 453,
-            "name": "Gluten-Free Snickerdoodle Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
               "GF"
             ],
             "price": null
