@@ -1473,10 +1473,10 @@
     },
     "Rachel Carson & Oakes Dining Hall": {
       "Breakfast": {
-        "- Sweet Treats -": [
+        "- Campus Bakery -": [
           {
-            "id": 451,
-            "name": "Old Fashioned Cake Donuts",
+            "id": 379,
+            "name": "Chocolate Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -1487,12 +1487,10 @@
               "ALC"
             ],
             "price": null
-          }
-        ],
-        "- Entrees -": [
+          },
           {
-            "id": 420,
-            "name": "Banana and Coconut Pancakes",
+            "id": 380,
+            "name": "Orange Cranberry Muffin",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
@@ -1501,6 +1499,32 @@
               "DAIRY",
               "WHEAT",
               "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 396,
+            "name": "Vegan Blackberry Turnovers",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "WHEAT"
+            ],
+            "price": null
+          }
+        ],
+        "- Entrees -": [
+          {
+            "id": 61,
+            "name": "Belgian Waffle Squares",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT"
             ],
             "price": null
           },
@@ -1616,32 +1640,6 @@
             "price": null
           }
         ],
-        "- Sweet Treats -": [
-          {
-            "id": 453,
-            "name": "Gluten-Free Snickerdoodle Cookie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 454,
-            "name": "Pound Cake",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "EGG",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": null
-          }
-        ],
         "- Cold Bars -": [
           {
             "id": 33,
@@ -1660,16 +1658,15 @@
         ],
         "- Entrees -": [
           {
-            "id": 420,
-            "name": "Banana and Coconut Pancakes",
+            "id": 61,
+            "name": "Belgian Waffle Squares",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "V",
               "SOY",
               "EGG",
               "DAIRY",
-              "WHEAT",
-              "ALC"
+              "WHEAT"
             ],
             "price": null
           },
@@ -1803,6 +1800,36 @@
             "dietary_restrictions": [
               "VG",
               "WHEAT"
+            ],
+            "price": null
+          }
+        ],
+        "- Pizza, Flatbreads & Pasta -": [
+          {
+            "id": 19,
+            "name": "Cheese Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 470,
+            "name": "Sausage and Mushroom Pizza",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
+              "WHEAT",
+              "PORK"
             ],
             "price": null
           }
