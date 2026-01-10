@@ -678,16 +678,6 @@
               "BEEF"
             ],
             "price": null
-          },
-          {
-            "id": 628,
-            "name": "Steak Cut Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
           }
         ],
         "- Pizza -": [
