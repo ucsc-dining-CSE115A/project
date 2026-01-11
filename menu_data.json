@@ -155,6 +155,17 @@
         ],
         "- Soups -": [
           {
+            "id": 97,
+            "name": "Chicken Noodle Soup",
+            "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 481,
             "name": "Pork Pozole",
             "avg_rating": 0.0,
