@@ -1788,16 +1788,6 @@
             "price": null
           },
           {
-            "id": 511,
-            "name": "Potato Leek Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 639,
             "name": "Vegan Mushroom Spinach Quesadilla",
             "avg_rating": 0.0,
