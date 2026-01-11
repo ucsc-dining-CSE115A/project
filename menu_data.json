@@ -508,6 +508,16 @@
         ],
         "- Hot Bars -": [
           {
+            "id": 455,
+            "name": "Chicken Tikka Masala",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 49,
             "name": "Condiments",
             "avg_rating": 0.0,
@@ -528,16 +538,6 @@
             "name": "Gyro Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 445,
-            "name": "Madras Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "HALAL"
-            ],
             "price": null
           },
           {
