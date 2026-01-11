@@ -799,15 +799,17 @@
             "price": null
           },
           {
-            "id": 500,
-            "name": "Chicken & Pesto Pizza",
+            "id": 117,
+            "name": "Pepperoni Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
               "EGG",
               "DAIRY",
               "SESAME",
-              "WHEAT"
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
@@ -905,28 +907,6 @@
             "price": null
           },
           {
-            "id": 766,
-            "name": "Pad See Ew",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 767,
-            "name": "Pok Pok Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 18,
             "name": "Steamed Brown Rice",
             "avg_rating": 0.0,
@@ -961,17 +941,6 @@
             "price": null
           },
           {
-            "id": 770,
-            "name": "Thai Lemongrass Salad",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 771,
             "name": "Thai Market Bar",
             "avg_rating": 0.0,
@@ -992,6 +961,39 @@
             "name": "Salad Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
+            "price": null
+          }
+        ],
+        "- Available 2pm-5pm -": [
+          {
+            "id": 54,
+            "name": "Basmati Rice Pullao",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 455,
+            "name": "Chicken Tikka Masala",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 456,
+            "name": "Dal Saag",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
             "price": null
           }
         ]
@@ -1057,15 +1059,17 @@
             "price": null
           },
           {
-            "id": 500,
-            "name": "Chicken & Pesto Pizza",
+            "id": 117,
+            "name": "Pepperoni Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
               "EGG",
               "DAIRY",
               "SESAME",
-              "WHEAT"
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
