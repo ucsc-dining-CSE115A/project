@@ -740,6 +740,16 @@
             "price": null
           },
           {
+            "id": 476,
+            "name": "Happy Plant Vegan Chorizo Crumbles and Potatoes",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 416,
             "name": "Mac and Cheese Bar",
             "avg_rating": 0.0,
@@ -765,17 +775,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 418,
-            "name": "Vegan Chipotle Gardein",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
             ],
             "price": null
           },
