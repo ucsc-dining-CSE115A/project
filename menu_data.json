@@ -497,18 +497,6 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 778,
-            "name": "Beef and Lamb Gyro with Peppers & Onion",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "WHEAT",
-              "BEEF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
             "id": 49,
             "name": "Condiments",
             "avg_rating": 0.0,
@@ -1784,6 +1772,18 @@
             "dietary_restrictions": [
               "SOY",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 838,
+            "name": "Tuscan Bean & Mushroom",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "WHEAT",
+              "ALC"
             ],
             "price": null
           },
