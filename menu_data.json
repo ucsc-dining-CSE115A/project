@@ -379,28 +379,6 @@
               "GF"
             ],
             "price": null
-          },
-          {
-            "id": 631,
-            "name": "Stir Fried Pork and Green Beans",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "PORK",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 632,
-            "name": "Stir Fried Tofu and Green Beans",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
           }
         ],
         "- Pizza -": [
