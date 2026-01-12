@@ -1109,8 +1109,8 @@
             "price": null
           },
           {
-            "id": 17,
-            "name": "Roasted Brussels Sprouts",
+            "id": 586,
+            "name": "Soft Polenta",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -1119,8 +1119,8 @@
             "price": null
           },
           {
-            "id": 586,
-            "name": "Soft Polenta",
+            "id": 30,
+            "name": "Steamed Broccoli",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -1307,6 +1307,16 @@
               "VG",
               "SOY",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 141,
+            "name": "Sauteed Onions and Peppers",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           },
@@ -2357,6 +2367,21 @@
         ]
       },
       "Lunch": {
+        "- Miscellaneous -": [
+          {
+            "id": 603,
+            "name": "Halal Chicken Patty",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "HALAL"
+            ],
+            "price": null
+          }
+        ],
         "- Soups -": [
           {
             "id": 64,
@@ -2581,17 +2606,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 506,
-            "name": "Halal Beef Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "GF",
-              "HALAL"
             ],
             "price": null
           },
