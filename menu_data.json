@@ -381,18 +381,6 @@
             "price": null
           },
           {
-            "id": 417,
-            "name": "Macaroni & Cheese",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "DAIRY",
-              "FISH",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 457,
             "name": "Masala Baked Tofu",
             "avg_rating": 0.0,
@@ -406,6 +394,16 @@
           {
             "id": 374,
             "name": "Roasted Cauliflower",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 18,
+            "name": "Steamed Brown Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
