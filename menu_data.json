@@ -381,23 +381,14 @@
             "price": null
           },
           {
-            "id": 457,
-            "name": "Masala Baked Tofu",
+            "id": 417,
+            "name": "Macaroni & Cheese",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
               "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 374,
-            "name": "Roasted Cauliflower",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
+              "DAIRY",
+              "FISH",
+              "WHEAT"
             ],
             "price": null
           },
@@ -539,23 +530,16 @@
             "price": null
           },
           {
-            "id": 776,
-            "name": "Pita Bread",
+            "id": 60,
+            "name": "Original Naan",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
+              "V",
               "SOY",
+              "EGG",
+              "DAIRY",
+              "SESAME",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 409,
-            "name": "Roasted Eggplant",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           },
