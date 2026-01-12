@@ -3547,17 +3547,6 @@
             "price": null
           },
           {
-            "id": 910,
-            "name": "Baba Ganoush Eggplant Dip",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SESAME",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 911,
             "name": "Chicken Shawarma",
             "avg_rating": 0.0,
@@ -3800,28 +3789,6 @@
             "dietary_restrictions": [
               "VG",
               "WHEAT"
-            ],
-            "price": null
-          }
-        ],
-        "- Grill and Soups -": [
-          {
-            "id": 508,
-            "name": "Sidewinder Fry",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 818,
-            "name": "Torta Ahogada",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "WHEAT",
-              "BEEF"
             ],
             "price": null
           }
