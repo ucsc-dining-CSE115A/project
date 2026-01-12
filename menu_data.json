@@ -2135,23 +2135,24 @@
         ],
         "- Entrees -": [
           {
-            "id": 813,
-            "name": "Garlic Chicken Linguine",
+            "id": 442,
+            "name": "Beef Frank",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "DAIRY",
-              "WHEAT",
-              "ALC"
+              "BEEF",
+              "GF"
             ],
             "price": null
           },
           {
-            "id": 464,
-            "name": "Italian Roasted Squash and Carrots",
+            "id": 443,
+            "name": "Hot Dog Bun",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
+              "SOY",
+              "SESAME",
+              "WHEAT"
             ],
             "price": null
           }
