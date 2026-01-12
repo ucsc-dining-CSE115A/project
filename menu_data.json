@@ -147,16 +147,6 @@
               "WHEAT"
             ],
             "price": null
-          },
-          {
-            "id": 422,
-            "name": "Organic Vegan Chili",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
           }
         ],
         "- Entrees -": [
@@ -189,6 +179,16 @@
             "dietary_restrictions": [
               "VG",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 405,
+            "name": "Roasted Green Beans in Garlic Oil",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           },
@@ -319,25 +319,6 @@
             "price": null
           },
           {
-            "id": 538,
-            "name": "Buffalo Cauliflower",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V"
-            ],
-            "price": null
-          },
-          {
-            "id": 635,
-            "name": "Cilantro Slaw",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 49,
             "name": "Condiments",
             "avg_rating": 0.0,
@@ -357,6 +338,16 @@
           {
             "id": 889,
             "name": "Fresh Celery Sticks",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 374,
+            "name": "Roasted Cauliflower",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3163,16 +3154,6 @@
             "price": null
           },
           {
-            "id": 907,
-            "name": "Meatless Vegan Meatballs In Red Pepper Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 123,
             "name": "Roasted Zucchini and Peppers",
             "avg_rating": 0.0,
@@ -3295,24 +3276,32 @@
         ],
         "- Grill and Soups -": [
           {
-            "id": 905,
-            "name": "Creamy Wild Mushroom Bisque",
+            "id": 13,
+            "name": "Hearty Turkey Chili",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "GF",
-              "ALC"
+              "GF"
             ],
             "price": null
           },
           {
-            "id": 536,
-            "name": "House Made Vegan Tomato Soup",
+            "id": 422,
+            "name": "Organic Vegan Chili",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 762,
+            "name": "Texas Beef Chili",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF",
+              "GF",
+              "HALAL"
             ],
             "price": null
           }
