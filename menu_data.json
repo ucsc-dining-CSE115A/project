@@ -11224,19 +11224,6 @@
       "Menu": {
         "- Specials -": [
           {
-            "id": 363,
-            "name": "Avocado Paradise Breakfast Crunch Wrap",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": "$7.00"
-          },
-          {
             "id": 891,
             "name": "BBQ Chicken Crunch Wrap",
             "avg_rating": 0.0,
@@ -11246,19 +11233,6 @@
               "WHEAT"
             ],
             "price": "$7.50"
-          },
-          {
-            "id": 364,
-            "name": "Breakfast Bacon Crunch Wrap",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "PORK"
-            ],
-            "price": "$7.00"
           },
           {
             "id": 892,
