@@ -2192,16 +2192,6 @@
             "price": null
           },
           {
-            "id": 422,
-            "name": "Organic Vegan Chili",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 762,
             "name": "Texas Beef Chili",
             "avg_rating": 0.0,
