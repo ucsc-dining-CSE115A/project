@@ -568,17 +568,6 @@
             "price": null
           },
           {
-            "id": 869,
-            "name": "Five Spice Hot Honey Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 870,
             "name": "Garlic Bok Choy and Broccoli",
             "avg_rating": 0.0,
@@ -609,6 +598,18 @@
             "dietary_restrictions": [
               "VG",
               "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 932,
+            "name": "Szechuan Sweet Chili Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
               "GF"
             ],
             "price": null
