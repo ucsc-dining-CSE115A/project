@@ -3164,8 +3164,22 @@
             "price": null
           },
           {
-            "id": 4,
-            "name": "Mexican Chorizo Sausage",
+            "id": 542,
+            "name": "Orange French Toast",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 614,
+            "name": "Sausage Patties",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "PORK",
@@ -3190,17 +3204,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 377,
-            "name": "Whole Wheat Vegan Blueberry Pancakes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT",
-              "ALC"
             ],
             "price": null
           }
