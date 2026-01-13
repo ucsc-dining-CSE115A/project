@@ -177,6 +177,16 @@
         ],
         "- Entrees -": [
           {
+            "id": 471,
+            "name": "Black Beans with Cumin Spice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 916,
             "name": "Caribbean Chicken",
             "avg_rating": 0.0,
@@ -187,28 +197,8 @@
             "price": null
           },
           {
-            "id": 917,
-            "name": "Cauliflower Sofrito",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 950,
             "name": "Coconut Basmati Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 746,
-            "name": "Cuban Black Beans",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -348,6 +338,16 @@
               "VG",
               "SOY",
               "SESAME",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 917,
+            "name": "Cauliflower Sofrito",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
               "GF"
             ],
             "price": null
