@@ -1980,15 +1980,14 @@
         ],
         "- Entrees -": [
           {
-            "id": 847,
-            "name": "Island Beef Steak",
+            "id": 911,
+            "name": "Chicken Shawarma",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "SOY",
+              "DAIRY",
               "SESAME",
-              "BEEF",
-              "GF",
-              "HALAL"
+              "HALAL",
+              "GF"
             ],
             "price": null
           },
@@ -2132,16 +2131,6 @@
           }
         ],
         "- Hot Bars -": [
-          {
-            "id": 66,
-            "name": "Broccoli Slaw Salad",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
           {
             "id": 760,
             "name": "Chili Bar",
