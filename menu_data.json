@@ -3425,16 +3425,6 @@
             "price": null
           },
           {
-            "id": 602,
-            "name": "Garlic Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
             "id": 603,
             "name": "Halal Chicken Patty",
             "avg_rating": 0.0,
@@ -3460,18 +3450,8 @@
             "price": null
           },
           {
-            "id": 608,
-            "name": "Regular Cut Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 724,
-            "name": "Vegan Actual Veggies Black Bean Patty",
+            "id": 823,
+            "name": "Vegan Mushroom Quinoa Burger Patty",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
