@@ -1235,6 +1235,43 @@
             "dietary_restrictions": [],
             "price": null
           }
+        ],
+        "- Available 2pm-5pm -": [
+          {
+            "id": 603,
+            "name": "Halal Chicken Patty",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 76,
+            "name": "Hamburger Bun",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 818,
+            "name": "Torta Ahogada",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "WHEAT",
+              "BEEF"
+            ],
+            "price": null
+          }
         ]
       },
       "Dinner": {
@@ -2632,6 +2669,16 @@
         ],
         "- Hot Bars -": [
           {
+            "id": 126,
+            "name": "BBQ Wings",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
             "id": 902,
             "name": "Beef For Pho",
             "avg_rating": 0.0,
@@ -2650,10 +2697,49 @@
             "price": null
           },
           {
+            "id": 538,
+            "name": "Buffalo Cauliflower",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V"
+            ],
+            "price": null
+          },
+          {
+            "id": 635,
+            "name": "Cilantro Slaw",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 49,
             "name": "Condiments",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 888,
+            "name": "Fresh Carrot Sticks",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 889,
+            "name": "Fresh Celery Sticks",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
             "price": null
           },
           {
@@ -2664,6 +2750,19 @@
               "VG",
               "SOY",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 890,
+            "name": "Sesame Soy Chicken Wings",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "SHELLFISH",
+              "GF",
+              "ALC"
             ],
             "price": null
           },
@@ -2685,6 +2784,17 @@
               "VG",
               "SOY",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 129,
+            "name": "Vegan Tenders",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "WHEAT"
             ],
             "price": null
           },
@@ -2780,68 +2890,6 @@
             "dietary_restrictions": [
               "PORK",
               "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Grill -": [
-          {
-            "id": 126,
-            "name": "BBQ Wings",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 538,
-            "name": "Buffalo Cauliflower",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V"
-            ],
-            "price": null
-          },
-          {
-            "id": 635,
-            "name": "Cilantro Slaw",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 888,
-            "name": "Fresh Carrot Sticks",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 889,
-            "name": "Fresh Celery Sticks",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 129,
-            "name": "Vegan Tenders",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
             ],
             "price": null
           }
