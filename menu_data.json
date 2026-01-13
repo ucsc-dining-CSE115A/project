@@ -2555,63 +2555,6 @@
             "price": null
           }
         ],
-        "- Grill -": [
-          {
-            "id": 602,
-            "name": "Garlic Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 603,
-            "name": "Halal Chicken Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 76,
-            "name": "Hamburger Bun",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 608,
-            "name": "Regular Cut Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 724,
-            "name": "Vegan Actual Veggies Black Bean Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
         "- Pizza -": [
           {
             "id": 640,
@@ -2855,35 +2798,62 @@
         ],
         "- Grill -": [
           {
-            "id": 506,
-            "name": "Halal Beef Patty",
+            "id": 126,
+            "name": "BBQ Wings",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "BEEF",
               "GF",
               "HALAL"
             ],
             "price": null
           },
           {
-            "id": 76,
-            "name": "Hamburger Bun",
+            "id": 538,
+            "name": "Buffalo Cauliflower",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
+              "V"
             ],
             "price": null
           },
           {
-            "id": 724,
-            "name": "Vegan Actual Veggies Black Bean Patty",
+            "id": 635,
+            "name": "Cilantro Slaw",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 888,
+            "name": "Fresh Carrot Sticks",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 889,
+            "name": "Fresh Celery Sticks",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 129,
+            "name": "Vegan Tenders",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "WHEAT"
             ],
             "price": null
           }
