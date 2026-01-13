@@ -165,9 +165,9 @@
             "price": null
           },
           {
-            "id": 560,
-            "name": "Lentil & Lemon Soup",
-            "avg_rating": 0.0,
+            "id": 446,
+            "name": "Three Sisters Crave Soup",
+            "avg_rating": 4.0,
             "dietary_restrictions": [
               "VG",
               "GF"
@@ -187,8 +187,8 @@
             "price": null
           },
           {
-            "id": 745,
-            "name": "Caribbean Yellow Rice",
+            "id": 917,
+            "name": "Cauliflower Sofrito",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -197,8 +197,8 @@
             "price": null
           },
           {
-            "id": 917,
-            "name": "Cauliflower Sofrito",
+            "id": 950,
+            "name": "Coconut Basmati Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -370,18 +370,6 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 88,
-            "name": "Stir Fry Vegetables",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
               "GF"
             ],
             "price": null
