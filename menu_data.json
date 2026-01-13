@@ -614,22 +614,10 @@
             "price": null
           },
           {
-            "id": 931,
-            "name": "Szechuan Sweet Chili Chicken",
+            "id": 537,
+            "name": "Teriyaki Chicken",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 932,
-            "name": "Szechuan Sweet Chili Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "SOY",
               "SESAME",
               "GF"
@@ -3589,22 +3577,21 @@
         ],
         "- Entrees -": [
           {
-            "id": 798,
-            "name": "Oven Roasted Turkey",
+            "id": 385,
+            "name": "Garlic Herb Roasted Red Potatoes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
+              "VG",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 541,
-            "name": "Scalloped Potatoes",
+            "id": 798,
+            "name": "Oven Roasted Turkey",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "V",
-              "DAIRY",
-              "WHEAT"
+              "GF"
             ],
             "price": null
           },
