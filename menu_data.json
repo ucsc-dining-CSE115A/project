@@ -3115,6 +3115,16 @@
             "price": null
           },
           {
+            "id": 448,
+            "name": "Ham Steaks",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "PORK",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 479,
             "name": "Harissa Potatoes",
             "avg_rating": 0.0,
@@ -3130,15 +3140,6 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 679,
-            "name": "Turkey Sausage Patties",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
               "GF"
             ],
             "price": null
