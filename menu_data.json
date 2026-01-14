@@ -124,23 +124,22 @@
       "Lunch": {
         "- Soups -": [
           {
+            "id": 499,
+            "name": "Chicken Tortilla Soup",
+            "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 64,
             "name": "Organic Kale and Sweet Potato Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 617,
-            "name": "Turkey Noodle Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "EGG",
-              "WHEAT",
-              "ALC"
             ],
             "price": null
           }
@@ -182,40 +181,6 @@
           {
             "id": 31,
             "name": "Sticky Rice",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          }
-        ],
-        "- Grill -": [
-          {
-            "id": 442,
-            "name": "Beef Frank",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 443,
-            "name": "Hot Dog Bun",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 444,
-            "name": "Vegan Hot Dog",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
