@@ -899,20 +899,6 @@
             "price": null
           },
           {
-            "id": 542,
-            "name": "Orange French Toast",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
             "id": 5,
             "name": "Organic Gluten-Free Oatmeal",
             "avg_rating": 3.0,
@@ -1937,18 +1923,6 @@
         ],
         "- Hot Bars -": [
           {
-            "id": 866,
-            "name": "Chicken and Mushroom Dumplings",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "SHELLFISH",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 867,
             "name": "Dumpling Bar Condiments",
             "avg_rating": 0.0,
@@ -1998,19 +1972,6 @@
             "price": null
           },
           {
-            "id": 872,
-            "name": "Pork And Mushroom Shumai",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "SHELLFISH",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
             "id": 860,
             "name": "Roasted Corn and Edamame",
             "avg_rating": 0.0,
@@ -2030,18 +1991,6 @@
               "SOY",
               "ALC",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 874,
-            "name": "Vegetable Potstickers",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "SESAME",
-              "WHEAT"
             ],
             "price": null
           }
