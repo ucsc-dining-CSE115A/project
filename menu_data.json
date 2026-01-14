@@ -370,23 +370,22 @@
       "Dinner": {
         "- Soups -": [
           {
+            "id": 499,
+            "name": "Chicken Tortilla Soup",
+            "avg_rating": 3.0,
+            "dietary_restrictions": [
+              "SOY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 64,
             "name": "Organic Kale and Sweet Potato Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 617,
-            "name": "Turkey Noodle Soup",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "EGG",
-              "WHEAT",
-              "ALC"
             ],
             "price": null
           }
