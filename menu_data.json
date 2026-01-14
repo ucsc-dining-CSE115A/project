@@ -3125,12 +3125,11 @@
             "price": null
           },
           {
-            "id": 145,
-            "name": "Natural Bridges Tofu Scramble",
-            "avg_rating": 3.0,
+            "id": 94,
+            "name": "Sweet Potato, Black Bean, and Kale Hash",
+            "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SOY",
               "GF"
             ],
             "price": null
