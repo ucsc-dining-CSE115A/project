@@ -402,13 +402,13 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 97,
-            "name": "Chicken Noodle Soup",
-            "avg_rating": 3.0,
+            "id": 452,
+            "name": "Hearty Beef Chili",
+            "avg_rating": 0.0,
             "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "WHEAT"
+              "BEEF",
+              "GF",
+              "HALAL"
             ],
             "price": null
           },
@@ -518,19 +518,6 @@
             "price": null
           }
         ],
-        "- Sweet Treats -": [
-          {
-            "id": 563,
-            "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
-            "avg_rating": 5.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
         "- Campus Bakery -": [
           {
             "id": 575,
@@ -560,13 +547,6 @@
           }
         ],
         "- Hot Bars -": [
-          {
-            "id": 867,
-            "name": "Dumpling Bar Condiments",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [],
-            "price": null
-          },
           {
             "id": 870,
             "name": "Garlic Bok Choy and Broccoli",
@@ -742,19 +722,6 @@
             "price": null
           }
         ],
-        "- Sweet Treats -": [
-          {
-            "id": 563,
-            "name": "Vegan Oatmeal Raisin Pacific Cookie Company",
-            "avg_rating": 5.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          }
-        ],
         "- Hot Bars -": [
           {
             "id": 538,
@@ -803,12 +770,24 @@
             "price": null
           },
           {
-            "id": 555,
-            "name": "Teriyaki Glazed Wings",
+            "id": 127,
+            "name": "Hot 'N Spicy Wings",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 890,
+            "name": "Sesame Soy Chicken Wings",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
-              "WHEAT",
+              "SESAME",
+              "SHELLFISH",
+              "GF",
               "ALC"
             ],
             "price": null
@@ -829,17 +808,6 @@
             "name": "Wing Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 920,
-            "name": "Wings Chicken 65",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "GF",
-              "HALAL"
-            ],
             "price": null
           }
         ],
