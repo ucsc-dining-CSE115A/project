@@ -856,6 +856,19 @@
       "Breakfast": {
         "- Breakfast -": [
           {
+            "id": 952,
+            "name": "Blueberry Buttermilk Pancakes",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 2,
             "name": "Cage-Free Scrambled Eggs",
             "avg_rating": 3.0,
@@ -1571,16 +1584,6 @@
             "price": null
           },
           {
-            "id": 625,
-            "name": "Beyond Meat Smash Burger",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 506,
             "name": "Halal Beef Patty",
             "avg_rating": 0.0,
@@ -1600,6 +1603,16 @@
               "SOY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 77,
+            "name": "Portobello Mushroom Patty",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           },
@@ -3300,6 +3313,16 @@
         ],
         "- Grill and Soups -": [
           {
+            "id": 442,
+            "name": "Beef Frank",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 499,
             "name": "Chicken Tortilla Soup",
             "avg_rating": 3.0,
@@ -3310,12 +3333,34 @@
             "price": null
           },
           {
+            "id": 443,
+            "name": "Hot Dog Bun",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 120,
             "name": "Mushroom & Barley Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 444,
+            "name": "Vegan Hot Dog",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           }
