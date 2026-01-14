@@ -3874,16 +3874,6 @@
               "WHEAT"
             ],
             "price": null
-          },
-          {
-            "id": 633,
-            "name": "Cilantro Flatbread with Red Onions and Mushrooms",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "WHEAT"
-            ],
-            "price": null
           }
         ]
       }
