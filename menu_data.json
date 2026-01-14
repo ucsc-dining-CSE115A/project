@@ -416,8 +416,8 @@
             "price": null
           },
           {
-            "id": 883,
-            "name": "Roasted Broccoli Rabe",
+            "id": 930,
+            "name": "Roasted Broccoli",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -597,17 +597,6 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 535,
-            "name": "Tahini Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SESAME",
               "GF"
             ],
             "price": null
@@ -1851,6 +1840,40 @@
             "dietary_restrictions": [
               "VG",
               "GF"
+            ],
+            "price": null
+          }
+        ],
+        "- Grill -": [
+          {
+            "id": 613,
+            "name": "Chicken Corn Dogs",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "EGG",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 602,
+            "name": "Garlic Fries",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY"
+            ],
+            "price": null
+          },
+          {
+            "id": 129,
+            "name": "Vegan Tenders",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "WHEAT"
             ],
             "price": null
           }
