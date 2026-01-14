@@ -674,19 +674,6 @@
               "WHEAT"
             ],
             "price": null
-          },
-          {
-            "id": 562,
-            "name": "Thai Chicken Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
           }
         ],
         "- Clean Plate -": [
