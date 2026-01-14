@@ -3316,12 +3316,34 @@
             "price": null
           },
           {
+            "id": 577,
+            "name": "Cheese Sauce",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY",
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 499,
             "name": "Chicken Tortilla Soup",
             "avg_rating": 3.0,
             "dietary_restrictions": [
               "SOY",
               "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 749,
+            "name": "Chili con Carne",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "BEEF"
             ],
             "price": null
           },
