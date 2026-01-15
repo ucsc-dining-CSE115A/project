@@ -3128,8 +3128,8 @@
             "price": null
           },
           {
-            "id": 901,
-            "name": "Cinnamon Roasted Butternut Squash",
+            "id": 479,
+            "name": "Harissa Potatoes",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3138,32 +3138,35 @@
             "price": null
           },
           {
-            "id": 466,
-            "name": "French Toast Sticks",
-            "avg_rating": 0.0,
+            "id": 145,
+            "name": "Natural Bridges Tofu Scramble",
+            "avg_rating": 3.0,
             "dietary_restrictions": [
               "VG",
               "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 448,
-            "name": "Ham Steaks",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "PORK",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 147,
-            "name": "Potatoes O'Brien",
+            "id": 542,
+            "name": "Orange French Toast",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
+              "V",
+              "SOY",
+              "EGG",
+              "DAIRY",
+              "WHEAT",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
+            "id": 679,
+            "name": "Turkey Sausage Patties",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
               "GF"
             ],
             "price": null
