@@ -3442,49 +3442,6 @@
             "price": null
           },
           {
-            "id": 506,
-            "name": "Halal Beef Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 76,
-            "name": "Hamburger Bun",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 508,
-            "name": "Sidewinder Fry",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 724,
-            "name": "Vegan Actual Veggies Black Bean Patty",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 98,
             "name": "Vegan Garbanzo Sesame Soup",
             "avg_rating": 0.0,
@@ -3778,8 +3735,8 @@
             "price": null
           },
           {
-            "id": 125,
-            "name": "Street Corn Pizza with Bacon",
+            "id": 117,
+            "name": "Pepperoni Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
@@ -3787,6 +3744,7 @@
               "DAIRY",
               "SESAME",
               "WHEAT",
+              "BEEF",
               "PORK"
             ],
             "price": null
@@ -3794,18 +3752,6 @@
         ]
       },
       "Late Night": {
-        "- Miscellaneous -": [
-          {
-            "id": 498,
-            "name": "Tater Tots",
-            "avg_rating": 4.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          }
-        ],
         "- Clean Plate -": [
           {
             "id": 21,
@@ -3960,6 +3906,16 @@
             "price": null
           },
           {
+            "id": 498,
+            "name": "Tater Tots",
+            "avg_rating": 4.0,
+            "dietary_restrictions": [
+              "V",
+              "SOY"
+            ],
+            "price": null
+          },
+          {
             "id": 95,
             "name": "Texas French Toast",
             "avg_rating": 0.0,
@@ -3990,8 +3946,8 @@
             "price": null
           },
           {
-            "id": 125,
-            "name": "Street Corn Pizza with Bacon",
+            "id": 117,
+            "name": "Pepperoni Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
@@ -3999,6 +3955,7 @@
               "DAIRY",
               "SESAME",
               "WHEAT",
+              "BEEF",
               "PORK"
             ],
             "price": null
