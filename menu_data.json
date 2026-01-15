@@ -3254,8 +3254,8 @@
         ],
         "- Sweet Treats -": [
           {
-            "id": 23,
-            "name": "Pacific Cookie Co. Vegan Dr. Midnight Cookies",
+            "id": 119,
+            "name": "Vegan Chocolate Chip Cookie",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -3297,24 +3297,11 @@
         ],
         "- Entrees -": [
           {
-            "id": 46,
-            "name": "Caramelized Chipotle Tofu",
+            "id": 937,
+            "name": "Chicken Tamales",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "SOY",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 82,
-            "name": "Pork Chile Verde",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "PORK",
-              "GF",
-              "ALC"
             ],
             "price": null
           },
@@ -3329,8 +3316,18 @@
             "price": null
           },
           {
-            "id": 406,
-            "name": "Spanish Rice With Peas And Corn",
+            "id": 594,
+            "name": "Vegan Corn and Veggie Tamale",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 415,
+            "name": "Vegan Italian White Beans",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
