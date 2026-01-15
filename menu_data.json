@@ -983,6 +983,16 @@
               "GF"
             ],
             "price": null
+          },
+          {
+            "id": 799,
+            "name": "Sugar and Spice Roasted Yams",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
           }
         ],
         "- Entrees -": [
@@ -3502,8 +3512,8 @@
             "price": null
           },
           {
-            "id": 125,
-            "name": "Street Corn Pizza with Bacon",
+            "id": 117,
+            "name": "Pepperoni Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
@@ -3511,6 +3521,7 @@
               "DAIRY",
               "SESAME",
               "WHEAT",
+              "BEEF",
               "PORK"
             ],
             "price": null
