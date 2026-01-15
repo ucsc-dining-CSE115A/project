@@ -1134,20 +1134,6 @@
               "WHEAT"
             ],
             "price": null
-          },
-          {
-            "id": 125,
-            "name": "Street Corn Pizza with Bacon",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "PORK"
-            ],
-            "price": null
           }
         ],
         "- Clean Plate -": [
@@ -1391,20 +1377,6 @@
               "WHEAT"
             ],
             "price": null
-          },
-          {
-            "id": 125,
-            "name": "Street Corn Pizza with Bacon",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "PORK"
-            ],
-            "price": null
           }
         ],
         "- Clean Plate -": [
@@ -1572,6 +1544,28 @@
         ]
       },
       "Late Night": {
+        "- Entrees -": [
+          {
+            "id": 953,
+            "name": "Cuban Yellow Rice",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 747,
+            "name": "Spicy Havana Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          }
+        ],
         "- Pizza -": [
           {
             "id": 19,
@@ -1584,20 +1578,6 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 125,
-            "name": "Street Corn Pizza with Bacon",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "PORK"
             ],
             "price": null
           }
@@ -2991,6 +2971,16 @@
             "price": null
           },
           {
+            "id": 455,
+            "name": "Chicken Tikka Masala",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 898,
             "name": "Chickpea Curry with Tomato and Kale",
             "avg_rating": 0.0,
@@ -3014,16 +3004,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 445,
-            "name": "Madras Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF",
-              "HALAL"
             ],
             "price": null
           },
