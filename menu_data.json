@@ -403,18 +403,6 @@
             "price": null
           },
           {
-            "id": 882,
-            "name": "Honey Sesame Cod",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "SESAME",
-              "FISH",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 930,
             "name": "Roasted Broccoli",
             "avg_rating": 0.0,
@@ -2065,6 +2053,16 @@
         ],
         "- Entrees -": [
           {
+            "id": 413,
+            "name": "Rice Pilaf",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 374,
             "name": "Roasted Cauliflower",
             "avg_rating": 0.0,
@@ -2077,16 +2075,6 @@
           {
             "id": 875,
             "name": "Spicy Garbanzo and Vegetable Stir Fry",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 8,
-            "name": "Steamed Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -2220,19 +2208,6 @@
               "SOY",
               "SESAME",
               "WHEAT",
-              "ALC"
-            ],
-            "price": null
-          },
-          {
-            "id": 86,
-            "name": "Char Siu Sauce",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "SESAME",
-              "GF",
               "ALC"
             ],
             "price": null
