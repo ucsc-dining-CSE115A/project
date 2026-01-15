@@ -392,6 +392,16 @@
         ],
         "- Entrees -": [
           {
+            "id": 916,
+            "name": "Caribbean Chicken",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
             "id": 881,
             "name": "General Tso Baked Tofu",
             "avg_rating": 0.0,
