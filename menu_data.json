@@ -2705,6 +2705,17 @@
         ],
         "- Hot Bars -": [
           {
+            "id": 694,
+            "name": "Carne Asada",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "BEEF",
+              "GF",
+              "HALAL"
+            ],
+            "price": null
+          },
+          {
             "id": 577,
             "name": "Cheese Sauce",
             "avg_rating": 0.0,
@@ -2738,16 +2749,6 @@
             "name": "Nachos Bar",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
-            "price": null
-          },
-          {
-            "id": 710,
-            "name": "Pork Carnitas",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "PORK",
-              "GF"
-            ],
             "price": null
           },
           {
