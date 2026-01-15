@@ -11171,17 +11171,6 @@
             "price": "$7.00"
           },
           {
-            "id": 891,
-            "name": "BBQ Chicken Crunch Wrap",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": "$7.50"
-          },
-          {
             "id": 364,
             "name": "Breakfast Bacon Crunch Wrap",
             "avg_rating": 0.0,
@@ -11191,88 +11180,6 @@
               "DAIRY",
               "WHEAT",
               "PORK"
-            ],
-            "price": "$7.00"
-          },
-          {
-            "id": 892,
-            "name": "Chicken Caesar Crunch Wrap",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "FISH",
-              "WHEAT"
-            ],
-            "price": "$7.50"
-          },
-          {
-            "id": 893,
-            "name": "Frito Pie Crunch Wrap",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "DAIRY",
-              "WHEAT",
-              "BEEF"
-            ],
-            "price": "$7.50"
-          },
-          {
-            "id": 894,
-            "name": "Spicy Ranch Chicken Crunch Wrap",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT"
-            ],
-            "price": "$7.50"
-          },
-          {
-            "id": 365,
-            "name": "Taco A-Go Go, Cruz Ole",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "DAIRY"
-            ],
-            "price": "$7.00"
-          },
-          {
-            "id": 366,
-            "name": "Taco A-Go Go, Frito Pie",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "DAIRY",
-              "WHEAT",
-              "BEEF"
-            ],
-            "price": "$5.50"
-          },
-          {
-            "id": 367,
-            "name": "Taco A-Go Go, OG Cheesy",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "DAIRY",
-              "GF"
-            ],
-            "price": "$4.50"
-          },
-          {
-            "id": 368,
-            "name": "Taco A-Go Go, Smokey the Bird",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "DAIRY",
-              "GF"
             ],
             "price": "$7.00"
           }
