@@ -3776,6 +3776,21 @@
             "price": null
           }
         ],
+        "- Entrees -": [
+          {
+            "id": 588,
+            "name": "Vietnamese Pork Banh Mi Sandwich",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "SESAME",
+              "WHEAT",
+              "PORK",
+              "ALC"
+            ],
+            "price": null
+          }
+        ],
         "- Bars & Clean Plate -": [
           {
             "id": 624,
@@ -3860,17 +3875,6 @@
           }
         ],
         "- Grill and Soups -": [
-          {
-            "id": 634,
-            "name": "Barcelona Steak Sandwich",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "WHEAT",
-              "BEEF"
-            ],
-            "price": null
-          },
           {
             "id": 498,
             "name": "Tater Tots",
