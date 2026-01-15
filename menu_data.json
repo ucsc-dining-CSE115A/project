@@ -136,22 +136,21 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 80,
-            "name": "Chicken Soup Tlalpan",
-            "avg_rating": 0.0,
+            "id": 383,
+            "name": "Organic Black Bean Soup",
+            "avg_rating": 3.0,
             "dietary_restrictions": [
-              "GF",
-              "ALC"
+              "VG",
+              "GF"
             ],
             "price": null
           },
           {
-            "id": 838,
-            "name": "Tuscan Bean & Mushroom",
+            "id": 617,
+            "name": "Turkey Noodle Soup",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
-              "SOY",
+              "EGG",
               "WHEAT",
               "ALC"
             ],
@@ -159,27 +158,6 @@
           }
         ],
         "- Entrees -": [
-          {
-            "id": 464,
-            "name": "Italian Roasted Squash and Carrots",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 408,
-            "name": "Italian Roasted Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
           {
             "id": 132,
             "name": "Marinara Sauce",
@@ -204,12 +182,32 @@
             "price": null
           },
           {
+            "id": 123,
+            "name": "Roasted Zucchini and Peppers",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
             "id": 650,
             "name": "Spaghetti Noodles",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 392,
+            "name": "White Beans",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           }
