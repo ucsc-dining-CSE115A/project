@@ -155,18 +155,6 @@
       "Lunch": {
         "- Soups -": [
           {
-            "id": 382,
-            "name": "New England Clam Chowder",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "SHELLFISH",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 446,
             "name": "Three Sisters Crave Soup",
             "avg_rating": 4.0,
@@ -178,15 +166,6 @@
           }
         ],
         "- Entrees -": [
-          {
-            "id": 937,
-            "name": "Chicken Tamales",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "GF"
-            ],
-            "price": null
-          },
           {
             "id": 938,
             "name": "Cumin Roasted Carrot",
@@ -890,41 +869,6 @@
             "dietary_restrictions": [
               "VG",
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 129,
-            "name": "Vegan Tenders",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "WHEAT"
-            ],
-            "price": null
-          }
-        ],
-        "- Grill -": [
-          {
-            "id": 115,
-            "name": "French Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 130,
-            "name": "Halal Chicken Nuggets",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "WHEAT",
-              "HALAL"
             ],
             "price": null
           },
