@@ -2848,24 +2848,13 @@
         ],
         "- Grill -": [
           {
-            "id": 115,
-            "name": "French Fries",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY"
-            ],
-            "price": null
-          },
-          {
-            "id": 130,
-            "name": "Halal Chicken Nuggets",
+            "id": 613,
+            "name": "Chicken Corn Dogs",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "SOY",
               "EGG",
-              "WHEAT",
-              "HALAL"
+              "WHEAT"
             ],
             "price": null
           },
@@ -3728,6 +3717,17 @@
         ]
       },
       "Late Night": {
+        "- Miscellaneous -": [
+          {
+            "id": 798,
+            "name": "Oven Roasted Turkey",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Clean Plate -": [
           {
             "id": 21,
@@ -3793,6 +3793,18 @@
         ],
         "- Entrees -": [
           {
+            "id": 948,
+            "name": "Baked Potato Bar",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "BEEF",
+              "PORK",
+              "ALC"
+            ],
+            "price": null
+          },
+          {
             "id": 583,
             "name": "Beef Bolognese Baked Pasta",
             "avg_rating": 0.0,
@@ -3805,34 +3817,17 @@
             "price": null
           },
           {
-            "id": 16,
-            "name": "Harissa Tofu",
+            "id": 117,
+            "name": "Pepperoni Pizza",
             "avg_rating": 0.0,
             "dietary_restrictions": [
-              "VG",
               "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 660,
-            "name": "Malfouf (Middle Eastern Cole Slaw)",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 661,
-            "name": "Za'atar Chicken",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
+              "EGG",
+              "DAIRY",
               "SESAME",
-              "GF",
-              "HALAL"
+              "WHEAT",
+              "BEEF",
+              "PORK"
             ],
             "price": null
           }
@@ -3845,17 +3840,6 @@
             "dietary_restrictions": [
               "V",
               "EGG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 457,
-            "name": "Masala Baked Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
               "GF"
             ],
             "price": null
@@ -3918,21 +3902,6 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
-            ],
-            "price": null
-          },
-          {
-            "id": 117,
-            "name": "Pepperoni Pizza",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "SESAME",
-              "WHEAT",
-              "BEEF",
-              "PORK"
             ],
             "price": null
           }
