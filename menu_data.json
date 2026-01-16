@@ -607,17 +607,6 @@
             "price": null
           },
           {
-            "id": 423,
-            "name": "Ginger Garlic Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 774,
             "name": "Gluten-Friendly Spicy Stir Fry Sauce",
             "avg_rating": 0.0,
@@ -658,11 +647,13 @@
             "price": null
           },
           {
-            "id": 18,
-            "name": "Steamed Brown Rice",
+            "id": 932,
+            "name": "Szechuan Sweet Chili Tofu",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "SOY",
+              "SESAME",
               "GF"
             ],
             "price": null
