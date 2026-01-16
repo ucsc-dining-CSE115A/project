@@ -155,6 +155,16 @@
       "Lunch": {
         "- Soups -": [
           {
+            "id": 35,
+            "name": "Chicken Spaetzle Soup",
+            "avg_rating": 1.0,
+            "dietary_restrictions": [
+              "EGG",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 446,
             "name": "Three Sisters Crave Soup",
             "avg_rating": 4.0,
@@ -167,11 +177,33 @@
         ],
         "- Entrees -": [
           {
+            "id": 859,
+            "name": "Chipotle Gardein Fajitas",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "WHEAT"
+            ],
+            "price": null
+          },
+          {
             "id": 938,
             "name": "Cumin Roasted Carrot",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 592,
+            "name": "Pork, Green Chile, and Cheese Tamales",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "DAIRY",
+              "PORK",
               "GF"
             ],
             "price": null
@@ -341,19 +373,6 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 761,
-            "name": "Jalapeno Cornbread",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "V",
-              "SOY",
-              "EGG",
-              "DAIRY",
-              "WHEAT"
             ],
             "price": null
           },
