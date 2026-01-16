@@ -1729,17 +1729,6 @@
             "price": null
           },
           {
-            "id": 936,
-            "name": "Taqueria Beef",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "BEEF",
-              "GF",
-              "HALAL"
-            ],
-            "price": null
-          },
-          {
             "id": 580,
             "name": "Vegan Refried Beans",
             "avg_rating": 0.0,
