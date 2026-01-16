@@ -740,9 +740,9 @@
             "price": null
           },
           {
-            "id": 92,
-            "name": "Tortilla Chips",
-            "avg_rating": 0.0,
+            "id": 50,
+            "name": "Mexican Rice",
+            "avg_rating": 5.0,
             "dietary_restrictions": [
               "VG",
               "GF"
@@ -898,13 +898,13 @@
             "price": null
           },
           {
-            "id": 900,
-            "name": "Vegan Madras Curry",
+            "id": 954,
+            "name": "Tandoori Tofu",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
               "SOY",
-              "WHEAT"
+              "GF"
             ],
             "price": null
           }
@@ -2124,16 +2124,6 @@
               "BEEF",
               "GF",
               "HALAL"
-            ],
-            "price": null
-          },
-          {
-            "id": 596,
-            "name": "Garlic Thyme Mushrooms",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
             ],
             "price": null
           },
