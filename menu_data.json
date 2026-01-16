@@ -418,14 +418,12 @@
       "Dinner": {
         "- Soups -": [
           {
-            "id": 382,
-            "name": "New England Clam Chowder",
-            "avg_rating": 0.0,
+            "id": 35,
+            "name": "Chicken Spaetzle Soup",
+            "avg_rating": 1.0,
             "dietary_restrictions": [
-              "DAIRY",
-              "FISH",
-              "SHELLFISH",
-              "GF"
+              "EGG",
+              "WHEAT"
             ],
             "price": null
           },
@@ -626,19 +624,18 @@
             "price": null
           },
           {
-            "id": 72,
-            "name": "Sauteed Bok Choy and Carrots with Sesame",
+            "id": 436,
+            "name": "Steamed Basmati Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "SESAME",
               "GF"
             ],
             "price": null
           },
           {
-            "id": 436,
-            "name": "Steamed Basmati Rice",
+            "id": 785,
+            "name": "Steamed Bok Choy",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
