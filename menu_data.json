@@ -3061,6 +3061,16 @@
             "price": null
           },
           {
+            "id": 749,
+            "name": "Chili con Carne",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "BEEF"
+            ],
+            "price": null
+          },
+          {
             "id": 93,
             "name": "Crispy Bacon",
             "avg_rating": 0.0,
@@ -3130,6 +3140,26 @@
           {
             "id": 422,
             "name": "Organic Vegan Chili",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          },
+          {
+            "id": 957,
+            "name": "Peruvian Pork Sanguchon",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "WHEAT",
+              "PORK"
+            ],
+            "price": null
+          },
+          {
+            "id": 571,
+            "name": "Pickled Red Onions and Peppers",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
