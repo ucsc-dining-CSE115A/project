@@ -108,6 +108,20 @@
             ],
             "price": null
           }
+        ],
+        "- Hot Bars -": [
+          {
+            "id": 389,
+            "name": "Focaccia Breadsticks",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "SESAME",
+              "WHEAT"
+            ],
+            "price": null
+          }
         ]
       },
       "Lunch": {
