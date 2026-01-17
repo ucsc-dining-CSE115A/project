@@ -570,16 +570,6 @@
             "price": null
           },
           {
-            "id": 58,
-            "name": "Chana Masala",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
             "id": 455,
             "name": "Chicken Tikka Masala",
             "avg_rating": 0.0,
@@ -587,6 +577,16 @@
               "DAIRY",
               "GF",
               "HALAL"
+            ],
+            "price": null
+          },
+          {
+            "id": 898,
+            "name": "Chickpea Curry with Tomato and Kale",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           },
@@ -603,17 +603,6 @@
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 457,
-            "name": "Masala Baked Tofu",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
-              "SOY",
               "GF"
             ],
             "price": null
@@ -636,6 +625,17 @@
               "DAIRY",
               "SESAME",
               "WHEAT"
+            ],
+            "price": null
+          },
+          {
+            "id": 954,
+            "name": "Tandoori Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
             ],
             "price": null
           }
