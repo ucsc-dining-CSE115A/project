@@ -159,22 +159,23 @@
         ],
         "- Soups -": [
           {
-            "id": 499,
-            "name": "Chicken Tortilla Soup",
-            "avg_rating": 3.0,
+            "id": 452,
+            "name": "Hearty Beef Chili",
+            "avg_rating": 0.0,
             "dietary_restrictions": [
-              "SOY",
-              "GF"
+              "BEEF",
+              "GF",
+              "HALAL"
             ],
             "price": null
           },
           {
-            "id": 511,
-            "name": "Potato Leek Soup",
+            "id": 422,
+            "name": "Organic Vegan Chili",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
-              "WHEAT"
+              "GF"
             ],
             "price": null
           }
