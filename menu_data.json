@@ -446,6 +446,17 @@
               "GF"
             ],
             "price": null
+          },
+          {
+            "id": 954,
+            "name": "Tandoori Tofu",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "SOY",
+              "GF"
+            ],
+            "price": null
           }
         ],
         "- Pizza -": [
@@ -594,6 +605,16 @@
               "SOY",
               "WHEAT",
               "FISH"
+            ],
+            "price": null
+          },
+          {
+            "id": 476,
+            "name": "Happy Plant Vegan Chorizo Crumbles and Potatoes",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
             ],
             "price": null
           },
