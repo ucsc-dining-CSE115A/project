@@ -1325,6 +1325,18 @@
     },
     "Rachel Carson & Oakes Dining Hall": {
       "Breakfast": {
+        "- Breakfast -": [
+          {
+            "id": 147,
+            "name": "Potatoes O'Brien",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "VG",
+              "GF"
+            ],
+            "price": null
+          }
+        ],
         "- Sweet Treats -": [
           {
             "id": 451,
@@ -1362,16 +1374,6 @@
             "dietary_restrictions": [
               "V",
               "EGG",
-              "GF"
-            ],
-            "price": null
-          },
-          {
-            "id": 479,
-            "name": "Harissa Potatoes",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "VG",
               "GF"
             ],
             "price": null
