@@ -418,8 +418,8 @@
         ],
         "- Entrees -": [
           {
-            "id": 885,
-            "name": "Calypso Black Beans and Rice",
+            "id": 709,
+            "name": "Cajun Rice",
             "avg_rating": 0.0,
             "dietary_restrictions": [
               "VG",
@@ -560,17 +560,6 @@
             "price": null
           },
           {
-            "id": 44,
-            "name": "Battered Fried Fish",
-            "avg_rating": 0.0,
-            "dietary_restrictions": [
-              "SOY",
-              "FISH",
-              "WHEAT"
-            ],
-            "price": null
-          },
-          {
             "id": 45,
             "name": "Black Bean Corn Salsa",
             "avg_rating": 0.0,
@@ -595,6 +584,17 @@
             "name": "Condiments",
             "avg_rating": 0.0,
             "dietary_restrictions": [],
+            "price": null
+          },
+          {
+            "id": 959,
+            "name": "Fried Fish",
+            "avg_rating": 0.0,
+            "dietary_restrictions": [
+              "SOY",
+              "WHEAT",
+              "FISH"
+            ],
             "price": null
           },
           {
